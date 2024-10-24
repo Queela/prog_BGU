@@ -1,0 +1,431 @@
+ОТЛАДКА - [oscript.lib.cmdline] - ДобавитьИменованныйПараметр: ИмяПараметра <--ib-connection-string>
+ОТЛАДКА - [oscript.lib.cmdline] - ДобавитьИменованныйПараметр: ИмяПараметра <--ib-user>
+ОТЛАДКА - [oscript.lib.cmdline] - ДобавитьИменованныйПараметр: ИмяПараметра <--ib-pwd>
+ОТЛАДКА - [oscript.lib.cmdline] - ДобавитьИменованныйПараметр: ИмяПараметра <--v8version>
+ОТЛАДКА - [oscript.lib.cmdline] - ДобавитьПараметрФлаг: ИмяПараметра <--use-designer>
+ОТЛАДКА - [oscript.lib.cmdline] - Добавляю позиционный параметр ПутьВходящихДанных
+ОТЛАДКА - [oscript.lib.cmdline] - Добавляю позиционный параметр ВыходнойКаталог
+ОТЛАДКА - [oscript.lib.cmdline] - Добавляю позиционный параметр ВыходнойКаталог
+ОТЛАДКА - [oscript.lib.cmdline] - Добавляю параметр-флаг --remove-orig-bin-files
+ОТЛАДКА - [oscript.lib.cmdline] - Добавляю позиционный параметр ПутьВходящихДанных
+ОТЛАДКА - [oscript.lib.cmdline] - Добавляю позиционный параметр ВыходнойКаталог
+ОТЛАДКА - [oscript.lib.cmdline] - Добавляю параметр-флаг --recursive
+ОТЛАДКА - [oscript.lib.cmdline] - Добавляю параметр-флаг --remove-orig-bin-files
+ОТЛАДКА - [oscript.lib.cmdline] - Разбор команды: --decompile
+ОТЛАДКА - [oscript.lib.cmdline] - Добавляю глобальный параметр: --ib-connection-string
+ОТЛАДКА - [oscript.lib.cmdline] - Добавляю глобальный параметр: --ib-user
+ОТЛАДКА - [oscript.lib.cmdline] - Добавляю глобальный параметр: --ib-pwd
+ОТЛАДКА - [oscript.lib.cmdline] - Добавляю глобальный параметр: --v8version
+ОТЛАДКА - [oscript.lib.cmdline] - Добавляю глобальный параметр: --use-designer
+ОТЛАДКА - [oscript.lib.cmdline] - Попадаю в РазобратьАргументы
+ОТЛАДКА - [oscript.lib.cmdline] - Сбрасываю параметр-флаг: --use-designer
+ОТЛАДКА - [oscript.lib.cmdline] - Выбран токен: АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2.cfe
+ОТЛАДКА - [oscript.lib.cmdline] - Ищу именованный параметр АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2.cfe
+ОТЛАДКА - [oscript.lib.cmdline] - Ищу параметр-флаг АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2.cfe
+ОТЛАДКА - [oscript.lib.cmdline] - Установлено значение позиционного параметра <ПутьВходящихДанных = АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2.cfe>
+ОТЛАДКА - [oscript.lib.cmdline] - Выбран токен: src\АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2
+ОТЛАДКА - [oscript.lib.cmdline] - Ищу именованный параметр src\АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2
+ОТЛАДКА - [oscript.lib.cmdline] - Ищу параметр-флаг src\АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2
+ОТЛАДКА - [oscript.lib.cmdline] - Установлено значение позиционного параметра <ВыходнойКаталог = src\АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2>
+ОТЛАДКА - [oscript.lib.cmdline] - Выбран токен: 
+ОТЛАДКА - [oscript.lib.cmdline] - Закончились токены
+ОТЛАДКА - [oscript.lib.cmdline] - Трассировка РезультатРазбора:
+ОТЛАДКА - [oscript.lib.cmdline] - 		--use-designer:Нет
+ОТЛАДКА - [oscript.lib.cmdline] - 		ПутьВходящихДанных:АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2.cfe
+ОТЛАДКА - [oscript.lib.cmdline] - 		ВыходнойКаталог:src\АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2
+ОТЛАДКА - [oscript.lib.cmdline] - Трассировка РезультатКоманды.ЗначенияПараметров:
+ОТЛАДКА - [oscript.lib.cmdline] - 		--use-designer:Нет
+ОТЛАДКА - [oscript.lib.cmdline] - 		ПутьВходящихДанных:АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2.cfe
+ОТЛАДКА - [oscript.lib.cmdline] - 		ВыходнойКаталог:src\АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2
+ОТЛАДКА - [oscript.lib.cmdline] - ДобавитьИменованныйПараметр: ИмяПараметра <--ib-connection-string>
+ОТЛАДКА - [oscript.lib.cmdline] - ДобавитьИменованныйПараметр: ИмяПараметра <--ib-user>
+ОТЛАДКА - [oscript.lib.cmdline] - ДобавитьИменованныйПараметр: ИмяПараметра <--ib-pwd>
+ОТЛАДКА - [oscript.lib.cmdline] - ДобавитьИменованныйПараметр: ИмяПараметра <--v8version>
+ОТЛАДКА - [oscript.lib.cmdline] - ДобавитьПараметрФлаг: ИмяПараметра <--use-designer>
+ОТЛАДКА - [oscript.lib.cmdline] - Добавляю позиционный параметр ПутьВходящихДанных
+ОТЛАДКА - [oscript.lib.cmdline] - Добавляю позиционный параметр ВыходнойКаталог
+ОТЛАДКА - [oscript.lib.cmdline] - Добавляю позиционный параметр ВыходнойКаталог
+ОТЛАДКА - [oscript.lib.cmdline] - Добавляю параметр-флаг --remove-orig-bin-files
+ОТЛАДКА - [oscript.lib.cmdline] - Добавляю позиционный параметр ПутьВходящихДанных
+ОТЛАДКА - [oscript.lib.cmdline] - Добавляю позиционный параметр ВыходнойКаталог
+ОТЛАДКА - [oscript.lib.cmdline] - Добавляю параметр-флаг --recursive
+ОТЛАДКА - [oscript.lib.cmdline] - Добавляю параметр-флаг --remove-orig-bin-files
+ОТЛАДКА - [oscript.lib.cmdline] - Разбор команды: --decompile
+ОТЛАДКА - [oscript.lib.cmdline] - Добавляю глобальный параметр: --ib-connection-string
+ОТЛАДКА - [oscript.lib.cmdline] - Добавляю глобальный параметр: --ib-user
+ОТЛАДКА - [oscript.lib.cmdline] - Добавляю глобальный параметр: --ib-pwd
+ОТЛАДКА - [oscript.lib.cmdline] - Добавляю глобальный параметр: --v8version
+ОТЛАДКА - [oscript.lib.cmdline] - Добавляю глобальный параметр: --use-designer
+ОТЛАДКА - [oscript.lib.cmdline] - Попадаю в РазобратьАргументы
+ОТЛАДКА - [oscript.lib.cmdline] - Сбрасываю параметр-флаг: --use-designer
+ОТЛАДКА - [oscript.lib.cmdline] - Выбран токен: АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2.cfe
+ОТЛАДКА - [oscript.lib.cmdline] - Ищу именованный параметр АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2.cfe
+ОТЛАДКА - [oscript.lib.cmdline] - Ищу параметр-флаг АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2.cfe
+ОТЛАДКА - [oscript.lib.cmdline] - Установлено значение позиционного параметра <ПутьВходящихДанных = АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2.cfe>
+ОТЛАДКА - [oscript.lib.cmdline] - Выбран токен: src\АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2
+ОТЛАДКА - [oscript.lib.cmdline] - Ищу именованный параметр src\АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2
+ОТЛАДКА - [oscript.lib.cmdline] - Ищу параметр-флаг src\АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2
+ОТЛАДКА - [oscript.lib.cmdline] - Установлено значение позиционного параметра <ВыходнойКаталог = src\АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2>
+ОТЛАДКА - [oscript.lib.cmdline] - Выбран токен: 
+ОТЛАДКА - [oscript.lib.cmdline] - Закончились токены
+ОТЛАДКА - [oscript.lib.cmdline] - Трассировка РезультатРазбора:
+ОТЛАДКА - [oscript.lib.cmdline] - 		--use-designer:Нет
+ОТЛАДКА - [oscript.lib.cmdline] - 		ПутьВходящихДанных:АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2.cfe
+ОТЛАДКА - [oscript.lib.cmdline] - 		ВыходнойКаталог:src\АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2
+ОТЛАДКА - [oscript.lib.cmdline] - Трассировка РезультатКоманды.ЗначенияПараметров:
+ОТЛАДКА - [oscript.lib.cmdline] - 		--use-designer:Нет
+ОТЛАДКА - [oscript.lib.cmdline] - 		ПутьВходящихДанных:АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2.cfe
+ОТЛАДКА - [oscript.lib.cmdline] - 		ВыходнойКаталог:src\АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2
+ОТЛАДКА - [oscript.lib.cmdline] - ДобавитьИменованныйПараметр: ИмяПараметра <--ib-connection-string>
+ОТЛАДКА - [oscript.lib.cmdline] - ДобавитьИменованныйПараметр: ИмяПараметра <--ib-user>
+ОТЛАДКА - [oscript.lib.cmdline] - ДобавитьИменованныйПараметр: ИмяПараметра <--ib-pwd>
+ОТЛАДКА - [oscript.lib.cmdline] - ДобавитьИменованныйПараметр: ИмяПараметра <--v8version>
+ОТЛАДКА - [oscript.lib.cmdline] - ДобавитьПараметрФлаг: ИмяПараметра <--use-designer>
+ОТЛАДКА - [oscript.lib.cmdline] - Добавляю позиционный параметр ПутьВходящихДанных
+ОТЛАДКА - [oscript.lib.cmdline] - Добавляю позиционный параметр ВыходнойКаталог
+ОТЛАДКА - [oscript.lib.cmdline] - Добавляю позиционный параметр ВыходнойКаталог
+ОТЛАДКА - [oscript.lib.cmdline] - Добавляю параметр-флаг --remove-orig-bin-files
+ОТЛАДКА - [oscript.lib.cmdline] - Добавляю позиционный параметр ПутьВходящихДанных
+ОТЛАДКА - [oscript.lib.cmdline] - Добавляю позиционный параметр ВыходнойКаталог
+ОТЛАДКА - [oscript.lib.cmdline] - Добавляю параметр-флаг --recursive
+ОТЛАДКА - [oscript.lib.cmdline] - Добавляю параметр-флаг --remove-orig-bin-files
+ОТЛАДКА - [oscript.lib.cmdline] - Разбор команды: --git-precommit
+ОТЛАДКА - [oscript.lib.cmdline] - Добавляю глобальный параметр: --ib-connection-string
+ОТЛАДКА - [oscript.lib.cmdline] - Добавляю глобальный параметр: --ib-user
+ОТЛАДКА - [oscript.lib.cmdline] - Добавляю глобальный параметр: --ib-pwd
+ОТЛАДКА - [oscript.lib.cmdline] - Добавляю глобальный параметр: --v8version
+ОТЛАДКА - [oscript.lib.cmdline] - Добавляю глобальный параметр: --use-designer
+ОТЛАДКА - [oscript.lib.cmdline] - Попадаю в РазобратьАргументы
+ОТЛАДКА - [oscript.lib.cmdline] - Сбрасываю параметр-флаг: --remove-orig-bin-files
+ОТЛАДКА - [oscript.lib.cmdline] - Сбрасываю параметр-флаг: --use-designer
+ОТЛАДКА - [oscript.lib.cmdline] - Выбран токен: src
+ОТЛАДКА - [oscript.lib.cmdline] - Ищу именованный параметр src
+ОТЛАДКА - [oscript.lib.cmdline] - Ищу параметр-флаг src
+ОТЛАДКА - [oscript.lib.cmdline] - Установлено значение позиционного параметра <ВыходнойКаталог = src>
+ОТЛАДКА - [oscript.lib.cmdline] - Выбран токен: 
+ОТЛАДКА - [oscript.lib.cmdline] - Закончились токены
+ОТЛАДКА - [oscript.lib.cmdline] - Трассировка РезультатРазбора:
+ОТЛАДКА - [oscript.lib.cmdline] - 		--remove-orig-bin-files:Нет
+ОТЛАДКА - [oscript.lib.cmdline] - 		--use-designer:Нет
+ОТЛАДКА - [oscript.lib.cmdline] - 		ВыходнойКаталог:src
+ОТЛАДКА - [oscript.lib.cmdline] - Трассировка РезультатКоманды.ЗначенияПараметров:
+ОТЛАДКА - [oscript.lib.cmdline] - 		--remove-orig-bin-files:Нет
+ОТЛАДКА - [oscript.lib.cmdline] - 		--use-designer:Нет
+ОТЛАДКА - [oscript.lib.cmdline] - 		ВыходнойКаталог:src
+ОТЛАДКА - [oscript.lib.cmdline] - ДобавитьИменованныйПараметр: ИмяПараметра <--ib-connection-string>
+ОТЛАДКА - [oscript.lib.cmdline] - ДобавитьИменованныйПараметр: ИмяПараметра <--ib-user>
+ОТЛАДКА - [oscript.lib.cmdline] - ДобавитьИменованныйПараметр: ИмяПараметра <--ib-pwd>
+ОТЛАДКА - [oscript.lib.cmdline] - ДобавитьИменованныйПараметр: ИмяПараметра <--v8version>
+ОТЛАДКА - [oscript.lib.cmdline] - ДобавитьПараметрФлаг: ИмяПараметра <--use-designer>
+ОТЛАДКА - [oscript.lib.cmdline] - Добавляю позиционный параметр ПутьВходящихДанных
+ОТЛАДКА - [oscript.lib.cmdline] - Добавляю позиционный параметр ВыходнойКаталог
+ОТЛАДКА - [oscript.lib.cmdline] - Добавляю позиционный параметр ВыходнойКаталог
+ОТЛАДКА - [oscript.lib.cmdline] - Добавляю параметр-флаг --remove-orig-bin-files
+ОТЛАДКА - [oscript.lib.cmdline] - Добавляю позиционный параметр ПутьВходящихДанных
+ОТЛАДКА - [oscript.lib.cmdline] - Добавляю позиционный параметр ВыходнойКаталог
+ОТЛАДКА - [oscript.lib.cmdline] - Добавляю параметр-флаг --recursive
+ОТЛАДКА - [oscript.lib.cmdline] - Добавляю параметр-флаг --remove-orig-bin-files
+ОТЛАДКА - [oscript.lib.cmdline] - Разбор команды: --git-precommit
+ОТЛАДКА - [oscript.lib.cmdline] - Добавляю глобальный параметр: --ib-connection-string
+ОТЛАДКА - [oscript.lib.cmdline] - Добавляю глобальный параметр: --ib-user
+ОТЛАДКА - [oscript.lib.cmdline] - Добавляю глобальный параметр: --ib-pwd
+ОТЛАДКА - [oscript.lib.cmdline] - Добавляю глобальный параметр: --v8version
+ОТЛАДКА - [oscript.lib.cmdline] - Добавляю глобальный параметр: --use-designer
+ОТЛАДКА - [oscript.lib.cmdline] - Попадаю в РазобратьАргументы
+ОТЛАДКА - [oscript.lib.cmdline] - Сбрасываю параметр-флаг: --remove-orig-bin-files
+ОТЛАДКА - [oscript.lib.cmdline] - Сбрасываю параметр-флаг: --use-designer
+ОТЛАДКА - [oscript.lib.cmdline] - Выбран токен: src
+ОТЛАДКА - [oscript.lib.cmdline] - Ищу именованный параметр src
+ОТЛАДКА - [oscript.lib.cmdline] - Ищу параметр-флаг src
+ОТЛАДКА - [oscript.lib.cmdline] - Установлено значение позиционного параметра <ВыходнойКаталог = src>
+ОТЛАДКА - [oscript.lib.cmdline] - Выбран токен: 
+ОТЛАДКА - [oscript.lib.cmdline] - Закончились токены
+ОТЛАДКА - [oscript.lib.cmdline] - Трассировка РезультатРазбора:
+ОТЛАДКА - [oscript.lib.cmdline] - 		--remove-orig-bin-files:Нет
+ОТЛАДКА - [oscript.lib.cmdline] - 		--use-designer:Нет
+ОТЛАДКА - [oscript.lib.cmdline] - 		ВыходнойКаталог:src
+ОТЛАДКА - [oscript.lib.cmdline] - Трассировка РезультатКоманды.ЗначенияПараметров:
+ОТЛАДКА - [oscript.lib.cmdline] - 		--remove-orig-bin-files:Нет
+ОТЛАДКА - [oscript.lib.cmdline] - 		--use-designer:Нет
+ОТЛАДКА - [oscript.lib.cmdline] - 		ВыходнойКаталог:src
+ОТЛАДКА - [oscript.lib.cmdline] - ДобавитьИменованныйПараметр: ИмяПараметра <--ib-connection-string>
+ОТЛАДКА - [oscript.lib.cmdline] - ДобавитьИменованныйПараметр: ИмяПараметра <--ib-user>
+ОТЛАДКА - [oscript.lib.cmdline] - ДобавитьИменованныйПараметр: ИмяПараметра <--ib-pwd>
+ОТЛАДКА - [oscript.lib.cmdline] - ДобавитьИменованныйПараметр: ИмяПараметра <--v8version>
+ОТЛАДКА - [oscript.lib.cmdline] - ДобавитьПараметрФлаг: ИмяПараметра <--use-designer>
+ОТЛАДКА - [oscript.lib.cmdline] - Добавляю позиционный параметр ПутьВходящихДанных
+ОТЛАДКА - [oscript.lib.cmdline] - Добавляю позиционный параметр ВыходнойКаталог
+ОТЛАДКА - [oscript.lib.cmdline] - Добавляю позиционный параметр ВыходнойКаталог
+ОТЛАДКА - [oscript.lib.cmdline] - Добавляю параметр-флаг --remove-orig-bin-files
+ОТЛАДКА - [oscript.lib.cmdline] - Добавляю позиционный параметр ПутьВходящихДанных
+ОТЛАДКА - [oscript.lib.cmdline] - Добавляю позиционный параметр ВыходнойКаталог
+ОТЛАДКА - [oscript.lib.cmdline] - Добавляю параметр-флаг --recursive
+ОТЛАДКА - [oscript.lib.cmdline] - Добавляю параметр-флаг --remove-orig-bin-files
+ОТЛАДКА - [oscript.lib.cmdline] - Разбор команды: --git-precommit
+ОТЛАДКА - [oscript.lib.cmdline] - Добавляю глобальный параметр: --ib-connection-string
+ОТЛАДКА - [oscript.lib.cmdline] - Добавляю глобальный параметр: --ib-user
+ОТЛАДКА - [oscript.lib.cmdline] - Добавляю глобальный параметр: --ib-pwd
+ОТЛАДКА - [oscript.lib.cmdline] - Добавляю глобальный параметр: --v8version
+ОТЛАДКА - [oscript.lib.cmdline] - Добавляю глобальный параметр: --use-designer
+ОТЛАДКА - [oscript.lib.cmdline] - Попадаю в РазобратьАргументы
+ОТЛАДКА - [oscript.lib.cmdline] - Сбрасываю параметр-флаг: --remove-orig-bin-files
+ОТЛАДКА - [oscript.lib.cmdline] - Сбрасываю параметр-флаг: --use-designer
+ОТЛАДКА - [oscript.lib.cmdline] - Выбран токен: src
+ОТЛАДКА - [oscript.lib.cmdline] - Ищу именованный параметр src
+ОТЛАДКА - [oscript.lib.cmdline] - Ищу параметр-флаг src
+ОТЛАДКА - [oscript.lib.cmdline] - Установлено значение позиционного параметра <ВыходнойКаталог = src>
+ОТЛАДКА - [oscript.lib.cmdline] - Выбран токен: 
+ОТЛАДКА - [oscript.lib.cmdline] - Закончились токены
+ОТЛАДКА - [oscript.lib.cmdline] - Трассировка РезультатРазбора:
+ОТЛАДКА - [oscript.lib.cmdline] - 		--remove-orig-bin-files:Нет
+ОТЛАДКА - [oscript.lib.cmdline] - 		--use-designer:Нет
+ОТЛАДКА - [oscript.lib.cmdline] - 		ВыходнойКаталог:src
+ОТЛАДКА - [oscript.lib.cmdline] - Трассировка РезультатКоманды.ЗначенияПараметров:
+ОТЛАДКА - [oscript.lib.cmdline] - 		--remove-orig-bin-files:Нет
+ОТЛАДКА - [oscript.lib.cmdline] - 		--use-designer:Нет
+ОТЛАДКА - [oscript.lib.cmdline] - 		ВыходнойКаталог:src
+ОТЛАДКА - [oscript.lib.cmdline] - ДобавитьИменованныйПараметр: ИмяПараметра <--ib-connection-string>
+ОТЛАДКА - [oscript.lib.cmdline] - ДобавитьИменованныйПараметр: ИмяПараметра <--ib-user>
+ОТЛАДКА - [oscript.lib.cmdline] - ДобавитьИменованныйПараметр: ИмяПараметра <--ib-pwd>
+ОТЛАДКА - [oscript.lib.cmdline] - ДобавитьИменованныйПараметр: ИмяПараметра <--v8version>
+ОТЛАДКА - [oscript.lib.cmdline] - ДобавитьПараметрФлаг: ИмяПараметра <--use-designer>
+ОТЛАДКА - [oscript.lib.cmdline] - Добавляю позиционный параметр ПутьВходящихДанных
+ОТЛАДКА - [oscript.lib.cmdline] - Добавляю позиционный параметр ВыходнойКаталог
+ОТЛАДКА - [oscript.lib.cmdline] - Добавляю позиционный параметр ВыходнойКаталог
+ОТЛАДКА - [oscript.lib.cmdline] - Добавляю параметр-флаг --remove-orig-bin-files
+ОТЛАДКА - [oscript.lib.cmdline] - Добавляю позиционный параметр ПутьВходящихДанных
+ОТЛАДКА - [oscript.lib.cmdline] - Добавляю позиционный параметр ВыходнойКаталог
+ОТЛАДКА - [oscript.lib.cmdline] - Добавляю параметр-флаг --recursive
+ОТЛАДКА - [oscript.lib.cmdline] - Добавляю параметр-флаг --remove-orig-bin-files
+ОТЛАДКА - [oscript.lib.cmdline] - Разбор команды: --git-precommit
+ОТЛАДКА - [oscript.lib.cmdline] - Добавляю глобальный параметр: --ib-connection-string
+ОТЛАДКА - [oscript.lib.cmdline] - Добавляю глобальный параметр: --ib-user
+ОТЛАДКА - [oscript.lib.cmdline] - Добавляю глобальный параметр: --ib-pwd
+ОТЛАДКА - [oscript.lib.cmdline] - Добавляю глобальный параметр: --v8version
+ОТЛАДКА - [oscript.lib.cmdline] - Добавляю глобальный параметр: --use-designer
+ОТЛАДКА - [oscript.lib.cmdline] - Попадаю в РазобратьАргументы
+ОТЛАДКА - [oscript.lib.cmdline] - Сбрасываю параметр-флаг: --remove-orig-bin-files
+ОТЛАДКА - [oscript.lib.cmdline] - Сбрасываю параметр-флаг: --use-designer
+ОТЛАДКА - [oscript.lib.cmdline] - Выбран токен: src
+ОТЛАДКА - [oscript.lib.cmdline] - Ищу именованный параметр src
+ОТЛАДКА - [oscript.lib.cmdline] - Ищу параметр-флаг src
+ОТЛАДКА - [oscript.lib.cmdline] - Установлено значение позиционного параметра <ВыходнойКаталог = src>
+ОТЛАДКА - [oscript.lib.cmdline] - Выбран токен: 
+ОТЛАДКА - [oscript.lib.cmdline] - Закончились токены
+ОТЛАДКА - [oscript.lib.cmdline] - Трассировка РезультатРазбора:
+ОТЛАДКА - [oscript.lib.cmdline] - 		--remove-orig-bin-files:Нет
+ОТЛАДКА - [oscript.lib.cmdline] - 		--use-designer:Нет
+ОТЛАДКА - [oscript.lib.cmdline] - 		ВыходнойКаталог:src
+ОТЛАДКА - [oscript.lib.cmdline] - Трассировка РезультатКоманды.ЗначенияПараметров:
+ОТЛАДКА - [oscript.lib.cmdline] - 		--remove-orig-bin-files:Нет
+ОТЛАДКА - [oscript.lib.cmdline] - 		--use-designer:Нет
+ОТЛАДКА - [oscript.lib.cmdline] - 		ВыходнойКаталог:src
+ОТЛАДКА - [oscript.lib.cmdline] - ДобавитьИменованныйПараметр: ИмяПараметра <--ib-connection-string>
+ОТЛАДКА - [oscript.lib.cmdline] - ДобавитьИменованныйПараметр: ИмяПараметра <--ib-user>
+ОТЛАДКА - [oscript.lib.cmdline] - ДобавитьИменованныйПараметр: ИмяПараметра <--ib-pwd>
+ОТЛАДКА - [oscript.lib.cmdline] - ДобавитьИменованныйПараметр: ИмяПараметра <--v8version>
+ОТЛАДКА - [oscript.lib.cmdline] - ДобавитьПараметрФлаг: ИмяПараметра <--use-designer>
+ОТЛАДКА - [oscript.lib.cmdline] - Добавляю позиционный параметр ПутьВходящихДанных
+ОТЛАДКА - [oscript.lib.cmdline] - Добавляю позиционный параметр ВыходнойКаталог
+ОТЛАДКА - [oscript.lib.cmdline] - Добавляю позиционный параметр ВыходнойКаталог
+ОТЛАДКА - [oscript.lib.cmdline] - Добавляю параметр-флаг --remove-orig-bin-files
+ОТЛАДКА - [oscript.lib.cmdline] - Добавляю позиционный параметр ПутьВходящихДанных
+ОТЛАДКА - [oscript.lib.cmdline] - Добавляю позиционный параметр ВыходнойКаталог
+ОТЛАДКА - [oscript.lib.cmdline] - Добавляю параметр-флаг --recursive
+ОТЛАДКА - [oscript.lib.cmdline] - Добавляю параметр-флаг --remove-orig-bin-files
+ОТЛАДКА - [oscript.lib.cmdline] - Разбор команды: --git-precommit
+ОТЛАДКА - [oscript.lib.cmdline] - Добавляю глобальный параметр: --ib-connection-string
+ОТЛАДКА - [oscript.lib.cmdline] - Добавляю глобальный параметр: --ib-user
+ОТЛАДКА - [oscript.lib.cmdline] - Добавляю глобальный параметр: --ib-pwd
+ОТЛАДКА - [oscript.lib.cmdline] - Добавляю глобальный параметр: --v8version
+ОТЛАДКА - [oscript.lib.cmdline] - Добавляю глобальный параметр: --use-designer
+ОТЛАДКА - [oscript.lib.cmdline] - Попадаю в РазобратьАргументы
+ОТЛАДКА - [oscript.lib.cmdline] - Сбрасываю параметр-флаг: --remove-orig-bin-files
+ОТЛАДКА - [oscript.lib.cmdline] - Сбрасываю параметр-флаг: --use-designer
+ОТЛАДКА - [oscript.lib.cmdline] - Выбран токен: src
+ОТЛАДКА - [oscript.lib.cmdline] - Ищу именованный параметр src
+ОТЛАДКА - [oscript.lib.cmdline] - Ищу параметр-флаг src
+ОТЛАДКА - [oscript.lib.cmdline] - Установлено значение позиционного параметра <ВыходнойКаталог = src>
+ОТЛАДКА - [oscript.lib.cmdline] - Выбран токен: 
+ОТЛАДКА - [oscript.lib.cmdline] - Закончились токены
+ОТЛАДКА - [oscript.lib.cmdline] - Трассировка РезультатРазбора:
+ОТЛАДКА - [oscript.lib.cmdline] - 		--remove-orig-bin-files:Нет
+ОТЛАДКА - [oscript.lib.cmdline] - 		--use-designer:Нет
+ОТЛАДКА - [oscript.lib.cmdline] - 		ВыходнойКаталог:src
+ОТЛАДКА - [oscript.lib.cmdline] - Трассировка РезультатКоманды.ЗначенияПараметров:
+ОТЛАДКА - [oscript.lib.cmdline] - 		--remove-orig-bin-files:Нет
+ОТЛАДКА - [oscript.lib.cmdline] - 		--use-designer:Нет
+ОТЛАДКА - [oscript.lib.cmdline] - 		ВыходнойКаталог:src
+ОТЛАДКА - [oscript.lib.cmdline] - ДобавитьИменованныйПараметр: ИмяПараметра <--ib-connection-string>
+ОТЛАДКА - [oscript.lib.cmdline] - ДобавитьИменованныйПараметр: ИмяПараметра <--ib-user>
+ОТЛАДКА - [oscript.lib.cmdline] - ДобавитьИменованныйПараметр: ИмяПараметра <--ib-pwd>
+ОТЛАДКА - [oscript.lib.cmdline] - ДобавитьИменованныйПараметр: ИмяПараметра <--v8version>
+ОТЛАДКА - [oscript.lib.cmdline] - ДобавитьПараметрФлаг: ИмяПараметра <--use-designer>
+ОТЛАДКА - [oscript.lib.cmdline] - Добавляю позиционный параметр ПутьВходящихДанных
+ОТЛАДКА - [oscript.lib.cmdline] - Добавляю позиционный параметр ВыходнойКаталог
+ОТЛАДКА - [oscript.lib.cmdline] - Добавляю позиционный параметр ВыходнойКаталог
+ОТЛАДКА - [oscript.lib.cmdline] - Добавляю параметр-флаг --remove-orig-bin-files
+ОТЛАДКА - [oscript.lib.cmdline] - Добавляю позиционный параметр ПутьВходящихДанных
+ОТЛАДКА - [oscript.lib.cmdline] - Добавляю позиционный параметр ВыходнойКаталог
+ОТЛАДКА - [oscript.lib.cmdline] - Добавляю параметр-флаг --recursive
+ОТЛАДКА - [oscript.lib.cmdline] - Добавляю параметр-флаг --remove-orig-bin-files
+ОТЛАДКА - [oscript.lib.cmdline] - Разбор команды: --compile
+ОТЛАДКА - [oscript.lib.cmdline] - Добавляю глобальный параметр: --ib-connection-string
+ОТЛАДКА - [oscript.lib.cmdline] - Добавляю глобальный параметр: --ib-user
+ОТЛАДКА - [oscript.lib.cmdline] - Добавляю глобальный параметр: --ib-pwd
+ОТЛАДКА - [oscript.lib.cmdline] - Добавляю глобальный параметр: --v8version
+ОТЛАДКА - [oscript.lib.cmdline] - Добавляю глобальный параметр: --use-designer
+ОТЛАДКА - [oscript.lib.cmdline] - Попадаю в РазобратьАргументы
+ОТЛАДКА - [oscript.lib.cmdline] - Сбрасываю параметр-флаг: --recursive
+ОТЛАДКА - [oscript.lib.cmdline] - Сбрасываю параметр-флаг: --use-designer
+ОТЛАДКА - [oscript.lib.cmdline] - Выбран токен: src
+ОТЛАДКА - [oscript.lib.cmdline] - Ищу именованный параметр src
+ОТЛАДКА - [oscript.lib.cmdline] - Ищу параметр-флаг src
+ОТЛАДКА - [oscript.lib.cmdline] - Установлено значение позиционного параметра <ПутьВходящихДанных = src>
+ОТЛАДКА - [oscript.lib.cmdline] - Выбран токен: build
+ОТЛАДКА - [oscript.lib.cmdline] - Ищу именованный параметр build
+ОТЛАДКА - [oscript.lib.cmdline] - Ищу параметр-флаг build
+ОТЛАДКА - [oscript.lib.cmdline] - Установлено значение позиционного параметра <ВыходнойКаталог = build>
+ОТЛАДКА - [oscript.lib.cmdline] - Выбран токен: 
+ОТЛАДКА - [oscript.lib.cmdline] - Закончились токены
+ОТЛАДКА - [oscript.lib.cmdline] - Трассировка РезультатРазбора:
+ОТЛАДКА - [oscript.lib.cmdline] - 		--recursive:Нет
+ОТЛАДКА - [oscript.lib.cmdline] - 		--use-designer:Нет
+ОТЛАДКА - [oscript.lib.cmdline] - 		ПутьВходящихДанных:src
+ОТЛАДКА - [oscript.lib.cmdline] - 		ВыходнойКаталог:build
+ОТЛАДКА - [oscript.lib.cmdline] - Трассировка РезультатКоманды.ЗначенияПараметров:
+ОТЛАДКА - [oscript.lib.cmdline] - 		--recursive:Нет
+ОТЛАДКА - [oscript.lib.cmdline] - 		--use-designer:Нет
+ОТЛАДКА - [oscript.lib.cmdline] - 		ПутьВходящихДанных:src
+ОТЛАДКА - [oscript.lib.cmdline] - 		ВыходнойКаталог:build
+ОТЛАДКА - [oscript.lib.cmdline] - ДобавитьИменованныйПараметр: ИмяПараметра <--ib-connection-string>
+ОТЛАДКА - [oscript.lib.cmdline] - ДобавитьИменованныйПараметр: ИмяПараметра <--ib-user>
+ОТЛАДКА - [oscript.lib.cmdline] - ДобавитьИменованныйПараметр: ИмяПараметра <--ib-pwd>
+ОТЛАДКА - [oscript.lib.cmdline] - ДобавитьИменованныйПараметр: ИмяПараметра <--v8version>
+ОТЛАДКА - [oscript.lib.cmdline] - ДобавитьПараметрФлаг: ИмяПараметра <--use-designer>
+ОТЛАДКА - [oscript.lib.cmdline] - Добавляю позиционный параметр ПутьВходящихДанных
+ОТЛАДКА - [oscript.lib.cmdline] - Добавляю позиционный параметр ВыходнойКаталог
+ОТЛАДКА - [oscript.lib.cmdline] - Добавляю позиционный параметр ВыходнойКаталог
+ОТЛАДКА - [oscript.lib.cmdline] - Добавляю параметр-флаг --remove-orig-bin-files
+ОТЛАДКА - [oscript.lib.cmdline] - Добавляю позиционный параметр ПутьВходящихДанных
+ОТЛАДКА - [oscript.lib.cmdline] - Добавляю позиционный параметр ВыходнойКаталог
+ОТЛАДКА - [oscript.lib.cmdline] - Добавляю параметр-флаг --recursive
+ОТЛАДКА - [oscript.lib.cmdline] - Добавляю параметр-флаг --remove-orig-bin-files
+ОТЛАДКА - [oscript.lib.cmdline] - Разбор команды: --compile
+ОТЛАДКА - [oscript.lib.cmdline] - Добавляю глобальный параметр: --ib-connection-string
+ОТЛАДКА - [oscript.lib.cmdline] - Добавляю глобальный параметр: --ib-user
+ОТЛАДКА - [oscript.lib.cmdline] - Добавляю глобальный параметр: --ib-pwd
+ОТЛАДКА - [oscript.lib.cmdline] - Добавляю глобальный параметр: --v8version
+ОТЛАДКА - [oscript.lib.cmdline] - Добавляю глобальный параметр: --use-designer
+ОТЛАДКА - [oscript.lib.cmdline] - Попадаю в РазобратьАргументы
+ОТЛАДКА - [oscript.lib.cmdline] - Сбрасываю параметр-флаг: --recursive
+ОТЛАДКА - [oscript.lib.cmdline] - Сбрасываю параметр-флаг: --use-designer
+ОТЛАДКА - [oscript.lib.cmdline] - Выбран токен: src
+ОТЛАДКА - [oscript.lib.cmdline] - Ищу именованный параметр src
+ОТЛАДКА - [oscript.lib.cmdline] - Ищу параметр-флаг src
+ОТЛАДКА - [oscript.lib.cmdline] - Установлено значение позиционного параметра <ПутьВходящихДанных = src>
+ОТЛАДКА - [oscript.lib.cmdline] - Выбран токен: build
+ОТЛАДКА - [oscript.lib.cmdline] - Ищу именованный параметр build
+ОТЛАДКА - [oscript.lib.cmdline] - Ищу параметр-флаг build
+ОТЛАДКА - [oscript.lib.cmdline] - Установлено значение позиционного параметра <ВыходнойКаталог = build>
+ОТЛАДКА - [oscript.lib.cmdline] - Выбран токен: 
+ОТЛАДКА - [oscript.lib.cmdline] - Закончились токены
+ОТЛАДКА - [oscript.lib.cmdline] - Трассировка РезультатРазбора:
+ОТЛАДКА - [oscript.lib.cmdline] - 		--recursive:Нет
+ОТЛАДКА - [oscript.lib.cmdline] - 		--use-designer:Нет
+ОТЛАДКА - [oscript.lib.cmdline] - 		ПутьВходящихДанных:src
+ОТЛАДКА - [oscript.lib.cmdline] - 		ВыходнойКаталог:build
+ОТЛАДКА - [oscript.lib.cmdline] - Трассировка РезультатКоманды.ЗначенияПараметров:
+ОТЛАДКА - [oscript.lib.cmdline] - 		--recursive:Нет
+ОТЛАДКА - [oscript.lib.cmdline] - 		--use-designer:Нет
+ОТЛАДКА - [oscript.lib.cmdline] - 		ПутьВходящихДанных:src
+ОТЛАДКА - [oscript.lib.cmdline] - 		ВыходнойКаталог:build
+ОТЛАДКА - [oscript.lib.cmdline] - ДобавитьИменованныйПараметр: ИмяПараметра <--ib-connection-string>
+ОТЛАДКА - [oscript.lib.cmdline] - ДобавитьИменованныйПараметр: ИмяПараметра <--ib-user>
+ОТЛАДКА - [oscript.lib.cmdline] - ДобавитьИменованныйПараметр: ИмяПараметра <--ib-pwd>
+ОТЛАДКА - [oscript.lib.cmdline] - ДобавитьИменованныйПараметр: ИмяПараметра <--v8version>
+ОТЛАДКА - [oscript.lib.cmdline] - ДобавитьПараметрФлаг: ИмяПараметра <--use-designer>
+ОТЛАДКА - [oscript.lib.cmdline] - Добавляю позиционный параметр ПутьВходящихДанных
+ОТЛАДКА - [oscript.lib.cmdline] - Добавляю позиционный параметр ВыходнойКаталог
+ОТЛАДКА - [oscript.lib.cmdline] - Добавляю позиционный параметр ВыходнойКаталог
+ОТЛАДКА - [oscript.lib.cmdline] - Добавляю параметр-флаг --remove-orig-bin-files
+ОТЛАДКА - [oscript.lib.cmdline] - Добавляю позиционный параметр ПутьВходящихДанных
+ОТЛАДКА - [oscript.lib.cmdline] - Добавляю позиционный параметр ВыходнойКаталог
+ОТЛАДКА - [oscript.lib.cmdline] - Добавляю параметр-флаг --recursive
+ОТЛАДКА - [oscript.lib.cmdline] - Добавляю параметр-флаг --remove-orig-bin-files
+ОТЛАДКА - [oscript.lib.cmdline] - Разбор команды: --compile
+ОТЛАДКА - [oscript.lib.cmdline] - Добавляю глобальный параметр: --ib-connection-string
+ОТЛАДКА - [oscript.lib.cmdline] - Добавляю глобальный параметр: --ib-user
+ОТЛАДКА - [oscript.lib.cmdline] - Добавляю глобальный параметр: --ib-pwd
+ОТЛАДКА - [oscript.lib.cmdline] - Добавляю глобальный параметр: --v8version
+ОТЛАДКА - [oscript.lib.cmdline] - Добавляю глобальный параметр: --use-designer
+ОТЛАДКА - [oscript.lib.cmdline] - Попадаю в РазобратьАргументы
+ОТЛАДКА - [oscript.lib.cmdline] - Сбрасываю параметр-флаг: --recursive
+ОТЛАДКА - [oscript.lib.cmdline] - Сбрасываю параметр-флаг: --use-designer
+ОТЛАДКА - [oscript.lib.cmdline] - Выбран токен: src
+ОТЛАДКА - [oscript.lib.cmdline] - Ищу именованный параметр src
+ОТЛАДКА - [oscript.lib.cmdline] - Ищу параметр-флаг src
+ОТЛАДКА - [oscript.lib.cmdline] - Установлено значение позиционного параметра <ПутьВходящихДанных = src>
+ОТЛАДКА - [oscript.lib.cmdline] - Выбран токен: build
+ОТЛАДКА - [oscript.lib.cmdline] - Ищу именованный параметр build
+ОТЛАДКА - [oscript.lib.cmdline] - Ищу параметр-флаг build
+ОТЛАДКА - [oscript.lib.cmdline] - Установлено значение позиционного параметра <ВыходнойКаталог = build>
+ОТЛАДКА - [oscript.lib.cmdline] - Выбран токен: 
+ОТЛАДКА - [oscript.lib.cmdline] - Закончились токены
+ОТЛАДКА - [oscript.lib.cmdline] - Трассировка РезультатРазбора:
+ОТЛАДКА - [oscript.lib.cmdline] - 		--recursive:Нет
+ОТЛАДКА - [oscript.lib.cmdline] - 		--use-designer:Нет
+ОТЛАДКА - [oscript.lib.cmdline] - 		ПутьВходящихДанных:src
+ОТЛАДКА - [oscript.lib.cmdline] - 		ВыходнойКаталог:build
+ОТЛАДКА - [oscript.lib.cmdline] - Трассировка РезультатКоманды.ЗначенияПараметров:
+ОТЛАДКА - [oscript.lib.cmdline] - 		--recursive:Нет
+ОТЛАДКА - [oscript.lib.cmdline] - 		--use-designer:Нет
+ОТЛАДКА - [oscript.lib.cmdline] - 		ПутьВходящихДанных:src
+ОТЛАДКА - [oscript.lib.cmdline] - 		ВыходнойКаталог:build
+ОТЛАДКА - [oscript.lib.cmdline] - ДобавитьИменованныйПараметр: ИмяПараметра <--ib-connection-string>
+ОТЛАДКА - [oscript.lib.cmdline] - ДобавитьИменованныйПараметр: ИмяПараметра <--ib-user>
+ОТЛАДКА - [oscript.lib.cmdline] - ДобавитьИменованныйПараметр: ИмяПараметра <--ib-pwd>
+ОТЛАДКА - [oscript.lib.cmdline] - ДобавитьИменованныйПараметр: ИмяПараметра <--v8version>
+ОТЛАДКА - [oscript.lib.cmdline] - ДобавитьПараметрФлаг: ИмяПараметра <--use-designer>
+ОТЛАДКА - [oscript.lib.cmdline] - Добавляю позиционный параметр ПутьВходящихДанных
+ОТЛАДКА - [oscript.lib.cmdline] - Добавляю позиционный параметр ВыходнойКаталог
+ОТЛАДКА - [oscript.lib.cmdline] - Добавляю позиционный параметр ВыходнойКаталог
+ОТЛАДКА - [oscript.lib.cmdline] - Добавляю параметр-флаг --remove-orig-bin-files
+ОТЛАДКА - [oscript.lib.cmdline] - Добавляю позиционный параметр ПутьВходящихДанных
+ОТЛАДКА - [oscript.lib.cmdline] - Добавляю позиционный параметр ВыходнойКаталог
+ОТЛАДКА - [oscript.lib.cmdline] - Добавляю параметр-флаг --recursive
+ОТЛАДКА - [oscript.lib.cmdline] - Добавляю параметр-флаг --remove-orig-bin-files
+ОТЛАДКА - [oscript.lib.cmdline] - Разбор команды: --compile
+ОТЛАДКА - [oscript.lib.cmdline] - Добавляю глобальный параметр: --ib-connection-string
+ОТЛАДКА - [oscript.lib.cmdline] - Добавляю глобальный параметр: --ib-user
+ОТЛАДКА - [oscript.lib.cmdline] - Добавляю глобальный параметр: --ib-pwd
+ОТЛАДКА - [oscript.lib.cmdline] - Добавляю глобальный параметр: --v8version
+ОТЛАДКА - [oscript.lib.cmdline] - Добавляю глобальный параметр: --use-designer
+ОТЛАДКА - [oscript.lib.cmdline] - Попадаю в РазобратьАргументы
+ОТЛАДКА - [oscript.lib.cmdline] - Сбрасываю параметр-флаг: --recursive
+ОТЛАДКА - [oscript.lib.cmdline] - Сбрасываю параметр-флаг: --use-designer
+ОТЛАДКА - [oscript.lib.cmdline] - Выбран токен: --recursive
+ОТЛАДКА - [oscript.lib.cmdline] - Ищу именованный параметр --recursive
+ОТЛАДКА - [oscript.lib.cmdline] - Ищу параметр-флаг --recursive
+ОТЛАДКА - [oscript.lib.cmdline] - Это параметр-флаг: --recursive ?
+ОТЛАДКА - [oscript.lib.cmdline] - Нашли параметр-флаг: Да
+ОТЛАДКА - [oscript.lib.cmdline] - Выбран токен: src
+ОТЛАДКА - [oscript.lib.cmdline] - Ищу именованный параметр src
+ОТЛАДКА - [oscript.lib.cmdline] - Ищу параметр-флаг src
+ОТЛАДКА - [oscript.lib.cmdline] - Установлено значение позиционного параметра <ПутьВходящихДанных = src>
+ОТЛАДКА - [oscript.lib.cmdline] - Выбран токен: build
+ОТЛАДКА - [oscript.lib.cmdline] - Ищу именованный параметр build
+ОТЛАДКА - [oscript.lib.cmdline] - Ищу параметр-флаг build
+ОТЛАДКА - [oscript.lib.cmdline] - Установлено значение позиционного параметра <ВыходнойКаталог = build>
+ОТЛАДКА - [oscript.lib.cmdline] - Выбран токен: 
+ОТЛАДКА - [oscript.lib.cmdline] - Закончились токены
+ОТЛАДКА - [oscript.lib.cmdline] - Трассировка РезультатРазбора:
+ОТЛАДКА - [oscript.lib.cmdline] - 		--recursive:Да
+ОТЛАДКА - [oscript.lib.cmdline] - 		--use-designer:Нет
+ОТЛАДКА - [oscript.lib.cmdline] - 		ПутьВходящихДанных:src
+ОТЛАДКА - [oscript.lib.cmdline] - 		ВыходнойКаталог:build
+ОТЛАДКА - [oscript.lib.cmdline] - Трассировка РезультатКоманды.ЗначенияПараметров:
+ОТЛАДКА - [oscript.lib.cmdline] - 		--recursive:Да
+ОТЛАДКА - [oscript.lib.cmdline] - 		--use-designer:Нет
+ОТЛАДКА - [oscript.lib.cmdline] - 		ПутьВходящихДанных:src
+ОТЛАДКА - [oscript.lib.cmdline] - 		ВыходнойКаталог:build

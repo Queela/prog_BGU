@@ -1,0 +1,768 @@
+ИНФОРМАЦИЯ - precommit1c v2.3.0
+
+ИНФОРМАЦИЯ - Проверка необходимости выгрузки файла C:\max\_tools\_1c_git_repo\abk_prog\АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2.cfe в каталог src\АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2, корень 
+ИНФОРМАЦИЯ - Завершена проверка необходимости выгрузки файла C:\max\_tools\_1c_git_repo\abk_prog\АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2.cfe в каталог src\АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2, корень 
+ИНФОРМАЦИЯ - precommit1c v2.3.0
+
+ИНФОРМАЦИЯ - Проверка необходимости выгрузки файла C:\max\_tools\_1c_git_repo\abk_prog\АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2.cfe в каталог src\АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2, корень 
+ИНФОРМАЦИЯ - Завершена проверка необходимости выгрузки файла C:\max\_tools\_1c_git_repo\abk_prog\АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2.cfe в каталог src\АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2, корень 
+ИНФОРМАЦИЯ - [o.a.~files-extractor] - precommit1c v2.3.0
+
+ОТЛАДКА - [o.a.~files-extractor] - ТипЗнч(Аргументы)= Структура
+ОТЛАДКА - [o.a.~files-extractor] - Передана команда: --decompile
+ОТЛАДКА - [o.a.~files-extractor] - --use-designer = Нет
+ОТЛАДКА - [o.a.~files-extractor] - ПутьВходящихДанных = АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2.cfe
+ОТЛАДКА - [o.a.~files-extractor] - ВыходнойКаталог = src\АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2
+ИНФОРМАЦИЯ - [o.a.~files-extractor] - Проверка необходимости выгрузки файла C:\max\_tools\_1c_git_repo\abk_prog\АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2.cfe в каталог src\АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2, корень 
+ОТЛАДКА - [o.a.~files-extractor] - ОтносительныйПутьКаталогаФайла <>
+ОТЛАДКА - [o.a.~files-extractor] - ПутьКаталогаИсходников <src\АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2>
+ОТЛАДКА - [o.a.~files-extractor] - Запускаем распаковку файла расширения
+ОТЛАДКА - [o.a.~files-extractor] - Загрузка расширения 'CFE_АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2'
+ОТЛАДКА - [o.a.~files-extractor] - Вывод 1С:Предприятия - Загрузка конфигурации успешно завершена
+
+ОТЛАДКА - [o.a.~files-extractor] - Разбор расширения 'CFE_АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2' в исходники в каталог 'C:\Users\mm\AppData\Local\Temp\bsrjhmbogqg.tmp'
+ОТЛАДКА - [o.a.~files-extractor] - Вывод 1С:Предприятия - 
+ОТЛАДКА - [o.a.~files-extractor] - Создаем новый каталог C:\max\_tools\_1c_git_repo\abk_prog\src\АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2
+ОТЛАДКА - [o.a.~files-extractor] - Копируем исходники из временного каталога в целевой: C:\max\_tools\_1c_git_repo\abk_prog\src\АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2
+ИНФОРМАЦИЯ - [o.a.~files-extractor] - Завершена проверка необходимости выгрузки файла C:\max\_tools\_1c_git_repo\abk_prog\АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2.cfe в каталог src\АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2, корень 
+ОТЛАДКА - [o.a.~files-extractor] - Очищаем временные файлы
+ИНФОРМАЦИЯ - [o.a.~files-extractor] - precommit1c v2.3.0
+
+ОТЛАДКА - [o.a.~files-extractor] - ТипЗнч(Аргументы)= Структура
+ОТЛАДКА - [o.a.~files-extractor] - Передана команда: --decompile
+ОТЛАДКА - [o.a.~files-extractor] - --use-designer = Нет
+ОТЛАДКА - [o.a.~files-extractor] - ПутьВходящихДанных = АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2.cfe
+ОТЛАДКА - [o.a.~files-extractor] - ВыходнойКаталог = src\АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2
+ИНФОРМАЦИЯ - [o.a.~files-extractor] - Проверка необходимости выгрузки файла C:\max\_tools\_1c_git_repo\abk_prog\АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2.cfe в каталог src\АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2, корень 
+ОТЛАДКА - [o.a.~files-extractor] - ОтносительныйПутьКаталогаФайла <>
+ОТЛАДКА - [o.a.~files-extractor] - ПутьКаталогаИсходников <src\АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2>
+ОТЛАДКА - [o.a.~files-extractor] - Запускаем распаковку файла расширения
+ОТЛАДКА - [o.a.~files-extractor] - Загрузка расширения 'АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2'
+ОТЛАДКА - [o.a.~files-extractor] - Вывод 1С:Предприятия - Загрузка конфигурации успешно завершена
+
+ОТЛАДКА - [o.a.~files-extractor] - Разбор расширения 'АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2' в исходники в каталог 'C:\Users\mm\AppData\Local\Temp\f40dlsz1e4p.tmp'
+ОТЛАДКА - [o.a.~files-extractor] - Вывод 1С:Предприятия - 
+ОТЛАДКА - [o.a.~files-extractor] - Создаем новый каталог C:\max\_tools\_1c_git_repo\abk_prog\CFE_src\АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2
+ОТЛАДКА - [o.a.~files-extractor] - Копируем исходники из временного каталога в целевой: C:\max\_tools\_1c_git_repo\abk_prog\CFE_src\АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2
+ИНФОРМАЦИЯ - [o.a.~files-extractor] - Завершена проверка необходимости выгрузки файла C:\max\_tools\_1c_git_repo\abk_prog\АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2.cfe в каталог src\АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2, корень 
+ОТЛАДКА - [o.a.~files-extractor] - Очищаем временные файлы
+ИНФОРМАЦИЯ - precommit1c v2.3.0
+
+ИНФОРМАЦИЯ - Проверка необходимости выгрузки файла C:\max\_tools\_1c_git_repo\abk_prog\АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2.cfe в каталог src\АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2, корень 
+ИНФОРМАЦИЯ - Завершена проверка необходимости выгрузки файла C:\max\_tools\_1c_git_repo\abk_prog\АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2.cfe в каталог src\АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2, корень 
+ИНФОРМАЦИЯ - precommit1c v2.3.0
+
+ИНФОРМАЦИЯ - Проверка необходимости выгрузки файла C:\max\_tools\_1c_git_repo\abk_prog\АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2.cfe в каталог src\АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2, корень 
+ИНФОРМАЦИЯ - Завершена проверка необходимости выгрузки файла C:\max\_tools\_1c_git_repo\abk_prog\АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2.cfe в каталог src\АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2, корень 
+ИНФОРМАЦИЯ - precommit1c v2.3.0
+
+ИНФОРМАЦИЯ - Проверка необходимости выгрузки файла C:\max\_tools\_1c_git_repo\abk_prog\build\АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2.cfe в каталог C:\max\_tools\_1c_git_repo\abk_prog\src, корень C:\max\_tools\_1c_git_repo\abk_prog
+ИНФОРМАЦИЯ - Завершена проверка необходимости выгрузки файла C:\max\_tools\_1c_git_repo\abk_prog\build\АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2.cfe в каталог C:\max\_tools\_1c_git_repo\abk_prog\src, корень C:\max\_tools\_1c_git_repo\abk_prog
+ИНФОРМАЦИЯ - Проверка необходимости выгрузки файла C:\max\_tools\_1c_git_repo\abk_prog\build\ВПФ_АктСверки_БезвозмеднаяПередача.epf в каталог C:\max\_tools\_1c_git_repo\abk_prog\src, корень C:\max\_tools\_1c_git_repo\abk_prog
+ИНФОРМАЦИЯ - Завершена проверка необходимости выгрузки файла C:\max\_tools\_1c_git_repo\abk_prog\build\ВПФ_АктСверки_БезвозмеднаяПередача.epf в каталог C:\max\_tools\_1c_git_repo\abk_prog\src, корень C:\max\_tools\_1c_git_repo\abk_prog
+ИНФОРМАЦИЯ - precommit1c v2.3.0
+
+ИНФОРМАЦИЯ - Проверка необходимости выгрузки файла C:\max\_tools\_1c_git_repo\abk_prog\build\build\АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2.cfe в каталог build\src, корень build
+ОШИБКА - {Модуль C:\Program Files\OneScript\lib\asserts\src\bdd-asserts.os / Ошибка в строке: 336 / [Failed] Ожидали, что проверяемое значение (Ложь) является ИСТИНОЙ.
+Файл C:\max\_tools\_1c_git_repo\abk_prog\build\build\АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2.cfe должен существовать
+Стек трейс:
+  C:\Program Files\OneScript\lib\asserts\src\bdd-asserts.os / Метод ЭтоИстина / Строка 41
+    C:\max\_tools\_1c_git_repo\abk_prog\.git\hooks\v8files-extractor.os / Метод РазобратьФайлВнутр / Строка 316
+      C:\max\_tools\_1c_git_repo\abk_prog\.git\hooks\v8files-extractor.os / Метод РазобратьФайл / Строка 287
+        C:\max\_tools\_1c_git_repo\abk_prog\.git\hooks\v8files-extractor.os / Метод ОбработатьИзмененияИзГит / Строка 704
+          C:\max\_tools\_1c_git_repo\abk_prog\.git\hooks\v8files-extractor.os / Метод ЗапускВКоманднойСтроке / Строка 116
+            C:\max\_tools\_1c_git_repo\abk_prog\.git\hooks\v8files-extractor.os / Метод $entry / Строка 1167}
+ИНФОРМАЦИЯ - [o.a.~files-extractor] - precommit1c v2.3.0
+
+ОТЛАДКА - [o.a.~files-extractor] - ТипЗнч(Аргументы)= Структура
+ОТЛАДКА - [o.a.~files-extractor] - Передана команда: --git-precommit
+ОТЛАДКА - [o.a.~files-extractor] - --remove-orig-bin-files = Нет
+ОТЛАДКА - [o.a.~files-extractor] - --use-designer = Нет
+ОТЛАДКА - [o.a.~files-extractor] - ВыходнойКаталог = src
+ОТЛАДКА - [o.a.~files-extractor] - Текущий каталог C:\max\_tools\_1c_git_repo\abk_prog
+ОТЛАДКА - [o.a.~files-extractor] - Каталог выгрузки src
+ОТЛАДКА - [o.a.~files-extractor] - Выполняю проверку настройки core.quotepath
+ОТЛАДКА - [o.a.~files-extractor] - Выполняю проверку настройки core.longpaths
+ОТЛАДКА - [o.a.~files-extractor] - ЖурналИзмененийГит:
+ОТЛАДКА - [o.a.~files-extractor] - 	<A	build/АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2.cfe>
+ОТЛАДКА - [o.a.~files-extractor] - 		В журнале git найдено имя файла <build/АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2.cfe>
+ОТЛАДКА - [o.a.~files-extractor] - 	<A	build/ВПФ_АктСверки_БезвозмеднаяПередача.epf>
+ОТЛАДКА - [o.a.~files-extractor] - 		В журнале git найдено имя файла <build/ВПФ_АктСверки_БезвозмеднаяПередача.epf>
+ОТЛАДКА - [o.a.~files-extractor] - 	<A	src/build/АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2/CommonPictures/Папка.xml>
+ОТЛАДКА - [o.a.~files-extractor] - 		В журнале git найдено имя файла <src/build/АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2/CommonPictures/Папка.xml>
+ОТЛАДКА - [o.a.~files-extractor] - 	<A	src/build/АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2/ConfigDumpInfo.xml>
+ОТЛАДКА - [o.a.~files-extractor] - 		В журнале git найдено имя файла <src/build/АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2/ConfigDumpInfo.xml>
+ОТЛАДКА - [o.a.~files-extractor] - 	<A	src/build/АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2/Configuration.xml>
+ОТЛАДКА - [o.a.~files-extractor] - 		В журнале git найдено имя файла <src/build/АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2/Configuration.xml>
+ОТЛАДКА - [o.a.~files-extractor] - 	<A	src/build/АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2/Documents/АктСверкиВзаиморасчетов.xml>
+ОТЛАДКА - [o.a.~files-extractor] - 		В журнале git найдено имя файла <src/build/АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2/Documents/АктСверкиВзаиморасчетов.xml>
+ОТЛАДКА - [o.a.~files-extractor] - 	<A	src/build/АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2/Documents/АктСверкиВзаиморасчетов/Ext/ManagerModule.bsl>
+ОТЛАДКА - [o.a.~files-extractor] - 		В журнале git найдено имя файла <src/build/АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2/Documents/АктСверкиВзаиморасчетов/Ext/ManagerModule.bsl>
+ОТЛАДКА - [o.a.~files-extractor] - 	<A	src/build/АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2/Documents/АктСверкиВзаиморасчетов/Forms/ФормаДокумента.xml>
+ОТЛАДКА - [o.a.~files-extractor] - 		В журнале git найдено имя файла <src/build/АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2/Documents/АктСверкиВзаиморасчетов/Forms/ФормаДокумента.xml>
+ОТЛАДКА - [o.a.~files-extractor] - 	<A	src/build/АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2/Documents/АктСверкиВзаиморасчетов/Forms/ФормаДокумента/Ext/Form.xml>
+ОТЛАДКА - [o.a.~files-extractor] - 		В журнале git найдено имя файла <src/build/АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2/Documents/АктСверкиВзаиморасчетов/Forms/ФормаДокумента/Ext/Form.xml>
+ОТЛАДКА - [o.a.~files-extractor] - 	<A	src/build/АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2/Documents/АктСверкиВзаиморасчетов/Forms/ФормаДокумента/Ext/Form/Module.bsl>
+ОТЛАДКА - [o.a.~files-extractor] - 		В журнале git найдено имя файла <src/build/АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2/Documents/АктСверкиВзаиморасчетов/Forms/ФормаДокумента/Ext/Form/Module.bsl>
+ОТЛАДКА - [o.a.~files-extractor] - 	<A	src/build/АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2/Languages/Русский.xml>
+ОТЛАДКА - [o.a.~files-extractor] - 		В журнале git найдено имя файла <src/build/АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2/Languages/Русский.xml>
+ОТЛАДКА - [o.a.~files-extractor] - 	<A	src/build/АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2/StyleItems/ИтогиФонГруппы.xml>
+ОТЛАДКА - [o.a.~files-extractor] - 		В журнале git найдено имя файла <src/build/АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2/StyleItems/ИтогиФонГруппы.xml>
+ОТЛАДКА - [o.a.~files-extractor] - 	<A	src/build/АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2/StyleItems/НедоступныеДанныеЦвет.xml>
+ОТЛАДКА - [o.a.~files-extractor] - 		В журнале git найдено имя файла <src/build/АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2/StyleItems/НедоступныеДанныеЦвет.xml>
+ОТЛАДКА - [o.a.~files-extractor] - 	<A	src/build/АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2/StyleItems/ПросроченныеДанныеЦвет.xml>
+ОТЛАДКА - [o.a.~files-extractor] - 		В журнале git найдено имя файла <src/build/АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2/StyleItems/ПросроченныеДанныеЦвет.xml>
+ОТЛАДКА - [o.a.~files-extractor] - 	<A	src/build/АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2/StyleItems/СкрытыйВариантОтчетаЦвет.xml>
+ОТЛАДКА - [o.a.~files-extractor] - 		В журнале git найдено имя файла <src/build/АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2/StyleItems/СкрытыйВариантОтчетаЦвет.xml>
+ОТЛАДКА - [o.a.~files-extractor] - 	<A	src/build/АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2/StyleItems/ТекстИнформационнойНадписи.xml>
+ОТЛАДКА - [o.a.~files-extractor] - 		В журнале git найдено имя файла <src/build/АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2/StyleItems/ТекстИнформационнойНадписи.xml>
+ОТЛАДКА - [o.a.~files-extractor] - 	<A	src/build/АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2/StyleItems/ЦветЗаполняемогоПоказателя.xml>
+ОТЛАДКА - [o.a.~files-extractor] - 		В журнале git найдено имя файла <src/build/АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2/StyleItems/ЦветЗаполняемогоПоказателя.xml>
+ОТЛАДКА - [o.a.~files-extractor] - 	<A	src/build/АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2/StyleItems/ЦветНедоступноеПоле.xml>
+ОТЛАДКА - [o.a.~files-extractor] - 		В журнале git найдено имя файла <src/build/АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2/StyleItems/ЦветНедоступноеПоле.xml>
+ОТЛАДКА - [o.a.~files-extractor] - 	<A	src/build/ВПФ_АктСверки_БезвозмеднаяПередача/Form/Форма/Форма.bsl>
+ОТЛАДКА - [o.a.~files-extractor] - 		В журнале git найдено имя файла <src/build/ВПФ_АктСверки_БезвозмеднаяПередача/Form/Форма/Форма.bsl>
+ОТЛАДКА - [o.a.~files-extractor] - 	<A	src/build/ВПФ_АктСверки_БезвозмеднаяПередача/ObjectModule.bsl>
+ОТЛАДКА - [o.a.~files-extractor] - 		В журнале git найдено имя файла <src/build/ВПФ_АктСверки_БезвозмеднаяПередача/ObjectModule.bsl>
+ОТЛАДКА - [o.a.~files-extractor] - 	<A	src/build/ВПФ_АктСверки_БезвозмеднаяПередача/maps.txt>
+ОТЛАДКА - [o.a.~files-extractor] - 		В журнале git найдено имя файла <src/build/ВПФ_АктСверки_БезвозмеднаяПередача/maps.txt>
+ОТЛАДКА - [o.a.~files-extractor] - 	<A	src/build/ВПФ_АктСверки_БезвозмеднаяПередача/renames.txt>
+ОТЛАДКА - [o.a.~files-extractor] - 		В журнале git найдено имя файла <src/build/ВПФ_АктСверки_БезвозмеднаяПередача/renames.txt>
+ОТЛАДКА - [o.a.~files-extractor] - 	<A	src/build/ВПФ_АктСверки_БезвозмеднаяПередача/und/95c58c5b-77a4-4730-b928-4930486c6a83>
+ОТЛАДКА - [o.a.~files-extractor] - 		В журнале git найдено имя файла <src/build/ВПФ_АктСверки_БезвозмеднаяПередача/und/95c58c5b-77a4-4730-b928-4930486c6a83>
+ОТЛАДКА - [o.a.~files-extractor] - 	<A	src/build/ВПФ_АктСверки_БезвозмеднаяПередача/und/copyinfo>
+ОТЛАДКА - [o.a.~files-extractor] - 		В журнале git найдено имя файла <src/build/ВПФ_АктСверки_БезвозмеднаяПередача/und/copyinfo>
+ОТЛАДКА - [o.a.~files-extractor] - 	<A	src/build/ВПФ_АктСверки_БезвозмеднаяПередача/und/d333ba7e-caf1-4462-98a7-0a25afeb122b.0/info>
+ОТЛАДКА - [o.a.~files-extractor] - 		В журнале git найдено имя файла <src/build/ВПФ_АктСверки_БезвозмеднаяПередача/und/d333ba7e-caf1-4462-98a7-0a25afeb122b.0/info>
+ОТЛАДКА - [o.a.~files-extractor] - 	<A	src/build/ВПФ_АктСверки_БезвозмеднаяПередача/und/fb7468f4-df65-4ac4-86d0-c36413e1f512>
+ОТЛАДКА - [o.a.~files-extractor] - 		В журнале git найдено имя файла <src/build/ВПФ_АктСверки_БезвозмеднаяПередача/und/fb7468f4-df65-4ac4-86d0-c36413e1f512>
+ОТЛАДКА - [o.a.~files-extractor] - 	<A	src/build/ВПФ_АктСверки_БезвозмеднаяПередача/und/fb7468f4-df65-4ac4-86d0-c36413e1f512.0>
+ОТЛАДКА - [o.a.~files-extractor] - 		В журнале git найдено имя файла <src/build/ВПФ_АктСверки_БезвозмеднаяПередача/und/fb7468f4-df65-4ac4-86d0-c36413e1f512.0>
+ОТЛАДКА - [o.a.~files-extractor] - 	<A	src/build/ВПФ_АктСверки_БезвозмеднаяПередача/und/root>
+ОТЛАДКА - [o.a.~files-extractor] - 		В журнале git найдено имя файла <src/build/ВПФ_АктСверки_БезвозмеднаяПередача/und/root>
+ОТЛАДКА - [o.a.~files-extractor] - 	<A	src/build/ВПФ_АктСверки_БезвозмеднаяПередача/und/version>
+ОТЛАДКА - [o.a.~files-extractor] - 		В журнале git найдено имя файла <src/build/ВПФ_АктСверки_БезвозмеднаяПередача/und/version>
+ОТЛАДКА - [o.a.~files-extractor] - 	<A	src/build/ВПФ_АктСверки_БезвозмеднаяПередача/und/versions>
+ОТЛАДКА - [o.a.~files-extractor] - 		В журнале git найдено имя файла <src/build/ВПФ_АктСверки_БезвозмеднаяПередача/und/versions>
+ОТЛАДКА - [o.a.~files-extractor] - 	<>
+ОТЛАДКА - [o.a.~files-extractor] - Изучаю файл из журнала git build/АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2.cfe
+ОТЛАДКА - [o.a.~files-extractor] - Получен из журнала git файл Файл
+ИНФОРМАЦИЯ - [o.a.~files-extractor] - Проверка необходимости выгрузки файла C:\max\_tools\_1c_git_repo\abk_prog\build\АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2.cfe в каталог C:\max\_tools\_1c_git_repo\abk_prog\src, корень C:\max\_tools\_1c_git_repo\abk_prog
+ОТЛАДКА - [o.a.~files-extractor] - ОтносительныйПутьКаталогаФайла <build\АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2>
+ОТЛАДКА - [o.a.~files-extractor] - ПутьКаталогаИсходников <C:\max\_tools\_1c_git_repo\abk_prog\src\build\АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2>
+ОТЛАДКА - [o.a.~files-extractor] - Запускаем распаковку файла расширения
+ОТЛАДКА - [o.a.~files-extractor] - Загрузка расширения 'АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2'
+ОТЛАДКА - [o.a.~files-extractor] - Вывод 1С:Предприятия - Загрузка конфигурации успешно завершена
+
+ОТЛАДКА - [o.a.~files-extractor] - Разбор расширения 'АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2' в исходники в каталог 'C:\Users\mm\AppData\Local\Temp\fg2rjw2i4cg.tmp'
+ОТЛАДКА - [o.a.~files-extractor] - Вывод 1С:Предприятия - 
+ОТЛАДКА - [o.a.~files-extractor] - Создаем новый каталог C:\max\_tools\_1c_git_repo\abk_prog\src\build\АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2
+ОТЛАДКА - [o.a.~files-extractor] - Копируем исходники из временного каталога в целевой: C:\max\_tools\_1c_git_repo\abk_prog\src\build\АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2
+ИНФОРМАЦИЯ - [o.a.~files-extractor] - Завершена проверка необходимости выгрузки файла C:\max\_tools\_1c_git_repo\abk_prog\build\АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2.cfe в каталог C:\max\_tools\_1c_git_repo\abk_prog\src, корень C:\max\_tools\_1c_git_repo\abk_prog
+ОТЛАДКА - [o.a.~files-extractor] - Изучаю файл из журнала git build/ВПФ_АктСверки_БезвозмеднаяПередача.epf
+ОТЛАДКА - [o.a.~files-extractor] - Получен из журнала git файл Файл
+ИНФОРМАЦИЯ - [o.a.~files-extractor] - Проверка необходимости выгрузки файла C:\max\_tools\_1c_git_repo\abk_prog\build\ВПФ_АктСверки_БезвозмеднаяПередача.epf в каталог C:\max\_tools\_1c_git_repo\abk_prog\src, корень C:\max\_tools\_1c_git_repo\abk_prog
+ОТЛАДКА - [o.a.~files-extractor] - ОтносительныйПутьКаталогаФайла <build\ВПФ_АктСверки_БезвозмеднаяПередача>
+ОТЛАДКА - [o.a.~files-extractor] - ПутьКаталогаИсходников <C:\max\_tools\_1c_git_repo\abk_prog\src\build\ВПФ_АктСверки_БезвозмеднаяПередача>
+ОТЛАДКА - [o.a.~files-extractor] - Запускаем распаковку файла
+ОТЛАДКА - [o.a.~files-extractor] - Путь к V8Reader: C:\max\_tools\_1c_git_repo\abk_prog\.git\hooks\v8Reader\V8Reader.epf
+ОТЛАДКА - [o.a.~files-extractor] - Командная строка V8Reader: /C"decompile;pathtocf;C:\max\_tools\_1c_git_repo\abk_prog\build\ВПФ_АктСверки_БезвозмеднаяПередача.epf;pathout;C:\Users\mm\AppData\Local\Temp\v42s31lc0io.tmp;convert-mxl2txt;ЗавершитьРаботуПосле;"
+ОТЛАДКА - [o.a.~files-extractor] - Вывод 1С:Предприятия - 
+ОТЛАДКА - [o.a.~files-extractor] - Создаем новый каталог C:\max\_tools\_1c_git_repo\abk_prog\src\build\ВПФ_АктСверки_БезвозмеднаяПередача
+ОТЛАДКА - [o.a.~files-extractor] - Копируем исходники из временного каталога в целевой: C:\max\_tools\_1c_git_repo\abk_prog\src\build\ВПФ_АктСверки_БезвозмеднаяПередача
+ИНФОРМАЦИЯ - [o.a.~files-extractor] - Завершена проверка необходимости выгрузки файла C:\max\_tools\_1c_git_repo\abk_prog\build\ВПФ_АктСверки_БезвозмеднаяПередача.epf в каталог C:\max\_tools\_1c_git_repo\abk_prog\src, корень C:\max\_tools\_1c_git_repo\abk_prog
+ОТЛАДКА - [o.a.~files-extractor] - Изучаю файл из журнала git src/build/АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2/CommonPictures/Папка.xml
+ОТЛАДКА - [o.a.~files-extractor] - Изучаю файл из журнала git src/build/АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2/ConfigDumpInfo.xml
+ОТЛАДКА - [o.a.~files-extractor] - Изучаю файл из журнала git src/build/АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2/Configuration.xml
+ОТЛАДКА - [o.a.~files-extractor] - Изучаю файл из журнала git src/build/АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2/Documents/АктСверкиВзаиморасчетов.xml
+ОТЛАДКА - [o.a.~files-extractor] - Изучаю файл из журнала git src/build/АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2/Documents/АктСверкиВзаиморасчетов/Ext/ManagerModule.bsl
+ОТЛАДКА - [o.a.~files-extractor] - Изучаю файл из журнала git src/build/АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2/Documents/АктСверкиВзаиморасчетов/Forms/ФормаДокумента.xml
+ОТЛАДКА - [o.a.~files-extractor] - Изучаю файл из журнала git src/build/АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2/Documents/АктСверкиВзаиморасчетов/Forms/ФормаДокумента/Ext/Form.xml
+ОТЛАДКА - [o.a.~files-extractor] - Изучаю файл из журнала git src/build/АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2/Documents/АктСверкиВзаиморасчетов/Forms/ФормаДокумента/Ext/Form/Module.bsl
+ОТЛАДКА - [o.a.~files-extractor] - Изучаю файл из журнала git src/build/АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2/Languages/Русский.xml
+ОТЛАДКА - [o.a.~files-extractor] - Изучаю файл из журнала git src/build/АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2/StyleItems/ИтогиФонГруппы.xml
+ОТЛАДКА - [o.a.~files-extractor] - Изучаю файл из журнала git src/build/АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2/StyleItems/НедоступныеДанныеЦвет.xml
+ОТЛАДКА - [o.a.~files-extractor] - Изучаю файл из журнала git src/build/АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2/StyleItems/ПросроченныеДанныеЦвет.xml
+ОТЛАДКА - [o.a.~files-extractor] - Изучаю файл из журнала git src/build/АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2/StyleItems/СкрытыйВариантОтчетаЦвет.xml
+ОТЛАДКА - [o.a.~files-extractor] - Изучаю файл из журнала git src/build/АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2/StyleItems/ТекстИнформационнойНадписи.xml
+ОТЛАДКА - [o.a.~files-extractor] - Изучаю файл из журнала git src/build/АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2/StyleItems/ЦветЗаполняемогоПоказателя.xml
+ОТЛАДКА - [o.a.~files-extractor] - Изучаю файл из журнала git src/build/АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2/StyleItems/ЦветНедоступноеПоле.xml
+ОТЛАДКА - [o.a.~files-extractor] - Изучаю файл из журнала git src/build/ВПФ_АктСверки_БезвозмеднаяПередача/Form/Форма/Форма.bsl
+ОТЛАДКА - [o.a.~files-extractor] - Изучаю файл из журнала git src/build/ВПФ_АктСверки_БезвозмеднаяПередача/ObjectModule.bsl
+ОТЛАДКА - [o.a.~files-extractor] - Изучаю файл из журнала git src/build/ВПФ_АктСверки_БезвозмеднаяПередача/maps.txt
+ОТЛАДКА - [o.a.~files-extractor] - Изучаю файл из журнала git src/build/ВПФ_АктСверки_БезвозмеднаяПередача/renames.txt
+ОТЛАДКА - [o.a.~files-extractor] - Изучаю файл из журнала git src/build/ВПФ_АктСверки_БезвозмеднаяПередача/und/95c58c5b-77a4-4730-b928-4930486c6a83
+ОТЛАДКА - [o.a.~files-extractor] - Изучаю файл из журнала git src/build/ВПФ_АктСверки_БезвозмеднаяПередача/und/copyinfo
+ОТЛАДКА - [o.a.~files-extractor] - Изучаю файл из журнала git src/build/ВПФ_АктСверки_БезвозмеднаяПередача/und/d333ba7e-caf1-4462-98a7-0a25afeb122b.0/info
+ОТЛАДКА - [o.a.~files-extractor] - Изучаю файл из журнала git src/build/ВПФ_АктСверки_БезвозмеднаяПередача/und/fb7468f4-df65-4ac4-86d0-c36413e1f512
+ОТЛАДКА - [o.a.~files-extractor] - Изучаю файл из журнала git src/build/ВПФ_АктСверки_БезвозмеднаяПередача/und/fb7468f4-df65-4ac4-86d0-c36413e1f512.0
+ОТЛАДКА - [o.a.~files-extractor] - Изучаю файл из журнала git src/build/ВПФ_АктСверки_БезвозмеднаяПередача/und/root
+ОТЛАДКА - [o.a.~files-extractor] - Изучаю файл из журнала git src/build/ВПФ_АктСверки_БезвозмеднаяПередача/und/version
+ОТЛАДКА - [o.a.~files-extractor] - Изучаю файл из журнала git src/build/ВПФ_АктСверки_БезвозмеднаяПередача/und/versions
+ОТЛАДКА - [o.a.~files-extractor] - Запуск git add для каталога C:\max\_tools\_1c_git_repo\abk_prog\src\build\АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2
+ОТЛАДКА - [o.a.~files-extractor] - Запуск git add для каталога C:\max\_tools\_1c_git_repo\abk_prog\src\build\ВПФ_АктСверки_БезвозмеднаяПередача
+ОТЛАДКА - [o.a.~files-extractor] - Очищаем временные файлы
+ИНФОРМАЦИЯ - [o.a.~files-extractor] - precommit1c v2.3.0
+
+ОТЛАДКА - [o.a.~files-extractor] - ТипЗнч(Аргументы)= Структура
+ОТЛАДКА - [o.a.~files-extractor] - Передана команда: --git-precommit
+ОТЛАДКА - [o.a.~files-extractor] - --remove-orig-bin-files = Нет
+ОТЛАДКА - [o.a.~files-extractor] - --use-designer = Нет
+ОТЛАДКА - [o.a.~files-extractor] - ВыходнойКаталог = src
+ОТЛАДКА - [o.a.~files-extractor] - Текущий каталог C:\max\_tools\_1c_git_repo\abk_prog
+ОТЛАДКА - [o.a.~files-extractor] - Каталог выгрузки src
+ОТЛАДКА - [o.a.~files-extractor] - Выполняю проверку настройки core.quotepath
+ОТЛАДКА - [o.a.~files-extractor] - Выполняю проверку настройки core.longpaths
+ОТЛАДКА - [o.a.~files-extractor] - ЖурналИзмененийГит:
+ОТЛАДКА - [o.a.~files-extractor] - 	<A	build/АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2.cfe>
+ОТЛАДКА - [o.a.~files-extractor] - 		В журнале git найдено имя файла <build/АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2.cfe>
+ОТЛАДКА - [o.a.~files-extractor] - 	<A	build/ВПФ_АктСверки_БезвозмеднаяПередача.epf>
+ОТЛАДКА - [o.a.~files-extractor] - 		В журнале git найдено имя файла <build/ВПФ_АктСверки_БезвозмеднаяПередача.epf>
+ОТЛАДКА - [o.a.~files-extractor] - 	<A	src/build/АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2/CommonPictures/Папка.xml>
+ОТЛАДКА - [o.a.~files-extractor] - 		В журнале git найдено имя файла <src/build/АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2/CommonPictures/Папка.xml>
+ОТЛАДКА - [o.a.~files-extractor] - 	<A	src/build/АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2/ConfigDumpInfo.xml>
+ОТЛАДКА - [o.a.~files-extractor] - 		В журнале git найдено имя файла <src/build/АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2/ConfigDumpInfo.xml>
+ОТЛАДКА - [o.a.~files-extractor] - 	<A	src/build/АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2/Configuration.xml>
+ОТЛАДКА - [o.a.~files-extractor] - 		В журнале git найдено имя файла <src/build/АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2/Configuration.xml>
+ОТЛАДКА - [o.a.~files-extractor] - 	<A	src/build/АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2/Documents/АктСверкиВзаиморасчетов.xml>
+ОТЛАДКА - [o.a.~files-extractor] - 		В журнале git найдено имя файла <src/build/АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2/Documents/АктСверкиВзаиморасчетов.xml>
+ОТЛАДКА - [o.a.~files-extractor] - 	<A	src/build/АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2/Documents/АктСверкиВзаиморасчетов/Ext/ManagerModule.bsl>
+ОТЛАДКА - [o.a.~files-extractor] - 		В журнале git найдено имя файла <src/build/АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2/Documents/АктСверкиВзаиморасчетов/Ext/ManagerModule.bsl>
+ОТЛАДКА - [o.a.~files-extractor] - 	<A	src/build/АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2/Documents/АктСверкиВзаиморасчетов/Forms/ФормаДокумента.xml>
+ОТЛАДКА - [o.a.~files-extractor] - 		В журнале git найдено имя файла <src/build/АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2/Documents/АктСверкиВзаиморасчетов/Forms/ФормаДокумента.xml>
+ОТЛАДКА - [o.a.~files-extractor] - 	<A	src/build/АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2/Documents/АктСверкиВзаиморасчетов/Forms/ФормаДокумента/Ext/Form.xml>
+ОТЛАДКА - [o.a.~files-extractor] - 		В журнале git найдено имя файла <src/build/АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2/Documents/АктСверкиВзаиморасчетов/Forms/ФормаДокумента/Ext/Form.xml>
+ОТЛАДКА - [o.a.~files-extractor] - 	<A	src/build/АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2/Documents/АктСверкиВзаиморасчетов/Forms/ФормаДокумента/Ext/Form/Module.bsl>
+ОТЛАДКА - [o.a.~files-extractor] - 		В журнале git найдено имя файла <src/build/АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2/Documents/АктСверкиВзаиморасчетов/Forms/ФормаДокумента/Ext/Form/Module.bsl>
+ОТЛАДКА - [o.a.~files-extractor] - 	<A	src/build/АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2/Languages/Русский.xml>
+ОТЛАДКА - [o.a.~files-extractor] - 		В журнале git найдено имя файла <src/build/АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2/Languages/Русский.xml>
+ОТЛАДКА - [o.a.~files-extractor] - 	<A	src/build/АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2/StyleItems/ИтогиФонГруппы.xml>
+ОТЛАДКА - [o.a.~files-extractor] - 		В журнале git найдено имя файла <src/build/АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2/StyleItems/ИтогиФонГруппы.xml>
+ОТЛАДКА - [o.a.~files-extractor] - 	<A	src/build/АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2/StyleItems/НедоступныеДанныеЦвет.xml>
+ОТЛАДКА - [o.a.~files-extractor] - 		В журнале git найдено имя файла <src/build/АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2/StyleItems/НедоступныеДанныеЦвет.xml>
+ОТЛАДКА - [o.a.~files-extractor] - 	<A	src/build/АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2/StyleItems/ПросроченныеДанныеЦвет.xml>
+ОТЛАДКА - [o.a.~files-extractor] - 		В журнале git найдено имя файла <src/build/АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2/StyleItems/ПросроченныеДанныеЦвет.xml>
+ОТЛАДКА - [o.a.~files-extractor] - 	<A	src/build/АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2/StyleItems/СкрытыйВариантОтчетаЦвет.xml>
+ОТЛАДКА - [o.a.~files-extractor] - 		В журнале git найдено имя файла <src/build/АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2/StyleItems/СкрытыйВариантОтчетаЦвет.xml>
+ОТЛАДКА - [o.a.~files-extractor] - 	<A	src/build/АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2/StyleItems/ТекстИнформационнойНадписи.xml>
+ОТЛАДКА - [o.a.~files-extractor] - 		В журнале git найдено имя файла <src/build/АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2/StyleItems/ТекстИнформационнойНадписи.xml>
+ОТЛАДКА - [o.a.~files-extractor] - 	<A	src/build/АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2/StyleItems/ЦветЗаполняемогоПоказателя.xml>
+ОТЛАДКА - [o.a.~files-extractor] - 		В журнале git найдено имя файла <src/build/АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2/StyleItems/ЦветЗаполняемогоПоказателя.xml>
+ОТЛАДКА - [o.a.~files-extractor] - 	<A	src/build/АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2/StyleItems/ЦветНедоступноеПоле.xml>
+ОТЛАДКА - [o.a.~files-extractor] - 		В журнале git найдено имя файла <src/build/АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2/StyleItems/ЦветНедоступноеПоле.xml>
+ОТЛАДКА - [o.a.~files-extractor] - 	<A	src/build/ВПФ_АктСверки_БезвозмеднаяПередача/Form/Форма/Форма.bsl>
+ОТЛАДКА - [o.a.~files-extractor] - 		В журнале git найдено имя файла <src/build/ВПФ_АктСверки_БезвозмеднаяПередача/Form/Форма/Форма.bsl>
+ОТЛАДКА - [o.a.~files-extractor] - 	<A	src/build/ВПФ_АктСверки_БезвозмеднаяПередача/ObjectModule.bsl>
+ОТЛАДКА - [o.a.~files-extractor] - 		В журнале git найдено имя файла <src/build/ВПФ_АктСверки_БезвозмеднаяПередача/ObjectModule.bsl>
+ОТЛАДКА - [o.a.~files-extractor] - 	<A	src/build/ВПФ_АктСверки_БезвозмеднаяПередача/maps.txt>
+ОТЛАДКА - [o.a.~files-extractor] - 		В журнале git найдено имя файла <src/build/ВПФ_АктСверки_БезвозмеднаяПередача/maps.txt>
+ОТЛАДКА - [o.a.~files-extractor] - 	<A	src/build/ВПФ_АктСверки_БезвозмеднаяПередача/renames.txt>
+ОТЛАДКА - [o.a.~files-extractor] - 		В журнале git найдено имя файла <src/build/ВПФ_АктСверки_БезвозмеднаяПередача/renames.txt>
+ОТЛАДКА - [o.a.~files-extractor] - 	<A	src/build/ВПФ_АктСверки_БезвозмеднаяПередача/und/95c58c5b-77a4-4730-b928-4930486c6a83>
+ОТЛАДКА - [o.a.~files-extractor] - 		В журнале git найдено имя файла <src/build/ВПФ_АктСверки_БезвозмеднаяПередача/und/95c58c5b-77a4-4730-b928-4930486c6a83>
+ОТЛАДКА - [o.a.~files-extractor] - 	<A	src/build/ВПФ_АктСверки_БезвозмеднаяПередача/und/copyinfo>
+ОТЛАДКА - [o.a.~files-extractor] - 		В журнале git найдено имя файла <src/build/ВПФ_АктСверки_БезвозмеднаяПередача/und/copyinfo>
+ОТЛАДКА - [o.a.~files-extractor] - 	<A	src/build/ВПФ_АктСверки_БезвозмеднаяПередача/und/d333ba7e-caf1-4462-98a7-0a25afeb122b.0/info>
+ОТЛАДКА - [o.a.~files-extractor] - 		В журнале git найдено имя файла <src/build/ВПФ_АктСверки_БезвозмеднаяПередача/und/d333ba7e-caf1-4462-98a7-0a25afeb122b.0/info>
+ОТЛАДКА - [o.a.~files-extractor] - 	<A	src/build/ВПФ_АктСверки_БезвозмеднаяПередача/und/fb7468f4-df65-4ac4-86d0-c36413e1f512>
+ОТЛАДКА - [o.a.~files-extractor] - 		В журнале git найдено имя файла <src/build/ВПФ_АктСверки_БезвозмеднаяПередача/und/fb7468f4-df65-4ac4-86d0-c36413e1f512>
+ОТЛАДКА - [o.a.~files-extractor] - 	<A	src/build/ВПФ_АктСверки_БезвозмеднаяПередача/und/fb7468f4-df65-4ac4-86d0-c36413e1f512.0>
+ОТЛАДКА - [o.a.~files-extractor] - 		В журнале git найдено имя файла <src/build/ВПФ_АктСверки_БезвозмеднаяПередача/und/fb7468f4-df65-4ac4-86d0-c36413e1f512.0>
+ОТЛАДКА - [o.a.~files-extractor] - 	<A	src/build/ВПФ_АктСверки_БезвозмеднаяПередача/und/root>
+ОТЛАДКА - [o.a.~files-extractor] - 		В журнале git найдено имя файла <src/build/ВПФ_АктСверки_БезвозмеднаяПередача/und/root>
+ОТЛАДКА - [o.a.~files-extractor] - 	<A	src/build/ВПФ_АктСверки_БезвозмеднаяПередача/und/version>
+ОТЛАДКА - [o.a.~files-extractor] - 		В журнале git найдено имя файла <src/build/ВПФ_АктСверки_БезвозмеднаяПередача/und/version>
+ОТЛАДКА - [o.a.~files-extractor] - 	<A	src/build/ВПФ_АктСверки_БезвозмеднаяПередача/und/versions>
+ОТЛАДКА - [o.a.~files-extractor] - 		В журнале git найдено имя файла <src/build/ВПФ_АктСверки_БезвозмеднаяПередача/und/versions>
+ОТЛАДКА - [o.a.~files-extractor] - 	<>
+ОТЛАДКА - [o.a.~files-extractor] - Изучаю файл из журнала git build/АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2.cfe
+ОТЛАДКА - [o.a.~files-extractor] - Получен из журнала git файл C:\max\_tools\_1c_git_repo\abk_prog\build/АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2.cfe
+ИНФОРМАЦИЯ - [o.a.~files-extractor] - Проверка необходимости выгрузки файла C:\max\_tools\_1c_git_repo\abk_prog\build\АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2.cfe в каталог C:\max\_tools\_1c_git_repo\abk_prog\src, корень C:\max\_tools\_1c_git_repo\abk_prog
+ОТЛАДКА - [o.a.~files-extractor] - ОтносительныйПутьКаталогаФайла <build\АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2>
+ОТЛАДКА - [o.a.~files-extractor] - ПутьКаталогаИсходников <C:\max\_tools\_1c_git_repo\abk_prog\src\build\АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2>
+ОТЛАДКА - [o.a.~files-extractor] - Запускаем распаковку файла расширения
+ОТЛАДКА - [o.a.~files-extractor] - Загрузка расширения 'АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2'
+ОТЛАДКА - [o.a.~files-extractor] - Вывод 1С:Предприятия - Загрузка конфигурации успешно завершена
+
+ОТЛАДКА - [o.a.~files-extractor] - Разбор расширения 'АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2' в исходники в каталог 'C:\Users\mm\AppData\Local\Temp\ecnwk1txstr.tmp'
+ОТЛАДКА - [o.a.~files-extractor] - Вывод 1С:Предприятия - 
+ОТЛАДКА - [o.a.~files-extractor] - Очищаем каталог C:\max\_tools\_1c_git_repo\abk_prog\src\build\АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2
+ОТЛАДКА - [o.a.~files-extractor] - Копируем исходники из временного каталога в целевой: C:\max\_tools\_1c_git_repo\abk_prog\src\build\АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2
+ИНФОРМАЦИЯ - [o.a.~files-extractor] - Завершена проверка необходимости выгрузки файла C:\max\_tools\_1c_git_repo\abk_prog\build\АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2.cfe в каталог C:\max\_tools\_1c_git_repo\abk_prog\src, корень C:\max\_tools\_1c_git_repo\abk_prog
+ОТЛАДКА - [o.a.~files-extractor] - Изучаю файл из журнала git build/ВПФ_АктСверки_БезвозмеднаяПередача.epf
+ОТЛАДКА - [o.a.~files-extractor] - Получен из журнала git файл C:\max\_tools\_1c_git_repo\abk_prog\build/ВПФ_АктСверки_БезвозмеднаяПередача.epf
+ИНФОРМАЦИЯ - [o.a.~files-extractor] - Проверка необходимости выгрузки файла C:\max\_tools\_1c_git_repo\abk_prog\build\ВПФ_АктСверки_БезвозмеднаяПередача.epf в каталог C:\max\_tools\_1c_git_repo\abk_prog\src, корень C:\max\_tools\_1c_git_repo\abk_prog
+ОТЛАДКА - [o.a.~files-extractor] - ОтносительныйПутьКаталогаФайла <build\ВПФ_АктСверки_БезвозмеднаяПередача>
+ОТЛАДКА - [o.a.~files-extractor] - ПутьКаталогаИсходников <C:\max\_tools\_1c_git_repo\abk_prog\src\build\ВПФ_АктСверки_БезвозмеднаяПередача>
+ОТЛАДКА - [o.a.~files-extractor] - Запускаем распаковку файла
+ОТЛАДКА - [o.a.~files-extractor] - Путь к V8Reader: C:\max\_tools\_1c_git_repo\abk_prog\.git\hooks\v8Reader\V8Reader.epf
+ОТЛАДКА - [o.a.~files-extractor] - Командная строка V8Reader: /C"decompile;pathtocf;C:\max\_tools\_1c_git_repo\abk_prog\build\ВПФ_АктСверки_БезвозмеднаяПередача.epf;pathout;C:\Users\mm\AppData\Local\Temp\ggovspacfws.tmp;convert-mxl2txt;ЗавершитьРаботуПосле;"
+ОТЛАДКА - [o.a.~files-extractor] - Вывод 1С:Предприятия - 
+ОТЛАДКА - [o.a.~files-extractor] - Очищаем каталог C:\max\_tools\_1c_git_repo\abk_prog\src\build\ВПФ_АктСверки_БезвозмеднаяПередача
+ОТЛАДКА - [o.a.~files-extractor] - Копируем исходники из временного каталога в целевой: C:\max\_tools\_1c_git_repo\abk_prog\src\build\ВПФ_АктСверки_БезвозмеднаяПередача
+ИНФОРМАЦИЯ - [o.a.~files-extractor] - Завершена проверка необходимости выгрузки файла C:\max\_tools\_1c_git_repo\abk_prog\build\ВПФ_АктСверки_БезвозмеднаяПередача.epf в каталог C:\max\_tools\_1c_git_repo\abk_prog\src, корень C:\max\_tools\_1c_git_repo\abk_prog
+ОТЛАДКА - [o.a.~files-extractor] - Изучаю файл из журнала git src/build/АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2/CommonPictures/Папка.xml
+ОТЛАДКА - [o.a.~files-extractor] - Изучаю файл из журнала git src/build/АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2/ConfigDumpInfo.xml
+ОТЛАДКА - [o.a.~files-extractor] - Изучаю файл из журнала git src/build/АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2/Configuration.xml
+ОТЛАДКА - [o.a.~files-extractor] - Изучаю файл из журнала git src/build/АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2/Documents/АктСверкиВзаиморасчетов.xml
+ОТЛАДКА - [o.a.~files-extractor] - Изучаю файл из журнала git src/build/АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2/Documents/АктСверкиВзаиморасчетов/Ext/ManagerModule.bsl
+ОТЛАДКА - [o.a.~files-extractor] - Изучаю файл из журнала git src/build/АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2/Documents/АктСверкиВзаиморасчетов/Forms/ФормаДокумента.xml
+ОТЛАДКА - [o.a.~files-extractor] - Изучаю файл из журнала git src/build/АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2/Documents/АктСверкиВзаиморасчетов/Forms/ФормаДокумента/Ext/Form.xml
+ОТЛАДКА - [o.a.~files-extractor] - Изучаю файл из журнала git src/build/АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2/Documents/АктСверкиВзаиморасчетов/Forms/ФормаДокумента/Ext/Form/Module.bsl
+ОТЛАДКА - [o.a.~files-extractor] - Изучаю файл из журнала git src/build/АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2/Languages/Русский.xml
+ОТЛАДКА - [o.a.~files-extractor] - Изучаю файл из журнала git src/build/АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2/StyleItems/ИтогиФонГруппы.xml
+ОТЛАДКА - [o.a.~files-extractor] - Изучаю файл из журнала git src/build/АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2/StyleItems/НедоступныеДанныеЦвет.xml
+ОТЛАДКА - [o.a.~files-extractor] - Изучаю файл из журнала git src/build/АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2/StyleItems/ПросроченныеДанныеЦвет.xml
+ОТЛАДКА - [o.a.~files-extractor] - Изучаю файл из журнала git src/build/АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2/StyleItems/СкрытыйВариантОтчетаЦвет.xml
+ОТЛАДКА - [o.a.~files-extractor] - Изучаю файл из журнала git src/build/АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2/StyleItems/ТекстИнформационнойНадписи.xml
+ОТЛАДКА - [o.a.~files-extractor] - Изучаю файл из журнала git src/build/АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2/StyleItems/ЦветЗаполняемогоПоказателя.xml
+ОТЛАДКА - [o.a.~files-extractor] - Изучаю файл из журнала git src/build/АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2/StyleItems/ЦветНедоступноеПоле.xml
+ОТЛАДКА - [o.a.~files-extractor] - Изучаю файл из журнала git src/build/ВПФ_АктСверки_БезвозмеднаяПередача/Form/Форма/Форма.bsl
+ОТЛАДКА - [o.a.~files-extractor] - Изучаю файл из журнала git src/build/ВПФ_АктСверки_БезвозмеднаяПередача/ObjectModule.bsl
+ОТЛАДКА - [o.a.~files-extractor] - Изучаю файл из журнала git src/build/ВПФ_АктСверки_БезвозмеднаяПередача/maps.txt
+ОТЛАДКА - [o.a.~files-extractor] - Изучаю файл из журнала git src/build/ВПФ_АктСверки_БезвозмеднаяПередача/renames.txt
+ОТЛАДКА - [o.a.~files-extractor] - Изучаю файл из журнала git src/build/ВПФ_АктСверки_БезвозмеднаяПередача/und/95c58c5b-77a4-4730-b928-4930486c6a83
+ОТЛАДКА - [o.a.~files-extractor] - Изучаю файл из журнала git src/build/ВПФ_АктСверки_БезвозмеднаяПередача/und/copyinfo
+ОТЛАДКА - [o.a.~files-extractor] - Изучаю файл из журнала git src/build/ВПФ_АктСверки_БезвозмеднаяПередача/und/d333ba7e-caf1-4462-98a7-0a25afeb122b.0/info
+ОТЛАДКА - [o.a.~files-extractor] - Изучаю файл из журнала git src/build/ВПФ_АктСверки_БезвозмеднаяПередача/und/fb7468f4-df65-4ac4-86d0-c36413e1f512
+ОТЛАДКА - [o.a.~files-extractor] - Изучаю файл из журнала git src/build/ВПФ_АктСверки_БезвозмеднаяПередача/und/fb7468f4-df65-4ac4-86d0-c36413e1f512.0
+ОТЛАДКА - [o.a.~files-extractor] - Изучаю файл из журнала git src/build/ВПФ_АктСверки_БезвозмеднаяПередача/und/root
+ОТЛАДКА - [o.a.~files-extractor] - Изучаю файл из журнала git src/build/ВПФ_АктСверки_БезвозмеднаяПередача/und/version
+ОТЛАДКА - [o.a.~files-extractor] - Изучаю файл из журнала git src/build/ВПФ_АктСверки_БезвозмеднаяПередача/und/versions
+ОТЛАДКА - [o.a.~files-extractor] - Запуск git add для каталога C:\max\_tools\_1c_git_repo\abk_prog\src\build\АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2
+ОТЛАДКА - [o.a.~files-extractor] - Запуск git add для каталога C:\max\_tools\_1c_git_repo\abk_prog\src\build\ВПФ_АктСверки_БезвозмеднаяПередача
+ОТЛАДКА - [o.a.~files-extractor] - Очищаем временные файлы
+ИНФОРМАЦИЯ - [o.a.~files-extractor] - precommit1c v2.3.0
+
+ОТЛАДКА - [o.a.~files-extractor] - ТипЗнч(Аргументы)= Структура
+ОТЛАДКА - [o.a.~files-extractor] - Передана команда: --git-precommit
+ОТЛАДКА - [o.a.~files-extractor] - --remove-orig-bin-files = Нет
+ОТЛАДКА - [o.a.~files-extractor] - --use-designer = Нет
+ОТЛАДКА - [o.a.~files-extractor] - ВыходнойКаталог = src
+ОТЛАДКА - [o.a.~files-extractor] - Текущий каталог C:\max\_tools\_1c_git_repo\abk_prog
+ОТЛАДКА - [o.a.~files-extractor] - Каталог выгрузки src
+ОТЛАДКА - [o.a.~files-extractor] - Выполняю проверку настройки core.quotepath
+ОТЛАДКА - [o.a.~files-extractor] - Выполняю проверку настройки core.longpaths
+ОТЛАДКА - [o.a.~files-extractor] - ЖурналИзмененийГит:
+ОТЛАДКА - [o.a.~files-extractor] - 	<A	.gitignore>
+ОТЛАДКА - [o.a.~files-extractor] - 		В журнале git найдено имя файла <.gitignore>
+ОТЛАДКА - [o.a.~files-extractor] - 	<>
+ОТЛАДКА - [o.a.~files-extractor] - Изучаю файл из журнала git .gitignore
+ОТЛАДКА - [o.a.~files-extractor] - Очищаем временные файлы
+ИНФОРМАЦИЯ - [o.a.~files-extractor] - precommit1c v2.3.0
+
+ОТЛАДКА - [o.a.~files-extractor] - ТипЗнч(Аргументы)= Структура
+ОТЛАДКА - [o.a.~files-extractor] - Передана команда: --git-precommit
+ОТЛАДКА - [o.a.~files-extractor] - --remove-orig-bin-files = Нет
+ОТЛАДКА - [o.a.~files-extractor] - --use-designer = Нет
+ОТЛАДКА - [o.a.~files-extractor] - ВыходнойКаталог = src
+ОТЛАДКА - [o.a.~files-extractor] - Текущий каталог C:\max\_tools\_1c_git_repo\abk_prog
+ОТЛАДКА - [o.a.~files-extractor] - Каталог выгрузки src
+ОТЛАДКА - [o.a.~files-extractor] - Выполняю проверку настройки core.quotepath
+ОТЛАДКА - [o.a.~files-extractor] - Выполняю проверку настройки core.longpaths
+ОТЛАДКА - [o.a.~files-extractor] - ЖурналИзмененийГит:
+ОТЛАДКА - [o.a.~files-extractor] - 	<A	.gitignore>
+ОТЛАДКА - [o.a.~files-extractor] - 		В журнале git найдено имя файла <.gitignore>
+ОТЛАДКА - [o.a.~files-extractor] - 	<>
+ОТЛАДКА - [o.a.~files-extractor] - Изучаю файл из журнала git .gitignore
+ОТЛАДКА - [o.a.~files-extractor] - Очищаем временные файлы
+ИНФОРМАЦИЯ - [o.a.~files-extractor] - precommit1c v2.3.0
+
+ОТЛАДКА - [o.a.~files-extractor] - ТипЗнч(Аргументы)= Структура
+ОТЛАДКА - [o.a.~files-extractor] - Передана команда: --git-precommit
+ОТЛАДКА - [o.a.~files-extractor] - --remove-orig-bin-files = Нет
+ОТЛАДКА - [o.a.~files-extractor] - --use-designer = Нет
+ОТЛАДКА - [o.a.~files-extractor] - ВыходнойКаталог = src
+ОТЛАДКА - [o.a.~files-extractor] - Текущий каталог C:\max\_tools\_1c_git_repo\abk_prog
+ОТЛАДКА - [o.a.~files-extractor] - Каталог выгрузки src
+ОТЛАДКА - [o.a.~files-extractor] - Выполняю проверку настройки core.quotepath
+ОТЛАДКА - [o.a.~files-extractor] - Выполняю проверку настройки core.longpaths
+ОТЛАДКА - [o.a.~files-extractor] - ЖурналИзмененийГит:
+ОТЛАДКА - [o.a.~files-extractor] - 	<A	АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2.cfe>
+ОТЛАДКА - [o.a.~files-extractor] - 		В журнале git найдено имя файла <АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2.cfe>
+ОТЛАДКА - [o.a.~files-extractor] - 	<A	ВПФ_АктСверки_БезвозмеднаяПередача.epf>
+ОТЛАДКА - [o.a.~files-extractor] - 		В журнале git найдено имя файла <ВПФ_АктСверки_БезвозмеднаяПередача.epf>
+ОТЛАДКА - [o.a.~files-extractor] - 	<>
+ОТЛАДКА - [o.a.~files-extractor] - Изучаю файл из журнала git АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2.cfe
+ОТЛАДКА - [o.a.~files-extractor] - Получен из журнала git файл C:\max\_tools\_1c_git_repo\abk_prog\АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2.cfe
+ИНФОРМАЦИЯ - [o.a.~files-extractor] - Проверка необходимости выгрузки файла C:\max\_tools\_1c_git_repo\abk_prog\АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2.cfe в каталог C:\max\_tools\_1c_git_repo\abk_prog\src, корень C:\max\_tools\_1c_git_repo\abk_prog
+ОТЛАДКА - [o.a.~files-extractor] - ОтносительныйПутьКаталогаФайла <АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2>
+ОТЛАДКА - [o.a.~files-extractor] - ПутьКаталогаИсходников <C:\max\_tools\_1c_git_repo\abk_prog\src\АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2>
+ОТЛАДКА - [o.a.~files-extractor] - Запускаем распаковку файла расширения
+ОТЛАДКА - [o.a.~files-extractor] - Загрузка расширения 'АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2'
+ОТЛАДКА - [o.a.~files-extractor] - Вывод 1С:Предприятия - Загрузка конфигурации успешно завершена
+
+ОТЛАДКА - [o.a.~files-extractor] - Разбор расширения 'АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2' в исходники в каталог 'C:\Users\mm\AppData\Local\Temp\fvcfyl5mrsn.tmp'
+ОТЛАДКА - [o.a.~files-extractor] - Вывод 1С:Предприятия - 
+ОТЛАДКА - [o.a.~files-extractor] - Создаем новый каталог C:\max\_tools\_1c_git_repo\abk_prog\src\АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2
+ОТЛАДКА - [o.a.~files-extractor] - Копируем исходники из временного каталога в целевой: C:\max\_tools\_1c_git_repo\abk_prog\src\АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2
+ИНФОРМАЦИЯ - [o.a.~files-extractor] - Завершена проверка необходимости выгрузки файла C:\max\_tools\_1c_git_repo\abk_prog\АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2.cfe в каталог C:\max\_tools\_1c_git_repo\abk_prog\src, корень C:\max\_tools\_1c_git_repo\abk_prog
+ОТЛАДКА - [o.a.~files-extractor] - Изучаю файл из журнала git ВПФ_АктСверки_БезвозмеднаяПередача.epf
+ОТЛАДКА - [o.a.~files-extractor] - Получен из журнала git файл C:\max\_tools\_1c_git_repo\abk_prog\ВПФ_АктСверки_БезвозмеднаяПередача.epf
+ИНФОРМАЦИЯ - [o.a.~files-extractor] - Проверка необходимости выгрузки файла C:\max\_tools\_1c_git_repo\abk_prog\ВПФ_АктСверки_БезвозмеднаяПередача.epf в каталог C:\max\_tools\_1c_git_repo\abk_prog\src, корень C:\max\_tools\_1c_git_repo\abk_prog
+ОТЛАДКА - [o.a.~files-extractor] - ОтносительныйПутьКаталогаФайла <ВПФ_АктСверки_БезвозмеднаяПередача>
+ОТЛАДКА - [o.a.~files-extractor] - ПутьКаталогаИсходников <C:\max\_tools\_1c_git_repo\abk_prog\src\ВПФ_АктСверки_БезвозмеднаяПередача>
+ОТЛАДКА - [o.a.~files-extractor] - Запускаем распаковку файла
+ОТЛАДКА - [o.a.~files-extractor] - Путь к V8Reader: C:\max\_tools\_1c_git_repo\abk_prog\.git\hooks\v8Reader\V8Reader.epf
+ОТЛАДКА - [o.a.~files-extractor] - Командная строка V8Reader: /C"decompile;pathtocf;C:\max\_tools\_1c_git_repo\abk_prog\ВПФ_АктСверки_БезвозмеднаяПередача.epf;pathout;C:\Users\mm\AppData\Local\Temp\ytyz34oncgh.tmp;convert-mxl2txt;ЗавершитьРаботуПосле;"
+ОТЛАДКА - [o.a.~files-extractor] - Вывод 1С:Предприятия - 
+ОТЛАДКА - [o.a.~files-extractor] - Создаем новый каталог C:\max\_tools\_1c_git_repo\abk_prog\src\ВПФ_АктСверки_БезвозмеднаяПередача
+ОТЛАДКА - [o.a.~files-extractor] - Копируем исходники из временного каталога в целевой: C:\max\_tools\_1c_git_repo\abk_prog\src\ВПФ_АктСверки_БезвозмеднаяПередача
+ИНФОРМАЦИЯ - [o.a.~files-extractor] - Завершена проверка необходимости выгрузки файла C:\max\_tools\_1c_git_repo\abk_prog\ВПФ_АктСверки_БезвозмеднаяПередача.epf в каталог C:\max\_tools\_1c_git_repo\abk_prog\src, корень C:\max\_tools\_1c_git_repo\abk_prog
+ОТЛАДКА - [o.a.~files-extractor] - Запуск git add для каталога C:\max\_tools\_1c_git_repo\abk_prog\src\АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2
+ОТЛАДКА - [o.a.~files-extractor] - Запуск git add для каталога C:\max\_tools\_1c_git_repo\abk_prog\src\ВПФ_АктСверки_БезвозмеднаяПередача
+ОТЛАДКА - [o.a.~files-extractor] - Очищаем временные файлы
+ИНФОРМАЦИЯ - [o.a.~files-extractor] - precommit1c v2.3.0
+
+ОТЛАДКА - [o.a.~files-extractor] - ТипЗнч(Аргументы)= Структура
+ОТЛАДКА - [o.a.~files-extractor] - Передана команда: --compile
+ОТЛАДКА - [o.a.~files-extractor] - --recursive = Нет
+ОТЛАДКА - [o.a.~files-extractor] - --use-designer = Нет
+ОТЛАДКА - [o.a.~files-extractor] - ПутьВходящихДанных = src
+ОТЛАДКА - [o.a.~files-extractor] - ВыходнойКаталог = build
+ИНФОРМАЦИЯ - [o.a.~files-extractor] - Собираю исходники <C:\max\_tools\_1c_git_repo\abk_prog\src>
+ОШИБКА - [o.a.~files-extractor] - {Модуль C:\Program Files\OneScript\lib\asserts\src\bdd-asserts.os / Ошибка в строке: 336 / [Failed] Ожидали, что проверяемое значение (Ложь) является ИСТИНОЙ.
+Файл переименования C:\max\_tools\_1c_git_repo\abk_prog\src\renames.txt должен существовать
+Стек трейс:
+  C:\Program Files\OneScript\lib\asserts\src\bdd-asserts.os / Метод ЭтоИстина / Строка 41
+    C:\max\_tools\_1c_git_repo\abk_prog\.git\hooks\v8files-extractor.os / Метод ПолучитьСоответствиеПереименований / Строка 1054
+      C:\max\_tools\_1c_git_repo\abk_prog\.git\hooks\v8files-extractor.os / Метод СобратьФайл / Строка 866
+        C:\max\_tools\_1c_git_repo\abk_prog\.git\hooks\v8files-extractor.os / Метод Компилировать / Строка 812
+          C:\max\_tools\_1c_git_repo\abk_prog\.git\hooks\v8files-extractor.os / Метод ЗапускВКоманднойСтроке / Строка 121
+            C:\max\_tools\_1c_git_repo\abk_prog\.git\hooks\v8files-extractor.os / Метод $entry / Строка 1218}
+ОТЛАДКА - [o.a.~files-extractor] - Очищаем временные файлы
+ИНФОРМАЦИЯ - [o.a.~files-extractor] - precommit1c v2.3.0
+
+ОТЛАДКА - [o.a.~files-extractor] - ТипЗнч(Аргументы)= Структура
+ОТЛАДКА - [o.a.~files-extractor] - Передана команда: --compile
+ОТЛАДКА - [o.a.~files-extractor] - --recursive = Нет
+ОТЛАДКА - [o.a.~files-extractor] - --use-designer = Нет
+ОТЛАДКА - [o.a.~files-extractor] - ПутьВходящихДанных = src
+ОТЛАДКА - [o.a.~files-extractor] - ВыходнойКаталог = build
+ИНФОРМАЦИЯ - [o.a.~files-extractor] - Собираю исходники <C:\max\_tools\_1c_git_repo\abk_prog\src>
+ОШИБКА - [o.a.~files-extractor] - {Модуль C:\Program Files\OneScript\lib\asserts\src\bdd-asserts.os / Ошибка в строке: 336 / [Failed] Ожидали, что проверяемое значение (Ложь) является ИСТИНОЙ.
+Файл переименования C:\max\_tools\_1c_git_repo\abk_prog\src\renames.txt должен существовать
+Стек трейс:
+  C:\Program Files\OneScript\lib\asserts\src\bdd-asserts.os / Метод ЭтоИстина / Строка 41
+    C:\max\_tools\_1c_git_repo\abk_prog\.git\hooks\v8files-extractor.os / Метод ПолучитьСоответствиеПереименований / Строка 1054
+      C:\max\_tools\_1c_git_repo\abk_prog\.git\hooks\v8files-extractor.os / Метод СобратьФайл / Строка 866
+        C:\max\_tools\_1c_git_repo\abk_prog\.git\hooks\v8files-extractor.os / Метод Компилировать / Строка 812
+          C:\max\_tools\_1c_git_repo\abk_prog\.git\hooks\v8files-extractor.os / Метод ЗапускВКоманднойСтроке / Строка 121
+            C:\max\_tools\_1c_git_repo\abk_prog\.git\hooks\v8files-extractor.os / Метод $entry / Строка 1218}
+ОТЛАДКА - [o.a.~files-extractor] - Очищаем временные файлы
+ИНФОРМАЦИЯ - [o.a.~files-extractor] - precommit1c v2.3.0
+
+ОТЛАДКА - [o.a.~files-extractor] - ТипЗнч(Аргументы)= Структура
+ОТЛАДКА - [o.a.~files-extractor] - Передана команда: --compile
+ОТЛАДКА - [o.a.~files-extractor] - --recursive = Нет
+ОТЛАДКА - [o.a.~files-extractor] - --use-designer = Нет
+ОТЛАДКА - [o.a.~files-extractor] - ПутьВходящихДанных = src
+ОТЛАДКА - [o.a.~files-extractor] - ВыходнойКаталог = build
+ИНФОРМАЦИЯ - [o.a.~files-extractor] - Собираю исходники <C:\max\_tools\_1c_git_repo\abk_prog\src>
+ОТЛАДКА - [o.a.~files-extractor] - ФайлРасширение: Нет
+ОТЛАДКА - [o.a.~files-extractor] - ФайлРасширение: Нет
+ОШИБКА - [o.a.~files-extractor] - {Модуль C:\Program Files\OneScript\lib\asserts\src\bdd-asserts.os / Ошибка в строке: 336 / [Failed] Ожидали, что проверяемое значение (Ложь) является ИСТИНОЙ.
+Файл переименования C:\max\_tools\_1c_git_repo\abk_prog\src\renames.txt должен существовать
+Стек трейс:
+  C:\Program Files\OneScript\lib\asserts\src\bdd-asserts.os / Метод ЭтоИстина / Строка 41
+    C:\max\_tools\_1c_git_repo\abk_prog\.git\hooks\v8files-extractor.os / Метод ПолучитьСоответствиеПереименований / Строка 1056
+      C:\max\_tools\_1c_git_repo\abk_prog\.git\hooks\v8files-extractor.os / Метод СобратьФайл / Строка 868
+        C:\max\_tools\_1c_git_repo\abk_prog\.git\hooks\v8files-extractor.os / Метод Компилировать / Строка 812
+          C:\max\_tools\_1c_git_repo\abk_prog\.git\hooks\v8files-extractor.os / Метод ЗапускВКоманднойСтроке / Строка 121
+            C:\max\_tools\_1c_git_repo\abk_prog\.git\hooks\v8files-extractor.os / Метод $entry / Строка 1220}
+ОТЛАДКА - [o.a.~files-extractor] - Очищаем временные файлы
+ИНФОРМАЦИЯ - [o.a.~files-extractor] - precommit1c v2.3.0
+
+ОТЛАДКА - [o.a.~files-extractor] - ТипЗнч(Аргументы)= Структура
+ОТЛАДКА - [o.a.~files-extractor] - Передана команда: --compile
+ОТЛАДКА - [o.a.~files-extractor] - --recursive = Да
+ОТЛАДКА - [o.a.~files-extractor] - --use-designer = Нет
+ОТЛАДКА - [o.a.~files-extractor] - ПутьВходящихДанных = src
+ОТЛАДКА - [o.a.~files-extractor] - ВыходнойКаталог = build
+ИНФОРМАЦИЯ - [o.a.~files-extractor] - Собираю исходники <C:\max\_tools\_1c_git_repo\abk_prog\src\ВПФ_АктСверки_БезвозмеднаяПередача>
+ОТЛАДКА - [o.a.~files-extractor] - ФайлРасширение: Нет
+ОТЛАДКА - [o.a.~files-extractor] - ФайлРасширение: Нет
+ОТЛАДКА - [o.a.~files-extractor] - 95c58c5b-77a4-4730-b928-4930486c6a83-->und\95c58c5b-77a4-4730-b928-4930486c6a83
+ОТЛАДКА - [o.a.~files-extractor] - copyinfo-->und\copyinfo
+ОТЛАДКА - [o.a.~files-extractor] - d333ba7e-caf1-4462-98a7-0a25afeb122b.0\info-->und\d333ba7e-caf1-4462-98a7-0a25afeb122b.0\info
+ОТЛАДКА - [o.a.~files-extractor] - d333ba7e-caf1-4462-98a7-0a25afeb122b.0\text-->ObjectModule.bsl
+ОТЛАДКА - [o.a.~files-extractor] - fb7468f4-df65-4ac4-86d0-c36413e1f512-->und\fb7468f4-df65-4ac4-86d0-c36413e1f512
+ОТЛАДКА - [o.a.~files-extractor] - fb7468f4-df65-4ac4-86d0-c36413e1f512.0-->und\fb7468f4-df65-4ac4-86d0-c36413e1f512.0
+ОТЛАДКА - [o.a.~files-extractor] - root-->und\root
+ОТЛАДКА - [o.a.~files-extractor] - version-->und\version
+ОТЛАДКА - [o.a.~files-extractor] - versions-->und\versions
+ИНФОРМАЦИЯ - [o.a.~files-extractor] - Восстанавливаю структуру исходников в <C:\Users\mm\AppData\Local\Temp\f4i1mo0gwv2.tmp>
+ИНФОРМАЦИЯ - [o.a.~files-extractor] - Собираю файл из исходников <C:\Users\mm\AppData\Local\Temp\f4i1mo0gwv2.tmp> в файл C:\max\_tools\_1c_git_repo\abk_prog\build\ВПФ_АктСверки_БезвозмеднаяПередача.epf
+ОТЛАДКА - [o.a.~files-extractor] - "C:\max\_tools\_1c_git_repo\abk_prog\.git\hooks\tools\v8unpack.exe" -B "C:\Users\mm\AppData\Local\Temp\f4i1mo0gwv2.tmp" "C:\Users\mm\AppData\Local\Temp\hd5ekv1ncql.tmp"
+ОТЛАДКА - [o.a.~files-extractor] - Build OK!
+ОТЛАДКА - [o.a.~files-extractor] - Перемещение из C:\Users\mm\AppData\Local\Temp\hd5ekv1ncql.tmp в C:\max\_tools\_1c_git_repo\abk_prog\build\ВПФ_АктСверки_БезвозмеднаяПередача.epf
+ИНФОРМАЦИЯ - [o.a.~files-extractor] - Успешно собран файл C:\max\_tools\_1c_git_repo\abk_prog\build\ВПФ_АктСверки_БезвозмеднаяПередача.epf
+ОТЛАДКА - [o.a.~files-extractor] - Очищаем временные файлы
+ИНФОРМАЦИЯ - precommit1c v2.3.0
+
+ИНФОРМАЦИЯ - Собираю исходники <C:\max\_tools\_1c_git_repo\abk_prog\src\ВПФ_АктСверки_БезвозмеднаяПередача>
+ИНФОРМАЦИЯ - Восстанавливаю структуру исходников в <C:\Users\mm\AppData\Local\Temp\p2nxlvckq5k.tmp>
+ИНФОРМАЦИЯ - Собираю файл из исходников <C:\Users\mm\AppData\Local\Temp\p2nxlvckq5k.tmp> в файл C:\max\_tools\_1c_git_repo\abk_prog\build\ВПФ_АктСверки_БезвозмеднаяПередача.epf
+ИНФОРМАЦИЯ - Успешно собран файл C:\max\_tools\_1c_git_repo\abk_prog\build\ВПФ_АктСверки_БезвозмеднаяПередача.epf
+ИНФОРМАЦИЯ - precommit1c v2.3.0
+
+ИНФОРМАЦИЯ - АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2
+ИНФОРМАЦИЯ - ФайлРасширение: Нет
+ИНФОРМАЦИЯ - ФайлРасширение2: Нет
+ИНФОРМАЦИЯ - CommonPictures
+ИНФОРМАЦИЯ - ФайлРасширение: Нет
+ИНФОРМАЦИЯ - ФайлРасширение2: Нет
+ИНФОРМАЦИЯ - Documents
+ИНФОРМАЦИЯ - ФайлРасширение: Нет
+ИНФОРМАЦИЯ - ФайлРасширение2: Нет
+ИНФОРМАЦИЯ - АктСверкиВзаиморасчетов
+ИНФОРМАЦИЯ - ФайлРасширение: Нет
+ИНФОРМАЦИЯ - ФайлРасширение2: Нет
+ИНФОРМАЦИЯ - Ext
+ИНФОРМАЦИЯ - ФайлРасширение: Нет
+ИНФОРМАЦИЯ - ФайлРасширение2: Нет
+ИНФОРМАЦИЯ - Forms
+ИНФОРМАЦИЯ - ФайлРасширение: Нет
+ИНФОРМАЦИЯ - ФайлРасширение2: Нет
+ИНФОРМАЦИЯ - ФормаДокумента
+ИНФОРМАЦИЯ - ФайлРасширение: Нет
+ИНФОРМАЦИЯ - ФайлРасширение2: Нет
+ИНФОРМАЦИЯ - Ext
+ИНФОРМАЦИЯ - ФайлРасширение: Нет
+ИНФОРМАЦИЯ - ФайлРасширение2: Нет
+ИНФОРМАЦИЯ - Form
+ИНФОРМАЦИЯ - ФайлРасширение: Нет
+ИНФОРМАЦИЯ - ФайлРасширение2: Нет
+ИНФОРМАЦИЯ - Languages
+ИНФОРМАЦИЯ - ФайлРасширение: Нет
+ИНФОРМАЦИЯ - ФайлРасширение2: Нет
+ИНФОРМАЦИЯ - StyleItems
+ИНФОРМАЦИЯ - ФайлРасширение: Нет
+ИНФОРМАЦИЯ - ФайлРасширение2: Нет
+ИНФОРМАЦИЯ - Собираю исходники <C:\max\_tools\_1c_git_repo\abk_prog\src\ВПФ_АктСверки_БезвозмеднаяПередача>
+ИНФОРМАЦИЯ - Восстанавливаю структуру исходников в <C:\Users\mm\AppData\Local\Temp\hqxljawasx0.tmp>
+ИНФОРМАЦИЯ - Собираю файл из исходников <C:\Users\mm\AppData\Local\Temp\hqxljawasx0.tmp> в файл C:\max\_tools\_1c_git_repo\abk_prog\build\ВПФ_АктСверки_БезвозмеднаяПередача.epf
+ИНФОРМАЦИЯ - Успешно собран файл C:\max\_tools\_1c_git_repo\abk_prog\build\ВПФ_АктСверки_БезвозмеднаяПередача.epf
+ИНФОРМАЦИЯ - precommit1c v2.3.0
+
+ИНФОРМАЦИЯ - АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2\Configuration.xml
+ИНФОРМАЦИЯ - ФайлРасширение: Нет
+ИНФОРМАЦИЯ - ФайлРасширение2: Нет
+ИНФОРМАЦИЯ - CommonPictures\Configuration.xml
+ИНФОРМАЦИЯ - ФайлРасширение: Нет
+ИНФОРМАЦИЯ - ФайлРасширение2: Нет
+ИНФОРМАЦИЯ - Documents\Configuration.xml
+ИНФОРМАЦИЯ - ФайлРасширение: Нет
+ИНФОРМАЦИЯ - ФайлРасширение2: Нет
+ИНФОРМАЦИЯ - АктСверкиВзаиморасчетов\Configuration.xml
+ИНФОРМАЦИЯ - ФайлРасширение: Нет
+ИНФОРМАЦИЯ - ФайлРасширение2: Нет
+ИНФОРМАЦИЯ - Ext\Configuration.xml
+ИНФОРМАЦИЯ - ФайлРасширение: Нет
+ИНФОРМАЦИЯ - ФайлРасширение2: Нет
+ИНФОРМАЦИЯ - Forms\Configuration.xml
+ИНФОРМАЦИЯ - ФайлРасширение: Нет
+ИНФОРМАЦИЯ - ФайлРасширение2: Нет
+ИНФОРМАЦИЯ - ФормаДокумента\Configuration.xml
+ИНФОРМАЦИЯ - ФайлРасширение: Нет
+ИНФОРМАЦИЯ - ФайлРасширение2: Нет
+ИНФОРМАЦИЯ - Ext\Configuration.xml
+ИНФОРМАЦИЯ - ФайлРасширение: Нет
+ИНФОРМАЦИЯ - ФайлРасширение2: Нет
+ИНФОРМАЦИЯ - Form\Configuration.xml
+ИНФОРМАЦИЯ - ФайлРасширение: Нет
+ИНФОРМАЦИЯ - ФайлРасширение2: Нет
+ИНФОРМАЦИЯ - Languages\Configuration.xml
+ИНФОРМАЦИЯ - ФайлРасширение: Нет
+ИНФОРМАЦИЯ - ФайлРасширение2: Нет
+ИНФОРМАЦИЯ - StyleItems\Configuration.xml
+ИНФОРМАЦИЯ - ФайлРасширение: Нет
+ИНФОРМАЦИЯ - ФайлРасширение2: Нет
+ИНФОРМАЦИЯ - Собираю исходники <C:\max\_tools\_1c_git_repo\abk_prog\src\ВПФ_АктСверки_БезвозмеднаяПередача>
+ИНФОРМАЦИЯ - Восстанавливаю структуру исходников в <C:\Users\mm\AppData\Local\Temp\yaztsgkm3gc.tmp>
+ИНФОРМАЦИЯ - Собираю файл из исходников <C:\Users\mm\AppData\Local\Temp\yaztsgkm3gc.tmp> в файл C:\max\_tools\_1c_git_repo\abk_prog\build\ВПФ_АктСверки_БезвозмеднаяПередача.epf
+ИНФОРМАЦИЯ - Успешно собран файл C:\max\_tools\_1c_git_repo\abk_prog\build\ВПФ_АктСверки_БезвозмеднаяПередача.epf
+ИНФОРМАЦИЯ - precommit1c v2.3.0
+
+ИНФОРМАЦИЯ - C:\max\_tools\_1c_git_repo\abk_prog\src\АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2\renames.txt
+ИНФОРМАЦИЯ - АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2\Configuration.xml
+ИНФОРМАЦИЯ - ФайлРасширение: Нет
+ИНФОРМАЦИЯ - ФайлРасширение2: Нет
+ИНФОРМАЦИЯ - C:\max\_tools\_1c_git_repo\abk_prog\src\АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2\CommonPictures\renames.txt
+ИНФОРМАЦИЯ - CommonPictures\Configuration.xml
+ИНФОРМАЦИЯ - ФайлРасширение: Нет
+ИНФОРМАЦИЯ - ФайлРасширение2: Нет
+ИНФОРМАЦИЯ - C:\max\_tools\_1c_git_repo\abk_prog\src\АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2\Documents\renames.txt
+ИНФОРМАЦИЯ - Documents\Configuration.xml
+ИНФОРМАЦИЯ - ФайлРасширение: Нет
+ИНФОРМАЦИЯ - ФайлРасширение2: Нет
+ИНФОРМАЦИЯ - C:\max\_tools\_1c_git_repo\abk_prog\src\АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2\Documents\АктСверкиВзаиморасчетов\renames.txt
+ИНФОРМАЦИЯ - АктСверкиВзаиморасчетов\Configuration.xml
+ИНФОРМАЦИЯ - ФайлРасширение: Нет
+ИНФОРМАЦИЯ - ФайлРасширение2: Нет
+ИНФОРМАЦИЯ - C:\max\_tools\_1c_git_repo\abk_prog\src\АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2\Documents\АктСверкиВзаиморасчетов\Ext\renames.txt
+ИНФОРМАЦИЯ - Ext\Configuration.xml
+ИНФОРМАЦИЯ - ФайлРасширение: Нет
+ИНФОРМАЦИЯ - ФайлРасширение2: Нет
+ИНФОРМАЦИЯ - C:\max\_tools\_1c_git_repo\abk_prog\src\АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2\Documents\АктСверкиВзаиморасчетов\Forms\renames.txt
+ИНФОРМАЦИЯ - Forms\Configuration.xml
+ИНФОРМАЦИЯ - ФайлРасширение: Нет
+ИНФОРМАЦИЯ - ФайлРасширение2: Нет
+ИНФОРМАЦИЯ - C:\max\_tools\_1c_git_repo\abk_prog\src\АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2\Documents\АктСверкиВзаиморасчетов\Forms\ФормаДокумента\renames.txt
+ИНФОРМАЦИЯ - ФормаДокумента\Configuration.xml
+ИНФОРМАЦИЯ - ФайлРасширение: Нет
+ИНФОРМАЦИЯ - ФайлРасширение2: Нет
+ИНФОРМАЦИЯ - C:\max\_tools\_1c_git_repo\abk_prog\src\АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2\Documents\АктСверкиВзаиморасчетов\Forms\ФормаДокумента\Ext\renames.txt
+ИНФОРМАЦИЯ - Ext\Configuration.xml
+ИНФОРМАЦИЯ - ФайлРасширение: Нет
+ИНФОРМАЦИЯ - ФайлРасширение2: Нет
+ИНФОРМАЦИЯ - C:\max\_tools\_1c_git_repo\abk_prog\src\АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2\Documents\АктСверкиВзаиморасчетов\Forms\ФормаДокумента\Ext\Form\renames.txt
+ИНФОРМАЦИЯ - Form\Configuration.xml
+ИНФОРМАЦИЯ - ФайлРасширение: Нет
+ИНФОРМАЦИЯ - ФайлРасширение2: Нет
+ИНФОРМАЦИЯ - C:\max\_tools\_1c_git_repo\abk_prog\src\АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2\Languages\renames.txt
+ИНФОРМАЦИЯ - Languages\Configuration.xml
+ИНФОРМАЦИЯ - ФайлРасширение: Нет
+ИНФОРМАЦИЯ - ФайлРасширение2: Нет
+ИНФОРМАЦИЯ - C:\max\_tools\_1c_git_repo\abk_prog\src\АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2\StyleItems\renames.txt
+ИНФОРМАЦИЯ - StyleItems\Configuration.xml
+ИНФОРМАЦИЯ - ФайлРасширение: Нет
+ИНФОРМАЦИЯ - ФайлРасширение2: Нет
+ИНФОРМАЦИЯ - C:\max\_tools\_1c_git_repo\abk_prog\src\ВПФ_АктСверки_БезвозмеднаяПередача\renames.txt
+ИНФОРМАЦИЯ - Собираю исходники <C:\max\_tools\_1c_git_repo\abk_prog\src\ВПФ_АктСверки_БезвозмеднаяПередача>
+ИНФОРМАЦИЯ - Восстанавливаю структуру исходников в <C:\Users\mm\AppData\Local\Temp\bf3qkbtbkjj.tmp>
+ИНФОРМАЦИЯ - Собираю файл из исходников <C:\Users\mm\AppData\Local\Temp\bf3qkbtbkjj.tmp> в файл C:\max\_tools\_1c_git_repo\abk_prog\build\ВПФ_АктСверки_БезвозмеднаяПередача.epf
+ИНФОРМАЦИЯ - Успешно собран файл C:\max\_tools\_1c_git_repo\abk_prog\build\ВПФ_АктСверки_БезвозмеднаяПередача.epf
+ИНФОРМАЦИЯ - precommit1c v2.3.0
+
+ИНФОРМАЦИЯ - Собираю исходники <C:\max\_tools\_1c_git_repo\abk_prog\src\ВПФ_АктСверки_БезвозмеднаяПередача>
+ИНФОРМАЦИЯ - Восстанавливаю структуру исходников в <C:\Users\mm\AppData\Local\Temp\3dtfid1hzuc.tmp>
+ИНФОРМАЦИЯ - Собираю файл из исходников <C:\Users\mm\AppData\Local\Temp\3dtfid1hzuc.tmp> в файл C:\max\_tools\_1c_git_repo\abk_prog\build\ВПФ_АктСверки_БезвозмеднаяПередача.epf
+ИНФОРМАЦИЯ - Успешно собран файл C:\max\_tools\_1c_git_repo\abk_prog\build\ВПФ_АктСверки_БезвозмеднаяПередача.epf
+ИНФОРМАЦИЯ - precommit1c v2.3.0
+
+ОШИБКА - {Модуль C:\max\_tools\_1c_git_repo\abk_prog\.git\hooks\v8files-extractor.os / Ошибка в строке: 822 / Внешнее исключение (System.ArgumentException): Путь не может быть пустой строкой или строкой из пробелов.}
+ИНФОРМАЦИЯ - precommit1c v2.3.0
+
+ОШИБКА - {Модуль C:\max\_tools\_1c_git_repo\abk_prog\.git\hooks\v8files-extractor.os / Ошибка в строке: 822 / Внешнее исключение (System.ArgumentException): Путь не может быть пустой строкой или строкой из пробелов.}
+ИНФОРМАЦИЯ - precommit1c v2.3.0
+
+ИНФОРМАЦИЯ - Собираю исходники <C:\max\_tools\_1c_git_repo\abk_prog\src\ВПФ_АктСверки_БезвозмеднаяПередача>
+ИНФОРМАЦИЯ - Восстанавливаю структуру исходников в <C:\Users\mm\AppData\Local\Temp\dbhiqyrcqwp.tmp>
+ИНФОРМАЦИЯ - Собираю файл из исходников <C:\Users\mm\AppData\Local\Temp\dbhiqyrcqwp.tmp> в файл C:\max\_tools\_1c_git_repo\abk_prog\ВПФ_АктСверки_БезвозмеднаяПередача.epf
+ИНФОРМАЦИЯ - Успешно собран файл C:\max\_tools\_1c_git_repo\abk_prog\ВПФ_АктСверки_БезвозмеднаяПередача.epf
+ИНФОРМАЦИЯ - precommit1c v2.3.0
+
+ИНФОРМАЦИЯ - Собираю исходники <C:\max\_tools\_1c_git_repo\abk_prog\src\АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2>
+ИНФОРМАЦИЯ - Успешно собрано расширение АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2
+ИНФОРМАЦИЯ - precommit1c v2.3.0
+
+ИНФОРМАЦИЯ - Проверка необходимости выгрузки файла C:\max\_tools\_1c_git_repo\abk_prog\АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2.cfe в каталог C:\max\_tools\_1c_git_repo\abk_prog\src, корень C:\max\_tools\_1c_git_repo\abk_prog
+ИНФОРМАЦИЯ - Завершена проверка необходимости выгрузки файла C:\max\_tools\_1c_git_repo\abk_prog\АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2.cfe в каталог C:\max\_tools\_1c_git_repo\abk_prog\src, корень C:\max\_tools\_1c_git_repo\abk_prog
+ИНФОРМАЦИЯ - precommit1c v2.3.0
+
+ИНФОРМАЦИЯ - precommit1c v2.3.0
+
+ИНФОРМАЦИЯ - precommit1c v2.3.0
+
+ИНФОРМАЦИЯ - precommit1c v2.3.0
+
+ИНФОРМАЦИЯ - precommit1c v2.3.0
+
+ИНФОРМАЦИЯ - precommit1c v2.3.0
+
+ИНФОРМАЦИЯ - precommit1c v2.3.0
+
+ОШИБКА - {Модуль C:\Program Files\OneScript\lib\cmdline\src\cmdline.os / Ошибка в строке: 441 / Неизвестный параметр в позиции 5 параметр src 
+--decompile --recursive --use-designer build src }
+ИНФОРМАЦИЯ - precommit1c v2.3.0
+
+ОШИБКА - {Модуль C:\Program Files\OneScript\lib\cmdline\src\cmdline.os / Ошибка в строке: 441 / Неизвестный параметр в позиции 5 параметр src 
+--decompile --recursive --use-designer build src }
+ИНФОРМАЦИЯ - precommit1c v2.3.0
+
+ОШИБКА - {Модуль C:\Program Files\OneScript\lib\cmdline\src\cmdline.os / Ошибка в строке: 441 / Неизвестный параметр в позиции 5 параметр src 
+--decompile --recursive --use-designer build src }
+ИНФОРМАЦИЯ - precommit1c v2.3.0
+
+ИНФОРМАЦИЯ - Подготовка выгрузки каталога C:\max\_tools\_1c_git_repo\abk_prog\build в каталог src, корень C:\max\_tools\_1c_git_repo\abk_prog\build
+ИНФОРМАЦИЯ - Подготовка выгрузки каталога БГУ в каталог src, корень C:\max\_tools\_1c_git_repo\abk_prog\build
+ИНФОРМАЦИЯ - Подготовка выгрузки файла АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2.cfe в каталог src
+ИНФОРМАЦИЯ - Завершена выгрузка файла АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2.cfe в каталог src
+ИНФОРМАЦИЯ - Подготовка выгрузки файла ВПФ_АктСверки_БезвозмеднаяПередача.epf в каталог src
+ИНФОРМАЦИЯ - Завершена выгрузка файла ВПФ_АктСверки_БезвозмеднаяПередача.epf в каталог src
+ИНФОРМАЦИЯ - Завершена выгрузка каталога БГУ в каталог src, корень C:\max\_tools\_1c_git_repo\abk_prog\build
+ИНФОРМАЦИЯ - Завершена выгрузка каталога C:\max\_tools\_1c_git_repo\abk_prog\build в каталог src, корень C:\max\_tools\_1c_git_repo\abk_prog\build
+ИНФОРМАЦИЯ - precommit1c v2.3.0
+
+ИНФОРМАЦИЯ - Собираю исходники <C:\max\_tools\_1c_git_repo\abk_prog\src\БГУ\АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2>
+ИНФОРМАЦИЯ - Успешно собрано расширение АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2
+ИНФОРМАЦИЯ - Собираю исходники <C:\max\_tools\_1c_git_repo\abk_prog\src\БГУ\ВПФ_АктСверки_БезвозмеднаяПередача>
+ИНФОРМАЦИЯ - Собираю файл из исходников <C:\max\_tools\_1c_git_repo\abk_prog\src\БГУ\ВПФ_АктСверки_БезвозмеднаяПередача\ВПФ_АктСверки_БезвозмеднаяПередача.xml> в файл C:\max\_tools\_1c_git_repo\abk_prog\build\БГУ\ВПФ_АктСверки_БезвозмеднаяПередача
+ИНФОРМАЦИЯ - Успешно собран файл C:\max\_tools\_1c_git_repo\abk_prog\build\БГУ\ВПФ_АктСверки_БезвозмеднаяПередача
+ИНФОРМАЦИЯ - precommit1c v2.3.0
+
+ИНФОРМАЦИЯ - Проверка необходимости выгрузки файла C:\max\_tools\_1c_git_repo\abk_prog\БГУ\АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2.cfe в каталог C:\max\_tools\_1c_git_repo\abk_prog\src, корень C:\max\_tools\_1c_git_repo\abk_prog
+ИНФОРМАЦИЯ - Завершена проверка необходимости выгрузки файла C:\max\_tools\_1c_git_repo\abk_prog\БГУ\АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2.cfe в каталог C:\max\_tools\_1c_git_repo\abk_prog\src, корень C:\max\_tools\_1c_git_repo\abk_prog
+ИНФОРМАЦИЯ - Проверка необходимости выгрузки файла C:\max\_tools\_1c_git_repo\abk_prog\БГУ\ВПФ_АктСверки_БезвозмеднаяПередача.epf в каталог C:\max\_tools\_1c_git_repo\abk_prog\src, корень C:\max\_tools\_1c_git_repo\abk_prog
+ИНФОРМАЦИЯ - Завершена проверка необходимости выгрузки файла C:\max\_tools\_1c_git_repo\abk_prog\БГУ\ВПФ_АктСверки_БезвозмеднаяПередача.epf в каталог C:\max\_tools\_1c_git_repo\abk_prog\src, корень C:\max\_tools\_1c_git_repo\abk_prog
+ИНФОРМАЦИЯ - precommit1c v2.3.0
+
+ИНФОРМАЦИЯ - Проверка необходимости выгрузки файла C:\max\_tools\_1c_git_repo\abk_prog\БГУ\АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2.cfe в каталог C:\max\_tools\_1c_git_repo\abk_prog\src, корень C:\max\_tools\_1c_git_repo\abk_prog
+ИНФОРМАЦИЯ - Завершена проверка необходимости выгрузки файла C:\max\_tools\_1c_git_repo\abk_prog\БГУ\АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2.cfe в каталог C:\max\_tools\_1c_git_repo\abk_prog\src, корень C:\max\_tools\_1c_git_repo\abk_prog
+ИНФОРМАЦИЯ - Проверка необходимости выгрузки файла C:\max\_tools\_1c_git_repo\abk_prog\БГУ\ВПФ_АктСверки_БезвозмеднаяПередача.epf в каталог C:\max\_tools\_1c_git_repo\abk_prog\src, корень C:\max\_tools\_1c_git_repo\abk_prog
+ИНФОРМАЦИЯ - Завершена проверка необходимости выгрузки файла C:\max\_tools\_1c_git_repo\abk_prog\БГУ\ВПФ_АктСверки_БезвозмеднаяПередача.epf в каталог C:\max\_tools\_1c_git_repo\abk_prog\src, корень C:\max\_tools\_1c_git_repo\abk_prog
+ИНФОРМАЦИЯ - precommit1c v2.3.0
+
+ИНФОРМАЦИЯ - Проверка необходимости выгрузки файла C:\max\_tools\_1c_git_repo\abk_prog\БГУ\АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2.cfe в каталог C:\max\_tools\_1c_git_repo\abk_prog\src, корень C:\max\_tools\_1c_git_repo\abk_prog
+ИНФОРМАЦИЯ - Завершена проверка необходимости выгрузки файла C:\max\_tools\_1c_git_repo\abk_prog\БГУ\АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2.cfe в каталог C:\max\_tools\_1c_git_repo\abk_prog\src, корень C:\max\_tools\_1c_git_repo\abk_prog
+ИНФОРМАЦИЯ - Проверка необходимости выгрузки файла C:\max\_tools\_1c_git_repo\abk_prog\БГУ\ВПФ_АктСверки_БезвозмеднаяПередача.epf в каталог C:\max\_tools\_1c_git_repo\abk_prog\src, корень C:\max\_tools\_1c_git_repo\abk_prog
+ИНФОРМАЦИЯ - Завершена проверка необходимости выгрузки файла C:\max\_tools\_1c_git_repo\abk_prog\БГУ\ВПФ_АктСверки_БезвозмеднаяПередача.epf в каталог C:\max\_tools\_1c_git_repo\abk_prog\src, корень C:\max\_tools\_1c_git_repo\abk_prog
+ИНФОРМАЦИЯ - precommit1c v2.3.0
+
+ИНФОРМАЦИЯ - Проверка необходимости выгрузки файла C:\max\_tools\_1c_git_repo\abk_prog\БГУ\АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2.cfe в каталог C:\max\_tools\_1c_git_repo\abk_prog\src, корень C:\max\_tools\_1c_git_repo\abk_prog
+ИНФОРМАЦИЯ - Завершена проверка необходимости выгрузки файла C:\max\_tools\_1c_git_repo\abk_prog\БГУ\АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2.cfe в каталог C:\max\_tools\_1c_git_repo\abk_prog\src, корень C:\max\_tools\_1c_git_repo\abk_prog
+ИНФОРМАЦИЯ - Проверка необходимости выгрузки файла C:\max\_tools\_1c_git_repo\abk_prog\БГУ\ВПФ_АктСверки_БезвозмеднаяПередача.epf в каталог C:\max\_tools\_1c_git_repo\abk_prog\src, корень C:\max\_tools\_1c_git_repo\abk_prog
+ИНФОРМАЦИЯ - Завершена проверка необходимости выгрузки файла C:\max\_tools\_1c_git_repo\abk_prog\БГУ\ВПФ_АктСверки_БезвозмеднаяПередача.epf в каталог C:\max\_tools\_1c_git_repo\abk_prog\src, корень C:\max\_tools\_1c_git_repo\abk_prog
+ИНФОРМАЦИЯ - precommit1c v2.3.0
+
+ИНФОРМАЦИЯ - Проверка необходимости выгрузки файла C:\max\_tools\_1c_git_repo\abk_prog\БГУ\АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2.cfe в каталог C:\max\_tools\_1c_git_repo\abk_prog\src, корень C:\max\_tools\_1c_git_repo\abk_prog
+ИНФОРМАЦИЯ - Завершена проверка необходимости выгрузки файла C:\max\_tools\_1c_git_repo\abk_prog\БГУ\АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2.cfe в каталог C:\max\_tools\_1c_git_repo\abk_prog\src, корень C:\max\_tools\_1c_git_repo\abk_prog
+ИНФОРМАЦИЯ - Проверка необходимости выгрузки файла C:\max\_tools\_1c_git_repo\abk_prog\БГУ\ВПФ_АктСверки_БезвозмеднаяПередача.epf в каталог C:\max\_tools\_1c_git_repo\abk_prog\src, корень C:\max\_tools\_1c_git_repo\abk_prog
+ИНФОРМАЦИЯ - Завершена проверка необходимости выгрузки файла C:\max\_tools\_1c_git_repo\abk_prog\БГУ\ВПФ_АктСверки_БезвозмеднаяПередача.epf в каталог C:\max\_tools\_1c_git_repo\abk_prog\src, корень C:\max\_tools\_1c_git_repo\abk_prog
+ИНФОРМАЦИЯ - precommit1c v2.3.0
+
+ИНФОРМАЦИЯ - Проверка необходимости выгрузки файла C:\max\_tools\_1c_git_repo\abk_prog\БГУ\АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2.cfe в каталог C:\max\_tools\_1c_git_repo\abk_prog\src, корень C:\max\_tools\_1c_git_repo\abk_prog
+ИНФОРМАЦИЯ - Завершена проверка необходимости выгрузки файла C:\max\_tools\_1c_git_repo\abk_prog\БГУ\АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2.cfe в каталог C:\max\_tools\_1c_git_repo\abk_prog\src, корень C:\max\_tools\_1c_git_repo\abk_prog
+ИНФОРМАЦИЯ - Проверка необходимости выгрузки файла C:\max\_tools\_1c_git_repo\abk_prog\БГУ\ВПФ_АктСверки_БезвозмеднаяПередача.epf в каталог C:\max\_tools\_1c_git_repo\abk_prog\src, корень C:\max\_tools\_1c_git_repo\abk_prog
+ИНФОРМАЦИЯ - Завершена проверка необходимости выгрузки файла C:\max\_tools\_1c_git_repo\abk_prog\БГУ\ВПФ_АктСверки_БезвозмеднаяПередача.epf в каталог C:\max\_tools\_1c_git_repo\abk_prog\src, корень C:\max\_tools\_1c_git_repo\abk_prog
+ИНФОРМАЦИЯ - precommit1c v2.3.0
+
+ИНФОРМАЦИЯ - Проверка необходимости выгрузки файла C:\max\_tools\_1c_git_repo\abk_prog\БГУ\АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2.cfe в каталог C:\max\_tools\_1c_git_repo\abk_prog\src, корень C:\max\_tools\_1c_git_repo\abk_prog
+ИНФОРМАЦИЯ - Завершена проверка необходимости выгрузки файла C:\max\_tools\_1c_git_repo\abk_prog\БГУ\АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2.cfe в каталог C:\max\_tools\_1c_git_repo\abk_prog\src, корень C:\max\_tools\_1c_git_repo\abk_prog
+ИНФОРМАЦИЯ - Проверка необходимости выгрузки файла C:\max\_tools\_1c_git_repo\abk_prog\БГУ\ВПФ_АктСверки_БезвозмеднаяПередача.epf в каталог C:\max\_tools\_1c_git_repo\abk_prog\src, корень C:\max\_tools\_1c_git_repo\abk_prog
+ИНФОРМАЦИЯ - Завершена проверка необходимости выгрузки файла C:\max\_tools\_1c_git_repo\abk_prog\БГУ\ВПФ_АктСверки_БезвозмеднаяПередача.epf в каталог C:\max\_tools\_1c_git_repo\abk_prog\src, корень C:\max\_tools\_1c_git_repo\abk_prog
+ИНФОРМАЦИЯ - precommit1c v2.3.0
+
+ОШИБКА - {Модуль C:\max\_tools\_1c_git_repo\abk_prog\.git\hooks\v8files-extractor.os / Ошибка в строке: 244 / Внешнее исключение (System.IO.FileNotFoundException): Файл 'C:\max\_tools\_1c_git_repo\abk_prog\build' не найден.}
+ИНФОРМАЦИЯ - precommit1c v2.3.0
+
+ИНФОРМАЦИЯ - Подготовка выгрузки каталога C:\max\_tools\_1c_git_repo\abk_prog\build в каталог src, корень C:\max\_tools\_1c_git_repo\abk_prog\build
+ИНФОРМАЦИЯ - Завершена выгрузка каталога C:\max\_tools\_1c_git_repo\abk_prog\build в каталог src, корень C:\max\_tools\_1c_git_repo\abk_prog\build
+ИНФОРМАЦИЯ - precommit1c v2.3.0
+
+ИНФОРМАЦИЯ - Подготовка выгрузки каталога C:\max\_tools\_1c_git_repo\abk_prog\build в каталог src, корень C:\max\_tools\_1c_git_repo\abk_prog\build
+ИНФОРМАЦИЯ - Завершена выгрузка каталога C:\max\_tools\_1c_git_repo\abk_prog\build в каталог src, корень C:\max\_tools\_1c_git_repo\abk_prog\build
+ИНФОРМАЦИЯ - precommit1c v2.3.0
+
+ИНФОРМАЦИЯ - Собираю исходники <C:\max\_tools\_1c_git_repo\abk_prog\src\БГУ\АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2>
+ИНФОРМАЦИЯ - Успешно собрано расширение АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2
+ИНФОРМАЦИЯ - Собираю исходники <C:\max\_tools\_1c_git_repo\abk_prog\src\БГУ\ВПФ_АктСверки_БезвозмеднаяПередача>
+ИНФОРМАЦИЯ - Собираю файл из исходников <C:\max\_tools\_1c_git_repo\abk_prog\src\БГУ\ВПФ_АктСверки_БезвозмеднаяПередача\ВПФ_АктСверки_БезвозмеднаяПередача.xml> в файл C:\max\_tools\_1c_git_repo\abk_prog\build\БГУ\ВПФ_АктСверки_БезвозмеднаяПередача
+ИНФОРМАЦИЯ - Успешно собран файл C:\max\_tools\_1c_git_repo\abk_prog\build\БГУ\ВПФ_АктСверки_БезвозмеднаяПередача
+ИНФОРМАЦИЯ - precommit1c v2.3.0
+
+ИНФОРМАЦИЯ - Проверка необходимости выгрузки файла C:\max\_tools\_1c_git_repo\abk_prog\БГУ\АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2.cfe в каталог C:\max\_tools\_1c_git_repo\abk_prog\src, корень C:\max\_tools\_1c_git_repo\abk_prog
+ИНФОРМАЦИЯ - Завершена проверка необходимости выгрузки файла C:\max\_tools\_1c_git_repo\abk_prog\БГУ\АБК_АктСверки_БезвозмезднаяПередача_Поступление_1.0.5.2.cfe в каталог C:\max\_tools\_1c_git_repo\abk_prog\src, корень C:\max\_tools\_1c_git_repo\abk_prog
+ИНФОРМАЦИЯ - Проверка необходимости выгрузки файла C:\max\_tools\_1c_git_repo\abk_prog\БГУ\ВПФ_АктСверки_БезвозмеднаяПередача.epf в каталог C:\max\_tools\_1c_git_repo\abk_prog\src, корень C:\max\_tools\_1c_git_repo\abk_prog
+ИНФОРМАЦИЯ - Завершена проверка необходимости выгрузки файла C:\max\_tools\_1c_git_repo\abk_prog\БГУ\ВПФ_АктСверки_БезвозмеднаяПередача.epf в каталог C:\max\_tools\_1c_git_repo\abk_prog\src, корень C:\max\_tools\_1c_git_repo\abk_prog

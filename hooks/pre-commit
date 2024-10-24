@@ -1,0 +1,6 @@
+#!/bin/sh
+# set -e
+# echo "Start hooks before commit to unpack erf, epf and cfe"
+# xcopy "build\*" "." /e /y /i
+# git add .
+# oscript -encoding=utf-8 .git/hooks/v8files-extractor.os --git-precommit --use-designer src
