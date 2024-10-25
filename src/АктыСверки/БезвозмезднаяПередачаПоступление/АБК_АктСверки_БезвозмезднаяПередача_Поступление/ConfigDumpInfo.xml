@@ -2,11 +2,11 @@
 <ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.17">
 	<ConfigVersions>
 		<Metadata name="CommonPicture.Папка" id="72e70910-0909-4290-b6dc-8f8f3bc5193d" configVersion="5048db6852ebdf70880d179eb8f326dbd7c882a3"/>
-		<Metadata name="Configuration.АБК_АктСверки_БезвозмезднаяПередача_Поступление" id="64444d84-f924-45dc-a361-0645ca9ace4c" configVersion="aece0a9a16a8d27ec368bb2e1c4792ebeb65d7ce"/>
+		<Metadata name="Configuration.АБК_АктСверки_БезвозмезднаяПередача_Поступление" id="64444d84-f924-45dc-a361-0645ca9ace4c" configVersion="f19de4ef1446e129b7f001af15248b0a58e3c659"/>
 		<Metadata name="Document.АктСверкиВзаиморасчетов" id="80128325-03e5-4c49-992e-86ffa830a9d8" configVersion="eba31546b2d35df190383b3f134a97943ed9404c"/>
 		<Metadata name="Document.АктСверкиВзаиморасчетов.Form.ФормаДокумента" id="cb4f1fb1-c827-428e-a836-04579796c5d4" configVersion="d20e6d0338fa2a59aa8f2579c313755323095f63"/>
 		<Metadata name="Document.АктСверкиВзаиморасчетов.Form.ФормаДокумента.Form" id="cb4f1fb1-c827-428e-a836-04579796c5d4.0" configVersion="2da6c0111eb869df42bd9c6ec5796b8b92844358"/>
-		<Metadata name="Document.АктСверкиВзаиморасчетов.ManagerModule" id="80128325-03e5-4c49-992e-86ffa830a9d8.2" configVersion="52cfa9484721fe2d68599030ef71a2e64ba13baa"/>
+		<Metadata name="Document.АктСверкиВзаиморасчетов.ManagerModule" id="80128325-03e5-4c49-992e-86ffa830a9d8.2" configVersion="cfb0be8c0933c8f4e6dd59a6a3eaed775385ce5c"/>
 		<Metadata name="Language.Русский" id="d9ad4142-06c7-4c77-9270-e3773573af54" configVersion="5686a1742fccfbf390b53dfbb0e9bf9d1d3295f8"/>
 		<Metadata name="StyleItem.ИтогиФонГруппы" id="20d38739-eed9-4619-a218-77176a471d9f" configVersion="c0d99586e5a52caf0b2ec7af0a8dac48c8769493"/>
 		<Metadata name="StyleItem.НедоступныеДанныеЦвет" id="2964cf6f-d495-46ea-ad1a-d70aa5a93a66" configVersion="920d6877ea2727e68a87a2b5f310560ce84b3222"/>
