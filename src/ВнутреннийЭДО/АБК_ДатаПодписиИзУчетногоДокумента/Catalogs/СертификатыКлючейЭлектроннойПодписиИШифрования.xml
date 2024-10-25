@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
+	<Catalog uuid="8b78e71d-2d1a-4458-afb3-964d90d6db0f">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.СертификатыКлючейЭлектроннойПодписиИШифрования" category="Object">
+				<xr:TypeId>29f273ff-9a76-4c58-bbb7-941a64625d9b</xr:TypeId>
+				<xr:ValueId>390e5cbc-9a9d-43df-b81f-c4f437ddcc7e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.СертификатыКлючейЭлектроннойПодписиИШифрования" category="Ref">
+				<xr:TypeId>6d7a6378-02cb-4f77-a26c-12d92bcbeb1f</xr:TypeId>
+				<xr:ValueId>4a991df0-9e1f-480b-8e76-4620a5da349c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.СертификатыКлючейЭлектроннойПодписиИШифрования" category="Selection">
+				<xr:TypeId>09bac6bb-27da-4bfd-9a89-905afa17e9a5</xr:TypeId>
+				<xr:ValueId>eb2ebab9-4036-4c32-a96f-f6311b3e3a92</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.СертификатыКлючейЭлектроннойПодписиИШифрования" category="List">
+				<xr:TypeId>df96b584-4488-45f8-b668-75a19f383000</xr:TypeId>
+				<xr:ValueId>8730ff97-b74b-4961-a829-9a3c3fcc1cae</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.СертификатыКлючейЭлектроннойПодписиИШифрования" category="Manager">
+				<xr:TypeId>97606960-bbbf-4f57-85ae-78094c2545cf</xr:TypeId>
+				<xr:ValueId>284141f1-9fa9-47ba-a347-7d1e834498b1</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>СертификатыКлючейЭлектроннойПодписиИШифрования</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>81d900be-ddc1-417f-ae2c-1aacf040de9a</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<Form>ПодписаниеДанных</Form>
+		</ChildObjects>
+	</Catalog>
+</MetaDataObject>

@@ -1,57 +1,57 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
-	<Configuration uuid="5bbb8e8d-8bc1-4073-9684-5e5ad1238dc8">
+	<Configuration uuid="f6606ef6-cacb-4821-8b8d-2eb206349ab0">
 		<InternalInfo>
 			<xr:ContainedObject>
 				<xr:ClassId>9cd510cd-abfc-11d4-9434-004095e12fc7</xr:ClassId>
-				<xr:ObjectId>07573f27-f8d9-4415-983c-0f8fc26fb26e</xr:ObjectId>
+				<xr:ObjectId>bbea6ede-880a-4441-b4d8-437a4eff1ba6</xr:ObjectId>
 			</xr:ContainedObject>
 			<xr:ContainedObject>
 				<xr:ClassId>9fcd25a0-4822-11d4-9414-008048da11f9</xr:ClassId>
-				<xr:ObjectId>ac534fc0-77e8-4d32-b62b-42cb07b71fbd</xr:ObjectId>
+				<xr:ObjectId>b920b037-139d-43a0-ac1b-dc7dca0d6a9a</xr:ObjectId>
 			</xr:ContainedObject>
 			<xr:ContainedObject>
 				<xr:ClassId>e3687481-0a87-462c-a166-9f34594f9bba</xr:ClassId>
-				<xr:ObjectId>b43caed1-3ba7-401a-ab94-026f15b8bddc</xr:ObjectId>
+				<xr:ObjectId>7463d978-149d-4d62-8295-3121c930507d</xr:ObjectId>
 			</xr:ContainedObject>
 			<xr:ContainedObject>
 				<xr:ClassId>9de14907-ec23-4a07-96f0-85521cb6b53b</xr:ClassId>
-				<xr:ObjectId>70325cd1-1457-4d5d-b4e6-ce461de217ca</xr:ObjectId>
+				<xr:ObjectId>3c675f35-9552-49c2-82e2-fd98fc5711c6</xr:ObjectId>
 			</xr:ContainedObject>
 			<xr:ContainedObject>
 				<xr:ClassId>51f2d5d8-ea4d-4064-8892-82951750031e</xr:ClassId>
-				<xr:ObjectId>5db02e0d-6469-45cc-b761-f83336b03fc0</xr:ObjectId>
+				<xr:ObjectId>656581a0-76a5-4771-a3d1-61366ae53bc6</xr:ObjectId>
 			</xr:ContainedObject>
 			<xr:ContainedObject>
 				<xr:ClassId>e68182ea-4237-4383-967f-90c1e3370bc7</xr:ClassId>
-				<xr:ObjectId>74370c38-c6a8-4ab4-9783-17b1661d110e</xr:ObjectId>
+				<xr:ObjectId>51894e6c-34ad-4fe0-93a2-a34635097aaa</xr:ObjectId>
 			</xr:ContainedObject>
 			<xr:ContainedObject>
 				<xr:ClassId>fb282519-d103-4dd3-bc12-cb271d631dfc</xr:ClassId>
-				<xr:ObjectId>0a30ecd3-f2ef-4c59-947b-c8db14bfce55</xr:ObjectId>
+				<xr:ObjectId>6440dc65-278c-4e4b-82a9-c482b788c6f8</xr:ObjectId>
 			</xr:ContainedObject>
 		</InternalInfo>
 		<Properties>
 			<ObjectBelonging>Adopted</ObjectBelonging>
-			<Name>АБК_ОтчетОРасходахПодотчетногоЛица_ОтключениеПроверкиОКПД_96_38</Name>
+			<Name>АБК_ДатаПодписиИзУчетногоДокумента</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>АБК отчет о расходах подотчетного лица отключение проверки ОКПД 96 38</v8:content>
+					<v8:content>АБК дата подписи из учетного документа</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
 			<ConfigurationExtensionPurpose>Customization</ConfigurationExtensionPurpose>
 			<KeepMappingToExtendedConfigurationObjectsByIDs>true</KeepMappingToExtendedConfigurationObjectsByIDs>
-			<NamePrefix>АБК_</NamePrefix>
-			<ConfigurationExtensionCompatibilityMode>Version8_3_17</ConfigurationExtensionCompatibilityMode>
+			<NamePrefix>Расш2_</NamePrefix>
+			<ConfigurationExtensionCompatibilityMode>Version8_3_21</ConfigurationExtensionCompatibilityMode>
 			<DefaultRunMode>ManagedApplication</DefaultRunMode>
 			<UsePurposes>
 				<v8:Value xsi:type="app:ApplicationUsePurpose">PlatformApplication</v8:Value>
 			</UsePurposes>
 			<ScriptVariant>Russian</ScriptVariant>
-			<Vendor>ООО "Апогей-БК"</Vendor>
-			<Version>1.0.0.0</Version>
+			<Vendor>ООО "АпогейБК"</Vendor>
+			<Version>1.0.0.1</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<BriefInformation/>
 			<DetailedInformation/>
@@ -62,7 +62,13 @@
 		</Properties>
 		<ChildObjects>
 			<Language>Русский</Language>
-			<Document>ОтчетОРасходахПодотчетногоЛица</Document>
+			<StyleItem>ПоясняющийТекст</StyleItem>
+			<CommonPicture>СтадииПодписанияВнутреннегоЭДО</CommonPicture>
+			<CommonPicture>ВидыЭлектронныхПодписей</CommonPicture>
+			<CommonModule>ЭлектроннаяПодписьСлужебныйКлиент</CommonModule>
+			<CommonModule>АБК_Дополнительные_Функции_ЭДО</CommonModule>
+			<CommonForm>ПодписаниеДанныхПростойПодписьюБГУ</CommonForm>
+			<Catalog>СертификатыКлючейЭлектроннойПодписиИШифрования</Catalog>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>

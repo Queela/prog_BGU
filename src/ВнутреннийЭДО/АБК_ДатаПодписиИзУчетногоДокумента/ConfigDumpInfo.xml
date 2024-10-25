@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.17">
+	<ConfigVersions>
+		<Metadata name="Catalog.СертификатыКлючейЭлектроннойПодписиИШифрования" id="8b78e71d-2d1a-4458-afb3-964d90d6db0f" configVersion="ea677e97f5349090c57aa39f56a544e913f934c7"/>
+		<Metadata name="Catalog.СертификатыКлючейЭлектроннойПодписиИШифрования.Form.ПодписаниеДанных" id="809e5d21-43f4-4da1-9873-d3aa7a064185" configVersion="c5e14f16aff5679da769d1ff4d1c72c9dc9297d2"/>
+		<Metadata name="Catalog.СертификатыКлючейЭлектроннойПодписиИШифрования.Form.ПодписаниеДанных.Form" id="809e5d21-43f4-4da1-9873-d3aa7a064185.0" configVersion="c28dcf066d98bc917416622d05efc5a99e112376"/>
+		<Metadata name="CommonForm.ПодписаниеДанныхПростойПодписьюБГУ" id="f8f9ef0c-ed29-4fcb-892e-cd0bc56e540a" configVersion="f00b01277f7f21bf7a1456c320cabf3fea101229"/>
+		<Metadata name="CommonForm.ПодписаниеДанныхПростойПодписьюБГУ.Form" id="f8f9ef0c-ed29-4fcb-892e-cd0bc56e540a.0" configVersion="67a4ddb2299e502f320f9fa8f2adab02607b4606"/>
+		<Metadata name="CommonModule.АБК_Дополнительные_Функции_ЭДО" id="86f7ddcb-9826-45fb-833c-a50747b5b8bf" configVersion="0000f99fc2d7c594a3f0b406b3b4cfcbde3cc14b"/>
+		<Metadata name="CommonModule.АБК_Дополнительные_Функции_ЭДО.Module" id="86f7ddcb-9826-45fb-833c-a50747b5b8bf.0" configVersion="1d18d31d03811db1e701ab858935fdac5fb6aede"/>
+		<Metadata name="CommonModule.ЭлектроннаяПодписьСлужебныйКлиент" id="85939f83-7081-4337-8699-5b1220aca30e" configVersion="0092b891f5e4e88d43af857707c94e6e48f4d0d2"/>
+		<Metadata name="CommonModule.ЭлектроннаяПодписьСлужебныйКлиент.Module" id="85939f83-7081-4337-8699-5b1220aca30e.0" configVersion="d8cc4fad297ae12e8f565e308efe5381160ae532"/>
+		<Metadata name="CommonPicture.ВидыЭлектронныхПодписей" id="b54f2a1b-9d27-4b36-81a7-37d8899f66c4" configVersion="02f3f57e9b26f329e9f5ce58a1fcd19f645c3f03"/>
+		<Metadata name="CommonPicture.СтадииПодписанияВнутреннегоЭДО" id="4d222c2f-345b-4cc0-9c58-3d0818abc515" configVersion="094212113a586933866eea28777015e23cc1cf71"/>
+		<Metadata name="Configuration.АБК_ДатаПодписиИзУчетногоДокумента" id="f6606ef6-cacb-4821-8b8d-2eb206349ab0" configVersion="4740d970c5e4215116f87ea793e0cbb346469b08"/>
+		<Metadata name="Language.Русский" id="318161da-aed0-424f-b7dc-8dc44bf538ec" configVersion="520b532923935c13d7ad9b7527bf3ef9ae218f1e"/>
+		<Metadata name="StyleItem.ПоясняющийТекст" id="eb3cffbf-c967-45b9-92a4-ba11d06c4fcf" configVersion="2b5569e987d41b68d9a2de0dc1338309cf2aedc5"/>
+	</ConfigVersions>
+</ConfigDumpInfo>
