@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
+	<Document uuid="bff14592-8460-4113-9364-3fc182b34430">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ЗаявкаНаКассовыйРасход" category="Object">
+				<xr:TypeId>a43b0164-20c4-4e57-8410-bf0142bd5d17</xr:TypeId>
+				<xr:ValueId>c8cac162-ff34-4746-bd69-faa836126ad4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ЗаявкаНаКассовыйРасход" category="Ref">
+				<xr:TypeId>91d96e37-9fba-4378-b5e5-9f770c42c97d</xr:TypeId>
+				<xr:ValueId>b26f442a-125e-4bf7-872f-726af67627e5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ЗаявкаНаКассовыйРасход" category="Selection">
+				<xr:TypeId>452d1de9-9d95-474e-8667-45ae80d35640</xr:TypeId>
+				<xr:ValueId>98761df6-d148-4d8f-b102-99a51dd3c103</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ЗаявкаНаКассовыйРасход" category="List">
+				<xr:TypeId>30db7c0b-b5f7-4b36-bce9-f0862d37d837</xr:TypeId>
+				<xr:ValueId>ebef9455-dfcd-4298-9eeb-06646c26908d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ЗаявкаНаКассовыйРасход" category="Manager">
+				<xr:TypeId>a12c4cbf-a1e0-46d8-bca6-37b359ee97b2</xr:TypeId>
+				<xr:ValueId>ea75f334-1168-49fb-8511-376ce167dfea</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ЗаявкаНаКассовыйРасход</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>ac13c918-ce37-40fe-8fb7-1d900dc2899a</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

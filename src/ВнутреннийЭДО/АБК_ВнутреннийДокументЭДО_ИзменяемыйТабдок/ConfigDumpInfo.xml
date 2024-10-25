@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.17">
+	<ConfigVersions>
+		<Metadata name="CommonModule.ВнутреннийЭДО" id="af7a184e-cf69-468d-94bb-1dc8662ae8ba" configVersion="8c8bda3485ab147f168cf2dd7d84bcba3a6abd29"/>
+		<Metadata name="CommonModule.ВнутреннийЭДО.Module" id="af7a184e-cf69-468d-94bb-1dc8662ae8ba.0" configVersion="a020627b89c831be27af98d470b49f785212b9e9"/>
+		<Metadata name="CommonModule.УправлениеПечатью" id="eca8f9e0-6458-4425-942d-8e4da6b7ffaa" configVersion="5bd82858783b19d159347e8afc794a7be390835a"/>
+		<Metadata name="CommonModule.УправлениеПечатью.Module" id="eca8f9e0-6458-4425-942d-8e4da6b7ffaa.0" configVersion="2ccab06bf15c67937d37290040b1abcf25f1c8e9"/>
+		<Metadata name="CommonPicture.ВидыЭлектронныхПодписей" id="44611dfb-f7fc-42c5-9282-8ba7ce5d8d00" configVersion="5384d412d4d5f63084cec54e072b8964233af50c"/>
+		<Metadata name="CommonPicture.СтадииПодписанияВнутреннегоЭДО" id="8d5c37f7-1619-41a3-a286-261823453929" configVersion="13b86cffa7ace0c8f06ffd30c0d3937724d51bb6"/>
+		<Metadata name="Configuration.АБК_ВнутреннийДокументЭДО_ИзменяемыйТабдок" id="d80f539a-056b-4c58-a0a6-543f8fb2dc40" configVersion="682c85fb50a0ff25fad27f6a6c74c07d5becda23"/>
+		<Metadata name="Document.ВнутреннийЭлектронныйДокумент" id="a56ab5df-2a22-4bb3-b64f-9147ed6ac99e" configVersion="2a4d9df01ddf5da5da2351516c7d5f5419f92b85"/>
+		<Metadata name="Document.ВнутреннийЭлектронныйДокумент.Form.ФормаДокумента" id="2b13359b-d075-48c5-b7d2-e2c380b562d4" configVersion="f420b28526aac48f06ee1e9c73553e41151c8b04"/>
+		<Metadata name="Document.ВнутреннийЭлектронныйДокумент.Form.ФормаДокумента.Form" id="2b13359b-d075-48c5-b7d2-e2c380b562d4.0" configVersion="ce643c1103f9558699d1eee40485b406cfcfd553"/>
+		<Metadata name="Language.Русский" id="10686ad4-cb9f-4fcd-9178-fb359efb25fa" configVersion="908b421a8106b174808953d6e1578e3774832778"/>
+	</ConfigVersions>
+</ConfigDumpInfo>

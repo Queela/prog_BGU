@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
+	<Document uuid="7f9ee05d-cb1d-4eac-9b61-c306dc1382f5">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ВедомостьНаВыдачуДенегИзКассы" category="Object">
+				<xr:TypeId>e40ec65a-56a0-4eb4-afad-7c127b291cb5</xr:TypeId>
+				<xr:ValueId>2bfdb53f-3b84-48fd-99c2-d310c8a54700</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ВедомостьНаВыдачуДенегИзКассы" category="Ref">
+				<xr:TypeId>d836945b-43fe-4d3c-80d8-363717c29ce2</xr:TypeId>
+				<xr:ValueId>aa0c30c7-5354-47e4-8d13-0e143fee8053</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ВедомостьНаВыдачуДенегИзКассы" category="Selection">
+				<xr:TypeId>07690f86-8169-419f-a7ed-e541a5cfd9c7</xr:TypeId>
+				<xr:ValueId>20b9f469-af14-4779-80ea-7a1fd66dcdf2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ВедомостьНаВыдачуДенегИзКассы" category="List">
+				<xr:TypeId>413b42bc-6679-45f0-ab0a-52fa32251a12</xr:TypeId>
+				<xr:ValueId>d2010ed5-3c08-4861-8a27-d5ef3d708f5f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ВедомостьНаВыдачуДенегИзКассы" category="Manager">
+				<xr:TypeId>0ebe11ea-b587-4373-a422-67366f56827b</xr:TypeId>
+				<xr:ValueId>46a67286-8390-42be-a594-349a3205f18b</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ВедомостьНаВыдачуДенегИзКассы</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>3d7278de-8944-41fd-b70e-e0684e1e1eac</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
+	<Document uuid="5a16a2bd-a971-41f1-9547-f37a095b04a8">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ВедомостьНаВыдачуПодотчетнымЛицам" category="Object">
+				<xr:TypeId>2f82f5ac-9cc2-4f43-800c-6ac11cb7caaf</xr:TypeId>
+				<xr:ValueId>d1f84f18-21a2-4700-ba4e-4b39dfd9ab74</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ВедомостьНаВыдачуПодотчетнымЛицам" category="Ref">
+				<xr:TypeId>edd3ff63-543d-4bf6-8376-213efbe55f8c</xr:TypeId>
+				<xr:ValueId>265758eb-4e18-44d8-88de-edac3535333a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ВедомостьНаВыдачуПодотчетнымЛицам" category="Selection">
+				<xr:TypeId>96b3ce20-ab93-4124-acc1-f6782b969341</xr:TypeId>
+				<xr:ValueId>34686080-3897-4a92-8862-0372e5d4a1bf</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ВедомостьНаВыдачуПодотчетнымЛицам" category="List">
+				<xr:TypeId>ddbb2740-dfe1-4323-8f38-a6b1ab89ec66</xr:TypeId>
+				<xr:ValueId>f898c392-4f4b-4c42-ac1b-fd4ff342b5ed</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ВедомостьНаВыдачуПодотчетнымЛицам" category="Manager">
+				<xr:TypeId>bd15899c-8ba9-47c4-97c1-4fdf92d4abd9</xr:TypeId>
+				<xr:ValueId>0c48fa82-f09c-49b4-8d42-6291d61f2ac0</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ВедомостьНаВыдачуПодотчетнымЛицам</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>b34bd8d5-d288-42fb-8996-553b16574513</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

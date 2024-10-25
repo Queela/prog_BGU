@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
+	<Document uuid="4ae94ee8-271b-4d2d-912f-ac5fcfa137c1">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ЭквайринговаяОперация" category="Object">
+				<xr:TypeId>ef6e4bfe-f069-4d7c-b8a6-db3d6d6bc5b6</xr:TypeId>
+				<xr:ValueId>a1bb1ccb-82e8-4e39-8466-4088eb70aa0d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ЭквайринговаяОперация" category="Ref">
+				<xr:TypeId>0cf6b4f2-4715-4e07-8406-6547ceefb1d6</xr:TypeId>
+				<xr:ValueId>d1d821c2-ac07-42d5-8339-41de3f2bca55</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ЭквайринговаяОперация" category="Selection">
+				<xr:TypeId>35b5da22-8505-4b09-9a11-9b1f117065a2</xr:TypeId>
+				<xr:ValueId>0ada880c-579c-42e9-b3d4-418c0b491aed</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ЭквайринговаяОперация" category="List">
+				<xr:TypeId>596e7e41-2974-44c0-bd3f-010c79a03420</xr:TypeId>
+				<xr:ValueId>0a9783e2-f7d3-4354-b473-ea8e2d347415</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ЭквайринговаяОперация" category="Manager">
+				<xr:TypeId>7e1bb06a-c549-483d-9c98-a87e34401548</xr:TypeId>
+				<xr:ValueId>c720c738-fa6f-4cc2-8408-8b9c02cef80b</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ЭквайринговаяОперация</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>de945fa9-4c97-4e2e-b232-db212fdd3411</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

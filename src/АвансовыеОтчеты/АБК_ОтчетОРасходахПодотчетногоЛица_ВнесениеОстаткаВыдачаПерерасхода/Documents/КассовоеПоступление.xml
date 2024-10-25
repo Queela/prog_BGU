@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
+	<Document uuid="bcb93545-83bb-4c93-8e38-f879c65ecc0e">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.КассовоеПоступление" category="Object">
+				<xr:TypeId>6436e6fd-fe24-40b4-afe6-42af8fbdca96</xr:TypeId>
+				<xr:ValueId>58a24ff4-b068-4a83-a9f4-db1582b5b0e1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.КассовоеПоступление" category="Ref">
+				<xr:TypeId>2ab51051-4ba2-4dd7-9974-83f6ee75f3fc</xr:TypeId>
+				<xr:ValueId>8e4bc3a6-cc1a-489f-814f-49374312b1bd</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.КассовоеПоступление" category="Selection">
+				<xr:TypeId>9261c471-25bc-475b-8742-5a545c03ad56</xr:TypeId>
+				<xr:ValueId>28b709d9-6133-400a-9828-f5a44c7df02b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.КассовоеПоступление" category="List">
+				<xr:TypeId>1da2a1f7-a1fe-46cf-a9c5-7aaef51d63c2</xr:TypeId>
+				<xr:ValueId>7ef53ada-13ed-4855-aca6-faaca5bd23fb</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.КассовоеПоступление" category="Manager">
+				<xr:TypeId>4f46ece3-d5ba-462b-85fe-f61b9db8d4e1</xr:TypeId>
+				<xr:ValueId>d3282829-bc96-402d-bfb7-4c806ae0927c</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>КассовоеПоступление</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>7d23bff6-f606-4b00-ab46-d9cd56641418</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

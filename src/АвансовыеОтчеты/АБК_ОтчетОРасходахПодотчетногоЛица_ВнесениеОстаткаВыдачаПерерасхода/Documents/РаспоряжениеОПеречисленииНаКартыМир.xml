@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
+	<Document uuid="d78a532a-c6e9-4e61-bacc-0326337e77bb">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.РаспоряжениеОПеречисленииНаКартыМир" category="Object">
+				<xr:TypeId>c31c1dab-5de9-42e9-a472-edb96c3ac069</xr:TypeId>
+				<xr:ValueId>fab83d04-bba1-4e64-81d4-a557de51ef94</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.РаспоряжениеОПеречисленииНаКартыМир" category="Ref">
+				<xr:TypeId>ecf6fe50-ab21-478f-9f52-7949593ca016</xr:TypeId>
+				<xr:ValueId>aa4f08a1-0dae-41d4-aed3-77f67852135e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.РаспоряжениеОПеречисленииНаКартыМир" category="Selection">
+				<xr:TypeId>2cef73cd-b620-43b0-8275-4c1898e8eea4</xr:TypeId>
+				<xr:ValueId>bda80ac1-b275-4b21-b7e4-d604eca12d43</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.РаспоряжениеОПеречисленииНаКартыМир" category="List">
+				<xr:TypeId>ec70353f-b545-4e06-a3e8-2e75ec97043b</xr:TypeId>
+				<xr:ValueId>2b828674-3e61-4f06-bf9a-38050123bacd</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.РаспоряжениеОПеречисленииНаКартыМир" category="Manager">
+				<xr:TypeId>00d6fa4d-cc9b-462a-b3ef-bbcb19183939</xr:TypeId>
+				<xr:ValueId>7034c6c1-c673-4d56-af51-6915601e5dcf</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>РаспоряжениеОПеречисленииНаКартыМир</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>4b708845-eb0a-4070-8b04-6269d2a4e3c8</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.17">
+	<ConfigVersions>
+		<Metadata name="Catalog.Валюты" id="c3a278cf-6974-49cd-803f-edeecf521397" configVersion="30447bf669649e8dfed40ec21b8ea0ec80fd464c"/>
+		<Metadata name="Catalog.КлассификационныеПризнакиСчетов" id="212d079a-cc1c-4f76-b89a-bfead6b4803f" configVersion="ef873ad47da034a6bee55dfb1cace13a8488a7b7"/>
+		<Metadata name="Catalog.Организации" id="809d3a17-b6e1-462e-ba49-54688f013b8b" configVersion="864ae41a0be02705115f5b079a67bc6325125263"/>
+		<Metadata name="ChartOfAccounts.ЕПСБУ" id="1884370f-51ed-4788-be2a-2e5cec900172" configVersion="bf9984c26b51e081f36d16e296c769eeb2830aad"/>
+		<Metadata name="CommonModule.РасчетыСПодотчетнымиЛицами" id="83d30ae4-3137-4251-b3ad-6c8bcda9ea3e" configVersion="7ee31a87d594494f04b5ce67b41f61983a47bebd"/>
+		<Metadata name="CommonModule.РасчетыСПодотчетнымиЛицами.Module" id="83d30ae4-3137-4251-b3ad-6c8bcda9ea3e.0" configVersion="5ebc0fd014bcba5d698688ccadfa72cb7b08ed59"/>
+		<Metadata name="CommonPicture.Защита" id="5a25db90-59e4-489c-b6fc-a8498b2d9c22" configVersion="095dcbe7e2f3b7a43550a6aa2b43779aeb35281d"/>
+		<Metadata name="Configuration.АБК_ОтчетОРасходахПодотчетногоЛица_ВнесениеОстаткаВыдачаПерерасхода" id="65131ded-684b-477b-a32c-ef7e7af49da7" configVersion="473b22be25b2f1bc3f60b484e0d03ca90bf0e8da"/>
+		<Metadata name="Document.ВедомостьНаВыдачуДенегИзКассы" id="7f9ee05d-cb1d-4eac-9b61-c306dc1382f5" configVersion="1e7a2c9be0572998b3b013985d6922cea16099c7"/>
+		<Metadata name="Document.ВедомостьНаВыдачуПодотчетнымЛицам" id="5a16a2bd-a971-41f1-9547-f37a095b04a8" configVersion="7d544dbe6092443153cbbf52ba091e925527aa37"/>
+		<Metadata name="Document.ЗаявкаНаКассовыйРасход" id="bff14592-8460-4113-9364-3fc182b34430" configVersion="b774c62b661b4517b3ee868f32520d8392417017"/>
+		<Metadata name="Document.ЗаявкаНаКассовыйРасходСокращенная" id="d5e40c3e-dc39-4a03-b3b4-60cf1a1e42d6" configVersion="bc8d7c6e02550ae60744147cfa339e2077985f75"/>
+		<Metadata name="Document.КассовоеВыбытие" id="62eba2b5-cc11-47c8-b135-73f86d3e2f71" configVersion="cc955f8808d8783ffd1f3f6750dbe022ddcefca7"/>
+		<Metadata name="Document.КассовоеПоступление" id="bcb93545-83bb-4c93-8e38-f879c65ecc0e" configVersion="0fe03b599e1e16f03ce7897eff847b557496bedc"/>
+		<Metadata name="Document.ОперацияБух" id="39eaf8c9-213c-42a8-9dea-798a00effec0" configVersion="4f2d22bb24eacda84b48685caaf1566aba6b52de"/>
+		<Metadata name="Document.ОтчетОРасходахПодотчетногоЛица" id="595d2cd8-6b34-44e8-a58c-769412ca86ef" configVersion="d9cea5be5657dc8c3bd4e1e0af4bb0c63b3438f1">
+			<Metadata name="Document.ОтчетОРасходахПодотчетногоЛица.TabularSection.ОстатокПерерасход.Attribute.ДокументОстатка" id="331ccada-aa16-477e-ad6c-729b4c8bf5a6"/>
+			<Metadata name="Document.ОтчетОРасходахПодотчетногоЛица.Attribute.ОстатокПредыдущегоАванса" id="4df5c465-d82b-414e-afc3-57ee81937a2d"/>
+			<Metadata name="Document.ОтчетОРасходахПодотчетногоЛица.Attribute.Организация" id="59985cbf-5044-411b-960a-43ec9240e088"/>
+			<Metadata name="Document.ОтчетОРасходахПодотчетногоЛица.TabularSection.ОстатокПерерасход.Attribute.ДокументПерерасхода" id="6e5817e9-8c9a-4f8c-ac53-13b19ae38efe"/>
+			<Metadata name="Document.ОтчетОРасходахПодотчетногоЛица.Attribute.ПерерасходПредыдущегоАванса" id="739be70d-3ce2-471a-83ea-bd299dfd534f"/>
+			<Metadata name="Document.ОтчетОРасходахПодотчетногоЛица.Attribute.ПерерасходПредыдущегоАвансаВвалюте" id="a080b8a8-5fad-45a6-a765-479a87cfe4f6"/>
+			<Metadata name="Document.ОтчетОРасходахПодотчетногоЛица.TabularSection.ОстатокПерерасход" id="aa7c888d-2dc9-4832-b195-f91dd95763d9"/>
+			<Metadata name="Document.ОтчетОРасходахПодотчетногоЛица.Attribute.ОстатокПредыдущегоАвансаВВалюте" id="d3894bd2-e741-493a-a804-e9378ab2b956"/>
+		</Metadata>
+		<Metadata name="Document.ОтчетОРасходахПодотчетногоЛица.Form.ФормаДокумента" id="adb23827-01d7-4ecc-a1e5-95549e7b57f8" configVersion="fad584dbbf08fe63caccdab853e1020adc3239cf"/>
+		<Metadata name="Document.ОтчетОРасходахПодотчетногоЛица.Form.ФормаДокумента.Form" id="adb23827-01d7-4ecc-a1e5-95549e7b57f8.0" configVersion="d9c9f51e324d93b9aaef7f414bd436068237632d"/>
+		<Metadata name="Document.ОтчетОРасходахПодотчетногоЛица.ManagerModule" id="595d2cd8-6b34-44e8-a58c-769412ca86ef.2" configVersion="0f26c8685cb40ee4581f7000d692eb82ff174647"/>
+		<Metadata name="Document.ОтчетОРасходахПодотчетногоЛица.Template.ПФ_MXL_ОтчетОРасходахПодотчетногоЛица504520_ОстатокПерерасход" id="2d67b6d4-b7e0-40f4-81f1-a306fcda29a5" configVersion="9b39c461b98169eaca328e3aaa160bad4c93860e"/>
+		<Metadata name="Document.ОтчетОРасходахПодотчетногоЛица.Template.ПФ_MXL_ОтчетОРасходахПодотчетногоЛица504520_ОстатокПерерасход.Template" id="2d67b6d4-b7e0-40f4-81f1-a306fcda29a5.0" configVersion="be038cba64f9edef624461e1d2efc08b5f19219d"/>
+		<Metadata name="Document.ПлатежноеПоручение" id="273f89fe-6974-4c71-8d90-fd23ca0f382d" configVersion="2727c9e8de83efd68afde54bc0c3989a7f60c286"/>
+		<Metadata name="Document.ПриходныйКассовыйОрдер" id="ceb50206-2098-46e4-96db-71c98d746045" configVersion="19a9ff7006251d1fcc345b905db2387420ea5b24"/>
+		<Metadata name="Document.ПриходныйОрдерФондовый" id="ba90815e-98f2-4835-9bb9-6e7fc5af75af" configVersion="553ed9550e07ad390df0d7c455263265a8392b57"/>
+		<Metadata name="Document.РаспоряжениеОПеречисленииНаКартыМир" id="d78a532a-c6e9-4e61-bacc-0326337e77bb" configVersion="ea43930561258298da99ed30564876c52db71f0b"/>
+		<Metadata name="Document.РасходныйКассовыйОрдер" id="8e4235e7-9314-48ce-976e-52aad9715ebd" configVersion="85f9ad13071a724c6f9e83c672a425e9f67e47c4"/>
+		<Metadata name="Document.РасходныйОрдерФондовый" id="9f419adf-b79a-432b-be98-17b63e938e7e" configVersion="97c4e503ec9b396090c57470ddcd4c46bb0c5a71"/>
+		<Metadata name="Document.ЭквайринговаяОперация" id="4ae94ee8-271b-4d2d-912f-ac5fcfa137c1" configVersion="ce0d0c515ac11ea052c951c58967b6ddae1fe82c"/>
+		<Metadata name="Enum.КВД" id="9874451e-0bcc-4f11-9487-92ee47fac069" configVersion="f1133d98ca56ba57fc922309f88b49524a1febde"/>
+		<Metadata name="Language.Русский" id="ce96d2ff-54d7-41c4-a7b4-b8f90961fc7d" configVersion="3e6dab040d1e761d98f7dc18b80d710ae37ac056"/>
+		<Metadata name="StyleItem.ГиперссылкаЦвет" id="7d0af406-2f50-40ad-9b26-524eb48c27da" configVersion="6717f2b980c6cd41d24ee5b3c96bff0ea4fa7202"/>
+		<Metadata name="StyleItem.ЗаголовкиСтрокЦветТекста" id="dc3c946a-ec6f-4cc8-b4bd-17a2697042bb" configVersion="a781e7ca25bae7dc82c22edcf616ecd5639760f1"/>
+		<Metadata name="StyleItem.ИтогиФонГруппы" id="3cea6a08-9a6f-4955-b107-840fbb00e4ce" configVersion="748c815d75fbab022bcc0aa92bcb7c4c1227d091"/>
+		<Metadata name="StyleItem.ПоясняющийТекст" id="96c5711b-a32e-49b7-a37b-4dd036dc8016" configVersion="c44ed15a11e96616aa08e0b25041995c5b3c0f88"/>
+	</ConfigVersions>
+</ConfigDumpInfo>

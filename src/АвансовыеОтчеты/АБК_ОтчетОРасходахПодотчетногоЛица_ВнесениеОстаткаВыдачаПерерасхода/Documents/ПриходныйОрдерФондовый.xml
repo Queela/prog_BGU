@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
+	<Document uuid="ba90815e-98f2-4835-9bb9-6e7fc5af75af">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ПриходныйОрдерФондовый" category="Object">
+				<xr:TypeId>ce71ac3c-f4c9-4181-beba-b8f84169d96e</xr:TypeId>
+				<xr:ValueId>a31c77b0-a1a0-4454-be2f-98a835d6924d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ПриходныйОрдерФондовый" category="Ref">
+				<xr:TypeId>5f52f080-3b4a-4f12-8a33-f198aa44c9dc</xr:TypeId>
+				<xr:ValueId>62452316-d984-4653-bae5-bff1f0edd2f6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ПриходныйОрдерФондовый" category="Selection">
+				<xr:TypeId>35d9e1fa-fc31-459c-a354-27c55b6c5f1e</xr:TypeId>
+				<xr:ValueId>08c78666-71cd-44c9-b498-1bf7a4700990</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ПриходныйОрдерФондовый" category="List">
+				<xr:TypeId>58c88985-e234-47e6-a267-796d6f361eb4</xr:TypeId>
+				<xr:ValueId>849635f9-d3bc-4a4a-bae9-597369db0a18</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ПриходныйОрдерФондовый" category="Manager">
+				<xr:TypeId>2f137868-3f8c-4427-8bff-be4435c2fd2e</xr:TypeId>
+				<xr:ValueId>29c8af7d-331f-488b-83b8-de185d780f43</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ПриходныйОрдерФондовый</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>b32ad7de-d31e-4a89-9345-67be73241f8d</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

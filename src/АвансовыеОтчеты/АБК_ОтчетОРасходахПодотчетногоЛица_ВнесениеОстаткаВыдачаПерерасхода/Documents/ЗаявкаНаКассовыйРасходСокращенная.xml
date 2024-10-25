@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
+	<Document uuid="d5e40c3e-dc39-4a03-b3b4-60cf1a1e42d6">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ЗаявкаНаКассовыйРасходСокращенная" category="Object">
+				<xr:TypeId>d43f580e-53f4-479b-96da-903f60d91493</xr:TypeId>
+				<xr:ValueId>689ceab4-ffd6-4e7a-bfcf-7e54df85d5bd</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ЗаявкаНаКассовыйРасходСокращенная" category="Ref">
+				<xr:TypeId>68477157-02af-4036-8cc6-0279cf7ea80e</xr:TypeId>
+				<xr:ValueId>3688b2ee-216f-4547-8da4-7bfda5f0ab90</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ЗаявкаНаКассовыйРасходСокращенная" category="Selection">
+				<xr:TypeId>cf04161f-35e9-44fb-82f1-b3828a9da9ee</xr:TypeId>
+				<xr:ValueId>fcd31a47-9bcc-4bff-8cb9-89f2c4be0730</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ЗаявкаНаКассовыйРасходСокращенная" category="List">
+				<xr:TypeId>2a595d9c-87a6-4370-a196-946478c622ea</xr:TypeId>
+				<xr:ValueId>6a0ae933-1844-4ea1-a612-f00797d7efbd</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ЗаявкаНаКассовыйРасходСокращенная" category="Manager">
+				<xr:TypeId>86e9f138-1f02-402d-852d-adb7a6b92ad7</xr:TypeId>
+				<xr:ValueId>5b15b7cc-d31d-4d25-804d-e4feee079958</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ЗаявкаНаКассовыйРасходСокращенная</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>1396501b-51b0-4a5c-9e85-9a49414be8ca</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>
