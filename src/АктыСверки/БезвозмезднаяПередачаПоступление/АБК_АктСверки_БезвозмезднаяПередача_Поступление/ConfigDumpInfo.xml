@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.17">
+	<ConfigVersions>
+		<Metadata name="CommonPicture.Папка" id="72e70910-0909-4290-b6dc-8f8f3bc5193d" configVersion="5048db6852ebdf70880d179eb8f326dbd7c882a3"/>
+		<Metadata name="Configuration.АБК_АктСверки_БезвозмезднаяПередача_Поступление" id="64444d84-f924-45dc-a361-0645ca9ace4c" configVersion="abfde8c189e165ec8113eff25fcfafe15649b238"/>
+		<Metadata name="Document.АктСверкиВзаиморасчетов" id="80128325-03e5-4c49-992e-86ffa830a9d8" configVersion="eba31546b2d35df190383b3f134a97943ed9404c"/>
+		<Metadata name="Document.АктСверкиВзаиморасчетов.Form.ФормаДокумента" id="cb4f1fb1-c827-428e-a836-04579796c5d4" configVersion="d20e6d0338fa2a59aa8f2579c313755323095f63"/>
+		<Metadata name="Document.АктСверкиВзаиморасчетов.Form.ФормаДокумента.Form" id="cb4f1fb1-c827-428e-a836-04579796c5d4.0" configVersion="2da6c0111eb869df42bd9c6ec5796b8b92844358"/>
+		<Metadata name="Document.АктСверкиВзаиморасчетов.ManagerModule" id="80128325-03e5-4c49-992e-86ffa830a9d8.2" configVersion="31003472a45b83a96fa064b7f4524ff2055bb30c"/>
+		<Metadata name="Language.Русский" id="d9ad4142-06c7-4c77-9270-e3773573af54" configVersion="5686a1742fccfbf390b53dfbb0e9bf9d1d3295f8"/>
+		<Metadata name="StyleItem.ИтогиФонГруппы" id="20d38739-eed9-4619-a218-77176a471d9f" configVersion="c0d99586e5a52caf0b2ec7af0a8dac48c8769493"/>
+		<Metadata name="StyleItem.НедоступныеДанныеЦвет" id="2964cf6f-d495-46ea-ad1a-d70aa5a93a66" configVersion="920d6877ea2727e68a87a2b5f310560ce84b3222"/>
+		<Metadata name="StyleItem.ПросроченныеДанныеЦвет" id="669a5a3a-833f-4384-b7dd-19914dca6c62" configVersion="b290c899a06545fbeaecf18898e028153d610fed"/>
+		<Metadata name="StyleItem.СкрытыйВариантОтчетаЦвет" id="1cdc502c-61e8-401b-b5bb-e493a4071b4d" configVersion="fa82b635629f121a1e9559858aaae53d910b016c"/>
+		<Metadata name="StyleItem.ТекстИнформационнойНадписи" id="43ef8d05-062e-4060-b7e6-dbef9a3c78f6" configVersion="028db7d1ad73707a0cbf63f3bc53d26fabf286df"/>
+		<Metadata name="StyleItem.ЦветЗаполняемогоПоказателя" id="3d771311-ef11-4a37-abda-e9639440baae" configVersion="5adaf883f2249e98e91ed6a48fcf120cdaf621ec"/>
+		<Metadata name="StyleItem.ЦветНедоступноеПоле" id="1792a67d-e434-40e1-8ffc-a76606c684d6" configVersion="b7b753983de1b0b021ccfeb7fe4511020739d817"/>
+	</ConfigVersions>
+</ConfigDumpInfo>

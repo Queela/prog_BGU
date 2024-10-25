@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
+	<Document uuid="80128325-03e5-4c49-992e-86ffa830a9d8">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.АктСверкиВзаиморасчетов" category="Object">
+				<xr:TypeId>3ed2b00a-3e6d-471c-89fc-387728b4ea65</xr:TypeId>
+				<xr:ValueId>b0d6f5c7-0b71-4fa4-bc81-d110ec6e24ad</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.АктСверкиВзаиморасчетов" category="Ref">
+				<xr:TypeId>d7b0bfdb-e8c2-45fe-8390-4069c0f0175f</xr:TypeId>
+				<xr:ValueId>c99c4284-bc19-4f87-837b-106026533d3f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.АктСверкиВзаиморасчетов" category="Selection">
+				<xr:TypeId>bfabe83c-64d1-4e9e-b82c-0209d5db3d09</xr:TypeId>
+				<xr:ValueId>b4bebb7e-b6cf-4dde-8238-8552688c3bec</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.АктСверкиВзаиморасчетов" category="List">
+				<xr:TypeId>7aec6054-43b4-4cf1-84be-3e1d943c463a</xr:TypeId>
+				<xr:ValueId>0d42eae6-2337-47ab-aa0b-f20483944062</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.АктСверкиВзаиморасчетов" category="Manager">
+				<xr:TypeId>ec55da23-8baa-4470-af01-11efe2e9cf8a</xr:TypeId>
+				<xr:ValueId>9eee1ca6-53e2-4d19-b55b-475c44d6f308</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>АктСверкиВзаиморасчетов</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>7ac661a6-0d10-472d-9167-842f15cf6423</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Form>ФормаДокумента</Form>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>
