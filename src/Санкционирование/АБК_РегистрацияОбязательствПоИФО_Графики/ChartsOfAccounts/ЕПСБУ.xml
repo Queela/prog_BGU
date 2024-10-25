@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
+	<ChartOfAccounts uuid="d60bde10-1896-4c98-8141-1f5799b98d9c">
+		<InternalInfo>
+			<xr:GeneratedType name="ChartOfAccountsObject.ЕПСБУ" category="Object">
+				<xr:TypeId>dfe69c5b-247d-4841-aa34-6853c6998711</xr:TypeId>
+				<xr:ValueId>5da94d41-fd4c-481d-80f0-967324133a92</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ChartOfAccountsRef.ЕПСБУ" category="Ref">
+				<xr:TypeId>cf77e114-9105-4de4-bc4b-8bb96f31376e</xr:TypeId>
+				<xr:ValueId>14de42f9-e898-4e63-91e2-dfe849efd877</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ChartOfAccountsSelection.ЕПСБУ" category="Selection">
+				<xr:TypeId>ae947832-d0bc-4c31-a36b-dd378f17c3ab</xr:TypeId>
+				<xr:ValueId>a7a062bd-0b43-451f-977f-6fd640880985</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ChartOfAccountsList.ЕПСБУ" category="List">
+				<xr:TypeId>ab61d340-2b8f-4f2e-9dfa-91953b630070</xr:TypeId>
+				<xr:ValueId>bfeda028-8fac-4c70-a52f-0437ec08a279</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ChartOfAccountsManager.ЕПСБУ" category="Manager">
+				<xr:TypeId>9756172e-3d14-4862-a49a-f98db79cbacd</xr:TypeId>
+				<xr:ValueId>9600f8d7-1177-49de-bd3a-89a729f03fab</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ChartOfAccountsExtDimensionTypes.ЕПСБУ" category="ExtDimensionTypes">
+				<xr:TypeId>98776bb3-3c73-4de1-bfda-d5e2dbb6e8c2</xr:TypeId>
+				<xr:ValueId>941316fe-f3af-4b49-a4f8-a42dbdd507ad</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ChartOfAccountsExtDimensionTypesRow.ЕПСБУ" category="ExtDimensionTypesRow">
+				<xr:TypeId>d600a06c-6a93-4457-ba5b-a15743828476</xr:TypeId>
+				<xr:ValueId>10e5c2b1-63e8-4be8-a0e8-a0cf330ea652</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ЕПСБУ</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>ce7f1d90-b092-41ff-8b2e-ea1c8a1bac33</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</ChartOfAccounts>
+</MetaDataObject>

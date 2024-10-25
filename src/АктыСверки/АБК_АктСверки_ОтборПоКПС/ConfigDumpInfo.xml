@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.17">
+	<ConfigVersions>
+		<Metadata name="Catalog.КлассификационныеПризнакиСчетов" id="7eff0637-edb7-4b63-9bef-d296ee505ce0" configVersion="036612fcdb3fd5c0ca184fbe4a667e511a86a178"/>
+		<Metadata name="CommonPicture.Папка" id="22db8c10-8c7e-4b3d-a6e7-dd9c032b681b" configVersion="ee8e731473439dcb9c4d008c4cbd6ab80aaa005d"/>
+		<Metadata name="Configuration.АБК_АктСверки_ОтборПоКПС" id="ff59853d-a1a8-4545-bd5f-736324ff13f2" configVersion="289f0bec8770448674922976746ed9de27589cbd"/>
+		<Metadata name="Document.АктСверкиВзаиморасчетов" id="3399a99e-6fc2-4080-87e1-0400e5430e60" configVersion="45d5b4e0f618633cad101dbe1fe5cfe6dacf5df7"/>
+		<Metadata name="Document.АктСверкиВзаиморасчетов.Form.ФормаДокумента" id="2823dcca-eae3-4afa-bd69-402cfda77ac7" configVersion="175189cea65ca63367770b23072a61c3f30b7ab4"/>
+		<Metadata name="Document.АктСверкиВзаиморасчетов.Form.ФормаДокумента.Form" id="2823dcca-eae3-4afa-bd69-402cfda77ac7.0" configVersion="5954aca5465293aab9a237a188b533202d60c964"/>
+		<Metadata name="Document.АктСверкиВзаиморасчетов.ManagerModule" id="3399a99e-6fc2-4080-87e1-0400e5430e60.2" configVersion="211411e9efde312f2f0365dfc557967f732e3b87"/>
+		<Metadata name="Language.Русский" id="0732647f-3f3e-41da-a780-a1621a41b867" configVersion="c5c7ef887173644e2769e6bbcc29190d098faa6e"/>
+		<Metadata name="StyleItem.ЗаголовкиСтрокЦветТекста" id="623246f8-674a-4877-a377-eca7e1744602" configVersion="247e6ad8288047a352f9b23a2350f282d4007138"/>
+		<Metadata name="StyleItem.ИтогиФонГруппы" id="ab4f392f-bf49-4663-ba92-da7dee35af68" configVersion="bbb191adb8a4d5c32cae0fd79bfaf441bb12068b"/>
+		<Metadata name="StyleItem.НедоступныеДанныеЦвет" id="45c1e563-d541-4e1d-a0f5-80978e5deb8d" configVersion="457905eb7b9882605df4f57ad7828a172cada3dd"/>
+		<Metadata name="StyleItem.СкрытыйВариантОтчетаЦвет" id="51c966e7-787a-4ab5-94a0-66cd5430da91" configVersion="9e8ebdcca0d8322d1b596b40e9a1202a38f07382"/>
+		<Metadata name="StyleItem.ТекстИнформационнойНадписи" id="73f98987-6c39-41c0-ba92-f94f7477e1f9" configVersion="f05d9f96eb3b80104806f9cbeaaf3b23b6414487"/>
+	</ConfigVersions>
+</ConfigDumpInfo>

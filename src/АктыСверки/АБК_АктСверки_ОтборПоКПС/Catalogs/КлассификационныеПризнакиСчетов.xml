@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
+	<Catalog uuid="7eff0637-edb7-4b63-9bef-d296ee505ce0">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.КлассификационныеПризнакиСчетов" category="Object">
+				<xr:TypeId>a214f67f-8bef-4ed8-9308-413c7428dd7a</xr:TypeId>
+				<xr:ValueId>1b9e5c41-5a2a-4b5a-961e-f780196fbdde</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.КлассификационныеПризнакиСчетов" category="Ref">
+				<xr:TypeId>fcd2af65-87e9-4215-ae6c-a0cd7208c5d6</xr:TypeId>
+				<xr:ValueId>055660e6-e296-462d-a826-7556a4097cc2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.КлассификационныеПризнакиСчетов" category="Selection">
+				<xr:TypeId>60346ce3-956e-4ff7-8bbb-06552ec53078</xr:TypeId>
+				<xr:ValueId>88f94ff8-fbbb-42c4-9986-5058f1356eb8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.КлассификационныеПризнакиСчетов" category="List">
+				<xr:TypeId>2d24c53b-1093-4522-a710-ba9e8cf1edb7</xr:TypeId>
+				<xr:ValueId>844e5ec8-4576-4775-ad52-048a56b7fdb4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.КлассификационныеПризнакиСчетов" category="Manager">
+				<xr:TypeId>33f3a1cc-2341-4836-89d3-b3b304c6a15e</xr:TypeId>
+				<xr:ValueId>e4b1c500-97a3-45da-a9e2-fd1067864f28</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>КлассификационныеПризнакиСчетов</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>b831bb49-9616-4740-a43b-26dfa52da7d9</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

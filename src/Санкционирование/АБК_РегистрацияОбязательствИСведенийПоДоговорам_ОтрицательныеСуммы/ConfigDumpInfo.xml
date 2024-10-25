@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.17">
+	<ConfigVersions>
+		<Metadata name="Configuration.АБК_РегистрацияОбязательствИСведенийПоДоговорам_ОтрицательныеСуммы" id="0a0c25ad-b05f-467e-b0ab-a8bb4d2bbfb5" configVersion="b673bff79ac680861314d17be42ade2511a919e3"/>
+		<Metadata name="Document.РегистрацияОбязательствИСведенийПоДоговорам" id="453fc276-7b3d-4494-a101-d8e0d993e75b" configVersion="ce7a3f35010dc59d339d40e8b747d4f42acf7fc3"/>
+		<Metadata name="Document.РегистрацияОбязательствИСведенийПоДоговорам.ObjectModule" id="453fc276-7b3d-4494-a101-d8e0d993e75b.0" configVersion="df01f82ce35e85a72b85d1e34d771ef7dfb1faa7"/>
+		<Metadata name="Language.Русский" id="59141f03-a531-47f1-9495-c7925c69de7c" configVersion="0beeb309c9acb87b7578aabd1ff9ce16c2bc6e27"/>
+	</ConfigVersions>
+</ConfigDumpInfo>
