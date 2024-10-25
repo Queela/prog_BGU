@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
+	<Catalog uuid="afc279f9-c46d-4dea-94a0-5b97ae2c6d46">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.РеквизитыЛицевыхСчетов" category="Object">
+				<xr:TypeId>55913fef-b5a1-454f-b0ff-14a9ae817c51</xr:TypeId>
+				<xr:ValueId>8e4d050a-830e-4ec6-9c0a-35b599e8659b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.РеквизитыЛицевыхСчетов" category="Ref">
+				<xr:TypeId>fa736831-31d3-451c-b8ad-343c24878bb8</xr:TypeId>
+				<xr:ValueId>33d9fcf5-3612-4131-a811-fd0b3272e1b2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.РеквизитыЛицевыхСчетов" category="Selection">
+				<xr:TypeId>198fa991-25bc-4398-b127-9929fdfc1868</xr:TypeId>
+				<xr:ValueId>b7dc4c68-b536-4fdf-b3de-b0bc557e26d5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.РеквизитыЛицевыхСчетов" category="List">
+				<xr:TypeId>e817b795-4388-4991-8e97-b17e1b6d6987</xr:TypeId>
+				<xr:ValueId>11d6f037-0d3c-47a4-acd2-de3a1657770c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.РеквизитыЛицевыхСчетов" category="Manager">
+				<xr:TypeId>edf239e7-e523-4804-907a-302b73b37ecc</xr:TypeId>
+				<xr:ValueId>75f0ea5c-d2be-44e4-8db1-576fb38607df</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>РеквизитыЛицевыхСчетов</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>1c0ce6b0-358b-4e68-9fd5-12dc8340c849</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="31924596-631f-498c-aafa-d232670d0c50">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>КассовыйОрган</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>9ad96714-e9e7-48b8-8a3c-bdddc537b231</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="ab644e23-6ee7-4111-8728-3be05bb9195a">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>СчетКазначейства</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>334fa75a-984f-482c-87d8-eb765f71406d</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.БанковскиеИКазначейскиеСчета</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="61707a0f-2108-4fa4-a52f-43f7df684072">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ФилиалБанка</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>1f3ef22b-c486-4c41-b98a-c1f77f9b6959</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>50</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="d00e094c-b965-41c5-b285-bb4f0f39e2cb">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>МестонахождениеФилиалаБанка</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>365c4bc8-fb8b-4b74-aae3-5865f5ca558e</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>50</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="c28c4359-7cb3-4c8c-bf62-19f67b7cb213">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>БанкДляРасчетов</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>c97fe540-657a-4130-8179-bdbd4812b576</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Банки</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="ff5f0b74-d012-4329-9351-838e9d008891">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>КорреспондентТекст</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>978630cc-f74a-4a23-8b1c-1b6b7b3e5c46</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="1c7124bf-6784-454e-b357-8969ff3decf3">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>КорреспондентИНН</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>9ff93680-83a9-4db2-8b12-4bb30dd32efd</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>10</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="2cd7fc9f-b367-431f-b74a-e5e4cc837bc1">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>КорреспондентКПП</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>97c1b5a9-fd5d-4217-8e0b-ba3ccfcb0874</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>9</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="561ffb14-1a1a-4344-b2b4-a23ed3ffaedf">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>МесяцПрописью</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>3a3e3483-ec0a-4dbd-8cfd-434d24805eec</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="d3390883-6317-4877-b472-2cf2593175aa">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>СуммаБезКопеек</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>97c43503-8b7a-4f27-9953-201bf9735d36</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="5230407a-8f68-47d3-ad02-f5c9fc6129cd">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ВсегдаУказыватьКПП</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>864d415a-e89e-4c2c-8e9c-dcaa2667434a</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Catalog>
+</MetaDataObject>

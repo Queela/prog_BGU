@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
+	<Catalog uuid="5d3a8621-52dc-4e0f-b5a8-f7904904918a">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.Договоры" category="Object">
+				<xr:TypeId>183dad48-b94b-4a33-a954-44defceac854</xr:TypeId>
+				<xr:ValueId>aafb0701-1ada-496f-9d17-00688cc249ad</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.Договоры" category="Ref">
+				<xr:TypeId>1c3c7f4e-1b50-48dd-8680-69a9aa31f5d0</xr:TypeId>
+				<xr:ValueId>68bc3f93-d8a2-43e6-ac97-9adac78c9914</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.Договоры" category="Selection">
+				<xr:TypeId>754e642b-b84d-4c28-8781-97fa0f630d15</xr:TypeId>
+				<xr:ValueId>6d35b731-220b-40f9-9c85-35bcf050b873</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.Договоры" category="List">
+				<xr:TypeId>cddf6b24-3e37-4524-b03b-754743226fef</xr:TypeId>
+				<xr:ValueId>80b4d6e2-6383-46cd-8626-801153d89bc1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.Договоры" category="Manager">
+				<xr:TypeId>3ff760a3-ce40-4a2e-a2a7-082819409149</xr:TypeId>
+				<xr:ValueId>1be358d3-9b20-4d35-a814-6939c9a77a9b</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>Договоры</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>02f1f7ca-d38b-43a7-8fdd-dce676677505</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="1009fb97-f814-4764-9a57-e64a2c17f40b">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ВестиГрафикПлатежей</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>9b857f07-3734-4f28-897f-5d0f7c00fdfd</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="9d48ae1a-1255-42c8-af77-85c9ca91f19a">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ВестиПланГрафикИсполнения</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>59bf91d5-174b-4fda-bf6e-dac08318f382</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="a8407bdb-bf94-46ab-b3d8-bc77656e17aa">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ВидДоговора</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>13551ad7-b745-4833-a618-4220343c508e</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:EnumRef.ВидыДоговоровКонтрагентов</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Catalog>
+</MetaDataObject>

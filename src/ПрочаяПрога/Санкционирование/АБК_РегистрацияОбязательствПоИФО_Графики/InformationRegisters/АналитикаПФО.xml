@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
+	<InformationRegister uuid="385ee994-2b7c-41f1-b2c1-f89556267f24">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.АналитикаПФО" category="Record">
+				<xr:TypeId>27e3de65-b10d-405c-9ab1-f942be5bf487</xr:TypeId>
+				<xr:ValueId>0dab8efd-66a4-46d3-8e6e-0e7cde561c72</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.АналитикаПФО" category="Manager">
+				<xr:TypeId>0f9c36d0-f673-4a76-ab67-769707a51704</xr:TypeId>
+				<xr:ValueId>852bdc96-7a96-4671-ae18-033024d2726b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.АналитикаПФО" category="Selection">
+				<xr:TypeId>dbc7a23f-a368-490f-93f0-4395f0141c02</xr:TypeId>
+				<xr:ValueId>3b814e5b-b88a-4cfc-a28f-a3f27f6560a1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.АналитикаПФО" category="List">
+				<xr:TypeId>3491d26f-f3a5-4ffe-a8c8-e18111e807fa</xr:TypeId>
+				<xr:ValueId>271818d6-9578-4d15-99c8-ba705f9b0103</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.АналитикаПФО" category="RecordSet">
+				<xr:TypeId>c9765d58-318c-4da1-9806-9a3c1529540f</xr:TypeId>
+				<xr:ValueId>93e3d674-ab8a-464d-b049-968f3bde7afc</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.АналитикаПФО" category="RecordKey">
+				<xr:TypeId>a0486e74-af1f-40fe-a4f6-7053c25a74fb</xr:TypeId>
+				<xr:ValueId>fc33f754-f1b9-4102-930e-a07cc61bf93f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.АналитикаПФО" category="RecordManager">
+				<xr:TypeId>5e34916b-ba91-453f-aa09-6ab6a441c4be</xr:TypeId>
+				<xr:ValueId>2da45aea-e6fc-45d3-9ea3-9d19423b8e9e</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>АналитикаПФО</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>7411016b-f417-4eaa-bbfe-a5d772541b67</ExtendedConfigurationObject>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="b50d2b22-31ca-49e8-8ceb-aca44a440297">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>КлючАналитики</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>5406d85d-71c7-4e9d-907a-7563a4d38d5f</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.КлючАналитикиПФО</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Dimension uuid="28b0a12b-0cba-4c3e-b1cf-8cd88e023498">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>КФО</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>d456aafe-39c1-4a4e-a780-45fc90cb0cb7</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:EnumRef.КВД</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="17d7f703-ca3e-41e7-a7cf-a83fa26e7c15">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>КПС</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>9fc52185-a4c5-4c61-b54d-db14dc21af5b</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.КлассификационныеПризнакиСчетов</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="7e0ff8f6-69b7-4516-8fbf-c8f09839c908">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>КЭК</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>0e7d89dd-7916-43be-b9e3-0e0bdfbbd418</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.КОСГУ</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="9cf7d36f-e17e-4e9f-9f61-856249e5e0fd">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Номенклатура</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>da55357a-6b4b-4cf5-b572-c501424d73ef</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="6445a745-a828-473b-aafe-bd5f3e5db69e">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ЕдиницаИзмерения</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>2bdd9b0b-65cd-4d76-a430-c984a358648f</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.КлассификаторЕдиницИзмерения</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="2a00927f-7b25-45da-bfd0-a1012515d536">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>РазделЛицевогоСчета</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>b76c1144-46e7-4226-ac91-5047346a2d25</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.РазделыЛицевыхСчетов</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="33924cc8-0ce4-49ff-8699-8bfff2f9ef39">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>КодЦели</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>cee74f4d-f321-4d80-ab06-41fa969dcb41</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ВидыЦелевыхСредств</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="b44241d9-b2c0-487c-af4b-fb4f2bb69c05">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>КодМероприятия</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>fd9e2601-a3fe-48f2-825f-7ef746bbdcf1</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Мероприятия</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="7d0059d5-40e4-4296-a8aa-06ba95c02d8b">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДопКлассификация</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>31021145-2fed-4092-8a66-8329d2d602f9</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ДополнительнаяБюджетнаяКлассификация</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="68782fd8-6478-4c28-88ba-8f30b4049db6">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ПериодПлана</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>1d3976cf-3251-4988-86a4-2e9026717981</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Периоды</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="4bfa4977-d1ec-4107-8dfd-7a5e5365edd8">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ОбъектФАИП</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>cab5d911-484a-4442-b235-66c20ffbf8a0</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="51870264-638b-4539-9149-2050ff8e0154">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Подразделение</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>79e02748-5446-473d-8ad6-2470b7f5d137</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Подразделения</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

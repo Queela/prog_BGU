@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
+	<Catalog uuid="a5fd86d7-4617-4b20-8e68-52c4a6e66c7b">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ДополнительнаяБюджетнаяКлассификация" category="Object">
+				<xr:TypeId>c33ddaf8-31c8-4a50-9888-3cf1f674d2aa</xr:TypeId>
+				<xr:ValueId>e5cd262c-8303-4c49-ac08-148afeee88da</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ДополнительнаяБюджетнаяКлассификация" category="Ref">
+				<xr:TypeId>ce191030-96cd-4fb2-ba0c-90989fcbbbc5</xr:TypeId>
+				<xr:ValueId>077ee5c1-d9f7-441a-b158-8f853ae94c18</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ДополнительнаяБюджетнаяКлассификация" category="Selection">
+				<xr:TypeId>f53b4744-3daf-433f-b671-0ea58bef2738</xr:TypeId>
+				<xr:ValueId>be29028c-4675-4d04-a03d-67354c909c7c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ДополнительнаяБюджетнаяКлассификация" category="List">
+				<xr:TypeId>ae26346f-bc90-4299-87b1-749f7a975b8c</xr:TypeId>
+				<xr:ValueId>a6e49778-0828-4355-a4df-3d021b08d553</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ДополнительнаяБюджетнаяКлассификация" category="Manager">
+				<xr:TypeId>3ae931c0-1373-4c45-901e-d3a04b3d69f4</xr:TypeId>
+				<xr:ValueId>85524436-eb2b-4e99-95b3-b85c1f61a7a7</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ДополнительнаяБюджетнаяКлассификация</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>a46d02cf-1875-436c-861c-04cfc2d35ea7</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>
