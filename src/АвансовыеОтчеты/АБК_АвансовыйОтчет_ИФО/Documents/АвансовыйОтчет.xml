@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
+	<Document uuid="62882115-a839-4f51-9e0d-94b333d42758">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.АвансовыйОтчет" category="Object">
+				<xr:TypeId>55ae2aeb-0999-4454-87ad-42df3580b806</xr:TypeId>
+				<xr:ValueId>7bee9446-8c66-466b-86df-8edb4861774b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.АвансовыйОтчет" category="Ref">
+				<xr:TypeId>bc715f30-7694-40d4-b057-b94011f960ad</xr:TypeId>
+				<xr:ValueId>eee28dce-a364-4148-9b25-0657a489c73c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.АвансовыйОтчет" category="Selection">
+				<xr:TypeId>da00f69a-95e2-4865-963a-e500049ccd70</xr:TypeId>
+				<xr:ValueId>685b1bcd-225a-4be8-8f77-8af4ce76e3b3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.АвансовыйОтчет" category="List">
+				<xr:TypeId>3e01561e-26a2-4a06-8cec-99d62778ce0f</xr:TypeId>
+				<xr:ValueId>97ba141b-386e-48a6-8298-520335f311a4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.АвансовыйОтчет" category="Manager">
+				<xr:TypeId>84430554-9ca7-435b-a663-957b5344a205</xr:TypeId>
+				<xr:ValueId>d7f52e06-9d97-45f3-8bcf-83aa91357a8d</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>АвансовыйОтчет</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>97f438ca-c2a5-427f-adea-ac39b3414abf</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Form>ФормаДокумента</Form>
+			<Form>ФормаВыбораДокументаОплаты</Form>
+			<Form>ФормаВыбораПриходногоДокумента</Form>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

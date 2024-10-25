@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
+	<Enum uuid="ad3e1bb2-d7ab-4e86-b847-ee45f28a426b">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.СпособыОбеспеченияКомандировки" category="Ref">
+				<xr:TypeId>a67d9baf-a552-488f-9c2f-a867a0ccaa43</xr:TypeId>
+				<xr:ValueId>9221f855-298b-4240-ae0b-db1f96891744</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.СпособыОбеспеченияКомандировки" category="Manager">
+				<xr:TypeId>96a69f6f-8e35-4aec-95ea-f98495448b4f</xr:TypeId>
+				<xr:ValueId>d358fad4-cab7-458f-bd75-14540d8727ff</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.СпособыОбеспеченияКомандировки" category="List">
+				<xr:TypeId>27b6b677-7487-4fcb-9276-e371df4880a1</xr:TypeId>
+				<xr:ValueId>ef86f055-2ecb-44f0-a1d0-4bce10e025b2</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>СпособыОбеспеченияКомандировки</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>b4dde704-1afa-430f-aac6-9cd65f6bd785</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="1e0ca9b0-e193-4359-a3b5-801ec008d9d8">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>АвансПодотчетномуЛицу</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>6c014c23-b9d8-435c-bb63-652df889e0e7</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="73db3387-7f8b-4a59-aa42-abb0ef3ec094">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ВыдачаДенежныхДокументов</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>2a9fb63a-0d6e-4d64-8c5b-c46883ad2a1c</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>
