@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
+	<Document uuid="a73c304d-269d-4521-a1a0-44a85e20b5a9">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ТаксировкаПутевогоЛиста" category="Object">
+				<xr:TypeId>13bf416b-e720-4a46-9ae9-9541243ba5b4</xr:TypeId>
+				<xr:ValueId>82e65276-5758-4292-9f73-11dc1ff60f6a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ТаксировкаПутевогоЛиста" category="Ref">
+				<xr:TypeId>671e1e28-1e8c-4584-8ab8-65dad63bdd9d</xr:TypeId>
+				<xr:ValueId>afe73b61-3d63-4afe-a8f6-d2416eeda2e5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ТаксировкаПутевогоЛиста" category="Selection">
+				<xr:TypeId>96fab5af-ce4a-4770-8988-5139cc3c2311</xr:TypeId>
+				<xr:ValueId>a35f3615-83be-4ae8-a2d0-5d968646f935</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ТаксировкаПутевогоЛиста" category="List">
+				<xr:TypeId>50c0f9ba-b31c-4cfc-a981-739b9939d009</xr:TypeId>
+				<xr:ValueId>e3d1d934-5715-469c-8b22-5c8305639461</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ТаксировкаПутевогоЛиста" category="Manager">
+				<xr:TypeId>e6818468-00d2-4e01-aa79-a46a0f9a79cb</xr:TypeId>
+				<xr:ValueId>8b329826-f14b-4722-a604-84833f160335</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ТаксировкаПутевогоЛиста</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>9b2abcb3-2953-4b8a-b999-e8aacc060444</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Form>ФормаДокумента</Form>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

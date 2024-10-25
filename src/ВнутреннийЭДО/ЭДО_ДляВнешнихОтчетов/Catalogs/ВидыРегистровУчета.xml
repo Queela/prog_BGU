@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
+	<Catalog uuid="e4413aeb-6c7e-482e-82ce-15391f359f98">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ВидыРегистровУчета" category="Object">
+				<xr:TypeId>adcc55e8-cb1a-4f51-a42c-a2c3f05ae0b7</xr:TypeId>
+				<xr:ValueId>6cf596ca-a3db-4ae2-a03e-d79f692e6f9c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ВидыРегистровУчета" category="Ref">
+				<xr:TypeId>c74734d4-2be3-440f-aa26-ce8a0cd823db</xr:TypeId>
+				<xr:ValueId>f9379106-3ef5-426c-b82d-f86da330826f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ВидыРегистровУчета" category="Selection">
+				<xr:TypeId>a6307881-6ba4-4c7d-97c9-93309105b0db</xr:TypeId>
+				<xr:ValueId>7f22da2d-01d9-4b2e-a409-e9737fe6b8ec</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ВидыРегистровУчета" category="List">
+				<xr:TypeId>f46e5198-424e-4167-9c84-854dc31dea66</xr:TypeId>
+				<xr:ValueId>1d3d48fb-e63b-4795-96ae-daa1d9a50b4a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ВидыРегистровУчета" category="Manager">
+				<xr:TypeId>c21dbe19-f264-4073-9233-d6b6cff9e6d5</xr:TypeId>
+				<xr:ValueId>d95c6b89-6484-4ac1-a98e-6f7412d75aa8</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ВидыРегистровУчета</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>9d4efd1d-c2bc-4255-9178-8153ff93128b</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="41bbaf99-9ecb-48c3-8e56-0a94fabdcff1">
+				<InternalInfo>
+					<xr:PropertyState>
+						<xr:Property>Type</xr:Property>
+						<xr:State>MultiState</xr:State>
+					</xr:PropertyState>
+				</InternalInfo>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Отчет</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>b6327973-ecbf-46b3-8e7f-1d42d1fe51e4</ExtendedConfigurationObject>
+					<Type xsi:type="xr:ExtendedProperty">
+						<xr:CheckValue xsi:type="v8:TypeDescription">
+							<v8:Type>cfg:CatalogRef.ИдентификаторыОбъектовМетаданных</v8:Type>
+						</xr:CheckValue>
+						<xr:ExtendValue xsi:type="v8:TypeDescription">
+							<v8:Type>cfg:CatalogRef.ДополнительныеОтчетыИОбработки</v8:Type>
+						</xr:ExtendValue>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Catalog>
+</MetaDataObject>

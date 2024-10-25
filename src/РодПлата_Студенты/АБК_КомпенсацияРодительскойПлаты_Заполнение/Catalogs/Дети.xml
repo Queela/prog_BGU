@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
+	<Catalog uuid="523140a9-78f6-499e-88d0-3906e0976916">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.Дети" category="Object">
+				<xr:TypeId>92ead09d-7257-45dd-a315-f96db13e9358</xr:TypeId>
+				<xr:ValueId>c9a322f7-655c-4740-9edc-c2842bfaef2c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.Дети" category="Ref">
+				<xr:TypeId>2c0b1e8b-e570-40e9-86ed-9774de6656d2</xr:TypeId>
+				<xr:ValueId>57d1c2f9-ee57-45ac-9776-72711b89b477</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.Дети" category="Selection">
+				<xr:TypeId>0b2c3c5b-63f1-480c-9f60-c25a39dd415d</xr:TypeId>
+				<xr:ValueId>1b45a1cd-bb6c-4745-a380-2235f3821cb4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.Дети" category="List">
+				<xr:TypeId>f16cdfb6-8edf-417a-9179-d38c60143071</xr:TypeId>
+				<xr:ValueId>fdfb5844-d937-4475-89c2-6f6857e27106</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.Дети" category="Manager">
+				<xr:TypeId>ad06be93-1ebd-452b-8752-8762249f904b</xr:TypeId>
+				<xr:ValueId>e2727f65-05e6-46fd-9add-ad2620e5b71e</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>Дети</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>c33a08fe-da7f-4f9b-876f-186ad3cbec47</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
+	<Document uuid="e41d4ade-14f3-4106-a818-834481ac4fb5">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.РешениеОПризнанииОбъектовОС" category="Object">
+				<xr:TypeId>a30cd821-1f9e-4714-b9cd-496e33db65e6</xr:TypeId>
+				<xr:ValueId>fed9a470-756b-4f89-a81c-2d84946b0262</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.РешениеОПризнанииОбъектовОС" category="Ref">
+				<xr:TypeId>332b0ba7-8e43-4a36-b0d9-0ec1969392a8</xr:TypeId>
+				<xr:ValueId>bd4a8e38-4072-4db6-8e44-a83419fdd654</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.РешениеОПризнанииОбъектовОС" category="Selection">
+				<xr:TypeId>9b428742-3b2d-4ff9-b581-49c85b9ce8d6</xr:TypeId>
+				<xr:ValueId>784ec240-b660-4cee-bd3c-7a005b0c02e6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.РешениеОПризнанииОбъектовОС" category="List">
+				<xr:TypeId>766ad043-e519-4720-85c3-9df9dec4a923</xr:TypeId>
+				<xr:ValueId>b937636d-33fc-4516-9203-4051a630b4cb</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.РешениеОПризнанииОбъектовОС" category="Manager">
+				<xr:TypeId>4e54af1c-1811-4cd5-894b-8688649edb88</xr:TypeId>
+				<xr:ValueId>69901304-1222-4b87-8479-1b2b7b35ef86</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>РешениеОПризнанииОбъектовОС</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>0bd0fc54-49f6-4ad3-9049-46e4f3ce2cad</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Form>ФормаДокумента</Form>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

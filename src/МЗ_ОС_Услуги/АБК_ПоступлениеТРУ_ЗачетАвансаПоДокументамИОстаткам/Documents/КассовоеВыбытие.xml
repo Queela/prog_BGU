@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
+	<Document uuid="44cd8566-040d-4b23-84c8-f02a5cdbc639">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.КассовоеВыбытие" category="Object">
+				<xr:TypeId>09a60189-0c0e-490e-b91e-43957b0b32ba</xr:TypeId>
+				<xr:ValueId>f699ec99-8e04-4744-9b82-94e7bab31dbe</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.КассовоеВыбытие" category="Ref">
+				<xr:TypeId>2801aa39-05b3-4ed7-b275-7e61f6b1395c</xr:TypeId>
+				<xr:ValueId>ffec530f-7280-4150-b6fb-daa8161072e8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.КассовоеВыбытие" category="Selection">
+				<xr:TypeId>b7e9f1af-5228-4be6-86a9-3e707cffe384</xr:TypeId>
+				<xr:ValueId>49ec4ec1-2af0-4035-a9c3-6854ef0cf3ef</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.КассовоеВыбытие" category="List">
+				<xr:TypeId>426f78b6-ce15-4e68-9333-478098dd0bd4</xr:TypeId>
+				<xr:ValueId>954f0894-0d05-4d9f-9464-755244b314ba</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.КассовоеВыбытие" category="Manager">
+				<xr:TypeId>51dc4587-51c7-4c47-9669-21093161b8ad</xr:TypeId>
+				<xr:ValueId>20643fac-ee0b-4062-ad5f-f500b451d11b</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>КассовоеВыбытие</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>12ea9b1c-7a40-43bc-96de-46e50970dd7f</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

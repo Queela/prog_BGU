@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.17">
+	<ConfigVersions>
+		<Metadata name="CommonPicture.ПрослеживаемыйТовар" id="b0e49800-1fab-4bfe-b7d0-4b7af3551493" configVersion="d397748926c4b554689c912d5ae38542c1cbe47b"/>
+		<Metadata name="Configuration.АБК_ПоступлениеМЗ_ПоступлениеУслуг_Контроль_СЦенами" id="3f96d952-bc1c-4ad0-917a-e536c19cb792" configVersion="7dd11733fc7181c345599a9b04eb0f4d66443b36"/>
+		<Metadata name="Document.ПоступлениеМЗ" id="48072c64-aa66-412f-9823-13483c73d349" configVersion="00ca92ca89e1d3e9b1c278964e7e8044795afe45"/>
+		<Metadata name="Document.ПоступлениеМЗ.Form.ФормаДокумента" id="e24d8938-417f-4dc3-ae80-ef5e6c7fab82" configVersion="3ccd87f3cacad2856bb6368a25bfe5d9baac8748"/>
+		<Metadata name="Document.ПоступлениеМЗ.Form.ФормаДокумента.Form" id="e24d8938-417f-4dc3-ae80-ef5e6c7fab82.0" configVersion="99c750e7a5fca12959a5aae657e2fc4ac7eeea59"/>
+		<Metadata name="Document.ПоступлениеМЗ.ObjectModule" id="48072c64-aa66-412f-9823-13483c73d349.0" configVersion="e40d69c2dd6c509a56e83b01a5237a4e65670cd7"/>
+		<Metadata name="Document.ПоступлениеОС" id="aa3868a8-94d8-46f1-8318-c94bb9ff256b" configVersion="af42bec27279b745169a1a185f8ee91dffe0d6c5"/>
+		<Metadata name="Document.ПоступлениеОС.Form.ФормаДокумента" id="3953b0f0-0125-40ec-a6d1-c73d07565cce" configVersion="7c81316c3a82c6055e69ba9cd278840b6e52f5ad"/>
+		<Metadata name="Document.ПоступлениеОС.Form.ФормаДокумента.Form" id="3953b0f0-0125-40ec-a6d1-c73d07565cce.0" configVersion="6d018ff8f124edca934f3caf34e385b807faca36"/>
+		<Metadata name="Document.ПоступлениеУслугРабот" id="06668ac9-b400-4c79-b3c5-0d8070347350" configVersion="974e6c6a6af76724aaae73edda58620f8e3f54c3"/>
+		<Metadata name="Document.ПоступлениеУслугРабот.Form.ФормаДокумента" id="57830c3a-72ed-4652-850f-bd246a053fb9" configVersion="06b24642e31adb18dff0bab55c63a455ea7554a6"/>
+		<Metadata name="Document.ПоступлениеУслугРабот.Form.ФормаДокумента.Form" id="57830c3a-72ed-4652-850f-bd246a053fb9.0" configVersion="327bb97904b2d7b816b9abff2a50cca4d0c85126"/>
+		<Metadata name="Language.Русский" id="368ffce7-552e-429e-baee-4528e2ffbf40" configVersion="d1cc707e972327bed851b53b895d2da06611f482"/>
+		<Metadata name="StyleItem.ГиперссылкаЦвет" id="4f1eaf02-ff65-4435-bf98-594ddc2f3900" configVersion="567362cb2d7e0c18f4c1785ff63c5fc201832c79"/>
+		<Metadata name="StyleItem.ЗаголовкиСтрокЦветТекста" id="c21a6e85-1895-4bae-aed6-3f9fc45338a6" configVersion="763899d7bf2b9d3312f252b3c5a6d9cb2685a165"/>
+		<Metadata name="StyleItem.ИтогиФонГруппы" id="7ad09076-97dd-42a7-a5f3-e4cbc13416fd" configVersion="8678e791aa6b10428473af1112cc2966e05e12df"/>
+		<Metadata name="StyleItem.НедоступныеДанныеЦвет" id="4b169c17-ae45-4f96-802c-95356104b418" configVersion="6695935ff89cfbf3523ec56ef3cf9558b3f6b6b1"/>
+		<Metadata name="StyleItem.ПоясняющийТекст" id="57aa48d6-b639-4411-ba74-3767f7b43b2e" configVersion="f650f035708cc730fa7403a7b71dd05eca250df0"/>
+		<Metadata name="StyleItem.СодержаниеУслугиШрифт" id="891a15b4-37df-433e-97d6-edcdec8f719e" configVersion="d4d5628c91bb05551c53de22764b22d5c8813a94"/>
+		<Metadata name="StyleItem.ТекстЗапрещеннойЯчейкиЦвет" id="afeb8f7b-a0a7-4638-bf70-ce32604ced63" configVersion="f06b39ad9cdd2570b3203a045b4b8ea6f130fbb1"/>
+		<Metadata name="StyleItem.ТекстИнформационнойНадписи" id="a0889bb2-eac3-4b28-a428-3b11dd0d5022" configVersion="93a3e616351d30417e8b549f532f18a08c91490a"/>
+		<Metadata name="StyleItem.ФонУправляющегоПоля" id="6fb69c8c-ea27-4ceb-b25a-079efcaf5619" configVersion="2b0a028afb50b513de6e7dff50d2f2ea9c85947a"/>
+		<Metadata name="StyleItem.ЦветНедоступноеПоле" id="892bc59f-55ad-499a-b1fe-64e4b91d2732" configVersion="b526cb435c4a2fc92c780ce176b46ca702f97cee"/>
+		<Metadata name="StyleItem.ЦветФонаБлоковИнформационнойПанели" id="03a289bb-7d89-477f-ae06-c8bdc5dd5ed1" configVersion="f356233f499841259686e9a86b42fb76980a9b3a"/>
+		<Metadata name="StyleItem.ШрифтТекстаБаннера" id="9df544d2-f03d-498f-8ae5-3a47a13ebf6e" configVersion="743c76bf4d7c4c062c4a12bbf841dd0be8d76e72"/>
+	</ConfigVersions>
+</ConfigDumpInfo>

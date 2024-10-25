@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
+	<Enum uuid="8480af61-9918-48d2-a511-57de462cad91">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ТипыАналитикиОперацииСДрагМатериалами" category="Ref">
+				<xr:TypeId>70cde560-59b8-4607-9d29-6e054b1ebe15</xr:TypeId>
+				<xr:ValueId>9b0c9789-efa7-4825-a808-29c9a63c6b15</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ТипыАналитикиОперацииСДрагМатериалами" category="Manager">
+				<xr:TypeId>707bbc20-3400-437a-be9f-c2f1ce4c3332</xr:TypeId>
+				<xr:ValueId>46e64059-411b-45c7-8bed-96cf8599cfb8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ТипыАналитикиОперацииСДрагМатериалами" category="List">
+				<xr:TypeId>4f249639-d221-450b-bbc0-2ba180d3310e</xr:TypeId>
+				<xr:ValueId>a5c59d59-ee86-4d97-920a-1b809f053094</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ТипыАналитикиОперацииСДрагМатериалами</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>f36a53a1-acba-4b1d-8797-7ba5d23e0a15</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="9a4f52e7-8317-4e6c-908b-5fc95602ab1d">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ПоступилоИзГосфондаРоссии</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>7422f2c4-81d5-4109-9e70-b62256677b88</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

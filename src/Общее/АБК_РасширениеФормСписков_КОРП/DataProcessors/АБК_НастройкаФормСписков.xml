@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
+	<DataProcessor uuid="650fabdb-730c-4656-a8bb-5fd44244da75">
+		<InternalInfo>
+			<xr:GeneratedType name="DataProcessorObject.АБК_НастройкаФормСписков" category="Object">
+				<xr:TypeId>ae23eca2-8095-49d4-b058-584214b64e05</xr:TypeId>
+				<xr:ValueId>adab3cb1-cf04-40b1-9a3f-45d77afff0a0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DataProcessorManager.АБК_НастройкаФормСписков" category="Manager">
+				<xr:TypeId>2729f5bd-3a28-493c-bf9e-053bb5edf00c</xr:TypeId>
+				<xr:ValueId>24c5faa5-d602-4053-ad7e-d2755a7a419e</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>АБК_НастройкаФормСписков</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Настройка форм списков</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<UseStandardCommands>true</UseStandardCommands>
+			<DefaultForm>DataProcessor.АБК_НастройкаФормСписков.Form.НастройкаВыводаКолонок</DefaultForm>
+			<AuxiliaryForm/>
+			<IncludeHelpInContents>false</IncludeHelpInContents>
+			<ExtendedPresentation/>
+			<Explanation/>
+		</Properties>
+		<ChildObjects>
+			<Form>НастройкаВыводаКолонок</Form>
+			<Form>РедактированиеВыраженияРеквизита</Form>
+			<Form>ВыборПользователей</Form>
+			<Template>СхемаРедактированияВыражеия</Template>
+		</ChildObjects>
+	</DataProcessor>
+</MetaDataObject>

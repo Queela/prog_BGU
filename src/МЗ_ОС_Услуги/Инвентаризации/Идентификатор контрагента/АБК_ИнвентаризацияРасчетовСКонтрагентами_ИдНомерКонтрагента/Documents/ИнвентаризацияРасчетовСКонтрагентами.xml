@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
+	<Document uuid="b48624a2-f12b-4a15-bc94-380e059445cc">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ИнвентаризацияРасчетовСКонтрагентами" category="Object">
+				<xr:TypeId>382ec555-553c-4bd3-a4a1-8283735146a8</xr:TypeId>
+				<xr:ValueId>3d895e64-85a4-4bf3-b57f-61e7f32149d2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ИнвентаризацияРасчетовСКонтрагентами" category="Ref">
+				<xr:TypeId>15150a16-acb7-4e3d-ad46-2e809741ff30</xr:TypeId>
+				<xr:ValueId>a751f613-6264-47e0-a420-9625fe5ecb7a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ИнвентаризацияРасчетовСКонтрагентами" category="Selection">
+				<xr:TypeId>79b2539d-c8b7-49f8-a23d-56865e579293</xr:TypeId>
+				<xr:ValueId>32e1614f-ccd0-4d51-a34f-1e752fbc2968</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ИнвентаризацияРасчетовСКонтрагентами" category="List">
+				<xr:TypeId>d6147ee9-8fc8-4fe3-bbfe-7095fc0fa236</xr:TypeId>
+				<xr:ValueId>8b51c097-cee6-46e7-a568-20544e795565</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ИнвентаризацияРасчетовСКонтрагентами" category="Manager">
+				<xr:TypeId>ab214a63-d45d-4c34-95cd-171e5b4f63e0</xr:TypeId>
+				<xr:ValueId>116f08bd-9fb7-4e7e-a23c-f1aa19e2e18a</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ИнвентаризацияРасчетовСКонтрагентами</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>7e45bde2-9f75-4f37-89a1-74f8d7a6e4dc</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Form>ФормаДокумента</Form>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

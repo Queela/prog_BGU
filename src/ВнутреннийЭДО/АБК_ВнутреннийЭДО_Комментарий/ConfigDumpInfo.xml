@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.17">
+	<ConfigVersions>
+		<Metadata name="CommonPicture.ВидыЭлектронныхПодписей" id="1a33ac46-5a36-4751-a95d-0c4d4ad7b1a9" configVersion="e7779bf6c35d22952c0e7c76a95eef9b51c5e9d9"/>
+		<Metadata name="CommonPicture.СтадииПодписанияВнутреннегоЭДО" id="7e23beca-44a3-42fb-a59f-c6db28a9650d" configVersion="5d0a4d2134f710680c853cbf19a0ee73ef6f5559"/>
+		<Metadata name="CommonPicture.ФлажокБЭД" id="d100ff76-3bf3-4c1e-b337-e498e2dfa771" configVersion="a510cddcda0104d05f4a5cf4123504a57f894b41"/>
+		<Metadata name="Configuration.АБК_ВнутреннийЭДО_Комментарий" id="02feb3f2-50be-4e8c-85fb-4230c70e5c05" configVersion="929dd992083c798f5c3873423261eaac4354e11b"/>
+		<Metadata name="Document.ВнутреннийЭлектронныйДокумент" id="979ee974-6dfc-49b8-add4-308066d58164" configVersion="f53b7e208b635a5608ff9a43f2541e404a6c9e70">
+			<Metadata name="Document.ВнутреннийЭлектронныйДокумент.Attribute.Комментарий" id="6a25e83d-9dc8-4197-8696-d4218cd27ac1"/>
+		</Metadata>
+		<Metadata name="Document.ВнутреннийЭлектронныйДокумент.Form.ФормаДокумента" id="54fdc8d3-bde2-46e7-83de-b455a7cb3689" configVersion="3cea0889ddee5d452f7f719f87426a2b27366410"/>
+		<Metadata name="Document.ВнутреннийЭлектронныйДокумент.Form.ФормаДокумента.Form" id="54fdc8d3-bde2-46e7-83de-b455a7cb3689.0" configVersion="37ff841e76739c7628d74e7f661da75c3e1b8ab0"/>
+		<Metadata name="Document.ВнутреннийЭлектронныйДокумент.ObjectModule" id="979ee974-6dfc-49b8-add4-308066d58164.0" configVersion="4f52d26692b06e7a6b8c822b003c74ca83213fc7"/>
+		<Metadata name="Language.Русский" id="f732bbb6-5981-48a9-b230-70c01f1ba269" configVersion="39128528afde6a5d8d7aee668bd9c5839fe4bac5"/>
+		<Metadata name="StyleItem.ГиперссылкаЦвет" id="ead0e323-05bc-47c3-8978-8a1f8633cf10" configVersion="cbf34a62885d2afc85e1e0039288b64ef6b1023e"/>
+	</ConfigVersions>
+</ConfigDumpInfo>

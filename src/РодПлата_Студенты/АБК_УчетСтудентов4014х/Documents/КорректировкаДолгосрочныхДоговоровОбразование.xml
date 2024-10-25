@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
+	<Document uuid="90f05e05-b5db-4ab1-a875-c3b0311e8019">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.КорректировкаДолгосрочныхДоговоровОбразование" category="Object">
+				<xr:TypeId>d2e3c8ca-e03b-4c5b-83ae-cdcf7e2ea4a5</xr:TypeId>
+				<xr:ValueId>93b17130-28cc-40b0-a6e0-0115ce388e24</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.КорректировкаДолгосрочныхДоговоровОбразование" category="Ref">
+				<xr:TypeId>358e2a3b-5f8e-4994-a741-ff1be948cadf</xr:TypeId>
+				<xr:ValueId>798d1bb3-1e82-4190-a982-8c1b96894aa9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.КорректировкаДолгосрочныхДоговоровОбразование" category="Selection">
+				<xr:TypeId>b900f931-3e1a-4e59-905e-01f637f1cda0</xr:TypeId>
+				<xr:ValueId>9bb27e7d-5966-4331-8e8c-2149a64f9914</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.КорректировкаДолгосрочныхДоговоровОбразование" category="List">
+				<xr:TypeId>02992e8c-6667-4de1-a62c-34fdc0229d7a</xr:TypeId>
+				<xr:ValueId>f3a982a8-3313-4850-92a8-4f24f242bd6e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.КорректировкаДолгосрочныхДоговоровОбразование" category="Manager">
+				<xr:TypeId>40b00f76-bb3d-4f0f-9b3e-8f2d3059003e</xr:TypeId>
+				<xr:ValueId>7b85f81a-579c-487f-a96c-ae0bb5acce29</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>КорректировкаДолгосрочныхДоговоровОбразование</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>80afcfda-eea8-425d-96b1-0aa83b854ce4</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="b03728b8-002b-4657-9149-945a2b8167e6">
+				<Properties>
+					<Name>ПереносДБП</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Перенос доходов будущих периодов</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillFromFillingValue>false</FillFromFillingValue>
+					<FillValue xsi:nil="true"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<Indexing>DontIndex</Indexing>
+					<FullTextSearch>Use</FullTextSearch>
+					<DataHistory>Use</DataHistory>
+				</Properties>
+			</Attribute>
+			<Form>ФормаДокумента</Form>
+			<TabularSection uuid="4a4d5f5b-6443-439f-a60e-a931c63f1718">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.КорректировкаДолгосрочныхДоговоровОбразование.ДоходыБудущихПериодов" category="TabularSection">
+						<xr:TypeId>65c830fa-58d0-4c00-9268-733ceb66818d</xr:TypeId>
+						<xr:ValueId>b3071867-7d46-4f4a-ab2d-6c1781792417</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.КорректировкаДолгосрочныхДоговоровОбразование.ДоходыБудущихПериодов" category="TabularSectionRow">
+						<xr:TypeId>83e755a4-e4d1-46f5-bda0-0748ae830b37</xr:TypeId>
+						<xr:ValueId>3463d136-de40-4ea9-94ae-515e05cc6ab4</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДоходыБудущихПериодов</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>2ed6a62a-a3e0-4bae-b8b0-d89d03b82bd5</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="10d6439a-6c55-4b86-a971-e62cee768fed">
+						<Properties>
+							<Name>СуммаПереносаДБП</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Сумма переноса ДБП</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment/>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>15</v8:Digits>
+									<v8:FractionDigits>2</v8:FractionDigits>
+									<v8:AllowedSign>Any</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+							<PasswordMode>false</PasswordMode>
+							<Format/>
+							<EditFormat/>
+							<ToolTip/>
+							<MarkNegatives>false</MarkNegatives>
+							<Mask/>
+							<MultiLine>false</MultiLine>
+							<ExtendedEdit>false</ExtendedEdit>
+							<MinValue xsi:nil="true"/>
+							<MaxValue xsi:nil="true"/>
+							<FillChecking>DontCheck</FillChecking>
+							<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+							<ChoiceParameterLinks/>
+							<ChoiceParameters/>
+							<QuickChoice>Auto</QuickChoice>
+							<CreateOnInput>Auto</CreateOnInput>
+							<ChoiceForm/>
+							<LinkByType/>
+							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+							<Indexing>DontIndex</Indexing>
+							<FullTextSearch>Use</FullTextSearch>
+							<DataHistory>Use</DataHistory>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+			<Template>АБК_Макет_ПорядокОплаты</Template>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

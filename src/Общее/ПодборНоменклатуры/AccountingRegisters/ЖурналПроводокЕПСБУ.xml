@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
+	<AccountingRegister uuid="7b95980f-0941-48f9-b6c1-da43a3a06528">
+		<InternalInfo>
+			<xr:GeneratedType name="AccountingRegisterRecord.ЖурналПроводокЕПСБУ" category="Record">
+				<xr:TypeId>e0a0d7ee-039e-433d-8008-86d708fc1904</xr:TypeId>
+				<xr:ValueId>0730059d-091e-46df-944e-d7b8cfd475f3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccountingRegisterExtDimensions.ЖурналПроводокЕПСБУ" category="ExtDimensions">
+				<xr:TypeId>faca09c8-ae58-4695-bf21-050bd72bbdda</xr:TypeId>
+				<xr:ValueId>f2fcf1f3-7754-41a0-97d2-a8f8549281a8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccountingRegisterRecordSet.ЖурналПроводокЕПСБУ" category="RecordSet">
+				<xr:TypeId>8b864f44-a6e1-492e-926b-1c7e0351d2ce</xr:TypeId>
+				<xr:ValueId>a8652fa3-33e7-4f43-b3c6-895f277c1e30</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccountingRegisterRecordKey.ЖурналПроводокЕПСБУ" category="RecordKey">
+				<xr:TypeId>dbb21831-8ab3-43ae-bafa-29f916933a45</xr:TypeId>
+				<xr:ValueId>245c0c48-b183-46dd-8d68-f92ac254fc2c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccountingRegisterSelection.ЖурналПроводокЕПСБУ" category="Selection">
+				<xr:TypeId>02546882-dd9c-494c-ad07-c453952aaaa8</xr:TypeId>
+				<xr:ValueId>0eabd41b-324b-4cdf-98cb-613f6226cfa6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccountingRegisterList.ЖурналПроводокЕПСБУ" category="List">
+				<xr:TypeId>96fc82b3-d81a-4f71-81a7-0edb55ebc5b6</xr:TypeId>
+				<xr:ValueId>c99ca9b1-79f9-43ff-b9f0-1021406c5658</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccountingRegisterManager.ЖурналПроводокЕПСБУ" category="Manager">
+				<xr:TypeId>560efb85-f0f8-408f-b3aa-a9eefdf4596e</xr:TypeId>
+				<xr:ValueId>e9eaab78-f816-4635-bbae-9878ccce31f9</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ЖурналПроводокЕПСБУ</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>eaa1a6e1-e28b-403c-87e8-7c76417c456e</ExtendedConfigurationObject>
+			<ChartOfAccounts>ChartOfAccounts.ЕПСБУ</ChartOfAccounts>
+			<Correspondence>true</Correspondence>
+		</Properties>
+		<ChildObjects>
+			<Dimension uuid="ed0ef903-1f2a-4466-ac07-0f790da9828e">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ИФО</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>2220534f-d13b-492a-9e8a-4bfac7aa204b</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ИсточникиФинансовогоОбеспечения</v8:Type>
+					</Type>
+					<Balance>true</Balance>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="025fa227-6046-4ff5-8cfa-66edb19cb621">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>КПС</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>ab48f2c3-364c-4e7d-93f3-66283a5866d4</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.КлассификационныеПризнакиСчетов</v8:Type>
+					</Type>
+					<Balance>false</Balance>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="b129cd2e-f31a-4d46-8020-82e36a96f749">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>КФО</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>865ba975-5e0a-43a1-a780-43a05eaa00bc</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:EnumRef.КВД</v8:Type>
+					</Type>
+					<Balance>true</Balance>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="a42efbaf-8876-41cd-bbb6-ab0fb3cc7201">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Подразделение</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>64a2d04a-8ad3-4ca8-bd34-9e5144ea6f7b</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Подразделения</v8:Type>
+					</Type>
+					<Balance>false</Balance>
+				</Properties>
+			</Dimension>
+			<Resource uuid="9e7d4b48-b8c5-4754-941e-43aed7a2e6ac">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Количество</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>1b86dbe4-5085-4e80-8937-d565ef96760b</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>15</v8:Digits>
+							<v8:FractionDigits>3</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+					<Balance>false</Balance>
+				</Properties>
+			</Resource>
+			<Resource uuid="e05c6e57-1e88-43a3-a76e-4ba208e262e1">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Сумма</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>3d78bb3b-58de-4810-97f9-e7d3281227ab</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>18</v8:Digits>
+							<v8:FractionDigits>2</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+					<Balance>true</Balance>
+				</Properties>
+			</Resource>
+		</ChildObjects>
+	</AccountingRegister>
+</MetaDataObject>

@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
+	<Document uuid="64f1c512-2014-449f-9ed1-99b2b5343c83">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.НачислениеДоходовБудущихПериодовОбразование" category="Object">
+				<xr:TypeId>10858e6c-fab2-4f99-beed-0f3ba434c97e</xr:TypeId>
+				<xr:ValueId>24d3c3c9-ef3e-4f56-9683-7dd49bd596e3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.НачислениеДоходовБудущихПериодовОбразование" category="Ref">
+				<xr:TypeId>07f867a0-ec23-41fd-a36c-fbe2021f96d3</xr:TypeId>
+				<xr:ValueId>dd75bb68-0afc-4906-8195-49cb7bf7f2d3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.НачислениеДоходовБудущихПериодовОбразование" category="Selection">
+				<xr:TypeId>0eb87638-d9e4-47b7-8f18-b6c61224a3d8</xr:TypeId>
+				<xr:ValueId>e1cd3e04-8955-4d4f-abff-18d5baea2cff</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.НачислениеДоходовБудущихПериодовОбразование" category="List">
+				<xr:TypeId>a107ed2d-5d86-4181-abc0-33fb9debf535</xr:TypeId>
+				<xr:ValueId>d2069247-b0d4-4c48-b058-329bbdbb359a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.НачислениеДоходовБудущихПериодовОбразование" category="Manager">
+				<xr:TypeId>ff5c0552-0dd6-40a3-8dd8-d135df3769b7</xr:TypeId>
+				<xr:ValueId>68a4d72c-1e38-4c5a-a3ea-35e470e42ef0</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>НачислениеДоходовБудущихПериодовОбразование</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>7ef4e15b-bcfb-4311-b38d-00d770963f01</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Form>ФормаДокумента</Form>
+			<TabularSection uuid="bf7ad351-0e27-43aa-a13a-3ffbd4385f3d">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.НачислениеДоходовБудущихПериодовОбразование.Начисления" category="TabularSection">
+						<xr:TypeId>a637a8d4-44ad-4238-aa88-12dde781d2eb</xr:TypeId>
+						<xr:ValueId>418d5bb1-bded-403c-96cb-b7127225aa69</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.НачислениеДоходовБудущихПериодовОбразование.Начисления" category="TabularSectionRow">
+						<xr:TypeId>2acf900d-472c-4fd9-a64d-9c9c85714fee</xr:TypeId>
+						<xr:ValueId>d2d0a65a-e08c-4b0b-a428-bceeb6db2038</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Начисления</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>9d156d76-14ee-4c34-929a-cc73c93f168f</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="3c09fec0-d402-478a-a017-441bc180e109">
+						<Properties>
+							<Name>Сумма40149</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Сумма40149</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment/>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>15</v8:Digits>
+									<v8:FractionDigits>2</v8:FractionDigits>
+									<v8:AllowedSign>Any</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+							<PasswordMode>false</PasswordMode>
+							<Format/>
+							<EditFormat/>
+							<ToolTip/>
+							<MarkNegatives>false</MarkNegatives>
+							<Mask/>
+							<MultiLine>false</MultiLine>
+							<ExtendedEdit>false</ExtendedEdit>
+							<MinValue xsi:nil="true"/>
+							<MaxValue xsi:nil="true"/>
+							<FillChecking>DontCheck</FillChecking>
+							<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+							<ChoiceParameterLinks/>
+							<ChoiceParameters/>
+							<QuickChoice>Auto</QuickChoice>
+							<CreateOnInput>Auto</CreateOnInput>
+							<ChoiceForm/>
+							<LinkByType/>
+							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+							<Indexing>DontIndex</Indexing>
+							<FullTextSearch>Use</FullTextSearch>
+							<DataHistory>Use</DataHistory>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

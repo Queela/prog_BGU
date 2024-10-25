@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
+	<Catalog uuid="b90943e6-fe14-4137-a547-a932bdae09e9">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ЦМО" category="Object">
+				<xr:TypeId>860ec15d-9641-4cff-92de-37e081c1b7b7</xr:TypeId>
+				<xr:ValueId>8f714f98-45cd-41df-b0f9-3e7ffa65f5d8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ЦМО" category="Ref">
+				<xr:TypeId>4e3b5ca7-8a7c-4620-b3c1-8488f98fd46d</xr:TypeId>
+				<xr:ValueId>40fff481-d9ba-4c9b-ad7f-46047178a4df</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ЦМО" category="Selection">
+				<xr:TypeId>3afe2698-19de-4274-b315-6aabc9bd7ed2</xr:TypeId>
+				<xr:ValueId>5e674584-79ff-4eb6-a377-98817bfcc763</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ЦМО" category="List">
+				<xr:TypeId>b363fa7a-627a-4d00-979d-2e8f3a221f6b</xr:TypeId>
+				<xr:ValueId>4063d196-bcd7-4abf-a781-30978b22d489</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ЦМО" category="Manager">
+				<xr:TypeId>e28d9586-c288-46eb-8e76-331d1b8e8ab2</xr:TypeId>
+				<xr:ValueId>7654a64a-c1ab-4550-a2d5-78d7655ba00a</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ЦМО</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>ae4b50cb-99c8-41c8-9a64-2a44cb56bb4e</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

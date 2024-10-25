@@ -1,0 +1,1126 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
+	<AutoTitle>false</AutoTitle>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<ChildItems>
+			<Button name="Подписать" id="46">
+				<Type>CommandBarButton</Type>
+				<CommandName>0</CommandName>
+				<ExtendedTooltip name="ПодписатьРасширеннаяПодсказка" id="47"/>
+			</Button>
+			<Button name="ВернутьВРаботу" id="56">
+				<Type>CommandBarButton</Type>
+				<CommandName>0</CommandName>
+				<ExtendedTooltip name="ВернутьВРаботуРасширеннаяПодсказка" id="57"/>
+			</Button>
+			<Button name="ПереместитьВНеактуальные" id="119">
+				<Type>CommandBarButton</Type>
+				<Representation>PictureAndText</Representation>
+				<CommandName>0</CommandName>
+				<ExtendedTooltip name="ПереместитьВНеактуальныеРасширеннаяПодсказка" id="120"/>
+			</Button>
+			<Popup name="ГруппаДругиеДействия" id="48">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Другие действия</v8:content>
+					</v8:item>
+				</Title>
+				<ExtendedTooltip name="ГруппаДругиеДействияРасширеннаяПодсказка" id="49"/>
+				<ChildItems>
+					<Button name="ОтказатьсяОтПодписания" id="50">
+						<Type>CommandBarButton</Type>
+						<CommandName>0</CommandName>
+						<ExtendedTooltip name="ОтказатьсяОтПодписанияРасширеннаяПодсказка" id="51"/>
+					</Button>
+					<Button name="Аннулировать" id="52">
+						<Type>CommandBarButton</Type>
+						<CommandName>0</CommandName>
+						<ExtendedTooltip name="АннулироватьРасширеннаяПодсказка" id="53"/>
+					</Button>
+					<Button name="ОтменитьОтказОтПодписания" id="60">
+						<Type>CommandBarButton</Type>
+						<CommandName>0</CommandName>
+						<ExtendedTooltip name="ОтменитьОтказОтПодписанияРасширеннаяПодсказка" id="61"/>
+					</Button>
+					<Button name="ОтменитьАннулирование" id="58">
+						<Type>CommandBarButton</Type>
+						<CommandName>0</CommandName>
+						<ExtendedTooltip name="ОтменитьАннулированиеРасширеннаяПодсказка" id="59"/>
+					</Button>
+					<Button name="СделатьАктуальным" id="176">
+						<Type>CommandBarButton</Type>
+						<CommandName>0</CommandName>
+						<ExtendedTooltip name="СделатьАктуальнымРасширеннаяПодсказка" id="177"/>
+					</Button>
+				</ChildItems>
+			</Popup>
+			<Button name="Записать" id="44">
+				<Type>CommandBarButton</Type>
+				<Representation>PictureAndText</Representation>
+				<CommandName>0</CommandName>
+				<ExtendedTooltip name="ЗаписатьРасширеннаяПодсказка" id="45"/>
+			</Button>
+			<Button name="Перечитать" id="65">
+				<Type>CommandBarButton</Type>
+				<CommandName>0</CommandName>
+				<ExtendedTooltip name="ПеречитатьРасширеннаяПодсказка" id="66"/>
+			</Button>
+			<Button name="Печать" id="150">
+				<Type>CommandBarButton</Type>
+				<Representation>PictureAndText</Representation>
+				<CommandName>0</CommandName>
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Печать</v8:content>
+					</v8:item>
+				</Title>
+				<LocationInCommandBar>InCommandBarAndInAdditionalSubmenu</LocationInCommandBar>
+				<ExtendedTooltip name="ПечатьРасширеннаяПодсказка" id="151"/>
+			</Button>
+			<Button name="ПредварительныйПросмотр" id="148">
+				<Type>CommandBarButton</Type>
+				<Representation>Picture</Representation>
+				<CommandName>0</CommandName>
+				<LocationInCommandBar>InCommandBarAndInAdditionalSubmenu</LocationInCommandBar>
+				<ExtendedTooltip name="ПредварительныйПросмотрРасширеннаяПодсказка" id="149"/>
+			</Button>
+			<Popup name="ГруппаСохранить" id="154">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Выгрузить</v8:content>
+					</v8:item>
+				</Title>
+				<Picture>
+					<xr:Ref>StdPicture.Write</xr:Ref>
+					<xr:LoadTransparent>true</xr:LoadTransparent>
+				</Picture>
+				<ExtendedTooltip name="ГруппаСохранитьРасширеннаяПодсказка" id="155"/>
+				<ChildItems>
+					<Button name="СохранитьДокумент" id="156">
+						<Type>CommandBarButton</Type>
+						<CommandName>0</CommandName>
+						<ExtendedTooltip name="СохранитьДокументРасширеннаяПодсказка" id="157"/>
+					</Button>
+					<Button name="СохранитьДокументИПодписи" id="162">
+						<Type>CommandBarButton</Type>
+						<CommandName>0</CommandName>
+						<ExtendedTooltip name="СохранитьДокументИПодписиРасширеннаяПодсказка" id="163"/>
+					</Button>
+					<Button name="СохранитьДокументPDF" id="167">
+						<Type>CommandBarButton</Type>
+						<CommandName>0</CommandName>
+						<ExtendedTooltip name="СохранитьДокументPDFРасширеннаяПодсказка" id="168"/>
+					</Button>
+				</ChildItems>
+			</Popup>
+		</ChildItems>
+	</AutoCommandBar>
+	<Events>
+		<Event name="OnCreateAtServer" callType="After">АБК_ПриСозданииНаСервереПосле</Event>
+	</Events>
+	<ChildItems>
+		<UsualGroup name="ГруппаАктуальность" id="83">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа актуальность</v8:content>
+				</v8:item>
+			</Title>
+			<HorizontalStretch>true</HorizontalStretch>
+			<Group>AlwaysHorizontal</Group>
+			<HorizontalSpacing>Half</HorizontalSpacing>
+			<Behavior>Usual</Behavior>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<BackColor>web:LemonChiffon</BackColor>
+			<ExtendedTooltip name="ГруппаАктуальностьРасширеннаяПодсказка" id="84"/>
+			<ChildItems>
+				<LabelDecoration name="ПредупреждениеАктуальность" id="80">
+					<Title formatted="false">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Электронный документ, возможно, не актуален</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="ПредупреждениеАктуальностьКонтекстноеМеню" id="81"/>
+					<ExtendedTooltip name="ПредупреждениеАктуальностьРасширеннаяПодсказка" id="82"/>
+				</LabelDecoration>
+				<Button name="ПоказатьОтличия" id="85">
+					<Type>Hyperlink</Type>
+					<CommandName>0</CommandName>
+					<ExtendedTooltip name="ПоказатьОтличияРасширеннаяПодсказка" id="86"/>
+				</Button>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ГруппаСостояние" id="69">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа состояние</v8:content>
+				</v8:item>
+			</Title>
+			<Group>AlwaysHorizontal</Group>
+			<VerticalAlign>Center</VerticalAlign>
+			<Behavior>Usual</Behavior>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаСостояниеРасширеннаяПодсказка" id="70"/>
+			<ChildItems>
+				<LabelField name="ПредставлениеСостояния" id="74">
+					<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+					<ContextMenu name="ПредставлениеСостоянияКонтекстноеМеню" id="75"/>
+					<ExtendedTooltip name="ПредставлениеСостоянияРасширеннаяПодсказка" id="76"/>
+				</LabelField>
+				<PictureDecoration name="ПоказатьКомментарийСостояния" id="77">
+					<Title formatted="false">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Показать комментарий состояния</v8:content>
+						</v8:item>
+					</Title>
+					<Hyperlink>true</Hyperlink>
+					<ContextMenu name="ПоказатьКомментарийСостоянияКонтекстноеМеню" id="78"/>
+					<ExtendedTooltip name="ПоказатьКомментарийСостоянияРасширеннаяПодсказка" id="79"/>
+				</PictureDecoration>
+			</ChildItems>
+		</UsualGroup>
+		<LabelField name="ПредставлениеУчетногоДокумента" id="164">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Документ учета</v8:content>
+				</v8:item>
+			</Title>
+			<AutoMaxWidth>false</AutoMaxWidth>
+			<Hiperlink>true</Hiperlink>
+			<ContextMenu name="ПредставлениеУчетногоДокументаКонтекстноеМеню" id="165"/>
+			<ExtendedTooltip name="ПредставлениеУчетногоДокументаРасширеннаяПодсказка" id="166"/>
+		</LabelField>
+		<InputField name="МаршрутПодписания" id="13">
+			<ChoiceButton>true</ChoiceButton>
+			<TextEdit>false</TextEdit>
+			<ContextMenu name="МаршрутПодписанияКонтекстноеМеню" id="14"/>
+			<ExtendedTooltip name="МаршрутПодписанияРасширеннаяПодсказка" id="15"/>
+		</InputField>
+		<Pages name="ГруппаСтраницы" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа страницы</v8:content>
+				</v8:item>
+			</Title>
+			<PagesRepresentation>TabsOnTop</PagesRepresentation>
+			<ExtendedTooltip name="ГруппаСтраницыРасширеннаяПодсказка" id="8"/>
+			<ChildItems>
+				<Page name="СтраницаСодержимое" id="9">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Содержимое</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="СтраницаСодержимоеРасширеннаяПодсказка" id="10"/>
+					<ChildItems>
+						<SpreadSheetDocumentField name="ТабличныйДокументОсновной" id="4">
+							<ReadOnly>true</ReadOnly>
+							<TitleLocation>None</TitleLocation>
+							<BorderColor>style:FormBackColor</BorderColor>
+							<ContextMenu name="ТабличныйДокументОсновнойКонтекстноеМеню" id="5"/>
+							<ExtendedTooltip name="ТабличныйДокументОсновнойРасширеннаяПодсказка" id="6"/>
+						</SpreadSheetDocumentField>
+					</ChildItems>
+				</Page>
+				<Page name="СтраницаПодписи" id="11">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Подписи</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="СтраницаПодписиРасширеннаяПодсказка" id="12"/>
+					<ChildItems>
+						<UsualGroup name="ГруппаПодписи" id="87">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Электронные подписи</v8:content>
+								</v8:item>
+							</Title>
+							<Behavior>Usual</Behavior>
+							<Representation>None</Representation>
+							<ExtendedTooltip name="ГруппаПодписиРасширеннаяПодсказка" id="88"/>
+							<ChildItems>
+								<Table name="ЭлектронныеПодписи" id="89">
+									<Representation>List</Representation>
+									<ReadOnly>true</ReadOnly>
+									<HeightInTableRows>3</HeightInTableRows>
+									<EnableStartDrag>true</EnableStartDrag>
+									<EnableDrag>true</EnableDrag>
+									<RowsPicture>
+										<xr:Ref>CommonPicture.ВидыЭлектронныхПодписей</xr:Ref>
+										<xr:LoadTransparent>false</xr:LoadTransparent>
+									</RowsPicture>
+									<RowFilter xsi:nil="true"/>
+									<ContextMenu name="ЭлектронныеПодписиКонтекстноеМеню" id="90">
+										<ChildItems>
+											<Button name="ЭлектронныеПодписиКонтекстноеМенюОткрытьПодпись" id="160">
+												<Type>CommandBarButton</Type>
+												<CommandName>0</CommandName>
+												<ExtendedTooltip name="ЭлектронныеПодписиКонтекстноеМенюОткрытьПодписьРасширеннаяПодсказка" id="161"/>
+											</Button>
+											<Button name="ЭлектронныеПодписиКонтекстноеМенюСохранитьПодпись" id="158">
+												<Type>CommandBarButton</Type>
+												<CommandName>0</CommandName>
+												<ExtendedTooltip name="ЭлектронныеПодписиКонтекстноеМенюСохранитьПодписьРасширеннаяПодсказка" id="159"/>
+											</Button>
+											<Button name="ЭлектронныеПодписиКонтекстноеМенюПроверитьПодписи" id="152">
+												<Type>CommandBarButton</Type>
+												<CommandName>0</CommandName>
+												<ExtendedTooltip name="ЭлектронныеПодписиКонтекстноеМенюПроверитьПодписиРасширеннаяПодсказка" id="153"/>
+											</Button>
+										</ChildItems>
+									</ContextMenu>
+									<AutoCommandBar name="ЭлектронныеПодписиКоманднаяПанель" id="91">
+										<Autofill>false</Autofill>
+									</AutoCommandBar>
+									<ExtendedTooltip name="ЭлектронныеПодписиРасширеннаяПодсказка" id="92"/>
+									<SearchStringAddition name="ЭлектронныеПодписиСтрокаПоиска" id="93">
+										<AdditionSource>
+											<Item>ЭлектронныеПодписи</Item>
+											<Type>SearchStringRepresentation</Type>
+										</AdditionSource>
+										<ContextMenu name="ЭлектронныеПодписиСтрокаПоискаКонтекстноеМеню" id="94"/>
+										<ExtendedTooltip name="ЭлектронныеПодписиСтрокаПоискаРасширеннаяПодсказка" id="95"/>
+									</SearchStringAddition>
+									<ViewStatusAddition name="ЭлектронныеПодписиСостояниеПросмотра" id="96">
+										<AdditionSource>
+											<Item>ЭлектронныеПодписи</Item>
+											<Type>ViewStatusRepresentation</Type>
+										</AdditionSource>
+										<ContextMenu name="ЭлектронныеПодписиСостояниеПросмотраКонтекстноеМеню" id="97"/>
+										<ExtendedTooltip name="ЭлектронныеПодписиСостояниеПросмотраРасширеннаяПодсказка" id="98"/>
+									</ViewStatusAddition>
+									<SearchControlAddition name="ЭлектронныеПодписиУправлениеПоиском" id="99">
+										<AdditionSource>
+											<Item>ЭлектронныеПодписи</Item>
+											<Type>SearchControl</Type>
+										</AdditionSource>
+										<ContextMenu name="ЭлектронныеПодписиУправлениеПоискомКонтекстноеМеню" id="100"/>
+										<ExtendedTooltip name="ЭлектронныеПодписиУправлениеПоискомРасширеннаяПодсказка" id="101"/>
+									</SearchControlAddition>
+									<ChildItems>
+										<InputField name="ЭлектронныеПодписиКомуВыданСертификат" id="102">
+											<EditMode>EnterOnInput</EditMode>
+											<ContextMenu name="ЭлектронныеПодписиКомуВыданСертификатКонтекстноеМеню" id="103"/>
+											<ExtendedTooltip name="ЭлектронныеПодписиКомуВыданСертификатРасширеннаяПодсказка" id="104"/>
+										</InputField>
+										<InputField name="ЭлектронныеПодписиДатаПодписи" id="105">
+											<EditMode>EnterOnInput</EditMode>
+											<ContextMenu name="ЭлектронныеПодписиДатаПодписиКонтекстноеМеню" id="106"/>
+											<ExtendedTooltip name="ЭлектронныеПодписиДатаПодписиРасширеннаяПодсказка" id="107"/>
+										</InputField>
+										<ColumnGroup name="ЭлектронныеПодписиПроверка" id="108">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Электронные подписи проверка</v8:content>
+												</v8:item>
+											</Title>
+											<Group>InCell</Group>
+											<ExtendedTooltip name="ЭлектронныеПодписиПроверкаРасширеннаяПодсказка" id="109"/>
+											<ChildItems>
+												<InputField name="ЭлектронныеПодписиСтатус" id="110">
+													<EditMode>EnterOnInput</EditMode>
+													<ContextMenu name="ЭлектронныеПодписиСтатусКонтекстноеМеню" id="111"/>
+													<ExtendedTooltip name="ЭлектронныеПодписиСтатусРасширеннаяПодсказка" id="112"/>
+												</InputField>
+												<InputField name="ЭлектронныеПодписиОписаниеОшибки" id="113">
+													<TitleLocation>None</TitleLocation>
+													<EditMode>EnterOnInput</EditMode>
+													<ContextMenu name="ЭлектронныеПодписиОписаниеОшибкиКонтекстноеМеню" id="114"/>
+													<ExtendedTooltip name="ЭлектронныеПодписиОписаниеОшибкиРасширеннаяПодсказка" id="115"/>
+												</InputField>
+												<InputField name="ЭлектронныеПодписиДатаПроверкиПодписи" id="116">
+													<EditMode>EnterOnInput</EditMode>
+													<ContextMenu name="ЭлектронныеПодписиДатаПроверкиПодписиКонтекстноеМеню" id="117"/>
+													<ExtendedTooltip name="ЭлектронныеПодписиДатаПроверкиПодписиРасширеннаяПодсказка" id="118"/>
+												</InputField>
+											</ChildItems>
+										</ColumnGroup>
+									</ChildItems>
+								</Table>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="ГруппаМаршрут" id="67">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Маршрут подписания</v8:content>
+								</v8:item>
+							</Title>
+							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
+							<Representation>None</Representation>
+							<ExtendedTooltip name="ГруппаМаршрутРасширеннаяПодсказка" id="68"/>
+							<ChildItems>
+								<Button name="ЗаписатьМаршрут" id="171">
+									<Type>UsualButton</Type>
+									<CommandName>0</CommandName>
+									<ExtendedTooltip name="ЗаписатьМаршрутРасширеннаяПодсказка" id="172"/>
+								</Button>
+								<Table name="ДеревоМаршрута" id="19">
+									<Representation>Tree</Representation>
+									<CommandBarLocation>None</CommandBarLocation>
+									<ChangeRowSet>false</ChangeRowSet>
+									<ChangeRowOrder>false</ChangeRowOrder>
+									<SelectionMode>SingleRow</SelectionMode>
+									<InitialTreeView>ExpandAllLevels</InitialTreeView>
+									<EnableStartDrag>true</EnableStartDrag>
+									<EnableDrag>true</EnableDrag>
+									<FileDragMode>AsFile</FileDragMode>
+									<RowsPicture>
+										<xr:Ref>CommonPicture.ВидыЭлектронныхПодписей</xr:Ref>
+										<xr:LoadTransparent>false</xr:LoadTransparent>
+									</RowsPicture>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Дерево маршрута</v8:content>
+										</v8:item>
+									</Title>
+									<ContextMenu name="ДеревоМаршрутаКонтекстноеМеню" id="20"/>
+									<AutoCommandBar name="ДеревоМаршрутаКоманднаяПанель" id="21"/>
+									<ExtendedTooltip name="ДеревоМаршрутаРасширеннаяПодсказка" id="22"/>
+									<SearchStringAddition name="ДеревоМаршрутаСтрокаПоиска" id="23">
+										<AdditionSource>
+											<Item>ДеревоМаршрута</Item>
+											<Type>SearchStringRepresentation</Type>
+										</AdditionSource>
+										<ContextMenu name="ДеревоМаршрутаСтрокаПоискаКонтекстноеМеню" id="24"/>
+										<ExtendedTooltip name="ДеревоМаршрутаСтрокаПоискаРасширеннаяПодсказка" id="25"/>
+									</SearchStringAddition>
+									<ViewStatusAddition name="ДеревоМаршрутаСостояниеПросмотра" id="26">
+										<AdditionSource>
+											<Item>ДеревоМаршрута</Item>
+											<Type>ViewStatusRepresentation</Type>
+										</AdditionSource>
+										<HorizontalLocation>Left</HorizontalLocation>
+										<ContextMenu name="ДеревоМаршрутаСостояниеПросмотраКонтекстноеМеню" id="27"/>
+										<ExtendedTooltip name="ДеревоМаршрутаСостояниеПросмотраРасширеннаяПодсказка" id="28"/>
+									</ViewStatusAddition>
+									<SearchControlAddition name="ДеревоМаршрутаУправлениеПоиском" id="29">
+										<AdditionSource>
+											<Item>ДеревоМаршрута</Item>
+											<Type>SearchControl</Type>
+										</AdditionSource>
+										<ContextMenu name="ДеревоМаршрутаУправлениеПоискомКонтекстноеМеню" id="30"/>
+										<ExtendedTooltip name="ДеревоМаршрутаУправлениеПоискомРасширеннаяПодсказка" id="31"/>
+									</SearchControlAddition>
+									<ChildItems>
+										<PictureField name="ДеревоМаршрутаСостояние" id="41">
+											<ReadOnly>true</ReadOnly>
+											<TitleLocation>None</TitleLocation>
+											<EditMode>EnterOnInput</EditMode>
+											<ValuesPicture>
+												<xr:Ref>CommonPicture.СтадииПодписанияВнутреннегоЭДО</xr:Ref>
+												<xr:LoadTransparent>false</xr:LoadTransparent>
+											</ValuesPicture>
+											<ContextMenu name="ДеревоМаршрутаСостояниеКонтекстноеМеню" id="42"/>
+											<ExtendedTooltip name="ДеревоМаршрутаСостояниеРасширеннаяПодсказка" id="43"/>
+										</PictureField>
+										<InputField name="ДеревоМаршрутаОсновноеЗначение" id="32">
+											<ReadOnly>true</ReadOnly>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Группа / подписант</v8:content>
+												</v8:item>
+											</Title>
+											<EditMode>EnterOnInput</EditMode>
+											<CreateButton>false</CreateButton>
+											<ContextMenu name="ДеревоМаршрутаОсновноеЗначениеКонтекстноеМеню" id="33"/>
+											<ExtendedTooltip name="ДеревоМаршрутаОсновноеЗначениеРасширеннаяПодсказка" id="34"/>
+										</InputField>
+										<InputField name="ДеревоМаршрутаВидПодписи" id="35">
+											<ReadOnly>true</ReadOnly>
+											<EditMode>EnterOnInput</EditMode>
+											<ContextMenu name="ДеревоМаршрутаВидПодписиКонтекстноеМеню" id="36"/>
+											<ExtendedTooltip name="ДеревоМаршрутаВидПодписиРасширеннаяПодсказка" id="37"/>
+										</InputField>
+										<InputField name="ДеревоМаршрутаСертификат" id="173">
+											<ReadOnly>true</ReadOnly>
+											<EditMode>EnterOnInput</EditMode>
+											<DropListButton>true</DropListButton>
+											<ChoiceButton>true</ChoiceButton>
+											<CreateButton>false</CreateButton>
+											<ContextMenu name="ДеревоМаршрутаСертификатКонтекстноеМеню" id="174"/>
+											<ExtendedTooltip name="ДеревоМаршрутаСертификатРасширеннаяПодсказка" id="175"/>
+										</InputField>
+										<InputField name="ДеревоМаршрутаДатаПодписи" id="38">
+											<ReadOnly>true</ReadOnly>
+											<EditMode>EnterOnInput</EditMode>
+											<ContextMenu name="ДеревоМаршрутаДатаПодписиКонтекстноеМеню" id="39"/>
+											<ExtendedTooltip name="ДеревоМаршрутаДатаПодписиРасширеннаяПодсказка" id="40"/>
+										</InputField>
+									</ChildItems>
+								</Table>
+							</ChildItems>
+						</UsualGroup>
+						<InputField name="Ответственный" id="62">
+							<ReadOnly>true</ReadOnly>
+							<ContextMenu name="ОтветственныйКонтекстноеМеню" id="63"/>
+							<ExtendedTooltip name="ОтветственныйРасширеннаяПодсказка" id="64"/>
+						</InputField>
+					</ChildItems>
+				</Page>
+				<Page name="СтраницаНеактуальные" id="121">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Неактуальные версии</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="СтраницаНеактуальныеРасширеннаяПодсказка" id="122"/>
+					<ChildItems>
+						<Table name="НеактуальныеДокументы" id="123">
+							<CommandBarLocation>None</CommandBarLocation>
+							<ChangeRowOrder>false</ChangeRowOrder>
+							<UseAlternationRowColor>true</UseAlternationRowColor>
+							<EnableStartDrag>true</EnableStartDrag>
+							<AutoRefresh>false</AutoRefresh>
+							<AutoRefreshPeriod>60</AutoRefreshPeriod>
+							<Period>
+								<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+								<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+								<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+							</Period>
+							<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+							<RestoreCurrentRow>false</RestoreCurrentRow>
+							<TopLevelParent xsi:nil="true"/>
+							<ShowRoot>true</ShowRoot>
+							<AllowRootChoice>false</AllowRootChoice>
+							<UpdateOnDataChange>Auto</UpdateOnDataChange>
+							<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
+							<ContextMenu name="НеактуальныеДокументыКонтекстноеМеню" id="124"/>
+							<AutoCommandBar name="НеактуальныеДокументыКоманднаяПанель" id="125"/>
+							<ExtendedTooltip name="НеактуальныеДокументыРасширеннаяПодсказка" id="126"/>
+							<SearchStringAddition name="НеактуальныеДокументыСтрокаПоиска" id="127">
+								<AdditionSource>
+									<Item>НеактуальныеДокументы</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="НеактуальныеДокументыСтрокаПоискаКонтекстноеМеню" id="128"/>
+								<ExtendedTooltip name="НеактуальныеДокументыСтрокаПоискаРасширеннаяПодсказка" id="129"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="НеактуальныеДокументыСостояниеПросмотра" id="130">
+								<AdditionSource>
+									<Item>НеактуальныеДокументы</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="НеактуальныеДокументыСостояниеПросмотраКонтекстноеМеню" id="131"/>
+								<ExtendedTooltip name="НеактуальныеДокументыСостояниеПросмотраРасширеннаяПодсказка" id="132"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="НеактуальныеДокументыУправлениеПоиском" id="133">
+								<AdditionSource>
+									<Item>НеактуальныеДокументы</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="НеактуальныеДокументыУправлениеПоискомКонтекстноеМеню" id="134"/>
+								<ExtendedTooltip name="НеактуальныеДокументыУправлениеПоискомРасширеннаяПодсказка" id="135"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<LabelField name="НеактуальныеДокументыСсылка" id="139">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Документ</v8:content>
+										</v8:item>
+									</Title>
+									<ContextMenu name="НеактуальныеДокументыСсылкаКонтекстноеМеню" id="140"/>
+									<ExtendedTooltip name="НеактуальныеДокументыСсылкаРасширеннаяПодсказка" id="141"/>
+								</LabelField>
+								<LabelField name="НеактуальныеДокументыСостояние" id="145">
+									<ContextMenu name="НеактуальныеДокументыСостояниеКонтекстноеМеню" id="146"/>
+									<ExtendedTooltip name="НеактуальныеДокументыСостояниеРасширеннаяПодсказка" id="147"/>
+								</LabelField>
+								<LabelField name="НеактуальныеДокументыДатаИзменения" id="136">
+									<ContextMenu name="НеактуальныеДокументыДатаИзмененияКонтекстноеМеню" id="137"/>
+									<ExtendedTooltip name="НеактуальныеДокументыДатаИзмененияРасширеннаяПодсказка" id="138"/>
+								</LabelField>
+								<LabelField name="НеактуальныеДокументыКомментарий" id="142">
+									<ContextMenu name="НеактуальныеДокументыКомментарийКонтекстноеМеню" id="143"/>
+									<ExtendedTooltip name="НеактуальныеДокументыКомментарийРасширеннаяПодсказка" id="144"/>
+								</LabelField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
+			</ChildItems>
+		</Pages>
+	</ChildItems>
+	<Attributes/>
+	<BaseForm version="2.17">
+		<AutoTitle>false</AutoTitle>
+		<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+			<ChildItems>
+				<Button name="Подписать" id="46">
+					<Type>CommandBarButton</Type>
+					<CommandName>0</CommandName>
+					<ExtendedTooltip name="ПодписатьРасширеннаяПодсказка" id="47"/>
+				</Button>
+				<Button name="ВернутьВРаботу" id="56">
+					<Type>CommandBarButton</Type>
+					<CommandName>0</CommandName>
+					<ExtendedTooltip name="ВернутьВРаботуРасширеннаяПодсказка" id="57"/>
+				</Button>
+				<Button name="ПереместитьВНеактуальные" id="119">
+					<Type>CommandBarButton</Type>
+					<Representation>PictureAndText</Representation>
+					<CommandName>0</CommandName>
+					<ExtendedTooltip name="ПереместитьВНеактуальныеРасширеннаяПодсказка" id="120"/>
+				</Button>
+				<Popup name="ГруппаДругиеДействия" id="48">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Другие действия</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="ГруппаДругиеДействияРасширеннаяПодсказка" id="49"/>
+					<ChildItems>
+						<Button name="ОтказатьсяОтПодписания" id="50">
+							<Type>CommandBarButton</Type>
+							<CommandName>0</CommandName>
+							<ExtendedTooltip name="ОтказатьсяОтПодписанияРасширеннаяПодсказка" id="51"/>
+						</Button>
+						<Button name="Аннулировать" id="52">
+							<Type>CommandBarButton</Type>
+							<CommandName>0</CommandName>
+							<ExtendedTooltip name="АннулироватьРасширеннаяПодсказка" id="53"/>
+						</Button>
+						<Button name="ОтменитьОтказОтПодписания" id="60">
+							<Type>CommandBarButton</Type>
+							<CommandName>0</CommandName>
+							<ExtendedTooltip name="ОтменитьОтказОтПодписанияРасширеннаяПодсказка" id="61"/>
+						</Button>
+						<Button name="ОтменитьАннулирование" id="58">
+							<Type>CommandBarButton</Type>
+							<CommandName>0</CommandName>
+							<ExtendedTooltip name="ОтменитьАннулированиеРасширеннаяПодсказка" id="59"/>
+						</Button>
+						<Button name="СделатьАктуальным" id="176">
+							<Type>CommandBarButton</Type>
+							<CommandName>0</CommandName>
+							<ExtendedTooltip name="СделатьАктуальнымРасширеннаяПодсказка" id="177"/>
+						</Button>
+					</ChildItems>
+				</Popup>
+				<Button name="Записать" id="44">
+					<Type>CommandBarButton</Type>
+					<Representation>PictureAndText</Representation>
+					<CommandName>0</CommandName>
+					<ExtendedTooltip name="ЗаписатьРасширеннаяПодсказка" id="45"/>
+				</Button>
+				<Button name="Перечитать" id="65">
+					<Type>CommandBarButton</Type>
+					<CommandName>0</CommandName>
+					<ExtendedTooltip name="ПеречитатьРасширеннаяПодсказка" id="66"/>
+				</Button>
+				<Button name="Печать" id="150">
+					<Type>CommandBarButton</Type>
+					<Representation>PictureAndText</Representation>
+					<CommandName>0</CommandName>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Печать</v8:content>
+						</v8:item>
+					</Title>
+					<LocationInCommandBar>InCommandBarAndInAdditionalSubmenu</LocationInCommandBar>
+					<ExtendedTooltip name="ПечатьРасширеннаяПодсказка" id="151"/>
+				</Button>
+				<Button name="ПредварительныйПросмотр" id="148">
+					<Type>CommandBarButton</Type>
+					<Representation>Picture</Representation>
+					<CommandName>0</CommandName>
+					<LocationInCommandBar>InCommandBarAndInAdditionalSubmenu</LocationInCommandBar>
+					<ExtendedTooltip name="ПредварительныйПросмотрРасширеннаяПодсказка" id="149"/>
+				</Button>
+				<Popup name="ГруппаСохранить" id="154">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Выгрузить</v8:content>
+						</v8:item>
+					</Title>
+					<Picture>
+						<xr:Ref>StdPicture.Write</xr:Ref>
+						<xr:LoadTransparent>true</xr:LoadTransparent>
+					</Picture>
+					<ExtendedTooltip name="ГруппаСохранитьРасширеннаяПодсказка" id="155"/>
+					<ChildItems>
+						<Button name="СохранитьДокумент" id="156">
+							<Type>CommandBarButton</Type>
+							<CommandName>0</CommandName>
+							<ExtendedTooltip name="СохранитьДокументРасширеннаяПодсказка" id="157"/>
+						</Button>
+						<Button name="СохранитьДокументИПодписи" id="162">
+							<Type>CommandBarButton</Type>
+							<CommandName>0</CommandName>
+							<ExtendedTooltip name="СохранитьДокументИПодписиРасширеннаяПодсказка" id="163"/>
+						</Button>
+						<Button name="СохранитьДокументPDF" id="167">
+							<Type>CommandBarButton</Type>
+							<CommandName>0</CommandName>
+							<ExtendedTooltip name="СохранитьДокументPDFРасширеннаяПодсказка" id="168"/>
+						</Button>
+					</ChildItems>
+				</Popup>
+			</ChildItems>
+		</AutoCommandBar>
+		<ChildItems>
+			<UsualGroup name="ГруппаАктуальность" id="83">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Группа актуальность</v8:content>
+					</v8:item>
+				</Title>
+				<HorizontalStretch>true</HorizontalStretch>
+				<Group>AlwaysHorizontal</Group>
+				<HorizontalSpacing>Half</HorizontalSpacing>
+				<Behavior>Usual</Behavior>
+				<Representation>None</Representation>
+				<ShowTitle>false</ShowTitle>
+				<BackColor>web:LemonChiffon</BackColor>
+				<ExtendedTooltip name="ГруппаАктуальностьРасширеннаяПодсказка" id="84"/>
+				<ChildItems>
+					<LabelDecoration name="ПредупреждениеАктуальность" id="80">
+						<Title formatted="false">
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Электронный документ, возможно, не актуален</v8:content>
+							</v8:item>
+						</Title>
+						<ContextMenu name="ПредупреждениеАктуальностьКонтекстноеМеню" id="81"/>
+						<ExtendedTooltip name="ПредупреждениеАктуальностьРасширеннаяПодсказка" id="82"/>
+					</LabelDecoration>
+					<Button name="ПоказатьОтличия" id="85">
+						<Type>Hyperlink</Type>
+						<CommandName>0</CommandName>
+						<ExtendedTooltip name="ПоказатьОтличияРасширеннаяПодсказка" id="86"/>
+					</Button>
+				</ChildItems>
+			</UsualGroup>
+			<UsualGroup name="ГруппаСостояние" id="69">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Группа состояние</v8:content>
+					</v8:item>
+				</Title>
+				<Group>AlwaysHorizontal</Group>
+				<VerticalAlign>Center</VerticalAlign>
+				<Behavior>Usual</Behavior>
+				<Representation>None</Representation>
+				<ShowTitle>false</ShowTitle>
+				<ExtendedTooltip name="ГруппаСостояниеРасширеннаяПодсказка" id="70"/>
+				<ChildItems>
+					<LabelField name="ПредставлениеСостояния" id="74">
+						<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+						<ContextMenu name="ПредставлениеСостоянияКонтекстноеМеню" id="75"/>
+						<ExtendedTooltip name="ПредставлениеСостоянияРасширеннаяПодсказка" id="76"/>
+					</LabelField>
+					<PictureDecoration name="ПоказатьКомментарийСостояния" id="77">
+						<Title formatted="false">
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Показать комментарий состояния</v8:content>
+							</v8:item>
+						</Title>
+						<Hyperlink>true</Hyperlink>
+						<ContextMenu name="ПоказатьКомментарийСостоянияКонтекстноеМеню" id="78"/>
+						<ExtendedTooltip name="ПоказатьКомментарийСостоянияРасширеннаяПодсказка" id="79"/>
+					</PictureDecoration>
+				</ChildItems>
+			</UsualGroup>
+			<LabelField name="ПредставлениеУчетногоДокумента" id="164">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Документ учета</v8:content>
+					</v8:item>
+				</Title>
+				<AutoMaxWidth>false</AutoMaxWidth>
+				<Hiperlink>true</Hiperlink>
+				<ContextMenu name="ПредставлениеУчетногоДокументаКонтекстноеМеню" id="165"/>
+				<ExtendedTooltip name="ПредставлениеУчетногоДокументаРасширеннаяПодсказка" id="166"/>
+			</LabelField>
+			<InputField name="МаршрутПодписания" id="13">
+				<ChoiceButton>true</ChoiceButton>
+				<TextEdit>false</TextEdit>
+				<ContextMenu name="МаршрутПодписанияКонтекстноеМеню" id="14"/>
+				<ExtendedTooltip name="МаршрутПодписанияРасширеннаяПодсказка" id="15"/>
+			</InputField>
+			<Pages name="ГруппаСтраницы" id="7">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Группа страницы</v8:content>
+					</v8:item>
+				</Title>
+				<PagesRepresentation>TabsOnTop</PagesRepresentation>
+				<ExtendedTooltip name="ГруппаСтраницыРасширеннаяПодсказка" id="8"/>
+				<ChildItems>
+					<Page name="СтраницаСодержимое" id="9">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Содержимое</v8:content>
+							</v8:item>
+						</Title>
+						<ExtendedTooltip name="СтраницаСодержимоеРасширеннаяПодсказка" id="10"/>
+						<ChildItems>
+							<SpreadSheetDocumentField name="ТабличныйДокументОсновной" id="4">
+								<ReadOnly>true</ReadOnly>
+								<TitleLocation>None</TitleLocation>
+								<BorderColor>style:FormBackColor</BorderColor>
+								<ContextMenu name="ТабличныйДокументОсновнойКонтекстноеМеню" id="5"/>
+								<ExtendedTooltip name="ТабличныйДокументОсновнойРасширеннаяПодсказка" id="6"/>
+							</SpreadSheetDocumentField>
+						</ChildItems>
+					</Page>
+					<Page name="СтраницаПодписи" id="11">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Подписи</v8:content>
+							</v8:item>
+						</Title>
+						<ExtendedTooltip name="СтраницаПодписиРасширеннаяПодсказка" id="12"/>
+						<ChildItems>
+							<UsualGroup name="ГруппаПодписи" id="87">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Электронные подписи</v8:content>
+									</v8:item>
+								</Title>
+								<Behavior>Usual</Behavior>
+								<Representation>None</Representation>
+								<ExtendedTooltip name="ГруппаПодписиРасширеннаяПодсказка" id="88"/>
+								<ChildItems>
+									<Table name="ЭлектронныеПодписи" id="89">
+										<Representation>List</Representation>
+										<ReadOnly>true</ReadOnly>
+										<HeightInTableRows>3</HeightInTableRows>
+										<EnableStartDrag>true</EnableStartDrag>
+										<EnableDrag>true</EnableDrag>
+										<RowsPicture>
+											<xr:Ref>CommonPicture.ВидыЭлектронныхПодписей</xr:Ref>
+											<xr:LoadTransparent>false</xr:LoadTransparent>
+										</RowsPicture>
+										<RowFilter xsi:nil="true"/>
+										<ContextMenu name="ЭлектронныеПодписиКонтекстноеМеню" id="90">
+											<ChildItems>
+												<Button name="ЭлектронныеПодписиКонтекстноеМенюОткрытьПодпись" id="160">
+													<Type>CommandBarButton</Type>
+													<CommandName>0</CommandName>
+													<ExtendedTooltip name="ЭлектронныеПодписиКонтекстноеМенюОткрытьПодписьРасширеннаяПодсказка" id="161"/>
+												</Button>
+												<Button name="ЭлектронныеПодписиКонтекстноеМенюСохранитьПодпись" id="158">
+													<Type>CommandBarButton</Type>
+													<CommandName>0</CommandName>
+													<ExtendedTooltip name="ЭлектронныеПодписиКонтекстноеМенюСохранитьПодписьРасширеннаяПодсказка" id="159"/>
+												</Button>
+												<Button name="ЭлектронныеПодписиКонтекстноеМенюПроверитьПодписи" id="152">
+													<Type>CommandBarButton</Type>
+													<CommandName>0</CommandName>
+													<ExtendedTooltip name="ЭлектронныеПодписиКонтекстноеМенюПроверитьПодписиРасширеннаяПодсказка" id="153"/>
+												</Button>
+											</ChildItems>
+										</ContextMenu>
+										<AutoCommandBar name="ЭлектронныеПодписиКоманднаяПанель" id="91">
+											<Autofill>false</Autofill>
+										</AutoCommandBar>
+										<ExtendedTooltip name="ЭлектронныеПодписиРасширеннаяПодсказка" id="92"/>
+										<SearchStringAddition name="ЭлектронныеПодписиСтрокаПоиска" id="93">
+											<AdditionSource>
+												<Item>ЭлектронныеПодписи</Item>
+												<Type>SearchStringRepresentation</Type>
+											</AdditionSource>
+											<ContextMenu name="ЭлектронныеПодписиСтрокаПоискаКонтекстноеМеню" id="94"/>
+											<ExtendedTooltip name="ЭлектронныеПодписиСтрокаПоискаРасширеннаяПодсказка" id="95"/>
+										</SearchStringAddition>
+										<ViewStatusAddition name="ЭлектронныеПодписиСостояниеПросмотра" id="96">
+											<AdditionSource>
+												<Item>ЭлектронныеПодписи</Item>
+												<Type>ViewStatusRepresentation</Type>
+											</AdditionSource>
+											<ContextMenu name="ЭлектронныеПодписиСостояниеПросмотраКонтекстноеМеню" id="97"/>
+											<ExtendedTooltip name="ЭлектронныеПодписиСостояниеПросмотраРасширеннаяПодсказка" id="98"/>
+										</ViewStatusAddition>
+										<SearchControlAddition name="ЭлектронныеПодписиУправлениеПоиском" id="99">
+											<AdditionSource>
+												<Item>ЭлектронныеПодписи</Item>
+												<Type>SearchControl</Type>
+											</AdditionSource>
+											<ContextMenu name="ЭлектронныеПодписиУправлениеПоискомКонтекстноеМеню" id="100"/>
+											<ExtendedTooltip name="ЭлектронныеПодписиУправлениеПоискомРасширеннаяПодсказка" id="101"/>
+										</SearchControlAddition>
+										<ChildItems>
+											<InputField name="ЭлектронныеПодписиКомуВыданСертификат" id="102">
+												<EditMode>EnterOnInput</EditMode>
+												<ContextMenu name="ЭлектронныеПодписиКомуВыданСертификатКонтекстноеМеню" id="103"/>
+												<ExtendedTooltip name="ЭлектронныеПодписиКомуВыданСертификатРасширеннаяПодсказка" id="104"/>
+											</InputField>
+											<InputField name="ЭлектронныеПодписиДатаПодписи" id="105">
+												<EditMode>EnterOnInput</EditMode>
+												<ContextMenu name="ЭлектронныеПодписиДатаПодписиКонтекстноеМеню" id="106"/>
+												<ExtendedTooltip name="ЭлектронныеПодписиДатаПодписиРасширеннаяПодсказка" id="107"/>
+											</InputField>
+											<ColumnGroup name="ЭлектронныеПодписиПроверка" id="108">
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Электронные подписи проверка</v8:content>
+													</v8:item>
+												</Title>
+												<Group>InCell</Group>
+												<ExtendedTooltip name="ЭлектронныеПодписиПроверкаРасширеннаяПодсказка" id="109"/>
+												<ChildItems>
+													<InputField name="ЭлектронныеПодписиСтатус" id="110">
+														<EditMode>EnterOnInput</EditMode>
+														<ContextMenu name="ЭлектронныеПодписиСтатусКонтекстноеМеню" id="111"/>
+														<ExtendedTooltip name="ЭлектронныеПодписиСтатусРасширеннаяПодсказка" id="112"/>
+													</InputField>
+													<InputField name="ЭлектронныеПодписиОписаниеОшибки" id="113">
+														<TitleLocation>None</TitleLocation>
+														<EditMode>EnterOnInput</EditMode>
+														<ContextMenu name="ЭлектронныеПодписиОписаниеОшибкиКонтекстноеМеню" id="114"/>
+														<ExtendedTooltip name="ЭлектронныеПодписиОписаниеОшибкиРасширеннаяПодсказка" id="115"/>
+													</InputField>
+													<InputField name="ЭлектронныеПодписиДатаПроверкиПодписи" id="116">
+														<EditMode>EnterOnInput</EditMode>
+														<ContextMenu name="ЭлектронныеПодписиДатаПроверкиПодписиКонтекстноеМеню" id="117"/>
+														<ExtendedTooltip name="ЭлектронныеПодписиДатаПроверкиПодписиРасширеннаяПодсказка" id="118"/>
+													</InputField>
+												</ChildItems>
+											</ColumnGroup>
+										</ChildItems>
+									</Table>
+								</ChildItems>
+							</UsualGroup>
+							<UsualGroup name="ГруппаМаршрут" id="67">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Маршрут подписания</v8:content>
+									</v8:item>
+								</Title>
+								<Group>Vertical</Group>
+								<Behavior>Usual</Behavior>
+								<Representation>None</Representation>
+								<ExtendedTooltip name="ГруппаМаршрутРасширеннаяПодсказка" id="68"/>
+								<ChildItems>
+									<Button name="ЗаписатьМаршрут" id="171">
+										<Type>UsualButton</Type>
+										<CommandName>0</CommandName>
+										<ExtendedTooltip name="ЗаписатьМаршрутРасширеннаяПодсказка" id="172"/>
+									</Button>
+									<Table name="ДеревоМаршрута" id="19">
+										<Representation>Tree</Representation>
+										<CommandBarLocation>None</CommandBarLocation>
+										<ChangeRowSet>false</ChangeRowSet>
+										<ChangeRowOrder>false</ChangeRowOrder>
+										<SelectionMode>SingleRow</SelectionMode>
+										<InitialTreeView>ExpandAllLevels</InitialTreeView>
+										<EnableStartDrag>true</EnableStartDrag>
+										<EnableDrag>true</EnableDrag>
+										<FileDragMode>AsFile</FileDragMode>
+										<RowsPicture>
+											<xr:Ref>CommonPicture.ВидыЭлектронныхПодписей</xr:Ref>
+											<xr:LoadTransparent>false</xr:LoadTransparent>
+										</RowsPicture>
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Дерево маршрута</v8:content>
+											</v8:item>
+										</Title>
+										<ContextMenu name="ДеревоМаршрутаКонтекстноеМеню" id="20"/>
+										<AutoCommandBar name="ДеревоМаршрутаКоманднаяПанель" id="21"/>
+										<ExtendedTooltip name="ДеревоМаршрутаРасширеннаяПодсказка" id="22"/>
+										<SearchStringAddition name="ДеревоМаршрутаСтрокаПоиска" id="23">
+											<AdditionSource>
+												<Item>ДеревоМаршрута</Item>
+												<Type>SearchStringRepresentation</Type>
+											</AdditionSource>
+											<ContextMenu name="ДеревоМаршрутаСтрокаПоискаКонтекстноеМеню" id="24"/>
+											<ExtendedTooltip name="ДеревоМаршрутаСтрокаПоискаРасширеннаяПодсказка" id="25"/>
+										</SearchStringAddition>
+										<ViewStatusAddition name="ДеревоМаршрутаСостояниеПросмотра" id="26">
+											<AdditionSource>
+												<Item>ДеревоМаршрута</Item>
+												<Type>ViewStatusRepresentation</Type>
+											</AdditionSource>
+											<HorizontalLocation>Left</HorizontalLocation>
+											<ContextMenu name="ДеревоМаршрутаСостояниеПросмотраКонтекстноеМеню" id="27"/>
+											<ExtendedTooltip name="ДеревоМаршрутаСостояниеПросмотраРасширеннаяПодсказка" id="28"/>
+										</ViewStatusAddition>
+										<SearchControlAddition name="ДеревоМаршрутаУправлениеПоиском" id="29">
+											<AdditionSource>
+												<Item>ДеревоМаршрута</Item>
+												<Type>SearchControl</Type>
+											</AdditionSource>
+											<ContextMenu name="ДеревоМаршрутаУправлениеПоискомКонтекстноеМеню" id="30"/>
+											<ExtendedTooltip name="ДеревоМаршрутаУправлениеПоискомРасширеннаяПодсказка" id="31"/>
+										</SearchControlAddition>
+										<ChildItems>
+											<PictureField name="ДеревоМаршрутаСостояние" id="41">
+												<ReadOnly>true</ReadOnly>
+												<TitleLocation>None</TitleLocation>
+												<EditMode>EnterOnInput</EditMode>
+												<ValuesPicture>
+													<xr:Ref>CommonPicture.СтадииПодписанияВнутреннегоЭДО</xr:Ref>
+													<xr:LoadTransparent>false</xr:LoadTransparent>
+												</ValuesPicture>
+												<ContextMenu name="ДеревоМаршрутаСостояниеКонтекстноеМеню" id="42"/>
+												<ExtendedTooltip name="ДеревоМаршрутаСостояниеРасширеннаяПодсказка" id="43"/>
+											</PictureField>
+											<InputField name="ДеревоМаршрутаОсновноеЗначение" id="32">
+												<ReadOnly>true</ReadOnly>
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Группа / подписант</v8:content>
+													</v8:item>
+												</Title>
+												<EditMode>EnterOnInput</EditMode>
+												<CreateButton>false</CreateButton>
+												<ContextMenu name="ДеревоМаршрутаОсновноеЗначениеКонтекстноеМеню" id="33"/>
+												<ExtendedTooltip name="ДеревоМаршрутаОсновноеЗначениеРасширеннаяПодсказка" id="34"/>
+											</InputField>
+											<InputField name="ДеревоМаршрутаВидПодписи" id="35">
+												<ReadOnly>true</ReadOnly>
+												<EditMode>EnterOnInput</EditMode>
+												<ContextMenu name="ДеревоМаршрутаВидПодписиКонтекстноеМеню" id="36"/>
+												<ExtendedTooltip name="ДеревоМаршрутаВидПодписиРасширеннаяПодсказка" id="37"/>
+											</InputField>
+											<InputField name="ДеревоМаршрутаСертификат" id="173">
+												<ReadOnly>true</ReadOnly>
+												<EditMode>EnterOnInput</EditMode>
+												<DropListButton>true</DropListButton>
+												<ChoiceButton>true</ChoiceButton>
+												<CreateButton>false</CreateButton>
+												<ContextMenu name="ДеревоМаршрутаСертификатКонтекстноеМеню" id="174"/>
+												<ExtendedTooltip name="ДеревоМаршрутаСертификатРасширеннаяПодсказка" id="175"/>
+											</InputField>
+											<InputField name="ДеревоМаршрутаДатаПодписи" id="38">
+												<ReadOnly>true</ReadOnly>
+												<EditMode>EnterOnInput</EditMode>
+												<ContextMenu name="ДеревоМаршрутаДатаПодписиКонтекстноеМеню" id="39"/>
+												<ExtendedTooltip name="ДеревоМаршрутаДатаПодписиРасширеннаяПодсказка" id="40"/>
+											</InputField>
+										</ChildItems>
+									</Table>
+								</ChildItems>
+							</UsualGroup>
+							<InputField name="Ответственный" id="62">
+								<ReadOnly>true</ReadOnly>
+								<ContextMenu name="ОтветственныйКонтекстноеМеню" id="63"/>
+								<ExtendedTooltip name="ОтветственныйРасширеннаяПодсказка" id="64"/>
+							</InputField>
+						</ChildItems>
+					</Page>
+					<Page name="СтраницаНеактуальные" id="121">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Неактуальные версии</v8:content>
+							</v8:item>
+						</Title>
+						<ExtendedTooltip name="СтраницаНеактуальныеРасширеннаяПодсказка" id="122"/>
+						<ChildItems>
+							<Table name="НеактуальныеДокументы" id="123">
+								<CommandBarLocation>None</CommandBarLocation>
+								<ChangeRowOrder>false</ChangeRowOrder>
+								<UseAlternationRowColor>true</UseAlternationRowColor>
+								<EnableStartDrag>true</EnableStartDrag>
+								<AutoRefresh>false</AutoRefresh>
+								<AutoRefreshPeriod>60</AutoRefreshPeriod>
+								<Period>
+									<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+									<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+									<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+								</Period>
+								<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+								<RestoreCurrentRow>false</RestoreCurrentRow>
+								<TopLevelParent xsi:nil="true"/>
+								<ShowRoot>true</ShowRoot>
+								<AllowRootChoice>false</AllowRootChoice>
+								<UpdateOnDataChange>Auto</UpdateOnDataChange>
+								<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
+								<ContextMenu name="НеактуальныеДокументыКонтекстноеМеню" id="124"/>
+								<AutoCommandBar name="НеактуальныеДокументыКоманднаяПанель" id="125"/>
+								<ExtendedTooltip name="НеактуальныеДокументыРасширеннаяПодсказка" id="126"/>
+								<SearchStringAddition name="НеактуальныеДокументыСтрокаПоиска" id="127">
+									<AdditionSource>
+										<Item>НеактуальныеДокументы</Item>
+										<Type>SearchStringRepresentation</Type>
+									</AdditionSource>
+									<ContextMenu name="НеактуальныеДокументыСтрокаПоискаКонтекстноеМеню" id="128"/>
+									<ExtendedTooltip name="НеактуальныеДокументыСтрокаПоискаРасширеннаяПодсказка" id="129"/>
+								</SearchStringAddition>
+								<ViewStatusAddition name="НеактуальныеДокументыСостояниеПросмотра" id="130">
+									<AdditionSource>
+										<Item>НеактуальныеДокументы</Item>
+										<Type>ViewStatusRepresentation</Type>
+									</AdditionSource>
+									<ContextMenu name="НеактуальныеДокументыСостояниеПросмотраКонтекстноеМеню" id="131"/>
+									<ExtendedTooltip name="НеактуальныеДокументыСостояниеПросмотраРасширеннаяПодсказка" id="132"/>
+								</ViewStatusAddition>
+								<SearchControlAddition name="НеактуальныеДокументыУправлениеПоиском" id="133">
+									<AdditionSource>
+										<Item>НеактуальныеДокументы</Item>
+										<Type>SearchControl</Type>
+									</AdditionSource>
+									<ContextMenu name="НеактуальныеДокументыУправлениеПоискомКонтекстноеМеню" id="134"/>
+									<ExtendedTooltip name="НеактуальныеДокументыУправлениеПоискомРасширеннаяПодсказка" id="135"/>
+								</SearchControlAddition>
+								<ChildItems>
+									<LabelField name="НеактуальныеДокументыСсылка" id="139">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Документ</v8:content>
+											</v8:item>
+										</Title>
+										<ContextMenu name="НеактуальныеДокументыСсылкаКонтекстноеМеню" id="140"/>
+										<ExtendedTooltip name="НеактуальныеДокументыСсылкаРасширеннаяПодсказка" id="141"/>
+									</LabelField>
+									<LabelField name="НеактуальныеДокументыСостояние" id="145">
+										<ContextMenu name="НеактуальныеДокументыСостояниеКонтекстноеМеню" id="146"/>
+										<ExtendedTooltip name="НеактуальныеДокументыСостояниеРасширеннаяПодсказка" id="147"/>
+									</LabelField>
+									<LabelField name="НеактуальныеДокументыДатаИзменения" id="136">
+										<ContextMenu name="НеактуальныеДокументыДатаИзмененияКонтекстноеМеню" id="137"/>
+										<ExtendedTooltip name="НеактуальныеДокументыДатаИзмененияРасширеннаяПодсказка" id="138"/>
+									</LabelField>
+									<LabelField name="НеактуальныеДокументыКомментарий" id="142">
+										<ContextMenu name="НеактуальныеДокументыКомментарийКонтекстноеМеню" id="143"/>
+										<ExtendedTooltip name="НеактуальныеДокументыКомментарийРасширеннаяПодсказка" id="144"/>
+									</LabelField>
+								</ChildItems>
+							</Table>
+						</ChildItems>
+					</Page>
+				</ChildItems>
+			</Pages>
+		</ChildItems>
+		<Attributes/>
+	</BaseForm>
+</Form>

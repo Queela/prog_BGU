@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.17">
+	<ConfigVersions>
+		<Metadata name="CommonModule.АБК_УстановкаДвиженийПоБСО" id="299ef398-81c0-4a73-a776-a6a51b3ba9b9" configVersion="012f9deb688fa9c927047130d4d58551ff41afc6"/>
+		<Metadata name="CommonModule.АБК_УстановкаДвиженийПоБСО.Module" id="299ef398-81c0-4a73-a776-a6a51b3ba9b9.0" configVersion="c54c453a1db8afec0a4fef2084ce31ec0b969ea0"/>
+		<Metadata name="CommonModule.БухгалтерскиеОперации" id="07f1a45b-a92e-4297-80de-22d029cc6ecb" configVersion="9f2ea4d127abbcd0f86614a799d9d3fac6eb14ce"/>
+		<Metadata name="CommonModule.БухгалтерскиеОперации.Module" id="07f1a45b-a92e-4297-80de-22d029cc6ecb.0" configVersion="a83e771e961acfb298425c9788df2614614ae17e"/>
+		<Metadata name="CommonModule.БухгалтерскиеОперацииОбработчики" id="bddd2107-bbfa-4ec6-9e98-e07b1ce19cda" configVersion="ba977c30a7ad750e5eff1b841dc242ebd6aa753c"/>
+		<Metadata name="CommonModule.БухгалтерскиеОперацииОбработчики.Module" id="bddd2107-bbfa-4ec6-9e98-e07b1ce19cda.0" configVersion="91851c2d8fdc219dc04bc7601cdc05231a93d800"/>
+		<Metadata name="Configuration.АБК_БухгалтерскиеОперации_ФункцииИОбработчики" id="e454f0ca-16fa-422b-a4e4-4d4dfb5a1c00" configVersion="40f31c8ff4b42636af7a43b14fbc01cc0a1828a3"/>
+		<Metadata name="Document.ВнутреннееПеремещениеБСО" id="58b8dcec-8059-422b-8130-4cc07fffc075" configVersion="4000f427ce9fc8f5a922e46b255a5512b75746dd"/>
+		<Metadata name="Document.ПередачаБСО" id="5e24a78e-d742-40a7-83d4-1f9567d36a06" configVersion="05931fff7215bde5c19c39f151c2cd6e7e1145c8"/>
+		<Metadata name="Document.ПоступлениеБСО" id="b402a2f8-52a1-47d2-9064-ff7b9cc844d8" configVersion="109531e1daee233da04817f033944cae01666a81"/>
+		<Metadata name="Document.СписаниеБСО" id="b48007c9-13c0-40f0-8274-783939ed93b5" configVersion="a5d9a364b47e6218bd975be919d98d9e6a45c13a"/>
+		<Metadata name="EventSubscription.АБК_УстановкаДвиженийБСО" id="85c9fdea-6c30-4afd-a5e0-6ea7f7273574" configVersion="361e93a84457483d11f748f865009b016d085ab5"/>
+		<Metadata name="Language.Русский" id="01ce10ef-4c62-4dbd-8292-f08d4a4f6b34" configVersion="1b64a1629e5bec7a35b2f71d8fa0f9e0594f94ab"/>
+	</ConfigVersions>
+</ConfigDumpInfo>

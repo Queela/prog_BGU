@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
+	<Document uuid="bfc48766-1728-43d9-ae28-dabe5429dbac">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.КорректировкаДоходовБудущихПериодовОбразование" category="Object">
+				<xr:TypeId>bf7967ca-baad-42e8-9ea3-f25a2f09edb8</xr:TypeId>
+				<xr:ValueId>ad125f5b-16da-4235-b6ca-fea2d8bba59b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.КорректировкаДоходовБудущихПериодовОбразование" category="Ref">
+				<xr:TypeId>e62363e0-4729-42f6-8166-ce63bc559ddc</xr:TypeId>
+				<xr:ValueId>0df36aed-93fe-4668-8555-f2dc7a12c3c7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.КорректировкаДоходовБудущихПериодовОбразование" category="Selection">
+				<xr:TypeId>024bc3ef-a9c6-495d-8159-810911b79a62</xr:TypeId>
+				<xr:ValueId>0cb10cb7-26b8-4bd7-a4a3-9d92f155a23c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.КорректировкаДоходовБудущихПериодовОбразование" category="List">
+				<xr:TypeId>453ede93-ff74-49c2-9629-f7b6f1f8b9bf</xr:TypeId>
+				<xr:ValueId>d65d8204-8005-4998-9533-229ec6243b2e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.КорректировкаДоходовБудущихПериодовОбразование" category="Manager">
+				<xr:TypeId>4239e01c-a719-47bf-90df-a3eb90303e41</xr:TypeId>
+				<xr:ValueId>cf424b6f-e985-49ae-8100-0756b8ba7c14</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>КорректировкаДоходовБудущихПериодовОбразование</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>b793e905-ccde-4115-a3f9-8182dc49a19d</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Form>ФормаДокумента</Form>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

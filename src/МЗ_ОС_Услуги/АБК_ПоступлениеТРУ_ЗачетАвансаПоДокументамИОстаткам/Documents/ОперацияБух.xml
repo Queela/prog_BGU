@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
+	<Document uuid="27e17b18-ff02-4aa9-8a2e-e175defde18c">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ОперацияБух" category="Object">
+				<xr:TypeId>7017f1d2-4c80-44d9-b810-51ca1d0902f4</xr:TypeId>
+				<xr:ValueId>8d390a3d-de70-4e1a-92d1-92830f57de85</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ОперацияБух" category="Ref">
+				<xr:TypeId>5f18f477-78e0-4d26-8a32-311241db3a3d</xr:TypeId>
+				<xr:ValueId>ac2ccdbc-3fd4-453c-bcf9-bf4cb06d461b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ОперацияБух" category="Selection">
+				<xr:TypeId>4f6e0c70-b227-45dc-80dd-3c572ae57796</xr:TypeId>
+				<xr:ValueId>bfe1fd24-7f85-4b5d-bab5-1561d63a2bc3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ОперацияБух" category="List">
+				<xr:TypeId>467ecd6d-9782-4602-a025-dc8b51cd0e37</xr:TypeId>
+				<xr:ValueId>24a747da-3f31-4da6-820d-0d96eb0a52f1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ОперацияБух" category="Manager">
+				<xr:TypeId>fc46f8dd-e3b6-415b-b31e-dee56018e0ce</xr:TypeId>
+				<xr:ValueId>db817887-4a49-4a94-bd3c-72f8dc19f2ee</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ОперацияБух</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>b59d54e0-655c-4808-81a5-5c7bb2fee65f</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

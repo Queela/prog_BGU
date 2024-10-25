@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
+	<Enum uuid="ab0cd239-2725-4690-83df-98018bc42b04">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ТипыСчетов" category="Ref">
+				<xr:TypeId>1d76c170-238d-4f1c-959c-0e658d5f41fb</xr:TypeId>
+				<xr:ValueId>b5829d7a-c1eb-475b-a164-262726c38b42</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ТипыСчетов" category="Manager">
+				<xr:TypeId>93e7a80a-ff2a-4157-b06b-3bceddd2120a</xr:TypeId>
+				<xr:ValueId>6f5b263d-6fe4-4849-a120-f7643bcff983</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ТипыСчетов" category="List">
+				<xr:TypeId>f3b526a8-3208-4fee-8cfe-bfa32831f3af</xr:TypeId>
+				<xr:ValueId>a5f3b407-f3bd-4abc-8400-b36f3c0bfee9</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ТипыСчетов</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>1a9219a2-f9ef-4c95-b6c9-cabae6092601</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="568cbb5b-ee1e-40b7-abe8-9b69dc12cbb9">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Налоговый</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>4bb73554-f397-43af-a610-734f191581bf</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

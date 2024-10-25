@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.17">
+	<ConfigVersions>
+		<Metadata name="Catalog.ОсновныеСредства" id="9ba8aa80-9298-4211-8a05-d9b4dd3f8d1f" configVersion="bdd7a6dffa4641e8f82b95fee7e064c6aea29808"/>
+		<Metadata name="Catalog.ОсновныеСредства.Form.ГрупповойВвод" id="dc58f445-74d2-47d4-adfa-5f17c2fe00c0" configVersion="2f8082783913793780fba45dabb826a7e3d6abce"/>
+		<Metadata name="Catalog.ОсновныеСредства.Form.ГрупповойВвод.Form" id="dc58f445-74d2-47d4-adfa-5f17c2fe00c0.0" configVersion="c4e92196e8efd864700bff089e8d2897bbd6a3a6"/>
+		<Metadata name="Catalog.ПостоянноДействующиеКомиссии" id="76278f97-8b1b-4079-bfa3-00c0d5c90d45" configVersion="384bbdec8cc83d9b70a4b6dc7981a6660b8cdfb8"/>
+		<Metadata name="CommonPicture.ПрослеживаемыйТовар" id="82c96e19-2ecb-486b-a883-f00c1e3046bd" configVersion="6eacdeb9aabd8057aa9ce45bc38cbe141fee542a"/>
+		<Metadata name="Configuration.АБК_ГрупповойВводОС_РешениеОПризнанииНФА" id="62c84515-0671-4c94-921f-69df132717c0" configVersion="1dcf3a29001bb436d98e63207be8006076de5717"/>
+		<Metadata name="Document.РешениеОПризнанииОбъектовОС" id="e41d4ade-14f3-4106-a818-834481ac4fb5" configVersion="751bcffa8f85e6e279470ff08337abd1bd452929"/>
+		<Metadata name="Document.РешениеОПризнанииОбъектовОС.Form.ФормаДокумента" id="e70a7faa-e86e-4434-a2a7-5ed1d4ea2a28" configVersion="3f6cb93ff48a0dfc8449b2b2ff3de287bc4cd107"/>
+		<Metadata name="Document.РешениеОПризнанииОбъектовОС.Form.ФормаДокумента.Form" id="e70a7faa-e86e-4434-a2a7-5ed1d4ea2a28.0" configVersion="9e09d5ada2c65eb99c9f45fdb25a53a95cdc2c16"/>
+		<Metadata name="Enum.ВидыКБК" id="92a7b7ee-379d-4e5d-a5a2-379c91eb1e12" configVersion="05b90d3113cdc440af9ae16dc3eae00a1597a4b1">
+			<Metadata name="Enum.ВидыКБК.EnumValue.Произвольный" id="01225af7-e175-4bdc-bd3a-19d7f0edc735"/>
+			<Metadata name="Enum.ВидыКБК.EnumValue.АУИБУ" id="4057e4db-3d48-4487-9e45-77617adba9f0"/>
+			<Metadata name="Enum.ВидыКБК.EnumValue.КРБ" id="866a4449-a04e-4d0a-8deb-5306085fac90"/>
+		</Metadata>
+		<Metadata name="Enum.ВидыОперацийПризнанияОС" id="176ab019-7773-4a1e-be5e-b407eeb6b8ed" configVersion="7b6e7baa80bcf48962cb6f86317acddee47ffb6a"/>
+		<Metadata name="Enum.НалоговаяБазаПоНалогуНаИмущество" id="081ed2e7-c5bc-4880-aa60-ea3d3d6321df" configVersion="8598faa492f288a997fc8b43a33f351af4ea3318">
+			<Metadata name="Enum.НалоговаяБазаПоНалогуНаИмущество.EnumValue.КадастроваяСтоимость" id="bfe5e3f6-3fe8-49bb-8398-f66e5726aba7"/>
+			<Metadata name="Enum.НалоговаяБазаПоНалогуНаИмущество.EnumValue.СреднегодоваяСтоимость" id="e6abf899-9bcf-45d2-bf54-380ae1ff3829"/>
+		</Metadata>
+		<Metadata name="Enum.ПорядокНалогообложенияИмущества" id="6f290b00-0208-45ed-a5ec-141b833a8a30" configVersion="2d80c55c37e9482bda2020110eac2e93422d31f6">
+			<Metadata name="Enum.ПорядокНалогообложенияИмущества.EnumValue.ОсобыеЛьготыНеУстановлены" id="12c56134-372d-4a6c-8b00-e4085caa2581"/>
+			<Metadata name="Enum.ПорядокНалогообложенияИмущества.EnumValue.ОблагаетсяПоСниженнойСтавке" id="e3b17dfe-437d-4702-ba25-dca9ccf32a4a"/>
+			<Metadata name="Enum.ПорядокНалогообложенияИмущества.EnumValue.ОсвобождаетсяОтНалогообложения" id="ee45d276-0d3c-4e5c-9255-44bd9bc42f96"/>
+		</Metadata>
+		<Metadata name="Enum.ТипыСчетов" id="ab0cd239-2725-4690-83df-98018bc42b04" configVersion="d5538309f34ab726862b48e79af48bed62b2562a">
+			<Metadata name="Enum.ТипыСчетов.EnumValue.Налоговый" id="568cbb5b-ee1e-40b7-abe8-9b69dc12cbb9"/>
+		</Metadata>
+		<Metadata name="Language.Русский" id="4ae85bcf-31a2-425d-8d69-23c6d504ed2c" configVersion="a50d1d29708c482f18df25ac540e2e1625678625"/>
+		<Metadata name="StyleItem.ГиперссылкаЦвет" id="37a4ae45-6272-4574-ae29-0c438ebca166" configVersion="938b8440ed3a2efc617ff969bcedc2f8f3f542dc"/>
+		<Metadata name="StyleItem.ПоясняющийТекст" id="c821837f-9a06-4bc5-88e4-1e196c575268" configVersion="36bd537bbe75306ee40e13ef026b428240438a7a"/>
+		<Metadata name="StyleItem.ТекстИнформационнойНадписи" id="556a33fd-0ea5-4335-be65-70578f2990c5" configVersion="dd801b780382197da6406fa7102f347fdbfc9569"/>
+		<Metadata name="StyleItem.ФонУправляющегоПоля" id="cbdf7cc0-561f-44ba-ad1e-4045712fe3aa" configVersion="e8f2726839739a91ed893bcabe3e0f9a3d4093c0"/>
+		<Metadata name="StyleItem.ЦветФонаВыделения" id="b103126c-a9c2-438c-b7d8-990ccc58ae47" configVersion="7315571c103a9bca8c78be88b70063e4f22bb1b6"/>
+	</ConfigVersions>
+</ConfigDumpInfo>

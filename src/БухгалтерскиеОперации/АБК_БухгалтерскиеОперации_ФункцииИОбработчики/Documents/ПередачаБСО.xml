@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
+	<Document uuid="5e24a78e-d742-40a7-83d4-1f9567d36a06">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ПередачаБСО" category="Object">
+				<xr:TypeId>1b851f08-5eef-4e36-9e8c-0a01e5e7448e</xr:TypeId>
+				<xr:ValueId>adc161ad-14aa-4790-aab9-2f091718b006</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ПередачаБСО" category="Ref">
+				<xr:TypeId>3498abbf-010d-4d38-a127-11e43216752b</xr:TypeId>
+				<xr:ValueId>34ff1b7d-bedb-4db4-9107-7d96a37fa74c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ПередачаБСО" category="Selection">
+				<xr:TypeId>bfd840cf-73db-4c07-ba16-7cdb3276c5b5</xr:TypeId>
+				<xr:ValueId>2724adc1-b4f6-4c32-bbdc-ccefd2b0fef4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ПередачаБСО" category="List">
+				<xr:TypeId>96a20a73-0344-4856-8e57-bd0751bae04a</xr:TypeId>
+				<xr:ValueId>2c013aac-9d97-4e82-af19-ec23d3de13da</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ПередачаБСО" category="Manager">
+				<xr:TypeId>6c373501-a2ea-4ba6-9a40-8329772c9071</xr:TypeId>
+				<xr:ValueId>90527864-ba50-4000-b390-4c8fb10899df</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ПередачаБСО</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>7b1b5e01-09ae-4141-bb50-deed6dbdd809</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

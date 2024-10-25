@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
+	<Catalog uuid="76278f97-8b1b-4079-bfa3-00c0d5c90d45">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ПостоянноДействующиеКомиссии" category="Object">
+				<xr:TypeId>6977a2e7-756f-44f5-96a7-4173a2250a4d</xr:TypeId>
+				<xr:ValueId>4133c242-e799-4be9-9aae-91bcca1ddf3e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ПостоянноДействующиеКомиссии" category="Ref">
+				<xr:TypeId>f35aeddb-b43b-47a9-b3e4-650b1872157d</xr:TypeId>
+				<xr:ValueId>1db8791b-de76-4af6-97e6-b3a082fa0e06</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ПостоянноДействующиеКомиссии" category="Selection">
+				<xr:TypeId>0310e818-11da-44ae-94bb-00eedbc50b0f</xr:TypeId>
+				<xr:ValueId>bc5f3544-1f5d-40fe-921a-c2463a0aca65</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ПостоянноДействующиеКомиссии" category="List">
+				<xr:TypeId>0f0cd79d-76d0-4bf2-b1a5-029823347fa2</xr:TypeId>
+				<xr:ValueId>badcd3b2-ccef-4a87-8106-f50fa7fbc4d1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ПостоянноДействующиеКомиссии" category="Manager">
+				<xr:TypeId>bed59d43-f914-4671-9295-34e176284d67</xr:TypeId>
+				<xr:ValueId>03802d0d-774b-4f89-a50f-913d9c7ee90d</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ПостоянноДействующиеКомиссии</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>8c280434-4667-4476-b843-455b197a5167</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

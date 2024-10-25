@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
+	<Catalog uuid="fed0411f-6035-4125-9859-3b8d3a4e1a82">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.КОСГУ" category="Object">
+				<xr:TypeId>1847bd89-1bee-456b-9bf7-43af1a9e9071</xr:TypeId>
+				<xr:ValueId>d4c52bbb-419a-4e5e-a9b6-b67a7e2db4f8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.КОСГУ" category="Ref">
+				<xr:TypeId>e841a2e2-262a-4519-9784-6a1a633cbca4</xr:TypeId>
+				<xr:ValueId>608a29e1-ad6b-4c6a-a67b-9e907dc3f008</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.КОСГУ" category="Selection">
+				<xr:TypeId>7f9aba77-5dad-40b7-8dff-0944f2158555</xr:TypeId>
+				<xr:ValueId>b2c1477f-0242-4118-89e1-4e6c5d6339d6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.КОСГУ" category="List">
+				<xr:TypeId>0fa60f71-38ff-42fc-8b6d-6d37567af82c</xr:TypeId>
+				<xr:ValueId>7c6fa004-0ead-45a8-9c6b-cc754d53f40d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.КОСГУ" category="Manager">
+				<xr:TypeId>9cd98121-d385-4bc4-9ca7-4d64da0aa1af</xr:TypeId>
+				<xr:ValueId>fda8bd43-56c6-44b2-be67-83053b1a5e8d</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>КОСГУ</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>98219707-1578-4e0d-a046-71072a35f752</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

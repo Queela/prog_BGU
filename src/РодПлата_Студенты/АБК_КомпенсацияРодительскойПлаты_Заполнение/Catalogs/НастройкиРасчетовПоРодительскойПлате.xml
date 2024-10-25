@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
+	<Catalog uuid="27f84c54-de5e-43aa-aab4-f3cbd4649b63">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.НастройкиРасчетовПоРодительскойПлате" category="Object">
+				<xr:TypeId>9d465bb1-100e-4043-ae1a-b11748ecc9d2</xr:TypeId>
+				<xr:ValueId>df79e5df-ac67-496e-9ce5-0af7e19a724b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.НастройкиРасчетовПоРодительскойПлате" category="Ref">
+				<xr:TypeId>8164693f-6ad5-4aa5-acd9-d11ad7dfde92</xr:TypeId>
+				<xr:ValueId>40159e4b-4aa8-4869-b211-2f4eeaecb848</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.НастройкиРасчетовПоРодительскойПлате" category="Selection">
+				<xr:TypeId>521ad32f-b73b-41ae-909b-8fda8b0cac64</xr:TypeId>
+				<xr:ValueId>b55ebd40-a6c0-4c3b-86c0-5cc7129be9dc</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.НастройкиРасчетовПоРодительскойПлате" category="List">
+				<xr:TypeId>eab32a57-d72d-45eb-8b14-c62ba4114d4e</xr:TypeId>
+				<xr:ValueId>09e84379-cbd1-4e96-95f6-79abec5417c3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.НастройкиРасчетовПоРодительскойПлате" category="Manager">
+				<xr:TypeId>07559a82-70a8-4dbc-8cda-d5f877e5ce66</xr:TypeId>
+				<xr:ValueId>e90da0ff-1f5b-460b-8946-4f5b94081a2c</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>НастройкиРасчетовПоРодительскойПлате</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>d72d67c0-5d59-497f-a5f8-097bda30dcbc</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<Template>ПредопределенныеОперанды</Template>
+		</ChildObjects>
+	</Catalog>
+</MetaDataObject>

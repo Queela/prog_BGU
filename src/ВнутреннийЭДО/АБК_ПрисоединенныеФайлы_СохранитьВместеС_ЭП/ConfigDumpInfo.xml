@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.17">
+	<ConfigVersions>
+		<Metadata name="CommonModule.ЭлектронныеДокументыЭДО" id="f48077f5-28c5-468a-bf67-1528ddd5607e" configVersion="70a1c72170929d49cd3dbaa211d6dbb266e73380"/>
+		<Metadata name="CommonModule.ЭлектронныеДокументыЭДО.Module" id="f48077f5-28c5-468a-bf67-1528ddd5607e.0" configVersion="8e4ea48c6a2f499365e2b104e1b0e257e51ea67f"/>
+		<Metadata name="CommonPicture.ЗаполнитьФорму" id="c7550332-9f73-45de-aefc-acb1810c9df6" configVersion="f85080d0eea262ce6bea96f6b6c45f7180f5b599"/>
+		<Metadata name="CommonPicture.КоллекцияПиктограммФайлов" id="34cf3d6a-7867-4447-bcf4-2e70c48b8648" configVersion="069cbec8cada409705a5b4bab34eebbe6c4470e2"/>
+		<Metadata name="CommonPicture.ОбновитьФайлИзФайлаНаДиске" id="90ca45ca-2568-49f6-9d67-80b05e31be8a" configVersion="497ba2ffc5ecd06d1bb435f990eee920cc29c3a8"/>
+		<Metadata name="CommonPicture.ПодписанЗашифрованЗаголовок" id="ae1edfe7-154c-492e-9368-8bfffa07633d" configVersion="172dfbba1ed8aa2269d8da09db7982388a375f01"/>
+		<Metadata name="CommonPicture.ПодписанЗашифрованСостояния" id="553d52a6-9eb7-4839-bbbd-003e6db80d3b" configVersion="ca3de25298f423c851fe21ccaedf324e974ca6f9"/>
+		<Metadata name="Configuration.АБК_ПрисоединенныеФайлы_СохранитьВместеС_ЭП" id="212fd94d-5170-44ea-8efd-a4d4d7c42b32" configVersion="3ccef5258f6af02b80b44427807eb3adfb2be958"/>
+		<Metadata name="DataProcessor.РаботаСФайлами" id="7c92f083-3b8d-427e-a87e-cefe006efda5" configVersion="611ac207386dfa16946875f3b25059187025ac18"/>
+		<Metadata name="DataProcessor.РаботаСФайлами.Form.ПрисоединенныеФайлы" id="30ea3ede-fac8-43df-b5d7-86d1e8ae551c" configVersion="239052eabbebab889913692b57c787fafb18b1f0"/>
+		<Metadata name="DataProcessor.РаботаСФайлами.Form.ПрисоединенныеФайлы.Form" id="30ea3ede-fac8-43df-b5d7-86d1e8ae551c.0" configVersion="144ecf4372f51d816c9590ca56aaafc0a000a2cd"/>
+		<Metadata name="Language.Русский" id="c5e71bc9-f3a0-4394-a110-a8494d1e6879" configVersion="e020fa844bcb756df56e9c4c57cb1f141077f3d7"/>
+		<Metadata name="StyleItem.ВладелецФайловШрифт" id="c8334df0-07ad-404f-a801-6883474da12d" configVersion="fc5421d6fd9603e0b232561223f061ec097f21b0"/>
+	</ConfigVersions>
+</ConfigDumpInfo>

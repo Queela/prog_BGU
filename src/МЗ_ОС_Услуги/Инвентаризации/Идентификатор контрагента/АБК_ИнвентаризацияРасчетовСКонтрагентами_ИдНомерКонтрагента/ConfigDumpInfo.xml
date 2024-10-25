@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.17">
+	<ConfigVersions>
+		<Metadata name="CommonPicture.НекорректныйКонтрагент" id="c7578589-881b-4078-8033-9b58ebe6dbc0" configVersion="4ef21ca5960c1a973ad262ee48f46efe2cee8559"/>
+		<Metadata name="Configuration.АБК_ИнвентаризацияРасчетовСКонтрагентами_ИдНомерКонтрагента" id="6675c1df-b3f5-4e39-9ece-7cec102987e1" configVersion="4f873e3c14e274b9b5aea5d44d26a2f3222348f0"/>
+		<Metadata name="Document.ИнвентаризацияРасчетовСКонтрагентами" id="b48624a2-f12b-4a15-bc94-380e059445cc" configVersion="f053c6c6af215f04442bacb2be4179cdfacfa17e"/>
+		<Metadata name="Document.ИнвентаризацияРасчетовСКонтрагентами.Form.ФормаДокумента" id="d44a25bd-c7a0-44d4-b7ff-5afdf89e37ce" configVersion="98165e2eee1563122f96d6a57f9c4d25d75afdd1"/>
+		<Metadata name="Document.ИнвентаризацияРасчетовСКонтрагентами.Form.ФормаДокумента.Form" id="d44a25bd-c7a0-44d4-b7ff-5afdf89e37ce.0" configVersion="1b8681de1a0644148064b8760df60918e7aa76b4"/>
+		<Metadata name="Language.Русский" id="e2002bbe-b230-4a5f-9a59-393d7abe2cbc" configVersion="9d13e17cf1ff6ef421af3d7fe9a3ee887b573199"/>
+		<Metadata name="StyleItem.ИтогиФонГруппы" id="f3f199c6-c2b4-4f9e-b9eb-e7f8791c84a2" configVersion="d14f857de2530ba8a0768fd37cf68fafbed0b353"/>
+		<Metadata name="StyleItem.ТекстИнформационнойНадписи" id="cea6d51a-386a-48f0-aa33-6791ace1c9dc" configVersion="53d29f4a931e47adbfd03d02c6f8f0ef27acf2bb"/>
+	</ConfigVersions>
+</ConfigDumpInfo>

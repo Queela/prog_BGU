@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.17">
+	<ConfigVersions>
+		<Metadata name="Configuration.АБК_АвансовыйОтчет_ЗаполнитьАвансыИПоступления" id="f13d1565-1ed0-422e-9d83-e3c89581cd28" configVersion="466da0ef2f7c079438642979be1fa0a4438dc163"/>
+		<Metadata name="Document.АвансовыйОтчет" id="0489a719-8f13-4484-9e87-5db985abfac3" configVersion="615916210eb7f0c317f9005b32c521cc746f3255"/>
+		<Metadata name="Document.АвансовыйОтчет.Form.ФормаДокумента" id="2ab72ec8-6407-463b-b2fd-57c249585f9c" configVersion="6686bf6923a2b52888ec466919ac4b62d855d6b2"/>
+		<Metadata name="Document.АвансовыйОтчет.Form.ФормаДокумента.Form" id="2ab72ec8-6407-463b-b2fd-57c249585f9c.0" configVersion="4bb5306bbd4238f79c158b1ef21350e0db19005b"/>
+		<Metadata name="Enum.СпособыОбеспеченияКомандировки" id="20d22545-2433-45c0-ac83-8c5aba1e4232" configVersion="8350ab2d01c517ff62b7fe9734b630a86020fa7c">
+			<Metadata name="Enum.СпособыОбеспеченияКомандировки.EnumValue.ВыдачаДенежныхДокументов" id="30f0bc7c-4a68-467b-9c9a-c3f5f13ab5fc"/>
+			<Metadata name="Enum.СпособыОбеспеченияКомандировки.EnumValue.АвансПодотчетномуЛицу" id="54366eca-cb91-4739-9787-ace75843e2eb"/>
+		</Metadata>
+		<Metadata name="Language.Русский" id="77856d43-4f64-422f-9593-ef3d75043b73" configVersion="85efc5c173996837f868c9747fc92f0430aa46fa"/>
+		<Metadata name="StyleItem.ДосьеГиперссылкаЦвет" id="088f3bfe-a4a1-4662-b6e0-3efb13d138de" configVersion="70f2a23fd0a3c2e77a17e0b9a8a838702a5b3be2"/>
+		<Metadata name="StyleItem.ИтогиФонГруппы" id="525f2c0d-014b-4cf7-b4a2-e5dfa013f396" configVersion="deaf087dcab398f5b0a6d557f6069d9fe95d05cc"/>
+		<Metadata name="StyleItem.НезаполненныйРеквизит" id="2e3f090d-ad1b-4854-be26-d3fcbbd1573f" configVersion="3e706f8fe7072387264531ebc605114dd16ec8f8"/>
+		<Metadata name="StyleItem.ПоясняющийТекст" id="bb37ccd3-1518-4074-a5ad-0efc3baf7d1c" configVersion="6a9c44a5d2f02e8bdce344ae77d1719187f66e59"/>
+		<Metadata name="StyleItem.ТекстЗапрещеннойЯчейкиЦвет" id="596afe07-643f-4651-967a-97e212b32ccb" configVersion="5d577c7e53297e84d6bac0236ac45fce36100905"/>
+		<Metadata name="StyleItem.ЦветПодписи" id="0c8afb62-69f3-4948-a611-1db1a64a1882" configVersion="112d7465b3d0dd924b97dc89a73df9c7df546790"/>
+	</ConfigVersions>
+</ConfigDumpInfo>

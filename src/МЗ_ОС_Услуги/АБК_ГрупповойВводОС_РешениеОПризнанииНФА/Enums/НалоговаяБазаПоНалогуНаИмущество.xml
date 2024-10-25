@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
+	<Enum uuid="081ed2e7-c5bc-4880-aa60-ea3d3d6321df">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.НалоговаяБазаПоНалогуНаИмущество" category="Ref">
+				<xr:TypeId>26cfef7e-9a0f-4b17-bc86-953966a9ccd6</xr:TypeId>
+				<xr:ValueId>cae748e8-b752-4acb-a5f3-3acb6ce05ff3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.НалоговаяБазаПоНалогуНаИмущество" category="Manager">
+				<xr:TypeId>cfe2c45f-f9ad-46f9-9e3d-a22d977e038a</xr:TypeId>
+				<xr:ValueId>137a07db-94d1-49bc-9a50-e67da99935e9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.НалоговаяБазаПоНалогуНаИмущество" category="List">
+				<xr:TypeId>bcc617a6-f86d-4ac5-9cfb-233c351d1747</xr:TypeId>
+				<xr:ValueId>a97208f2-fc70-47e0-8575-50f9983fb835</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>НалоговаяБазаПоНалогуНаИмущество</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>da982d9a-7657-475a-bd49-14b628864cd9</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="e6abf899-9bcf-45d2-bf54-380ae1ff3829">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>СреднегодоваяСтоимость</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>83b4c639-bd45-45bd-9ca1-f71ed2c2acc6</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="bfe5e3f6-3fe8-49bb-8398-f66e5726aba7">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>КадастроваяСтоимость</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>5fd2d3df-6523-43eb-ada1-ddc75afa7628</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

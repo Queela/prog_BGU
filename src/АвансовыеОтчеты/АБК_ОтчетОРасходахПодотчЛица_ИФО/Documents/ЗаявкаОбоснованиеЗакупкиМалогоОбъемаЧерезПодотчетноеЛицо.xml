@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
+	<Document uuid="b22135cd-2cc5-4d30-9467-8668d3e21f76">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ЗаявкаОбоснованиеЗакупкиМалогоОбъемаЧерезПодотчетноеЛицо" category="Object">
+				<xr:TypeId>1ab0a2aa-3ec5-4286-b555-10054d926d26</xr:TypeId>
+				<xr:ValueId>c690663e-c609-4a20-b711-395bf3451d65</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ЗаявкаОбоснованиеЗакупкиМалогоОбъемаЧерезПодотчетноеЛицо" category="Ref">
+				<xr:TypeId>feca30d6-66b1-4b37-9169-7ce0772b39c8</xr:TypeId>
+				<xr:ValueId>898d9892-dba5-4eee-b5da-d274c628764f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ЗаявкаОбоснованиеЗакупкиМалогоОбъемаЧерезПодотчетноеЛицо" category="Selection">
+				<xr:TypeId>1ac7d7e1-7cbd-49ae-85df-745a2a22a5f8</xr:TypeId>
+				<xr:ValueId>930d6844-352a-4d85-80d8-59278cf36d47</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ЗаявкаОбоснованиеЗакупкиМалогоОбъемаЧерезПодотчетноеЛицо" category="List">
+				<xr:TypeId>6aaa6db5-a76d-4f4e-b5a8-603f5d6fb5f4</xr:TypeId>
+				<xr:ValueId>772686f8-8b1a-4225-8214-d1b535747bb4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ЗаявкаОбоснованиеЗакупкиМалогоОбъемаЧерезПодотчетноеЛицо" category="Manager">
+				<xr:TypeId>69d69735-a03f-4d7b-a4d3-f38855b99d91</xr:TypeId>
+				<xr:ValueId>c9a60b07-fcb7-4bd4-90dd-538658f9bda5</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ЗаявкаОбоснованиеЗакупкиМалогоОбъемаЧерезПодотчетноеЛицо</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>79345d68-faa4-4c35-8534-6ff48950f68d</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

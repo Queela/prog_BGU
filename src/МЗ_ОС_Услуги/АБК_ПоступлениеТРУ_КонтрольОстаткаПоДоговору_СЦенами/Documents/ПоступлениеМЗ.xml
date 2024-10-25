@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
+	<Document uuid="48072c64-aa66-412f-9823-13483c73d349">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ПоступлениеМЗ" category="Object">
+				<xr:TypeId>7ea5dcd2-6777-45ce-9f2e-eae45d7c8418</xr:TypeId>
+				<xr:ValueId>7452d4d4-9752-47b9-99b3-3d6a5c14bd44</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ПоступлениеМЗ" category="Ref">
+				<xr:TypeId>12ff341d-b6c5-4184-9e67-8cb0c8067a2f</xr:TypeId>
+				<xr:ValueId>793dcd5e-d8b2-4954-84f6-a6334d7c9b6c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ПоступлениеМЗ" category="Selection">
+				<xr:TypeId>c0af0c34-3b5d-4354-b071-e01c286ce4d9</xr:TypeId>
+				<xr:ValueId>98dd8ee1-a470-410b-9d35-67d643720eab</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ПоступлениеМЗ" category="List">
+				<xr:TypeId>05ec41e8-c1c4-4ebb-b44a-38824f13f0fe</xr:TypeId>
+				<xr:ValueId>095905ae-e300-41d6-8a68-5fcdf9ce6cf5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ПоступлениеМЗ" category="Manager">
+				<xr:TypeId>9a152c49-360c-4d84-aeef-8d5fd9d99fb8</xr:TypeId>
+				<xr:ValueId>2805701a-2ed6-431c-b59e-65d3c01f09fe</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ПоступлениеМЗ</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>086429fd-91c4-4570-8ebf-722fc98305f6</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Form>ФормаДокумента</Form>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

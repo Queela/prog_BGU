@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.17">
+	<ConfigVersions>
+		<Metadata name="CommonModule.БухгалтерскиеОперацииИсточникиДанных" id="2721d826-9c95-46e7-9f2b-902c7346be11" configVersion="e00883d9da0396555992aa52cb63928440f6c89f"/>
+		<Metadata name="CommonModule.БухгалтерскиеОперацииИсточникиДанных.Module" id="2721d826-9c95-46e7-9f2b-902c7346be11.0" configVersion="a885d373420108411dbf4770312156c3f6e7d8d5"/>
+		<Metadata name="CommonModule.УчетРасчетов" id="fc38e92a-856c-4cab-a5df-6657e1560a14" configVersion="6ebe773458b255bab9d32c707aee70b452905e13"/>
+		<Metadata name="CommonModule.УчетРасчетов.Module" id="fc38e92a-856c-4cab-a5df-6657e1560a14.0" configVersion="bd1b4517bb73c92a3049524d471d97f9f037036a"/>
+		<Metadata name="CommonPicture.ПрослеживаемыйТовар" id="e6e5ac13-4a2a-4355-ab07-295cc7fb55ed" configVersion="2adc032572511f280d26c9386e113068883a5005"/>
+		<Metadata name="Configuration.АБК_РешениеОПризнанииОС_ЗачетАванса" id="513768f3-6dc4-4272-811b-3cb8c2606d72" configVersion="d516584638df5424e15c4d856760627f4844181e"/>
+		<Metadata name="Document.РешениеОПризнанииОбъектовОС" id="a0efa9c8-39d8-4cdc-a18e-6877c27b2c65" configVersion="a4ebac15f2b1b3892e10a464935228cc6ca0d229"/>
+		<Metadata name="Document.РешениеОПризнанииОбъектовОС.Form.ФормаДокумента" id="db09c9f4-aba0-4edf-97f5-70709acc4817" configVersion="f1590366865ffd95bbdebfd878aa7e6d1514acd9"/>
+		<Metadata name="Document.РешениеОПризнанииОбъектовОС.Form.ФормаДокумента.Form" id="db09c9f4-aba0-4edf-97f5-70709acc4817.0" configVersion="9fe51edaa74874dc1edadd5f22a62f22e1a5ffd1"/>
+		<Metadata name="Language.Русский" id="e4ea4be8-1f99-41f6-b18d-d5964702d2e5" configVersion="367a6634c16cb06c1ecbd093f08d39899936279a"/>
+		<Metadata name="StyleItem.ГиперссылкаЦвет" id="4c124ca4-43d0-42f5-a040-896624af5d1d" configVersion="bc4d768f9de29f903dbb8dfd0978453d670d47ba"/>
+		<Metadata name="StyleItem.ФонУправляющегоПоля" id="a555c489-550b-4f0e-88c1-a442987947da" configVersion="c7a2d61e1de35a8c99df8998e4bd759283b7ccbf"/>
+	</ConfigVersions>
+</ConfigDumpInfo>

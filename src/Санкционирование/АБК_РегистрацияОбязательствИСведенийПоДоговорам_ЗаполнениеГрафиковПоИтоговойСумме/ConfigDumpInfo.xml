@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.17">
+	<ConfigVersions>
+		<Metadata name="CommonPicture.Защита" id="d6c2f0ea-32f6-4e2f-b8a4-d931615b52b0" configVersion="4aa4df61eda378ad8955e55b59359884d7a633d9"/>
+		<Metadata name="CommonPicture.НекорректныйКонтрагент" id="7d9f9522-3398-4bcc-bc67-50f5ec0c1dc5" configVersion="65995b6c2ace21a9ca14ad85c585e46ea1000fbc"/>
+		<Metadata name="Configuration.АБК_РегистрацияОбязательствИСведенийПоДоговорам_ЗаполнениеГрафиковПоИтоговойСумме" id="e248cadb-9b09-4c00-acbe-4945a00f23d2" configVersion="8eaa29b102255f89291a1540f127290d2eec3d72"/>
+		<Metadata name="Document.РегистрацияОбязательствИСведенийПоДоговорам" id="8d14bee4-8143-4033-959d-e5a737a841e4" configVersion="6cd9fbe7e69627aa5474343b270642c13ee28e96"/>
+		<Metadata name="Document.РегистрацияОбязательствИСведенийПоДоговорам.Form.ФормаДокумента" id="32df7747-8391-41af-955f-27160d02cc57" configVersion="776ae93190f16dbd4862f27a5bee2f743ec318d5"/>
+		<Metadata name="Document.РегистрацияОбязательствИСведенийПоДоговорам.Form.ФормаДокумента.Form" id="32df7747-8391-41af-955f-27160d02cc57.0" configVersion="44ec62d01393546dd6d7f6308caa661edf2bf036"/>
+		<Metadata name="Enum.ТипыСведенийДоговоров" id="26d54700-a57b-46dc-b2ce-5521f32c750f" configVersion="e5c9b73af1f29734e216239539c8b1349e5b3754">
+			<Metadata name="Enum.ТипыСведенийДоговоров.EnumValue.ИсправлениеСведений" id="6f715fbb-ba8d-430e-b8e0-fec56904ecda"/>
+			<Metadata name="Enum.ТипыСведенийДоговоров.EnumValue.ИзменениеСведений" id="79543ba7-873b-46a3-a7a7-8a4e41e75eed"/>
+			<Metadata name="Enum.ТипыСведенийДоговоров.EnumValue.ПервичныеСведения" id="7af1308e-c826-492d-a944-e151a280e002"/>
+		</Metadata>
+		<Metadata name="Language.Русский" id="c43b42ed-40ea-46fa-9807-244feb87660d" configVersion="0b7216eb52727ddaeb16b48731ba4d677bc8db20"/>
+		<Metadata name="StyleItem.ИтогиФонГруппы" id="86b77184-610c-4059-8308-7d701d3e565a" configVersion="7976dd7b7f5a6667155b606ce2b10997a9c56543"/>
+		<Metadata name="StyleItem.ПоясняющийТекст" id="bbfb3189-0ae2-4c12-b240-35d4769cdf94" configVersion="c6ae7e7c490aadac26d16f025dd83d6d8e022b33"/>
+		<Metadata name="StyleItem.ТекстИнформационнойНадписи" id="8e260285-48d9-488c-a498-9f382afe3f77" configVersion="cf65b0ba48027d114783ee8d47daeadf94b5d082"/>
+		<Metadata name="StyleItem.ЦветНедоступноеПоле" id="c0dac87a-910f-4888-ae0b-5d6aa2d57a59" configVersion="2f02d2aaaa8db8e5d6af172ebefafb49dfb71883"/>
+		<Metadata name="StyleItem.ЦветФонаВыделения" id="ed618cdb-33a8-4d36-b9b2-6454265d09f4" configVersion="58234c09d7ec8472b54cac602c594d4954fa0ef7"/>
+	</ConfigVersions>
+</ConfigDumpInfo>

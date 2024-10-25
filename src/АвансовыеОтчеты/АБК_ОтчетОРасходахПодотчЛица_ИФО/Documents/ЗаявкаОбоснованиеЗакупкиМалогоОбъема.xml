@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
+	<Document uuid="ed5d3d19-8b7a-41ba-be8d-cd7586403147">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ЗаявкаОбоснованиеЗакупкиМалогоОбъема" category="Object">
+				<xr:TypeId>622081bc-f95d-4417-8e14-4873ca19e980</xr:TypeId>
+				<xr:ValueId>34daf344-b464-4a95-a979-c77dd8b911ef</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ЗаявкаОбоснованиеЗакупкиМалогоОбъема" category="Ref">
+				<xr:TypeId>503e255c-58f3-479e-a87b-b2be009675f0</xr:TypeId>
+				<xr:ValueId>70f98c7e-05e6-4862-adf4-d2fe7bf6bfcf</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ЗаявкаОбоснованиеЗакупкиМалогоОбъема" category="Selection">
+				<xr:TypeId>f8f1f47b-61b3-40cb-ac8b-e6e578fec626</xr:TypeId>
+				<xr:ValueId>945b876a-8326-4b42-a9dd-896c155a78b0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ЗаявкаОбоснованиеЗакупкиМалогоОбъема" category="List">
+				<xr:TypeId>4bddb489-d723-40e2-b0f6-cf6e62c6d859</xr:TypeId>
+				<xr:ValueId>0571940b-1152-483e-8236-df8cf5d7bbff</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ЗаявкаОбоснованиеЗакупкиМалогоОбъема" category="Manager">
+				<xr:TypeId>8816837a-81e1-4dd6-a0b5-d8afc0fdffd8</xr:TypeId>
+				<xr:ValueId>8486e6c8-f497-4a95-9def-3d47e2048836</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ЗаявкаОбоснованиеЗакупкиМалогоОбъема</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>6e407074-2dda-442d-bf87-ccb64c9c9137</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

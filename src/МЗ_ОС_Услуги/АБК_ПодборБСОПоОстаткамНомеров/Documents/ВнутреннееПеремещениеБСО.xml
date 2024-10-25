@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
+	<Document uuid="6b955aae-ee79-428d-b8d1-ebc6e33a26ce">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ВнутреннееПеремещениеБСО" category="Object">
+				<xr:TypeId>d1b144d9-34a2-4e37-ac43-b67d7f6895e3</xr:TypeId>
+				<xr:ValueId>689b9abf-63aa-4aa2-b244-3bc9dc5a88b5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ВнутреннееПеремещениеБСО" category="Ref">
+				<xr:TypeId>c9d8045a-42ea-43b6-9bce-5a3e4869f530</xr:TypeId>
+				<xr:ValueId>c26f320b-af93-49bc-9fca-4cef823233d7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ВнутреннееПеремещениеБСО" category="Selection">
+				<xr:TypeId>12d89a2e-48ab-40ee-aa30-92c6439fc13f</xr:TypeId>
+				<xr:ValueId>3884552f-0283-49ad-8cd3-149ae5951d79</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ВнутреннееПеремещениеБСО" category="List">
+				<xr:TypeId>55a9ecc7-5e07-47ba-b370-a7de2f7a1067</xr:TypeId>
+				<xr:ValueId>6eced55b-5301-4852-be56-af636cdf78f1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ВнутреннееПеремещениеБСО" category="Manager">
+				<xr:TypeId>b37c7e5f-f8b6-460f-8f2e-c4038096a07e</xr:TypeId>
+				<xr:ValueId>576dc6de-fbd1-48b5-87a4-376ad8c5a552</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ВнутреннееПеремещениеБСО</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>dcbaea62-8ff0-4860-829e-1e9bbbfb9b64</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Form>ФормаДокумента</Form>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

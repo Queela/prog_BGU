@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
+	<InformationRegister uuid="77deda08-a844-4f50-b398-3b186a971d19">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.НастройкиВнутреннегоЭДОБГУ" category="Record">
+				<xr:TypeId>bab2ce60-aa33-4958-aec7-32d876d1f32d</xr:TypeId>
+				<xr:ValueId>8e0114af-d761-4975-8116-d6d26009860c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.НастройкиВнутреннегоЭДОБГУ" category="Manager">
+				<xr:TypeId>ca8a108d-e095-4295-a890-73f601f02eb8</xr:TypeId>
+				<xr:ValueId>79024324-eb7b-499e-87f4-4707dedf187d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.НастройкиВнутреннегоЭДОБГУ" category="Selection">
+				<xr:TypeId>2460bf4e-67de-4b8d-9d66-9943f6831ee0</xr:TypeId>
+				<xr:ValueId>811c6ded-e5bb-4d23-86c4-54ff10541d7d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.НастройкиВнутреннегоЭДОБГУ" category="List">
+				<xr:TypeId>fd92b32c-b820-4d10-a98c-ca3d3e90cebf</xr:TypeId>
+				<xr:ValueId>4b34ee42-c746-45ba-b55e-55546bcc9780</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.НастройкиВнутреннегоЭДОБГУ" category="RecordSet">
+				<xr:TypeId>2187a1b4-548f-444e-a571-fc0ddf0edcac</xr:TypeId>
+				<xr:ValueId>f1341807-c464-4526-8331-8258aad5a75f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.НастройкиВнутреннегоЭДОБГУ" category="RecordKey">
+				<xr:TypeId>b1f018cf-a6c8-42b6-91a7-f1fb0a5d192b</xr:TypeId>
+				<xr:ValueId>6a23a57d-2a6d-4c81-9ec0-e8922a90c20e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.НастройкиВнутреннегоЭДОБГУ" category="RecordManager">
+				<xr:TypeId>ec59a4c5-5ff6-4fba-974d-f6d16dcdfb3e</xr:TypeId>
+				<xr:ValueId>650f79cb-fd5f-4da1-ab87-4384e78424f5</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>НастройкиВнутреннегоЭДОБГУ</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>5d442fcb-691d-42a1-a540-0f48c598280a</ExtendedConfigurationObject>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Dimension uuid="f35edab5-6222-4232-a74d-89fb8e665423">
+				<InternalInfo>
+					<xr:PropertyState>
+						<xr:Property>Type</xr:Property>
+						<xr:State>MultiState</xr:State>
+					</xr:PropertyState>
+				</InternalInfo>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ИдентификаторДокумента</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>6ffa2daa-537f-4970-8dd7-2ce344909d60</ExtendedConfigurationObject>
+					<Type xsi:type="xr:ExtendedProperty">
+						<xr:CheckValue xsi:type="v8:TypeDescription">
+							<v8:Type>cfg:CatalogRef.ИдентификаторыОбъектовМетаданных</v8:Type>
+						</xr:CheckValue>
+						<xr:ExtendValue xsi:type="v8:TypeDescription">
+							<v8:Type>cfg:CatalogRef.ДополнительныеОтчетыИОбработки</v8:Type>
+						</xr:ExtendValue>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Form>НастройкаВнутреннегоЭДО</Form>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

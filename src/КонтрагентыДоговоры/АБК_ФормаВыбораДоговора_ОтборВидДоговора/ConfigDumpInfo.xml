@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.17">
+	<ConfigVersions>
+		<Metadata name="Catalog.Договоры" id="cc8a934f-f160-44ce-9d03-7dc11a9fa733" configVersion="1917356b57a5071f04dad32ade9f182ee45cfe86"/>
+		<Metadata name="Catalog.Договоры.Form.ФормаВыбора" id="21c56f11-2d73-4a94-862d-5d27815600a9" configVersion="68bee1912d78b15ecb65b5131537a8d3379857f2"/>
+		<Metadata name="Catalog.Договоры.Form.ФормаВыбора.Form" id="21c56f11-2d73-4a94-862d-5d27815600a9.0" configVersion="127a8d0298a0c9b5a0cc98640d4518ee6032a83c"/>
+		<Metadata name="CommonPicture.ИерархияЭлементов" id="0be130c7-40f4-46bf-bfb1-90541319e019" configVersion="4037060c16ab1754b5c53a8400123ec9a2acc57b"/>
+		<Metadata name="CommonPicture.НалоговыйОрган" id="1b3b2874-c842-4a63-b6a8-45288a76d7ca" configVersion="ce2b79b6c09a0089ac066059be064166d1478791"/>
+		<Metadata name="Configuration.АБК_ФормаВыбораДоговора_ОтборВидДоговора" id="dc2a7f16-8103-4c7f-969a-5764b1d9bfa8" configVersion="06e0f626c9c6031c02f39c6b0feb8c394dd09d11"/>
+		<Metadata name="Enum.ВидыДоговоровКонтрагентов" id="7cfded15-3b0a-4458-9dd4-4d1960939109" configVersion="45fdc269aa4575b87911f4bd0c89e6424f36f037">
+			<Metadata name="Enum.ВидыДоговоровКонтрагентов.EnumValue.СПоставщиком" id="20ab2d73-6cc7-47c2-81e1-ce2119ca0ffd"/>
+			<Metadata name="Enum.ВидыДоговоровКонтрагентов.EnumValue.ИноеОбязательство" id="45b614e7-396a-4af5-a768-698e421fac97"/>
+			<Metadata name="Enum.ВидыДоговоровКонтрагентов.EnumValue.СПокупателем" id="91bf9169-fc80-44f4-ba82-721fba411f85"/>
+			<Metadata name="Enum.ВидыДоговоровКонтрагентов.EnumValue.СоглашениеОСубсидии" id="ba9ee098-49b7-4f89-93a6-5b4ebbacc64b"/>
+		</Metadata>
+		<Metadata name="Language.Русский" id="90c32ded-98cb-4a7a-a18c-bb8f0e4b8565" configVersion="ada4c558ec800c32428684edc17f024af2053861"/>
+		<Metadata name="StyleItem.ГиперссылкаЦвет" id="4704f8c7-2fdc-49d8-aaa3-73a5885b2892" configVersion="bc10d9c94ab57f5ee44d3762ebce163f54737fc8"/>
+		<Metadata name="StyleItem.ЗаголовкиСтрокЦветТекста" id="41d82d18-459f-4248-a83f-342ed0c72222" configVersion="98361ae7623c8266c79f71246ad25b0d00350693"/>
+		<Metadata name="StyleItem.ИтогиФонГруппы" id="2176cfea-18d0-4ebf-9629-da2446dfc5bb" configVersion="052c00f4135d8b3a4e00b5a9653f4af371939ad8"/>
+		<Metadata name="StyleItem.НедоступныеДанныеЦвет" id="6417f408-7d52-4af8-b528-1554b21e8825" configVersion="cf21296acbab75209f603df4a795d046a1cb5feb"/>
+		<Metadata name="StyleItem.ПоясняющийОшибкуТекст" id="4f45e1f3-bef8-44f2-a8cc-9f6223d5ac64" configVersion="26a0e23c5fb27e6760826a749e15a8382cbd7b47"/>
+		<Metadata name="StyleItem.ТекстИнформационнойНадписи" id="39d89aa5-779b-42f9-8ac7-27fba9a4c1fe" configVersion="6bf61e153087fa82b10a0ff281d4714348d71d77"/>
+		<Metadata name="StyleItem.ЦветФонаПредупреждения" id="0fc20dab-9563-4060-9aaa-5b2eeb45d0db" configVersion="c543dfecfaca8e99942dd42643f0fdfc1f78f36a"/>
+	</ConfigVersions>
+</ConfigDumpInfo>

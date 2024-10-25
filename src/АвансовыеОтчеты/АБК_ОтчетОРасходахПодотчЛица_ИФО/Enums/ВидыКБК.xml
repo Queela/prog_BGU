@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
+	<Enum uuid="70e397fa-e5c7-4e07-9047-e7abad5f759b">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ВидыКБК" category="Ref">
+				<xr:TypeId>8f6e8154-8b22-46f5-afbe-0ede1a66a120</xr:TypeId>
+				<xr:ValueId>c8af1b14-a330-4e4a-96df-80149a16f481</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ВидыКБК" category="Manager">
+				<xr:TypeId>bed065d8-ceea-4b9d-b8c6-301e581116fc</xr:TypeId>
+				<xr:ValueId>4977b636-0fa5-4cd3-9106-c8ce6b1a56be</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ВидыКБК" category="List">
+				<xr:TypeId>b3002110-fa53-460f-a9db-d01c09a86d39</xr:TypeId>
+				<xr:ValueId>3df79506-f798-476e-a2f1-be0c87ed77e6</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ВидыКБК</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>a833ba0e-215a-4454-b0eb-61be47809123</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="28f014a8-e0fa-4bcb-97b2-0fecbb6d216e">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>КРБ</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>033a9354-104a-4e10-9021-9aa3c5ea80f4</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="c684aece-30b3-4411-9247-752e778f106c">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>АУИБУ</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>c59312ec-80a1-4fd6-8fc4-59033edeb1cc</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="c05e3af3-7b1a-4e08-a5a8-a3223fec4507">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Произвольный</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>ea1a5e51-5985-4395-9ffe-9722c57ceaf2</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

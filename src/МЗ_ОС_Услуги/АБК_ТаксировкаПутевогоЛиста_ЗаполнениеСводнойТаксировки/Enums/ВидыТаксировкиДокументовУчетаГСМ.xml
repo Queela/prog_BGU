@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
+	<Enum uuid="46bcac56-9749-48b0-98e7-03fe33ef2446">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ВидыТаксировкиДокументовУчетаГСМ" category="Ref">
+				<xr:TypeId>17ee26b5-695b-4711-97f2-198ec150a121</xr:TypeId>
+				<xr:ValueId>5525037d-c302-4583-85f6-373fc2cdb0cc</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ВидыТаксировкиДокументовУчетаГСМ" category="Manager">
+				<xr:TypeId>aff2c491-6a0f-406b-a32f-6acc7f347cd6</xr:TypeId>
+				<xr:ValueId>c12ba5bc-1f65-4d64-ab8a-18f6e50a75fd</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ВидыТаксировкиДокументовУчетаГСМ" category="List">
+				<xr:TypeId>a8c927a4-f9d5-41af-bc78-61bed962060c</xr:TypeId>
+				<xr:ValueId>66d0d9c1-e1fd-4e97-bb39-af0feffc2582</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ВидыТаксировкиДокументовУчетаГСМ</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>360a5e9d-e484-4859-b7b7-9539c191be7a</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="ab2251b2-9acc-4b8a-a159-2c5a7117174c">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>СводныйРасчетРасходаГСМПоТаксировкам</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>4e69cd69-5579-4f3e-99be-64b7fc2f493e</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="610a5fe3-1b68-4ac5-8854-0eeeaf4d04f8">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>РасчетРасходаГСМПоПутевомуЛисту</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>3d2a207d-54f1-4554-bbca-8ee232eb2dbf</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="84370104-dff2-4c32-b732-5dfa7dd421b6">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>РасчетРасходаГСМПоЛистуАгрегата</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>f051f372-70a1-491b-8d55-b846ba01afcf</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="c6d76a02-e4c3-4db1-86a2-8fa38c64cd5c">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>РасчетРасходаГСМПоЛистуТракториста</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>32eaae55-c0b6-4985-88c4-0136c7956c65</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

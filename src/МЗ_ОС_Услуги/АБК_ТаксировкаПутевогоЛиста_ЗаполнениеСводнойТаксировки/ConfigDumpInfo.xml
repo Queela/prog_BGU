@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.17">
+	<ConfigVersions>
+		<Metadata name="CommonPicture.АктивностьПоРБТриСостояния" id="ff5998ad-aa38-423a-b2de-ec7cf3e695aa" configVersion="1170b523ef3596728949a41bc9b4e1d4a2f2d553"/>
+		<Metadata name="Configuration.АБК_ТаксировкаПутевогоЛиста_ЗаполнениеСводнойТаксировки" id="0555294a-5c7f-4bd4-ba39-93c6b6309d3d" configVersion="75317a42390b815a23f877c218f9339a85cfdaa7"/>
+		<Metadata name="Document.ТаксировкаПутевогоЛиста" id="a73c304d-269d-4521-a1a0-44a85e20b5a9" configVersion="3e6253e2f61aa7a0cf2e5f894dc8fa0360120bf4"/>
+		<Metadata name="Document.ТаксировкаПутевогоЛиста.Form.ФормаДокумента" id="65523320-d19d-4b38-9fd6-46f812437789" configVersion="c0bc237b82b1a0de99f2503d3430d4fbb9ea02bc"/>
+		<Metadata name="Document.ТаксировкаПутевогоЛиста.Form.ФормаДокумента.Form" id="65523320-d19d-4b38-9fd6-46f812437789.0" configVersion="d598d0a55be098e0c2314ed593d8a9ddd1b94f1d"/>
+		<Metadata name="Document.ТаксировкаРабочегоЛистаАгрегата" id="50c1b5d9-dcef-4924-976d-11119090ee80" configVersion="3edf372d6a73685cfb731cb182b35013190def3a"/>
+		<Metadata name="Document.ТаксировкаРабочегоЛистаАгрегата.Form.ФормаДокумента" id="29788b70-efef-44c7-b8ca-35c0f0a373a9" configVersion="47442d78662b3dbb57bfa9a0a7dc79b03a66355b"/>
+		<Metadata name="Document.ТаксировкаРабочегоЛистаАгрегата.Form.ФормаДокумента.Form" id="29788b70-efef-44c7-b8ca-35c0f0a373a9.0" configVersion="e6dabe00fc62cf94f286a9c69d7cd502b45bd333"/>
+		<Metadata name="Enum.ВидыТаксировкиДокументовУчетаГСМ" id="46bcac56-9749-48b0-98e7-03fe33ef2446" configVersion="99fe792f856ed318164a74c6d409050efa10783c">
+			<Metadata name="Enum.ВидыТаксировкиДокументовУчетаГСМ.EnumValue.РасчетРасходаГСМПоПутевомуЛисту" id="610a5fe3-1b68-4ac5-8854-0eeeaf4d04f8"/>
+			<Metadata name="Enum.ВидыТаксировкиДокументовУчетаГСМ.EnumValue.РасчетРасходаГСМПоЛистуАгрегата" id="84370104-dff2-4c32-b732-5dfa7dd421b6"/>
+			<Metadata name="Enum.ВидыТаксировкиДокументовУчетаГСМ.EnumValue.СводныйРасчетРасходаГСМПоТаксировкам" id="ab2251b2-9acc-4b8a-a159-2c5a7117174c"/>
+			<Metadata name="Enum.ВидыТаксировкиДокументовУчетаГСМ.EnumValue.РасчетРасходаГСМПоЛистуТракториста" id="c6d76a02-e4c3-4db1-86a2-8fa38c64cd5c"/>
+		</Metadata>
+		<Metadata name="Language.Русский" id="e3e8ca1d-354c-4517-8661-984760ee292a" configVersion="a43fe2dd7c6672b2317d2bd0dcd3f732e1fb103b"/>
+		<Metadata name="StyleItem.ГиперссылкаЦвет" id="17714ac7-9062-4d7e-a03d-720f1236c45e" configVersion="de59a85d55962f2be95275572724b34945150f72"/>
+		<Metadata name="StyleItem.ДосьеГиперссылкаЦвет" id="fbcfdb35-0b75-4bc8-98c8-70c60b038a5c" configVersion="25c9fd8203f4229390b2d5985dc115d76afb2183"/>
+		<Metadata name="StyleItem.ЗаголовкиСтрокЦветТекста" id="adfd9e7e-ff1f-4dde-bf22-538f32bf6c0c" configVersion="71fa6e98e79da39b5fc62aaa36fcd46abc5b3ae6"/>
+		<Metadata name="StyleItem.НезаполненныйРеквизит" id="d1e2326c-9983-4022-a6e4-5f9ad2af0b38" configVersion="95c04e1b8c6a7f6b0f07d87e852de5cbae132fb6"/>
+		<Metadata name="StyleItem.ПоясняющийОшибкуТекст" id="ee97bfd2-a7f8-417f-a0dd-61052ddbdd5f" configVersion="e2814476b0867576f873defe3044a3fe82a6af7d"/>
+		<Metadata name="StyleItem.ТекстИнформационнойНадписи" id="10be2c8b-ecab-48fa-a360-f906ea98a5f0" configVersion="6178258dfd71ebd48e97c05c936e9892871f8706"/>
+		<Metadata name="StyleItem.ФонУправляющегоПоля" id="a25a99d9-6082-43b0-b43f-1432cfebfccf" configVersion="39242911ced5d2ff509efa5396b29f2de7f37785"/>
+	</ConfigVersions>
+</ConfigDumpInfo>

@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
+	<Document uuid="4474d432-d43d-455c-8060-a7587e51023d">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ИнвентаризацияМЗ" category="Object">
+				<xr:TypeId>cd46883d-4edd-4197-9cf4-7aa67d2dad63</xr:TypeId>
+				<xr:ValueId>e97c7f8c-b726-43b6-913a-8fa9ba0b3c51</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ИнвентаризацияМЗ" category="Ref">
+				<xr:TypeId>be8ac334-c3d1-4131-afe7-9bab2954afad</xr:TypeId>
+				<xr:ValueId>95d83681-b61b-49aa-a545-bd2752cb2255</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ИнвентаризацияМЗ" category="Selection">
+				<xr:TypeId>3c8ad46d-4ec9-406f-80ba-48173e34a786</xr:TypeId>
+				<xr:ValueId>914e8b2c-35cd-425b-aced-d61644e1ffe6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ИнвентаризацияМЗ" category="List">
+				<xr:TypeId>75731196-866f-4504-887d-198048d04f68</xr:TypeId>
+				<xr:ValueId>44022ea4-fa8f-47fb-93e1-c3d638e0a46c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ИнвентаризацияМЗ" category="Manager">
+				<xr:TypeId>e4eb10e2-8875-49d6-9de7-3d4776881997</xr:TypeId>
+				<xr:ValueId>df706aec-c63a-4b3e-9652-da06a23cb591</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ИнвентаризацияМЗ</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>80c17a7a-67b7-4f3c-afe8-99cab6a30e11</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Form>ФормаДокумента</Form>
+			<TabularSection uuid="2226d55a-2e0b-460c-ae58-0304a8c723e8">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.ИнвентаризацияМЗ.Материалы" category="TabularSection">
+						<xr:TypeId>f54f9749-bb91-4e63-9a59-f6f119da4e8f</xr:TypeId>
+						<xr:ValueId>1418bd1d-2acd-49b0-a8d1-dc71cd36d155</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ИнвентаризацияМЗ.Материалы" category="TabularSectionRow">
+						<xr:TypeId>bf01c200-7b37-4693-9a4c-52ea49fba5e8</xr:TypeId>
+						<xr:ValueId>629cda30-bec0-4da8-be3a-f82a1da2168c</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Материалы</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>68c3c02f-e12b-4da1-b433-7e809e52e80f</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="175fc93f-45da-4f52-92a5-858d78aa8d49">
+						<Properties>
+							<Name>ЦМО</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>ЦМО</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment/>
+							<Type>
+								<v8:Type>cfg:CatalogRef.ЦМО</v8:Type>
+								<v8:Type>cfg:CatalogRef.Контрагенты</v8:Type>
+							</Type>
+							<PasswordMode>false</PasswordMode>
+							<Format/>
+							<EditFormat/>
+							<ToolTip/>
+							<MarkNegatives>false</MarkNegatives>
+							<Mask/>
+							<MultiLine>false</MultiLine>
+							<ExtendedEdit>false</ExtendedEdit>
+							<MinValue xsi:nil="true"/>
+							<MaxValue xsi:nil="true"/>
+							<FillChecking>DontCheck</FillChecking>
+							<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+							<ChoiceParameterLinks/>
+							<ChoiceParameters/>
+							<QuickChoice>Auto</QuickChoice>
+							<CreateOnInput>Auto</CreateOnInput>
+							<ChoiceForm/>
+							<LinkByType/>
+							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+							<Indexing>DontIndex</Indexing>
+							<FullTextSearch>Use</FullTextSearch>
+							<DataHistory>Use</DataHistory>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

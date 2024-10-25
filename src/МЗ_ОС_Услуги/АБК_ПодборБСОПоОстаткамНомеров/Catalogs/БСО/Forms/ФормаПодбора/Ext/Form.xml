@@ -1,0 +1,713 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
+	<Title>
+		<v8:item>
+			<v8:lang>ru</v8:lang>
+			<v8:content>Подбор бланков строгой отчетности</v8:content>
+		</v8:item>
+	</Title>
+	<Width>95</Width>
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<AutoSaveDataInSettings>Use</AutoSaveDataInSettings>
+	<VerticalScroll>useIfNecessary</VerticalScroll>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<Autofill>false</Autofill>
+	</AutoCommandBar>
+	<Events>
+		<Event name="OnCreateAtServer" callType="After">АБК_ПриСозданииНаСервереПосле</Event>
+	</Events>
+	<ChildItems>
+		<UsualGroup name="ГруппаНастройки" id="39">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Настройки</v8:content>
+				</v8:item>
+			</Title>
+			<Group>Horizontal</Group>
+			<Behavior>Usual</Behavior>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаНастройкиРасширеннаяПодсказка" id="53"/>
+			<ChildItems>
+				<InputField name="ДатаОстатков" id="40">
+					<ReadOnly>true</ReadOnly>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Период остатков</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="ДатаОстатковКонтекстноеМеню" id="41"/>
+					<ExtendedTooltip name="ДатаОстатковРасширеннаяПодсказка" id="54"/>
+				</InputField>
+				<InputField name="СчетУчета" id="51">
+					<ReadOnly>true</ReadOnly>
+					<Width>8</Width>
+					<HorizontalStretch>false</HorizontalStretch>
+					<ContextMenu name="СчетУчетаКонтекстноеМеню" id="52"/>
+					<ExtendedTooltip name="СчетУчетаРасширеннаяПодсказка" id="55"/>
+				</InputField>
+				<LabelField name="ТекстНастройка" id="37">
+					<TitleLocation>Left</TitleLocation>
+					<Hiperlink>true</Hiperlink>
+					<TextColor>style:ТекстИнформационнойНадписи</TextColor>
+					<ContextMenu name="ТекстНастройкаКонтекстноеМеню" id="38"/>
+					<ExtendedTooltip name="ТекстНастройкаРасширеннаяПодсказка" id="56"/>
+				</LabelField>
+			</ChildItems>
+		</UsualGroup>
+		<LabelField name="СписокОтбор" id="31">
+			<TitleTextColor>style:ТекстИнформационнойНадписи</TitleTextColor>
+			<AutoMaxWidth>false</AutoMaxWidth>
+			<TextColor>style:ТекстИнформационнойНадписи</TextColor>
+			<ContextMenu name="СписокОтборКонтекстноеМеню" id="32"/>
+			<ExtendedTooltip name="СписокОтборРасширеннаяПодсказка" id="57"/>
+		</LabelField>
+		<CommandBar name="Группа1" id="43">
+			<CommandSource>Form</CommandSource>
+			<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="58"/>
+			<ChildItems>
+				<Button name="СписокПеренестиВДокументВсе" id="42">
+					<Type>CommandBarButton</Type>
+					<CommandName>0</CommandName>
+					<ExtendedTooltip name="СписокПеренестиВДокументВсеРасширеннаяПодсказка" id="59"/>
+				</Button>
+			</ChildItems>
+		</CommandBar>
+		<Table name="Список" id="1">
+			<ChoiceMode>true</ChoiceMode>
+			<UseAlternationRowColor>true</UseAlternationRowColor>
+			<EnableStartDrag>true</EnableStartDrag>
+			<FileDragMode>AsFile</FileDragMode>
+			<SearchStringLocation>None</SearchStringLocation>
+			<ViewStatusLocation>None</ViewStatusLocation>
+			<SearchControlLocation>None</SearchControlLocation>
+			<AutoRefresh>false</AutoRefresh>
+			<AutoRefreshPeriod>60</AutoRefreshPeriod>
+			<Period>
+				<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+				<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+				<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+			</Period>
+			<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+			<RestoreCurrentRow>false</RestoreCurrentRow>
+			<TopLevelParent xsi:nil="true"/>
+			<ShowRoot>true</ShowRoot>
+			<AllowRootChoice>false</AllowRootChoice>
+			<UpdateOnDataChange>Auto</UpdateOnDataChange>
+			<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
+			<ContextMenu name="СписокКонтекстноеМеню" id="2"/>
+			<AutoCommandBar name="СписокКоманднаяПанель" id="3">
+				<Autofill>false</Autofill>
+			</AutoCommandBar>
+			<ExtendedTooltip name="СписокРасширеннаяПодсказка" id="60"/>
+			<SearchStringAddition name="СписокСтрокаПоиска" id="61">
+				<AdditionSource>
+					<Item>Список</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="СписокСтрокаПоискаКонтекстноеМеню" id="62"/>
+				<ExtendedTooltip name="СписокСтрокаПоискаРасширеннаяПодсказка" id="63"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="СписокСостояниеПросмотра" id="64">
+				<AdditionSource>
+					<Item>Список</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="СписокСостояниеПросмотраКонтекстноеМеню" id="65"/>
+				<ExtendedTooltip name="СписокСостояниеПросмотраРасширеннаяПодсказка" id="66"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="СписокУправлениеПоиском" id="67">
+				<AdditionSource>
+					<Item>Список</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="СписокУправлениеПоискомКонтекстноеМеню" id="68"/>
+				<ExtendedTooltip name="СписокУправлениеПоискомРасширеннаяПодсказка" id="69"/>
+			</SearchControlAddition>
+			<ChildItems>
+				<LabelField name="СписокБСО" id="4">
+					<ContextMenu name="СписокБСОКонтекстноеМеню" id="5"/>
+					<ExtendedTooltip name="СписокБСОРасширеннаяПодсказка" id="70"/>
+				</LabelField>
+				<LabelField name="СписокЕдиницаИзмерения" id="6">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Ед. изм.</v8:content>
+						</v8:item>
+					</Title>
+					<Width>8</Width>
+					<ContextMenu name="СписокЕдиницаИзмеренияКонтекстноеМеню" id="7"/>
+					<ExtendedTooltip name="СписокЕдиницаИзмеренияРасширеннаяПодсказка" id="71"/>
+				</LabelField>
+				<InputField name="ВидБСО" id="98">
+					<ContextMenu name="ВидБСОКонтекстноеМеню" id="99"/>
+					<ExtendedTooltip name="ВидБСОРасширеннаяПодсказка" id="100"/>
+				</InputField>
+				<LabelField name="СписокСерияБСО" id="14">
+					<ContextMenu name="СписокСерияБСОКонтекстноеМеню" id="15"/>
+					<ExtendedTooltip name="СписокСерияБСОРасширеннаяПодсказка" id="72"/>
+				</LabelField>
+				<LabelField name="СписокКоличество" id="8">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Остаток</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="СписокКоличествоКонтекстноеМеню" id="9"/>
+					<ExtendedTooltip name="СписокКоличествоРасширеннаяПодсказка" id="75"/>
+				</LabelField>
+			</ChildItems>
+		</Table>
+		<UsualGroup name="Группа2" id="46">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Бланки строгой отчетности для переноса в документ</v8:content>
+				</v8:item>
+			</Title>
+			<TitleFont ref="sys:DefaultGUIFont" bold="true" italic="false" underline="false" strikeout="false" kind="WindowsFont"/>
+			<Group>Vertical</Group>
+			<Behavior>Usual</Behavior>
+			<Representation>None</Representation>
+			<ExtendedTooltip name="Группа2РасширеннаяПодсказка" id="76"/>
+			<ChildItems>
+				<UsualGroup name="Группа3" id="47">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Командная панель</v8:content>
+						</v8:item>
+					</Title>
+					<HorizontalStretch>true</HorizontalStretch>
+					<Group>Horizontal</Group>
+					<Behavior>Usual</Behavior>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="Группа3РасширеннаяПодсказка" id="77"/>
+					<ChildItems>
+						<CommandBar name="Группа4" id="48">
+							<HorizontalStretch>false</HorizontalStretch>
+							<CommandSource>Item.ТаблицаПодобранных</CommandSource>
+							<ExtendedTooltip name="Группа4РасширеннаяПодсказка" id="78"/>
+							<ChildItems>
+								<Button name="ПеренестиВДокумент" id="36">
+									<Type>CommandBarButton</Type>
+									<DefaultButton>true</DefaultButton>
+									<CommandName>0</CommandName>
+									<ExtendedTooltip name="ПеренестиВДокументРасширеннаяПодсказка" id="79"/>
+								</Button>
+							</ChildItems>
+						</CommandBar>
+						<LabelDecoration name="Декорация_Отступ" id="49">
+							<HorizontalStretch>true</HorizontalStretch>
+							<ContextMenu name="Декорация_ОтступКонтекстноеМеню" id="50"/>
+							<ExtendedTooltip name="Декорация_ОтступРасширеннаяПодсказка" id="80"/>
+						</LabelDecoration>
+						<CheckBoxField name="ПереноситьВсе" id="44">
+							<TitleLocation>Right</TitleLocation>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>При выборе БСО переносятся все остатки по всем сериям</v8:content>
+								</v8:item>
+							</ToolTip>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="ПереноситьВсеКонтекстноеМеню" id="45"/>
+							<ExtendedTooltip name="ПереноситьВсеРасширеннаяПодсказка" id="81"/>
+						</CheckBoxField>
+					</ChildItems>
+				</UsualGroup>
+				<Table name="ТаблицаПодобранных" id="16">
+					<Representation>List</Representation>
+					<CommandBarLocation>None</CommandBarLocation>
+					<AutoInsertNewRow>true</AutoInsertNewRow>
+					<EnableStartDrag>true</EnableStartDrag>
+					<EnableDrag>true</EnableDrag>
+					<FileDragMode>AsFile</FileDragMode>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Бланки строгой отчетности для переноса в документ</v8:content>
+						</v8:item>
+					</Title>
+					<TitleFont ref="sys:DefaultGUIFont" bold="true" italic="false" underline="false" strikeout="false" kind="WindowsFont"/>
+					<SearchStringLocation>None</SearchStringLocation>
+					<ViewStatusLocation>None</ViewStatusLocation>
+					<SearchControlLocation>None</SearchControlLocation>
+					<RowFilter xsi:nil="true"/>
+					<ContextMenu name="ТаблицаПодобранныхКонтекстноеМеню" id="17"/>
+					<AutoCommandBar name="ТаблицаПодобранныхКоманднаяПанель" id="18"/>
+					<ExtendedTooltip name="ТаблицаПодобранныхРасширеннаяПодсказка" id="82"/>
+					<SearchStringAddition name="ТаблицаПодобранныхСтрокаПоиска" id="83">
+						<AdditionSource>
+							<Item>ТаблицаПодобранных</Item>
+							<Type>SearchStringRepresentation</Type>
+						</AdditionSource>
+						<ContextMenu name="ТаблицаПодобранныхСтрокаПоискаКонтекстноеМеню" id="84"/>
+						<ExtendedTooltip name="ТаблицаПодобранныхСтрокаПоискаРасширеннаяПодсказка" id="85"/>
+					</SearchStringAddition>
+					<ViewStatusAddition name="ТаблицаПодобранныхСостояниеПросмотра" id="86">
+						<AdditionSource>
+							<Item>ТаблицаПодобранных</Item>
+							<Type>ViewStatusRepresentation</Type>
+						</AdditionSource>
+						<ContextMenu name="ТаблицаПодобранныхСостояниеПросмотраКонтекстноеМеню" id="87"/>
+						<ExtendedTooltip name="ТаблицаПодобранныхСостояниеПросмотраРасширеннаяПодсказка" id="88"/>
+					</ViewStatusAddition>
+					<SearchControlAddition name="ТаблицаПодобранныхУправлениеПоиском" id="89">
+						<AdditionSource>
+							<Item>ТаблицаПодобранных</Item>
+							<Type>SearchControl</Type>
+						</AdditionSource>
+						<ContextMenu name="ТаблицаПодобранныхУправлениеПоискомКонтекстноеМеню" id="90"/>
+						<ExtendedTooltip name="ТаблицаПодобранныхУправлениеПоискомРасширеннаяПодсказка" id="91"/>
+					</SearchControlAddition>
+					<ChildItems>
+						<InputField name="ТаблицаПодобранныхБСО" id="19">
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="ТаблицаПодобранныхБСОКонтекстноеМеню" id="20"/>
+							<ExtendedTooltip name="ТаблицаПодобранныхБСОРасширеннаяПодсказка" id="92"/>
+						</InputField>
+						<InputField name="ТаблицаПодобранныхЕдиницаИзмерения" id="23">
+							<Visible>false</Visible>
+							<ReadOnly>true</ReadOnly>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Ед. изм.</v8:content>
+								</v8:item>
+							</Title>
+							<EditMode>EnterOnInput</EditMode>
+							<Width>8</Width>
+							<TextColor>style:ТекстИнформационнойНадписи</TextColor>
+							<ContextMenu name="ТаблицаПодобранныхЕдиницаИзмеренияКонтекстноеМеню" id="24"/>
+							<ExtendedTooltip name="ТаблицаПодобранныхЕдиницаИзмеренияРасширеннаяПодсказка" id="93"/>
+						</InputField>
+						<InputField name="ТаблицаПодобранныхСерияБСО" id="21">
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="ТаблицаПодобранныхСерияБСОКонтекстноеМеню" id="22"/>
+							<ExtendedTooltip name="ТаблицаПодобранныхСерияБСОРасширеннаяПодсказка" id="94"/>
+						</InputField>
+						<InputField name="ТаблицаПодобранныхНомерНачальный" id="25">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Начальный №</v8:content>
+								</v8:item>
+							</Title>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="ТаблицаПодобранныхНомерНачальныйКонтекстноеМеню" id="26"/>
+							<ExtendedTooltip name="ТаблицаПодобранныхНомерНачальныйРасширеннаяПодсказка" id="95"/>
+						</InputField>
+						<InputField name="ТаблицаПодобранныхНомерКонечный" id="27">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Конечный №</v8:content>
+								</v8:item>
+							</Title>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="ТаблицаПодобранныхНомерКонечныйКонтекстноеМеню" id="28"/>
+							<ExtendedTooltip name="ТаблицаПодобранныхНомерКонечныйРасширеннаяПодсказка" id="96"/>
+						</InputField>
+						<InputField name="ТаблицаПодобранныхКоличество" id="29">
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="ТаблицаПодобранныхКоличествоКонтекстноеМеню" id="30"/>
+							<ExtendedTooltip name="ТаблицаПодобранныхКоличествоРасширеннаяПодсказка" id="97"/>
+						</InputField>
+					</ChildItems>
+				</Table>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="ПодборПоНомерам" id="1000001">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Подбор по номерам</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="АдресОстатковБСО" id="1000002">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Адрес остатков БСО</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ДокументПодбора" id="1000003">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Документ подбора</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:DocumentRef.СписаниеБСО</v8:Type>
+				<v8:Type>cfg:DocumentRef.ВнутреннееПеремещениеБСО</v8:Type>
+			</Type>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="ОбновитьОстаткиНомеровБСО" id="1000000">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обновить остатки номеров БСО</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Рекомендуется после изменения документов списания, проведенных до даты остатков</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.Refresh</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action callType="After">АБК_ОбновитьОстаткиНомеровБСОПосле</Action>
+			<Representation>TextPicture</Representation>
+		</Command>
+	</Commands>
+	<BaseForm version="2.17">
+		<Title>
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Подбор бланков строгой отчетности</v8:content>
+			</v8:item>
+		</Title>
+		<Width>95</Width>
+		<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+		<AutoSaveDataInSettings>Use</AutoSaveDataInSettings>
+		<VerticalScroll>useIfNecessary</VerticalScroll>
+		<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+			<Autofill>false</Autofill>
+		</AutoCommandBar>
+		<ChildItems>
+			<UsualGroup name="ГруппаНастройки" id="39">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Настройки</v8:content>
+					</v8:item>
+				</Title>
+				<Group>Horizontal</Group>
+				<Behavior>Usual</Behavior>
+				<Representation>None</Representation>
+				<ShowTitle>false</ShowTitle>
+				<ExtendedTooltip name="ГруппаНастройкиРасширеннаяПодсказка" id="53"/>
+				<ChildItems>
+					<InputField name="ДатаОстатков" id="40">
+						<ReadOnly>true</ReadOnly>
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Период остатков</v8:content>
+							</v8:item>
+						</Title>
+						<ContextMenu name="ДатаОстатковКонтекстноеМеню" id="41"/>
+						<ExtendedTooltip name="ДатаОстатковРасширеннаяПодсказка" id="54"/>
+					</InputField>
+					<InputField name="СчетУчета" id="51">
+						<ReadOnly>true</ReadOnly>
+						<Width>8</Width>
+						<HorizontalStretch>false</HorizontalStretch>
+						<ContextMenu name="СчетУчетаКонтекстноеМеню" id="52"/>
+						<ExtendedTooltip name="СчетУчетаРасширеннаяПодсказка" id="55"/>
+					</InputField>
+					<LabelField name="ТекстНастройка" id="37">
+						<TitleLocation>Left</TitleLocation>
+						<Hiperlink>true</Hiperlink>
+						<TextColor>style:ТекстИнформационнойНадписи</TextColor>
+						<ContextMenu name="ТекстНастройкаКонтекстноеМеню" id="38"/>
+						<ExtendedTooltip name="ТекстНастройкаРасширеннаяПодсказка" id="56"/>
+					</LabelField>
+				</ChildItems>
+			</UsualGroup>
+			<LabelField name="СписокОтбор" id="31">
+				<TitleTextColor>style:ТекстИнформационнойНадписи</TitleTextColor>
+				<AutoMaxWidth>false</AutoMaxWidth>
+				<TextColor>style:ТекстИнформационнойНадписи</TextColor>
+				<ContextMenu name="СписокОтборКонтекстноеМеню" id="32"/>
+				<ExtendedTooltip name="СписокОтборРасширеннаяПодсказка" id="57"/>
+			</LabelField>
+			<CommandBar name="Группа1" id="43">
+				<CommandSource>Form</CommandSource>
+				<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="58"/>
+				<ChildItems>
+					<Button name="СписокПеренестиВДокументВсе" id="42">
+						<Type>CommandBarButton</Type>
+						<CommandName>0</CommandName>
+						<ExtendedTooltip name="СписокПеренестиВДокументВсеРасширеннаяПодсказка" id="59"/>
+					</Button>
+				</ChildItems>
+			</CommandBar>
+			<Table name="Список" id="1">
+				<ChoiceMode>true</ChoiceMode>
+				<UseAlternationRowColor>true</UseAlternationRowColor>
+				<EnableStartDrag>true</EnableStartDrag>
+				<FileDragMode>AsFile</FileDragMode>
+				<SearchStringLocation>None</SearchStringLocation>
+				<ViewStatusLocation>None</ViewStatusLocation>
+				<SearchControlLocation>None</SearchControlLocation>
+				<AutoRefresh>false</AutoRefresh>
+				<AutoRefreshPeriod>60</AutoRefreshPeriod>
+				<Period>
+					<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+					<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+					<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+				</Period>
+				<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+				<RestoreCurrentRow>false</RestoreCurrentRow>
+				<TopLevelParent xsi:nil="true"/>
+				<ShowRoot>true</ShowRoot>
+				<AllowRootChoice>false</AllowRootChoice>
+				<UpdateOnDataChange>Auto</UpdateOnDataChange>
+				<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
+				<ContextMenu name="СписокКонтекстноеМеню" id="2"/>
+				<AutoCommandBar name="СписокКоманднаяПанель" id="3">
+					<Autofill>false</Autofill>
+				</AutoCommandBar>
+				<ExtendedTooltip name="СписокРасширеннаяПодсказка" id="60"/>
+				<SearchStringAddition name="СписокСтрокаПоиска" id="61">
+					<AdditionSource>
+						<Item>Список</Item>
+						<Type>SearchStringRepresentation</Type>
+					</AdditionSource>
+					<ContextMenu name="СписокСтрокаПоискаКонтекстноеМеню" id="62"/>
+					<ExtendedTooltip name="СписокСтрокаПоискаРасширеннаяПодсказка" id="63"/>
+				</SearchStringAddition>
+				<ViewStatusAddition name="СписокСостояниеПросмотра" id="64">
+					<AdditionSource>
+						<Item>Список</Item>
+						<Type>ViewStatusRepresentation</Type>
+					</AdditionSource>
+					<ContextMenu name="СписокСостояниеПросмотраКонтекстноеМеню" id="65"/>
+					<ExtendedTooltip name="СписокСостояниеПросмотраРасширеннаяПодсказка" id="66"/>
+				</ViewStatusAddition>
+				<SearchControlAddition name="СписокУправлениеПоиском" id="67">
+					<AdditionSource>
+						<Item>Список</Item>
+						<Type>SearchControl</Type>
+					</AdditionSource>
+					<ContextMenu name="СписокУправлениеПоискомКонтекстноеМеню" id="68"/>
+					<ExtendedTooltip name="СписокУправлениеПоискомРасширеннаяПодсказка" id="69"/>
+				</SearchControlAddition>
+				<ChildItems>
+					<LabelField name="СписокБСО" id="4">
+						<ContextMenu name="СписокБСОКонтекстноеМеню" id="5"/>
+						<ExtendedTooltip name="СписокБСОРасширеннаяПодсказка" id="70"/>
+					</LabelField>
+					<LabelField name="СписокЕдиницаИзмерения" id="6">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Ед. изм.</v8:content>
+							</v8:item>
+						</Title>
+						<Width>8</Width>
+						<ContextMenu name="СписокЕдиницаИзмеренияКонтекстноеМеню" id="7"/>
+						<ExtendedTooltip name="СписокЕдиницаИзмеренияРасширеннаяПодсказка" id="71"/>
+					</LabelField>
+					<InputField name="ВидБСО" id="98">
+						<ContextMenu name="ВидБСОКонтекстноеМеню" id="99"/>
+						<ExtendedTooltip name="ВидБСОРасширеннаяПодсказка" id="100"/>
+					</InputField>
+					<LabelField name="СписокСерияБСО" id="14">
+						<ContextMenu name="СписокСерияБСОКонтекстноеМеню" id="15"/>
+						<ExtendedTooltip name="СписокСерияБСОРасширеннаяПодсказка" id="72"/>
+					</LabelField>
+					<LabelField name="СписокКоличество" id="8">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Остаток</v8:content>
+							</v8:item>
+						</Title>
+						<ContextMenu name="СписокКоличествоКонтекстноеМеню" id="9"/>
+						<ExtendedTooltip name="СписокКоличествоРасширеннаяПодсказка" id="75"/>
+					</LabelField>
+				</ChildItems>
+			</Table>
+			<UsualGroup name="Группа2" id="46">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Бланки строгой отчетности для переноса в документ</v8:content>
+					</v8:item>
+				</Title>
+				<TitleFont ref="sys:DefaultGUIFont" bold="true" italic="false" underline="false" strikeout="false" kind="WindowsFont"/>
+				<Group>Vertical</Group>
+				<Behavior>Usual</Behavior>
+				<Representation>None</Representation>
+				<ExtendedTooltip name="Группа2РасширеннаяПодсказка" id="76"/>
+				<ChildItems>
+					<UsualGroup name="Группа3" id="47">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Командная панель</v8:content>
+							</v8:item>
+						</Title>
+						<HorizontalStretch>true</HorizontalStretch>
+						<Group>Horizontal</Group>
+						<Behavior>Usual</Behavior>
+						<Representation>None</Representation>
+						<ShowTitle>false</ShowTitle>
+						<ExtendedTooltip name="Группа3РасширеннаяПодсказка" id="77"/>
+						<ChildItems>
+							<CommandBar name="Группа4" id="48">
+								<HorizontalStretch>false</HorizontalStretch>
+								<CommandSource>Item.ТаблицаПодобранных</CommandSource>
+								<ExtendedTooltip name="Группа4РасширеннаяПодсказка" id="78"/>
+								<ChildItems>
+									<Button name="ПеренестиВДокумент" id="36">
+										<Type>CommandBarButton</Type>
+										<DefaultButton>true</DefaultButton>
+										<CommandName>0</CommandName>
+										<ExtendedTooltip name="ПеренестиВДокументРасширеннаяПодсказка" id="79"/>
+									</Button>
+								</ChildItems>
+							</CommandBar>
+							<LabelDecoration name="Декорация_Отступ" id="49">
+								<HorizontalStretch>true</HorizontalStretch>
+								<ContextMenu name="Декорация_ОтступКонтекстноеМеню" id="50"/>
+								<ExtendedTooltip name="Декорация_ОтступРасширеннаяПодсказка" id="80"/>
+							</LabelDecoration>
+							<CheckBoxField name="ПереноситьВсе" id="44">
+								<TitleLocation>Right</TitleLocation>
+								<ToolTip>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>При выборе БСО переносятся все остатки по всем сериям</v8:content>
+									</v8:item>
+								</ToolTip>
+								<CheckBoxType>Auto</CheckBoxType>
+								<ContextMenu name="ПереноситьВсеКонтекстноеМеню" id="45"/>
+								<ExtendedTooltip name="ПереноситьВсеРасширеннаяПодсказка" id="81"/>
+							</CheckBoxField>
+						</ChildItems>
+					</UsualGroup>
+					<Table name="ТаблицаПодобранных" id="16">
+						<Representation>List</Representation>
+						<CommandBarLocation>None</CommandBarLocation>
+						<AutoInsertNewRow>true</AutoInsertNewRow>
+						<EnableStartDrag>true</EnableStartDrag>
+						<EnableDrag>true</EnableDrag>
+						<FileDragMode>AsFile</FileDragMode>
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Бланки строгой отчетности для переноса в документ</v8:content>
+							</v8:item>
+						</Title>
+						<TitleFont ref="sys:DefaultGUIFont" bold="true" italic="false" underline="false" strikeout="false" kind="WindowsFont"/>
+						<SearchStringLocation>None</SearchStringLocation>
+						<ViewStatusLocation>None</ViewStatusLocation>
+						<SearchControlLocation>None</SearchControlLocation>
+						<RowFilter xsi:nil="true"/>
+						<ContextMenu name="ТаблицаПодобранныхКонтекстноеМеню" id="17"/>
+						<AutoCommandBar name="ТаблицаПодобранныхКоманднаяПанель" id="18"/>
+						<ExtendedTooltip name="ТаблицаПодобранныхРасширеннаяПодсказка" id="82"/>
+						<SearchStringAddition name="ТаблицаПодобранныхСтрокаПоиска" id="83">
+							<AdditionSource>
+								<Item>ТаблицаПодобранных</Item>
+								<Type>SearchStringRepresentation</Type>
+							</AdditionSource>
+							<ContextMenu name="ТаблицаПодобранныхСтрокаПоискаКонтекстноеМеню" id="84"/>
+							<ExtendedTooltip name="ТаблицаПодобранныхСтрокаПоискаРасширеннаяПодсказка" id="85"/>
+						</SearchStringAddition>
+						<ViewStatusAddition name="ТаблицаПодобранныхСостояниеПросмотра" id="86">
+							<AdditionSource>
+								<Item>ТаблицаПодобранных</Item>
+								<Type>ViewStatusRepresentation</Type>
+							</AdditionSource>
+							<ContextMenu name="ТаблицаПодобранныхСостояниеПросмотраКонтекстноеМеню" id="87"/>
+							<ExtendedTooltip name="ТаблицаПодобранныхСостояниеПросмотраРасширеннаяПодсказка" id="88"/>
+						</ViewStatusAddition>
+						<SearchControlAddition name="ТаблицаПодобранныхУправлениеПоиском" id="89">
+							<AdditionSource>
+								<Item>ТаблицаПодобранных</Item>
+								<Type>SearchControl</Type>
+							</AdditionSource>
+							<ContextMenu name="ТаблицаПодобранныхУправлениеПоискомКонтекстноеМеню" id="90"/>
+							<ExtendedTooltip name="ТаблицаПодобранныхУправлениеПоискомРасширеннаяПодсказка" id="91"/>
+						</SearchControlAddition>
+						<ChildItems>
+							<InputField name="ТаблицаПодобранныхБСО" id="19">
+								<EditMode>EnterOnInput</EditMode>
+								<ContextMenu name="ТаблицаПодобранныхБСОКонтекстноеМеню" id="20"/>
+								<ExtendedTooltip name="ТаблицаПодобранныхБСОРасширеннаяПодсказка" id="92"/>
+							</InputField>
+							<InputField name="ТаблицаПодобранныхЕдиницаИзмерения" id="23">
+								<Visible>false</Visible>
+								<ReadOnly>true</ReadOnly>
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Ед. изм.</v8:content>
+									</v8:item>
+								</Title>
+								<EditMode>EnterOnInput</EditMode>
+								<Width>8</Width>
+								<TextColor>style:ТекстИнформационнойНадписи</TextColor>
+								<ContextMenu name="ТаблицаПодобранныхЕдиницаИзмеренияКонтекстноеМеню" id="24"/>
+								<ExtendedTooltip name="ТаблицаПодобранныхЕдиницаИзмеренияРасширеннаяПодсказка" id="93"/>
+							</InputField>
+							<InputField name="ТаблицаПодобранныхСерияБСО" id="21">
+								<EditMode>EnterOnInput</EditMode>
+								<ContextMenu name="ТаблицаПодобранныхСерияБСОКонтекстноеМеню" id="22"/>
+								<ExtendedTooltip name="ТаблицаПодобранныхСерияБСОРасширеннаяПодсказка" id="94"/>
+							</InputField>
+							<InputField name="ТаблицаПодобранныхНомерНачальный" id="25">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Начальный №</v8:content>
+									</v8:item>
+								</Title>
+								<EditMode>EnterOnInput</EditMode>
+								<ContextMenu name="ТаблицаПодобранныхНомерНачальныйКонтекстноеМеню" id="26"/>
+								<ExtendedTooltip name="ТаблицаПодобранныхНомерНачальныйРасширеннаяПодсказка" id="95"/>
+							</InputField>
+							<InputField name="ТаблицаПодобранныхНомерКонечный" id="27">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Конечный №</v8:content>
+									</v8:item>
+								</Title>
+								<EditMode>EnterOnInput</EditMode>
+								<ContextMenu name="ТаблицаПодобранныхНомерКонечныйКонтекстноеМеню" id="28"/>
+								<ExtendedTooltip name="ТаблицаПодобранныхНомерКонечныйРасширеннаяПодсказка" id="96"/>
+							</InputField>
+							<InputField name="ТаблицаПодобранныхКоличество" id="29">
+								<EditMode>EnterOnInput</EditMode>
+								<ContextMenu name="ТаблицаПодобранныхКоличествоКонтекстноеМеню" id="30"/>
+								<ExtendedTooltip name="ТаблицаПодобранныхКоличествоРасширеннаяПодсказка" id="97"/>
+							</InputField>
+						</ChildItems>
+					</Table>
+				</ChildItems>
+			</UsualGroup>
+		</ChildItems>
+		<Attributes/>
+	</BaseForm>
+</Form>

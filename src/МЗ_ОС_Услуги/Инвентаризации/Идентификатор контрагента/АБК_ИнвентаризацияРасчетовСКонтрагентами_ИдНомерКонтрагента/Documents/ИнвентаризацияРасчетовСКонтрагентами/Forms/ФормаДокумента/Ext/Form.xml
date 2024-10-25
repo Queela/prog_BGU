@@ -1,0 +1,4055 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
+	<VerticalScroll>useIfNecessary</VerticalScroll>
+	<AutoTime>CurrentOrLast</AutoTime>
+	<UsePostingMode>Auto</UsePostingMode>
+	<RepostOnWrite>true</RepostOnWrite>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<ChildItems>
+			<Button name="ФормаЗаполнитьПоДаннымУчетаВсе" id="203" DisplayImportance="VeryHigh">
+				<Type>CommandBarButton</Type>
+				<GroupVerticalAlign>Center</GroupVerticalAlign>
+				<CommandName>0</CommandName>
+				<ToolTipRepresentation>Button</ToolTipRepresentation>
+				<ExtendedTooltip name="ФормаЗаполнитьПоДаннымУчетаВсеРасширеннаяПодсказка" id="263">
+					<Title formatted="false">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Заполнить задолженность по остаткам на счетах расчетов с учетом параметров на закладке "Настройки заполнения"</v8:content>
+						</v8:item>
+					</Title>
+					<GroupVerticalAlign>Center</GroupVerticalAlign>
+				</ExtendedTooltip>
+			</Button>
+			<Popup name="КомандыЭДО" id="604">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>ЭДО</v8:content>
+					</v8:item>
+				</Title>
+				<ExtendedTooltip name="КомандыЭДОРасширеннаяПодсказка" id="605"/>
+			</Popup>
+		</ChildItems>
+	</AutoCommandBar>
+	<Events>
+		<Event name="AfterWriteAtServer" callType="After">АБК_ПослеЗаписиНаСервереПосле</Event>
+		<Event name="OnCreateAtServer" callType="After">АБК_ПриСозданииНаСервереПосле</Event>
+	</Events>
+	<ChildItems>
+		<UsualGroup name="ГруппаОтборПоля" id="115">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отбор при заполнении по данным учета</v8:content>
+				</v8:item>
+			</Title>
+			<HorizontalStretch>true</HorizontalStretch>
+			<Group>Vertical</Group>
+			<Behavior>Usual</Behavior>
+			<ExtendedTooltip name="ГруппаОтборПоляРасширеннаяПодсказка" id="320"/>
+		</UsualGroup>
+		<UsualGroup name="Шапка" id="74">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Шапка</v8:content>
+				</v8:item>
+			</Title>
+			<Group>Horizontal</Group>
+			<Behavior>Usual</Behavior>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ШапкаРасширеннаяПодсказка" id="264"/>
+			<ChildItems>
+				<UsualGroup name="ШапкаЛевая" id="75">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Шапка левая</v8:content>
+						</v8:item>
+					</Title>
+					<Group>Vertical</Group>
+					<Behavior>Usual</Behavior>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ШапкаЛеваяРасширеннаяПодсказка" id="265"/>
+					<ChildItems>
+						<InputField name="РешениеОПроведенииИнвентаризации" id="617">
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<ContextMenu name="РешениеОПроведенииИнвентаризацииКонтекстноеМеню" id="618"/>
+							<ExtendedTooltip name="РешениеОПроведенииИнвентаризацииРасширеннаяПодсказка" id="619"/>
+						</InputField>
+						<InputField name="ДатаИнвентаризации" id="589">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Инвентаризация по состоянию на</v8:content>
+								</v8:item>
+							</Title>
+							<HorizontalStretch>false</HorizontalStretch>
+							<ContextMenu name="ДатаИнвентаризацииКонтекстноеМеню" id="590"/>
+							<ExtendedTooltip name="ДатаИнвентаризацииРасширеннаяПодсказка" id="591"/>
+						</InputField>
+						<RadioButtonField name="РежимЗаполнения" id="554">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Детализация расчетов с контрагентами</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTipRepresentation>Button</ToolTipRepresentation>
+							<RadioButtonType>RadioButtons</RadioButtonType>
+							<ChoiceList>
+								<xr:Item>
+									<xr:Presentation/>
+									<xr:CheckState>0</xr:CheckState>
+									<xr:Value xsi:type="FormChoiceListDesTimeValue">
+										<Presentation>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>По контрагентам</v8:content>
+											</v8:item>
+										</Presentation>
+										<Value xsi:type="xs:decimal">0</Value>
+									</xr:Value>
+								</xr:Item>
+								<xr:Item>
+									<xr:Presentation/>
+									<xr:CheckState>0</xr:CheckState>
+									<xr:Value xsi:type="FormChoiceListDesTimeValue">
+										<Presentation>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>По договорам</v8:content>
+											</v8:item>
+										</Presentation>
+										<Value xsi:type="xs:decimal">1</Value>
+									</xr:Value>
+								</xr:Item>
+							</ChoiceList>
+							<ContextMenu name="РежимЗаполненияКонтекстноеМеню" id="555"/>
+							<ExtendedTooltip name="РежимЗаполненияРасширеннаяПодсказка" id="556">
+								<Title formatted="true">
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Режим заполнения документа по счетам расчетов с контрагентами 205.00, 206.00, 207.00 и др. с аналитикой по контрагентам и договорам:
+- &lt;b&gt;По контрагентам -&lt;/&gt; сводно по контрагентам;
+- &lt;b&gt;По договорам&lt;/&gt; - детально по каждому договору.</v8:content>
+									</v8:item>
+								</Title>
+							</ExtendedTooltip>
+						</RadioButtonField>
+						<UsualGroup name="ШапкаЛеваяГоризонтальная" id="592">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Шапка левая горизонтальная</v8:content>
+								</v8:item>
+							</Title>
+							<Group>AlwaysHorizontal</Group>
+							<Behavior>Usual</Behavior>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ШапкаЛеваяГоризонтальнаяРасширеннаяПодсказка" id="593"/>
+							<ChildItems>
+								<LabelDecoration name="ИнвентаризацияРасчетовОтбор" id="586">
+									<Visible>false</Visible>
+									<HorizontalStretch>true</HorizontalStretch>
+									<TextColor>style:ТекстИнформационнойНадписи</TextColor>
+									<Title formatted="false">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Параметры отбора на закладке "Настройки заполнения"</v8:content>
+										</v8:item>
+									</Title>
+									<ContextMenu name="ИнвентаризацияРасчетовОтборКонтекстноеМеню" id="587"/>
+									<ExtendedTooltip name="ИнвентаризацияРасчетовОтборРасширеннаяПодсказка" id="588"/>
+								</LabelDecoration>
+							</ChildItems>
+						</UsualGroup>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="ШапкаПравая" id="76">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Шапка правая</v8:content>
+						</v8:item>
+					</Title>
+					<Group>Vertical</Group>
+					<Behavior>Usual</Behavior>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ШапкаПраваяРасширеннаяПодсказка" id="269"/>
+					<ChildItems>
+						<UsualGroup name="ГруппаНомерДата" id="443">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа номер дата</v8:content>
+								</v8:item>
+							</Title>
+							<Group>Horizontal</Group>
+							<Behavior>Usual</Behavior>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГруппаНомерДатаРасширеннаяПодсказка" id="444"/>
+							<ChildItems>
+								<InputField name="Номер" id="1">
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="НомерКонтекстноеМеню" id="2"/>
+									<ExtendedTooltip name="НомерРасширеннаяПодсказка" id="267"/>
+								</InputField>
+								<InputField name="Дата" id="3">
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ДатаКонтекстноеМеню" id="4"/>
+									<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="268"/>
+								</InputField>
+							</ChildItems>
+						</UsualGroup>
+						<InputField name="Организация" id="5">
+							<EditMode>EnterOnInput</EditMode>
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<HorizontalStretch>true</HorizontalStretch>
+							<ContextMenu name="ОрганизацияКонтекстноеМеню" id="6"/>
+							<ExtendedTooltip name="ОрганизацияРасширеннаяПодсказка" id="266"/>
+						</InputField>
+						<InputField name="ВидРасчетов" id="651">
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<ContextMenu name="ВидРасчетовКонтекстноеМеню" id="652"/>
+							<ExtendedTooltip name="ВидРасчетовРасширеннаяПодсказка" id="653"/>
+						</InputField>
+					</ChildItems>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
+		<Pages name="Страницы" id="33">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Страницы</v8:content>
+				</v8:item>
+			</Title>
+			<PagesRepresentation>TabsOnTop</PagesRepresentation>
+			<ExtendedTooltip name="СтраницыРасширеннаяПодсказка" id="270"/>
+			<ChildItems>
+				<Page name="СтраницаДебиторы" id="34">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Дебиторская задолженность</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="СтраницаДебиторыРасширеннаяПодсказка" id="271"/>
+					<ChildItems>
+						<Table name="ДебиторскаяЗадолженность" id="212">
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<FileDragMode>AsFile</FileDragMode>
+							<SearchStringLocation>None</SearchStringLocation>
+							<ViewStatusLocation>None</ViewStatusLocation>
+							<SearchControlLocation>None</SearchControlLocation>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="ДебиторскаяЗадолженностьКонтекстноеМеню" id="213"/>
+							<AutoCommandBar name="ДебиторскаяЗадолженностьКоманднаяПанель" id="214">
+								<ChildItems>
+									<Popup name="ДебиторскаяЗадолженностьГруппаЗаполнить" id="260">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Заполнить</v8:content>
+											</v8:item>
+										</Title>
+										<ExtendedTooltip name="ДебиторскаяЗадолженностьГруппаЗаполнитьРасширеннаяПодсказка" id="272"/>
+										<ChildItems>
+											<Button name="ДебиторыЗаполнитьПоДаннымУчета" id="172">
+												<Type>CommandBarButton</Type>
+												<CommandName>0</CommandName>
+												<ExtendedTooltip name="ДебиторыЗаполнитьПоДаннымУчетаРасширеннаяПодсказка" id="273"/>
+											</Button>
+										</ChildItems>
+									</Popup>
+									<Button name="ДебиторыРасшифроватьПоДаннымУчета" id="582">
+										<Type>CommandBarButton</Type>
+										<CommandName>0</CommandName>
+										<ExtendedTooltip name="ДебиторыРасшифроватьПоДаннымУчетаРасширеннаяПодсказка" id="583"/>
+									</Button>
+									<Popup name="ДебиторскаяЗадолженностьГруппаСписать" id="628">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Списать</v8:content>
+											</v8:item>
+										</Title>
+										<ExtendedTooltip name="ДебиторскаяЗадолженностьГруппаСписатьРасширеннаяПодсказка" id="629"/>
+										<ChildItems>
+											<Button name="ДебиторскаяЗадолженностьДЗСписатьСомнительнуюЗадолженность" id="630">
+												<Type>CommandBarButton</Type>
+												<CommandName>0</CommandName>
+												<ExtendedTooltip name="ДебиторскаяЗадолженностьДЗСписатьСомнительнуюЗадолженностьРасширеннаяПодсказка" id="631"/>
+											</Button>
+											<Button name="ДебиторскаяЗадолженностьДЗВосстановитьСомнительнуюЗадолженность" id="634">
+												<Type>CommandBarButton</Type>
+												<CommandName>0</CommandName>
+												<ExtendedTooltip name="ДебиторскаяЗадолженностьДЗВосстановитьСомнительнуюЗадолженностьРасширеннаяПодсказка" id="635"/>
+											</Button>
+											<Button name="ДебиторскаяЗадолженностьДЗСписатьБезнадежнуюЗадолженность" id="632">
+												<Type>CommandBarButton</Type>
+												<CommandName>0</CommandName>
+												<ExtendedTooltip name="ДебиторскаяЗадолженностьДЗСписатьБезнадежнуюЗадолженностьРасширеннаяПодсказка" id="633"/>
+											</Button>
+										</ChildItems>
+									</Popup>
+								</ChildItems>
+							</AutoCommandBar>
+							<ExtendedTooltip name="ДебиторскаяЗадолженностьРасширеннаяПодсказка" id="274"/>
+							<SearchStringAddition name="ДебиторскаяЗадолженностьСтрокаПоиска" id="275">
+								<AdditionSource>
+									<Item>ДебиторскаяЗадолженность</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ДебиторскаяЗадолженностьСтрокаПоискаКонтекстноеМеню" id="276"/>
+								<ExtendedTooltip name="ДебиторскаяЗадолженностьСтрокаПоискаРасширеннаяПодсказка" id="277"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="ДебиторскаяЗадолженностьСостояниеПросмотра" id="278">
+								<AdditionSource>
+									<Item>ДебиторскаяЗадолженность</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ДебиторскаяЗадолженностьСостояниеПросмотраКонтекстноеМеню" id="279"/>
+								<ExtendedTooltip name="ДебиторскаяЗадолженностьСостояниеПросмотраРасширеннаяПодсказка" id="280"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="ДебиторскаяЗадолженностьУправлениеПоиском" id="281">
+								<AdditionSource>
+									<Item>ДебиторскаяЗадолженность</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="ДебиторскаяЗадолженностьУправлениеПоискомКонтекстноеМеню" id="282"/>
+								<ExtendedTooltip name="ДебиторскаяЗадолженностьУправлениеПоискомРасширеннаяПодсказка" id="283"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<LabelField name="ДебиторскаяЗадолженностьНомерСтроки" id="215">
+									<EditMode>EnterOnInput</EditMode>
+									<FixingInTable>Left</FixingInTable>
+									<Width>2</Width>
+									<HorizontalStretch>false</HorizontalStretch>
+									<ContextMenu name="ДебиторскаяЗадолженностьНомерСтрокиКонтекстноеМеню" id="216"/>
+									<ExtendedTooltip name="ДебиторскаяЗадолженностьНомерСтрокиРасширеннаяПодсказка" id="284"/>
+								</LabelField>
+								<ColumnGroup name="ДебиторскаяЗадолженностьГруппаКонтрагентДоговор" id="559">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Контрагент, договор</v8:content>
+										</v8:item>
+									</Title>
+									<Group>Horizontal</Group>
+									<FixingInTable>Left</FixingInTable>
+									<ExtendedTooltip name="ДебиторскаяЗадолженностьГруппаКонтрагентДоговорРасширеннаяПодсказка" id="560"/>
+									<ChildItems>
+										<ColumnGroup name="ДебиторскаяЗадолженностьКонтрагентГруппа" id="636">
+											<EnableContentChange>true</EnableContentChange>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Контрагент</v8:content>
+												</v8:item>
+											</Title>
+											<Group>Horizontal</Group>
+											<ShowInHeader>true</ShowInHeader>
+											<ExtendedTooltip name="ДебиторскаяЗадолженностьКонтрагентГруппаРасширеннаяПодсказка" id="637"/>
+											<ChildItems>
+												<InputField name="ДебиторскаяЗадолженностьКонтрагент" id="217">
+													<EditMode>EnterOnInput</EditMode>
+													<FixingInTable>Left</FixingInTable>
+													<ShowInHeader>false</ShowInHeader>
+													<FooterText>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Итого:</v8:content>
+														</v8:item>
+													</FooterText>
+													<ChooseType>false</ChooseType>
+													<InputHint>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Контрагент</v8:content>
+														</v8:item>
+													</InputHint>
+													<ContextMenu name="ДебиторскаяЗадолженностьКонтрагентКонтекстноеМеню" id="218"/>
+													<ExtendedTooltip name="ДебиторскаяЗадолженностьКонтрагентРасширеннаяПодсказка" id="285"/>
+												</InputField>
+												<PictureField name="ДебиторскаяЗадолженностьЭтоНекорректныйКонтрагент" id="638">
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Есть ошибка по данным ФНС</v8:content>
+														</v8:item>
+													</Title>
+													<TitleLocation>None</TitleLocation>
+													<EditMode>EnterOnInput</EditMode>
+													<CellHyperlink>true</CellHyperlink>
+													<ShowInHeader>false</ShowInHeader>
+													<Width>2</Width>
+													<AutoMaxWidth>false</AutoMaxWidth>
+													<MaxWidth>2</MaxWidth>
+													<HorizontalStretch>false</HorizontalStretch>
+													<ValuesPicture>
+														<xr:Ref>CommonPicture.НекорректныйКонтрагент</xr:Ref>
+														<xr:LoadTransparent>true</xr:LoadTransparent>
+													</ValuesPicture>
+													<ContextMenu name="ДебиторскаяЗадолженностьЭтоНекорректныйКонтрагентКонтекстноеМеню" id="639"/>
+													<ExtendedTooltip name="ДебиторскаяЗадолженностьЭтоНекорректныйКонтрагентРасширеннаяПодсказка" id="640"/>
+												</PictureField>
+											</ChildItems>
+										</ColumnGroup>
+										<InputField name="ДебиторскаяЗадолженностьДоговор" id="561">
+											<EditMode>EnterOnInput</EditMode>
+											<FixingInTable>Left</FixingInTable>
+											<InputHint>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Договор</v8:content>
+												</v8:item>
+											</InputHint>
+											<ContextMenu name="ДебиторскаяЗадолженностьДоговорКонтекстноеМеню" id="562"/>
+											<ExtendedTooltip name="ДебиторскаяЗадолженностьДоговорРасширеннаяПодсказка" id="563"/>
+										</InputField>
+									</ChildItems>
+								</ColumnGroup>
+								<InputField name="ДебиторскаяЗадолженностьКФО" id="223">
+									<EditMode>EnterOnInput</EditMode>
+									<Width>5</Width>
+									<HorizontalStretch>false</HorizontalStretch>
+									<ContextMenu name="ДебиторскаяЗадолженностьКФОКонтекстноеМеню" id="224"/>
+									<ExtendedTooltip name="ДебиторскаяЗадолженностьКФОРасширеннаяПодсказка" id="286"/>
+								</InputField>
+								<InputField name="ДебиторскаяЗадолженностьКПС" id="221">
+									<EditMode>EnterOnInput</EditMode>
+									<Width>15</Width>
+									<HorizontalStretch>false</HorizontalStretch>
+									<ContextMenu name="ДебиторскаяЗадолженностьКПСКонтекстноеМеню" id="222"/>
+									<ExtendedTooltip name="ДебиторскаяЗадолженностьКПСРасширеннаяПодсказка" id="287"/>
+								</InputField>
+								<InputField name="ДебиторскаяЗадолженностьСчет" id="219">
+									<EditMode>EnterOnInput</EditMode>
+									<Width>8</Width>
+									<HorizontalStretch>false</HorizontalStretch>
+									<ContextMenu name="ДебиторскаяЗадолженностьСчетКонтекстноеМеню" id="220"/>
+									<ExtendedTooltip name="ДебиторскаяЗадолженностьСчетРасширеннаяПодсказка" id="288"/>
+								</InputField>
+								<InputField name="ДебиторскаяЗадолженностьКЭК" id="611">
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ДебиторскаяЗадолженностьКЭККонтекстноеМеню" id="612"/>
+									<ExtendedTooltip name="ДебиторскаяЗадолженностьКЭКРасширеннаяПодсказка" id="613"/>
+								</InputField>
+								<InputField name="ДебиторскаяЗадолженностьИФО" id="225">
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ДебиторскаяЗадолженностьИФОКонтекстноеМеню" id="226"/>
+									<ExtendedTooltip name="ДебиторскаяЗадолженностьИФОРасширеннаяПодсказка" id="289"/>
+								</InputField>
+								<InputField name="ДебиторскаяЗадолженностьВсего" id="234">
+									<EditMode>EnterOnInput</EditMode>
+									<Width>12</Width>
+									<HorizontalStretch>false</HorizontalStretch>
+									<ContextMenu name="ДебиторскаяЗадолженностьВсегоКонтекстноеМеню" id="235"/>
+									<ExtendedTooltip name="ДебиторскаяЗадолженностьВсегоРасширеннаяПодсказка" id="291"/>
+								</InputField>
+								<ColumnGroup name="ДебиторскаяЗадолженностьГруппаСуммы" id="233">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>в том числе</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Цветом выделены строки, в которых нарушается условие Всего=Подтверждено + НеПодтверждено + ИстекСрокДавности</v8:content>
+										</v8:item>
+									</ToolTip>
+									<Group>Horizontal</Group>
+									<ShowInHeader>true</ShowInHeader>
+									<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+									<ExtendedTooltip name="ДебиторскаяЗадолженностьГруппаСуммыРасширеннаяПодсказка" id="290"/>
+									<ChildItems>
+										<InputField name="ДебиторскаяЗадолженностьПодтверждено" id="227">
+											<EditMode>EnterOnInput</EditMode>
+											<Width>12</Width>
+											<HorizontalStretch>false</HorizontalStretch>
+											<ContextMenu name="ДебиторскаяЗадолженностьПодтвержденоКонтекстноеМеню" id="228"/>
+											<ExtendedTooltip name="ДебиторскаяЗадолженностьПодтвержденоРасширеннаяПодсказка" id="292"/>
+										</InputField>
+										<InputField name="ДебиторскаяЗадолженностьНеПодтверждено" id="229">
+											<EditMode>EnterOnInput</EditMode>
+											<Width>12</Width>
+											<HorizontalStretch>false</HorizontalStretch>
+											<ContextMenu name="ДебиторскаяЗадолженностьНеПодтвержденоКонтекстноеМеню" id="230"/>
+											<ExtendedTooltip name="ДебиторскаяЗадолженностьНеПодтвержденоРасширеннаяПодсказка" id="293"/>
+										</InputField>
+										<InputField name="ДебиторскаяЗадолженностьИстекСрокДавности" id="231">
+											<EditMode>EnterOnInput</EditMode>
+											<Width>12</Width>
+											<HorizontalStretch>false</HorizontalStretch>
+											<ContextMenu name="ДебиторскаяЗадолженностьИстекСрокДавностиКонтекстноеМеню" id="232"/>
+											<ExtendedTooltip name="ДебиторскаяЗадолженностьИстекСрокДавностиРасширеннаяПодсказка" id="294"/>
+										</InputField>
+									</ChildItems>
+								</ColumnGroup>
+								<InputField name="ДебиторскаяЗадолженностьДолгосрочная" id="500">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Долгосрочная</v8:content>
+										</v8:item>
+									</Title>
+									<EditMode>EnterOnInput</EditMode>
+									<Width>10</Width>
+									<ContextMenu name="ДебиторскаяЗадолженностьДолгосрочнаяКонтекстноеМеню" id="501"/>
+									<ExtendedTooltip name="ДебиторскаяЗадолженностьДолгосрочнаяРасширеннаяПодсказка" id="502"/>
+								</InputField>
+								<ColumnGroup name="ДебиторскаяЗадолженностьГруппаПросроченная" id="508">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Просроченная</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Просроченная дебиторская задолженность</v8:content>
+										</v8:item>
+									</ToolTip>
+									<Group>Horizontal</Group>
+									<ShowInHeader>true</ShowInHeader>
+									<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+									<ExtendedTooltip name="ДебиторскаяЗадолженностьГруппаПросроченнаяРасширеннаяПодсказка" id="509"/>
+									<ChildItems>
+										<InputField name="ДебиторскаяЗадолженностьПросроченная" id="503">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Сумма</v8:content>
+												</v8:item>
+											</Title>
+											<EditMode>EnterOnInput</EditMode>
+											<Width>10</Width>
+											<ContextMenu name="ДебиторскаяЗадолженностьПросроченнаяКонтекстноеМеню" id="504"/>
+											<ExtendedTooltip name="ДебиторскаяЗадолженностьПросроченнаяРасширеннаяПодсказка" id="505"/>
+										</InputField>
+										<InputField name="ДебиторскаяЗадолженностьДатаВозникновения" id="510">
+											<EditMode>EnterOnInput</EditMode>
+											<Width>10</Width>
+											<ContextMenu name="ДебиторскаяЗадолженностьДатаВозникновенияКонтекстноеМеню" id="511"/>
+											<ExtendedTooltip name="ДебиторскаяЗадолженностьДатаВозникновенияРасширеннаяПодсказка" id="512"/>
+										</InputField>
+										<InputField name="ДебиторскаяЗадолженностьДатаИсполнения" id="513">
+											<EditMode>EnterOnInput</EditMode>
+											<Width>10</Width>
+											<ContextMenu name="ДебиторскаяЗадолженностьДатаИсполненияКонтекстноеМеню" id="514"/>
+											<ExtendedTooltip name="ДебиторскаяЗадолженностьДатаИсполненияРасширеннаяПодсказка" id="515"/>
+										</InputField>
+									</ChildItems>
+								</ColumnGroup>
+							</ChildItems>
+						</Table>
+						<UsualGroup name="ИтогоДебиторы" id="447">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Итого дебиторы</v8:content>
+								</v8:item>
+							</Title>
+							<HorizontalStretch>true</HorizontalStretch>
+							<Group>Horizontal</Group>
+							<Behavior>Usual</Behavior>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ИтогоДебиторыРасширеннаяПодсказка" id="448"/>
+							<ChildItems>
+								<UsualGroup name="ИтогоДебиторыФон" id="451">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Итого дебиторы фон</v8:content>
+										</v8:item>
+									</Title>
+									<GroupHorizontalAlign>Right</GroupHorizontalAlign>
+									<Group>Horizontal</Group>
+									<Behavior>Usual</Behavior>
+									<Representation>None</Representation>
+									<ShowTitle>false</ShowTitle>
+									<BackColor>style:ИтогиФонГруппы</BackColor>
+									<ExtendedTooltip name="ИтогоДебиторыФонРасширеннаяПодсказка" id="452"/>
+									<ChildItems>
+										<UsualGroup name="ИтогоДебиторыВсего" id="479">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Всего</v8:content>
+												</v8:item>
+											</Title>
+											<Behavior>Usual</Behavior>
+											<Representation>None</Representation>
+											<ExtendedTooltip name="ИтогоДебиторыВсегоРасширеннаяПодсказка" id="480"/>
+											<ChildItems>
+												<InputField name="ДебиторскаяЗадолженностьИтогВсего" id="455">
+													<ReadOnly>true</ReadOnly>
+													<TitleLocation>None</TitleLocation>
+													<Width>13</Width>
+													<HorizontalStretch>false</HorizontalStretch>
+													<ContextMenu name="ДебиторскаяЗадолженностьИтогВсегоКонтекстноеМеню" id="456"/>
+													<ExtendedTooltip name="ДебиторскаяЗадолженностьИтогВсегоРасширеннаяПодсказка" id="457"/>
+												</InputField>
+											</ChildItems>
+										</UsualGroup>
+										<UsualGroup name="ИтогоДебиторыПодтверждено" id="481">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Подтверждено</v8:content>
+												</v8:item>
+											</Title>
+											<Behavior>Usual</Behavior>
+											<Representation>None</Representation>
+											<ExtendedTooltip name="ИтогоДебиторыПодтвержденоРасширеннаяПодсказка" id="482"/>
+											<ChildItems>
+												<InputField name="ДебиторскаяЗадолженностьИтогПодтверждено" id="458">
+													<ReadOnly>true</ReadOnly>
+													<TitleLocation>None</TitleLocation>
+													<Width>13</Width>
+													<HorizontalStretch>false</HorizontalStretch>
+													<ContextMenu name="ДебиторскаяЗадолженностьИтогПодтвержденоКонтекстноеМеню" id="459"/>
+													<ExtendedTooltip name="ДебиторскаяЗадолженностьИтогПодтвержденоРасширеннаяПодсказка" id="460"/>
+												</InputField>
+											</ChildItems>
+										</UsualGroup>
+										<UsualGroup name="ИтогоДебиторыНеПодтверждено" id="483">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Не подтверждено</v8:content>
+												</v8:item>
+											</Title>
+											<Behavior>Usual</Behavior>
+											<Representation>None</Representation>
+											<ExtendedTooltip name="ИтогоДебиторыНеПодтвержденоРасширеннаяПодсказка" id="484"/>
+											<ChildItems>
+												<InputField name="ДебиторскаяЗадолженностьИтогНеПодтверждено" id="461">
+													<ReadOnly>true</ReadOnly>
+													<TitleLocation>None</TitleLocation>
+													<Width>13</Width>
+													<HorizontalStretch>false</HorizontalStretch>
+													<ContextMenu name="ДебиторскаяЗадолженностьИтогНеПодтвержденоКонтекстноеМеню" id="462"/>
+													<ExtendedTooltip name="ДебиторскаяЗадолженностьИтогНеПодтвержденоРасширеннаяПодсказка" id="463"/>
+												</InputField>
+											</ChildItems>
+										</UsualGroup>
+										<UsualGroup name="ИтогоДебиторыИстекСрокДавности" id="485">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Истек срок давности</v8:content>
+												</v8:item>
+											</Title>
+											<Behavior>Usual</Behavior>
+											<Representation>None</Representation>
+											<ExtendedTooltip name="ИтогоДебиторыИстекСрокДавностиРасширеннаяПодсказка" id="486"/>
+											<ChildItems>
+												<InputField name="ДебиторскаяЗадолженностьИтогИстекСрокДавности" id="464">
+													<ReadOnly>true</ReadOnly>
+													<TitleLocation>None</TitleLocation>
+													<Width>13</Width>
+													<HorizontalStretch>false</HorizontalStretch>
+													<ContextMenu name="ДебиторскаяЗадолженностьИтогИстекСрокДавностиКонтекстноеМеню" id="465"/>
+													<ExtendedTooltip name="ДебиторскаяЗадолженностьИтогИстекСрокДавностиРасширеннаяПодсказка" id="466"/>
+												</InputField>
+											</ChildItems>
+										</UsualGroup>
+										<UsualGroup name="ИтогоДебиторыДолгосрочная" id="534">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Долгосрочная</v8:content>
+												</v8:item>
+											</Title>
+											<Behavior>Usual</Behavior>
+											<Representation>None</Representation>
+											<ExtendedTooltip name="ИтогоДебиторыДолгосрочнаяРасширеннаяПодсказка" id="535"/>
+											<ChildItems>
+												<InputField name="ДебиторскаяЗадолженностьИтогДолгосрочная" id="536">
+													<ReadOnly>true</ReadOnly>
+													<TitleLocation>None</TitleLocation>
+													<Width>13</Width>
+													<HorizontalStretch>false</HorizontalStretch>
+													<ContextMenu name="ДебиторскаяЗадолженностьИтогДолгосрочнаяКонтекстноеМеню" id="537"/>
+													<ExtendedTooltip name="ДебиторскаяЗадолженностьИтогДолгосрочнаяРасширеннаяПодсказка" id="538"/>
+												</InputField>
+											</ChildItems>
+										</UsualGroup>
+										<UsualGroup name="ИтогоДебиторыПросроченная" id="539">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Просроченная</v8:content>
+												</v8:item>
+											</Title>
+											<ToolTip>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Итого дебиторы долгосрочная</v8:content>
+												</v8:item>
+											</ToolTip>
+											<Width>12</Width>
+											<HorizontalStretch>false</HorizontalStretch>
+											<Behavior>Usual</Behavior>
+											<Representation>None</Representation>
+											<ExtendedTooltip name="ИтогоДебиторыПросроченнаяРасширеннаяПодсказка" id="540"/>
+											<ChildItems>
+												<InputField name="ДебиторскаяЗадолженностьИтогПросроченная" id="541">
+													<ReadOnly>true</ReadOnly>
+													<TitleLocation>None</TitleLocation>
+													<Width>13</Width>
+													<HorizontalStretch>false</HorizontalStretch>
+													<ContextMenu name="ДебиторскаяЗадолженностьИтогПросроченнаяКонтекстноеМеню" id="542"/>
+													<ExtendedTooltip name="ДебиторскаяЗадолженностьИтогПросроченнаяРасширеннаяПодсказка" id="543"/>
+												</InputField>
+											</ChildItems>
+										</UsualGroup>
+									</ChildItems>
+								</UsualGroup>
+							</ChildItems>
+						</UsualGroup>
+					</ChildItems>
+				</Page>
+				<Page name="СтраницаКредиторы" id="140">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Кредиторская задолженность</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="СтраницаКредиторыРасширеннаяПодсказка" id="295"/>
+					<ChildItems>
+						<Table name="КредиторскаяЗадолженность" id="236">
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<FileDragMode>AsFile</FileDragMode>
+							<SearchStringLocation>None</SearchStringLocation>
+							<ViewStatusLocation>None</ViewStatusLocation>
+							<SearchControlLocation>None</SearchControlLocation>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="КредиторскаяЗадолженностьКонтекстноеМеню" id="237"/>
+							<AutoCommandBar name="КредиторскаяЗадолженностьКоманднаяПанель" id="238">
+								<ChildItems>
+									<Popup name="КредиторскаяЗадолженностьГруппаЗаполнить" id="261">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Заполнить</v8:content>
+											</v8:item>
+										</Title>
+										<ExtendedTooltip name="КредиторскаяЗадолженностьГруппаЗаполнитьРасширеннаяПодсказка" id="296"/>
+										<ChildItems>
+											<Button name="КредиторыЗаполнитьПоДаннымУчета" id="202">
+												<Type>CommandBarButton</Type>
+												<CommandName>0</CommandName>
+												<ExtendedTooltip name="КредиторыЗаполнитьПоДаннымУчетаРасширеннаяПодсказка" id="297"/>
+											</Button>
+										</ChildItems>
+									</Popup>
+									<Button name="КредиторыРасшифроватьПоДаннымУчета" id="584">
+										<Type>CommandBarButton</Type>
+										<CommandName>0</CommandName>
+										<ExtendedTooltip name="КредиторыРасшифроватьПоДаннымУчетаРасширеннаяПодсказка" id="585"/>
+									</Button>
+									<Popup name="КредиторскаяЗадолженностьГруппаСписать" id="620">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Списать</v8:content>
+											</v8:item>
+										</Title>
+										<ExtendedTooltip name="КредиторскаяЗадолженностьГруппаСписатьРасширеннаяПодсказка" id="621"/>
+										<ChildItems>
+											<Button name="КредиторскаяЗадолженностьСписатьБезПоследующегоНаблюдения" id="622">
+												<Type>CommandBarButton</Type>
+												<CommandName>0</CommandName>
+												<ExtendedTooltip name="КредиторскаяЗадолженностьСписатьБезПоследующегоНаблюденияРасширеннаяПодсказка" id="623"/>
+											</Button>
+											<Button name="КредиторскаяЗадолженностьСписатьСПоследующимНаблюдением" id="624">
+												<Type>CommandBarButton</Type>
+												<CommandName>0</CommandName>
+												<ExtendedTooltip name="КредиторскаяЗадолженностьСписатьСПоследующимНаблюдениемРасширеннаяПодсказка" id="625"/>
+											</Button>
+											<Button name="КредиторскаяЗадолженностьПрекратитьНаблюдениеЗадолженности" id="626">
+												<Type>CommandBarButton</Type>
+												<CommandName>0</CommandName>
+												<ExtendedTooltip name="КредиторскаяЗадолженностьПрекратитьНаблюдениеЗадолженностиРасширеннаяПодсказка" id="627"/>
+											</Button>
+										</ChildItems>
+									</Popup>
+								</ChildItems>
+							</AutoCommandBar>
+							<ExtendedTooltip name="КредиторскаяЗадолженностьРасширеннаяПодсказка" id="298"/>
+							<SearchStringAddition name="КредиторскаяЗадолженностьСтрокаПоиска" id="299">
+								<AdditionSource>
+									<Item>КредиторскаяЗадолженность</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="КредиторскаяЗадолженностьСтрокаПоискаКонтекстноеМеню" id="300"/>
+								<ExtendedTooltip name="КредиторскаяЗадолженностьСтрокаПоискаРасширеннаяПодсказка" id="301"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="КредиторскаяЗадолженностьСостояниеПросмотра" id="302">
+								<AdditionSource>
+									<Item>КредиторскаяЗадолженность</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="КредиторскаяЗадолженностьСостояниеПросмотраКонтекстноеМеню" id="303"/>
+								<ExtendedTooltip name="КредиторскаяЗадолженностьСостояниеПросмотраРасширеннаяПодсказка" id="304"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="КредиторскаяЗадолженностьУправлениеПоиском" id="305">
+								<AdditionSource>
+									<Item>КредиторскаяЗадолженность</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="КредиторскаяЗадолженностьУправлениеПоискомКонтекстноеМеню" id="306"/>
+								<ExtendedTooltip name="КредиторскаяЗадолженностьУправлениеПоискомРасширеннаяПодсказка" id="307"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<LabelField name="КредиторскаяЗадолженностьНомерСтроки" id="239">
+									<EditMode>EnterOnInput</EditMode>
+									<FixingInTable>Left</FixingInTable>
+									<Width>2</Width>
+									<HorizontalStretch>false</HorizontalStretch>
+									<ContextMenu name="КредиторскаяЗадолженностьНомерСтрокиКонтекстноеМеню" id="240"/>
+									<ExtendedTooltip name="КредиторскаяЗадолженностьНомерСтрокиРасширеннаяПодсказка" id="308"/>
+								</LabelField>
+								<ColumnGroup name="КредиторскаяЗадолженностьГруппаКонтрагентДоговор" id="564">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Контрагент, договор</v8:content>
+										</v8:item>
+									</Title>
+									<Group>Horizontal</Group>
+									<ExtendedTooltip name="КредиторскаяЗадолженностьГруппаКонтрагентДоговорРасширеннаяПодсказка" id="565"/>
+									<ChildItems>
+										<ColumnGroup name="КредиторскаяЗадолженностьКонтрагентГруппа" id="641">
+											<EnableContentChange>true</EnableContentChange>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Контрагент</v8:content>
+												</v8:item>
+											</Title>
+											<Group>Horizontal</Group>
+											<ShowInHeader>true</ShowInHeader>
+											<ExtendedTooltip name="КредиторскаяЗадолженностьКонтрагентГруппаРасширеннаяПодсказка" id="642"/>
+											<ChildItems>
+												<InputField name="КредиторскаяЗадолженностьКонтрагент" id="241">
+													<EditMode>EnterOnInput</EditMode>
+													<ShowInHeader>false</ShowInHeader>
+													<FooterText>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Итого:</v8:content>
+														</v8:item>
+													</FooterText>
+													<ChooseType>false</ChooseType>
+													<InputHint>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Контрагент</v8:content>
+														</v8:item>
+													</InputHint>
+													<ContextMenu name="КредиторскаяЗадолженностьКонтрагентКонтекстноеМеню" id="242"/>
+													<ExtendedTooltip name="КредиторскаяЗадолженностьКонтрагентРасширеннаяПодсказка" id="309"/>
+												</InputField>
+												<PictureField name="КредиторскаяЗадолженностьЭтоНекорректныйКонтрагент" id="643">
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Есть ошибка по данным ФНС</v8:content>
+														</v8:item>
+													</Title>
+													<TitleLocation>None</TitleLocation>
+													<EditMode>EnterOnInput</EditMode>
+													<CellHyperlink>true</CellHyperlink>
+													<ShowInHeader>false</ShowInHeader>
+													<Width>2</Width>
+													<AutoMaxWidth>false</AutoMaxWidth>
+													<MaxWidth>2</MaxWidth>
+													<HorizontalStretch>false</HorizontalStretch>
+													<ValuesPicture>
+														<xr:Ref>CommonPicture.НекорректныйКонтрагент</xr:Ref>
+														<xr:LoadTransparent>true</xr:LoadTransparent>
+													</ValuesPicture>
+													<ContextMenu name="КредиторскаяЗадолженностьЭтоНекорректныйКонтрагентКонтекстноеМеню" id="644"/>
+													<ExtendedTooltip name="КредиторскаяЗадолженностьЭтоНекорректныйКонтрагентРасширеннаяПодсказка" id="645"/>
+												</PictureField>
+											</ChildItems>
+										</ColumnGroup>
+										<InputField name="КредиторскаяЗадолженностьДоговор" id="566">
+											<EditMode>EnterOnInput</EditMode>
+											<InputHint>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Договор</v8:content>
+												</v8:item>
+											</InputHint>
+											<ContextMenu name="КредиторскаяЗадолженностьДоговорКонтекстноеМеню" id="567"/>
+											<ExtendedTooltip name="КредиторскаяЗадолженностьДоговорРасширеннаяПодсказка" id="568"/>
+										</InputField>
+									</ChildItems>
+								</ColumnGroup>
+								<InputField name="КредиторскаяЗадолженностьКФО" id="247">
+									<EditMode>EnterOnInput</EditMode>
+									<Width>5</Width>
+									<HorizontalStretch>false</HorizontalStretch>
+									<ContextMenu name="КредиторскаяЗадолженностьКФОКонтекстноеМеню" id="248"/>
+									<ExtendedTooltip name="КредиторскаяЗадолженностьКФОРасширеннаяПодсказка" id="310"/>
+								</InputField>
+								<InputField name="КредиторскаяЗадолженностьКПС" id="245">
+									<EditMode>EnterOnInput</EditMode>
+									<Width>15</Width>
+									<HorizontalStretch>false</HorizontalStretch>
+									<ContextMenu name="КредиторскаяЗадолженностьКПСКонтекстноеМеню" id="246"/>
+									<ExtendedTooltip name="КредиторскаяЗадолженностьКПСРасширеннаяПодсказка" id="311"/>
+								</InputField>
+								<InputField name="КредиторскаяЗадолженностьСчет" id="243">
+									<EditMode>EnterOnInput</EditMode>
+									<Width>8</Width>
+									<HorizontalStretch>false</HorizontalStretch>
+									<ContextMenu name="КредиторскаяЗадолженностьСчетКонтекстноеМеню" id="244"/>
+									<ExtendedTooltip name="КредиторскаяЗадолженностьСчетРасширеннаяПодсказка" id="312"/>
+								</InputField>
+								<InputField name="КредиторскаяЗадолженностьКЭК" id="614">
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="КредиторскаяЗадолженностьКЭККонтекстноеМеню" id="615"/>
+									<ExtendedTooltip name="КредиторскаяЗадолженностьКЭКРасширеннаяПодсказка" id="616"/>
+								</InputField>
+								<InputField name="КредиторскаяЗадолженностьИФО" id="249">
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="КредиторскаяЗадолженностьИФОКонтекстноеМеню" id="250"/>
+									<ExtendedTooltip name="КредиторскаяЗадолженностьИФОРасширеннаяПодсказка" id="313"/>
+								</InputField>
+								<InputField name="КредиторскаяЗадолженностьВсего" id="251">
+									<EditMode>EnterOnInput</EditMode>
+									<Width>12</Width>
+									<HorizontalStretch>false</HorizontalStretch>
+									<ContextMenu name="КредиторскаяЗадолженностьВсегоКонтекстноеМеню" id="252"/>
+									<ExtendedTooltip name="КредиторскаяЗадолженностьВсегоРасширеннаяПодсказка" id="315"/>
+								</InputField>
+								<ColumnGroup name="КредиторскаяЗадолженностьГруппаСуммы" id="259">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>в том числе</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Цветом выделены строки, в которых нарушается условие Всего=Подтверждено + НеПодтверждено + ИстекСрокДавности</v8:content>
+										</v8:item>
+									</ToolTip>
+									<Group>Horizontal</Group>
+									<ShowInHeader>true</ShowInHeader>
+									<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+									<ExtendedTooltip name="КредиторскаяЗадолженностьГруппаСуммыРасширеннаяПодсказка" id="314"/>
+									<ChildItems>
+										<InputField name="КредиторскаяЗадолженностьПодтверждено" id="253">
+											<EditMode>EnterOnInput</EditMode>
+											<Width>12</Width>
+											<HorizontalStretch>false</HorizontalStretch>
+											<ContextMenu name="КредиторскаяЗадолженностьПодтвержденоКонтекстноеМеню" id="254"/>
+											<ExtendedTooltip name="КредиторскаяЗадолженностьПодтвержденоРасширеннаяПодсказка" id="316"/>
+										</InputField>
+										<InputField name="КредиторскаяЗадолженностьНеПодтверждено" id="255">
+											<EditMode>EnterOnInput</EditMode>
+											<Width>12</Width>
+											<HorizontalStretch>false</HorizontalStretch>
+											<ContextMenu name="КредиторскаяЗадолженностьНеПодтвержденоКонтекстноеМеню" id="256"/>
+											<ExtendedTooltip name="КредиторскаяЗадолженностьНеПодтвержденоРасширеннаяПодсказка" id="317"/>
+										</InputField>
+										<InputField name="КредиторскаяЗадолженностьИстекСрокДавности" id="257">
+											<EditMode>EnterOnInput</EditMode>
+											<Width>12</Width>
+											<HorizontalStretch>false</HorizontalStretch>
+											<ContextMenu name="КредиторскаяЗадолженностьИстекСрокДавностиКонтекстноеМеню" id="258"/>
+											<ExtendedTooltip name="КредиторскаяЗадолженностьИстекСрокДавностиРасширеннаяПодсказка" id="318"/>
+										</InputField>
+									</ChildItems>
+								</ColumnGroup>
+								<InputField name="КредиторскаяЗадолженностьДолгосрочная" id="518">
+									<EditMode>EnterOnInput</EditMode>
+									<Width>10</Width>
+									<HorizontalStretch>false</HorizontalStretch>
+									<ContextMenu name="КредиторскаяЗадолженностьДолгосрочнаяКонтекстноеМеню" id="519"/>
+									<ExtendedTooltip name="КредиторскаяЗадолженностьДолгосрочнаяРасширеннаяПодсказка" id="520"/>
+								</InputField>
+								<ColumnGroup name="КредиторскаяЗадолженностьГруппаПросроченная" id="521">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Просроченная</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Просроченная кредиторская задолженность</v8:content>
+										</v8:item>
+									</ToolTip>
+									<Group>Horizontal</Group>
+									<ShowInHeader>true</ShowInHeader>
+									<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+									<ExtendedTooltip name="КредиторскаяЗадолженностьГруппаПросроченнаяРасширеннаяПодсказка" id="522"/>
+									<ChildItems>
+										<InputField name="КредиторскаяЗадолженностьПросроченная" id="523">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Сумма</v8:content>
+												</v8:item>
+											</Title>
+											<EditMode>EnterOnInput</EditMode>
+											<Width>10</Width>
+											<HorizontalStretch>false</HorizontalStretch>
+											<ContextMenu name="КредиторскаяЗадолженностьПросроченнаяКонтекстноеМеню" id="524"/>
+											<ExtendedTooltip name="КредиторскаяЗадолженностьПросроченнаяРасширеннаяПодсказка" id="525"/>
+										</InputField>
+										<InputField name="КредиторскаяЗадолженностьДатаВозникновения" id="528">
+											<EditMode>EnterOnInput</EditMode>
+											<Width>10</Width>
+											<HorizontalStretch>false</HorizontalStretch>
+											<ContextMenu name="КредиторскаяЗадолженностьДатаВозникновенияКонтекстноеМеню" id="529"/>
+											<ExtendedTooltip name="КредиторскаяЗадолженностьДатаВозникновенияРасширеннаяПодсказка" id="530"/>
+										</InputField>
+										<InputField name="КредиторскаяЗадолженностьДатаПоОснованию" id="531">
+											<EditMode>EnterOnInput</EditMode>
+											<Width>10</Width>
+											<HorizontalStretch>false</HorizontalStretch>
+											<ContextMenu name="КредиторскаяЗадолженностьДатаПоОснованиюКонтекстноеМеню" id="532"/>
+											<ExtendedTooltip name="КредиторскаяЗадолженностьДатаПоОснованиюРасширеннаяПодсказка" id="533"/>
+										</InputField>
+									</ChildItems>
+								</ColumnGroup>
+							</ChildItems>
+						</Table>
+						<UsualGroup name="ИтогоКредиторы" id="449">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Итого кредиторы</v8:content>
+								</v8:item>
+							</Title>
+							<HorizontalStretch>true</HorizontalStretch>
+							<Group>Horizontal</Group>
+							<Behavior>Usual</Behavior>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ИтогоКредиторыРасширеннаяПодсказка" id="450"/>
+							<ChildItems>
+								<UsualGroup name="ИтогоКредиторыФон" id="453">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Итого кредиторы фон</v8:content>
+										</v8:item>
+									</Title>
+									<GroupHorizontalAlign>Right</GroupHorizontalAlign>
+									<Group>Horizontal</Group>
+									<Behavior>Usual</Behavior>
+									<Representation>None</Representation>
+									<ShowTitle>false</ShowTitle>
+									<BackColor>style:ИтогиФонГруппы</BackColor>
+									<ExtendedTooltip name="ИтогоКредиторыФонРасширеннаяПодсказка" id="454"/>
+									<ChildItems>
+										<UsualGroup name="ИтогоКредиторыВсего" id="487">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Всего</v8:content>
+												</v8:item>
+											</Title>
+											<Behavior>Usual</Behavior>
+											<Representation>None</Representation>
+											<ExtendedTooltip name="ИтогоКредиторыВсегоРасширеннаяПодсказка" id="488"/>
+											<ChildItems>
+												<InputField name="КредиторскаяЗадолженностьИтогВсего" id="467">
+													<ReadOnly>true</ReadOnly>
+													<TitleLocation>None</TitleLocation>
+													<Width>13</Width>
+													<HorizontalStretch>false</HorizontalStretch>
+													<ContextMenu name="КредиторскаяЗадолженностьИтогВсегоКонтекстноеМеню" id="468"/>
+													<ExtendedTooltip name="КредиторскаяЗадолженностьИтогВсегоРасширеннаяПодсказка" id="469"/>
+												</InputField>
+											</ChildItems>
+										</UsualGroup>
+										<UsualGroup name="ИтогоКредиторыПодтверждено" id="489">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Подтверждено</v8:content>
+												</v8:item>
+											</Title>
+											<Behavior>Usual</Behavior>
+											<Representation>None</Representation>
+											<ExtendedTooltip name="ИтогоКредиторыПодтвержденоРасширеннаяПодсказка" id="490"/>
+											<ChildItems>
+												<InputField name="КредиторскаяЗадолженностьИтогПодтверждено" id="470">
+													<ReadOnly>true</ReadOnly>
+													<TitleLocation>None</TitleLocation>
+													<Width>13</Width>
+													<HorizontalStretch>false</HorizontalStretch>
+													<ContextMenu name="КредиторскаяЗадолженностьИтогПодтвержденоКонтекстноеМеню" id="471"/>
+													<ExtendedTooltip name="КредиторскаяЗадолженностьИтогПодтвержденоРасширеннаяПодсказка" id="472"/>
+												</InputField>
+											</ChildItems>
+										</UsualGroup>
+										<UsualGroup name="ИтогоКредиторыНеПодтверждено" id="491">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Не подтверждено</v8:content>
+												</v8:item>
+											</Title>
+											<Behavior>Usual</Behavior>
+											<Representation>None</Representation>
+											<ExtendedTooltip name="ИтогоКредиторыНеПодтвержденоРасширеннаяПодсказка" id="492"/>
+											<ChildItems>
+												<InputField name="КредиторскаяЗадолженностьИтогНеПодтверждено" id="473">
+													<ReadOnly>true</ReadOnly>
+													<TitleLocation>None</TitleLocation>
+													<Width>13</Width>
+													<HorizontalStretch>false</HorizontalStretch>
+													<ContextMenu name="КредиторскаяЗадолженностьИтогНеПодтвержденоКонтекстноеМеню" id="474"/>
+													<ExtendedTooltip name="КредиторскаяЗадолженностьИтогНеПодтвержденоРасширеннаяПодсказка" id="475"/>
+												</InputField>
+											</ChildItems>
+										</UsualGroup>
+										<UsualGroup name="ИтогоКредиторыИстекСрокДавности" id="493">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Истек срок давности</v8:content>
+												</v8:item>
+											</Title>
+											<Behavior>Usual</Behavior>
+											<Representation>None</Representation>
+											<ExtendedTooltip name="ИтогоКредиторыИстекСрокДавностиРасширеннаяПодсказка" id="494"/>
+											<ChildItems>
+												<InputField name="КредиторскаяЗадолженностьИтогИстекСрокДавности" id="476">
+													<ReadOnly>true</ReadOnly>
+													<TitleLocation>None</TitleLocation>
+													<Width>13</Width>
+													<HorizontalStretch>false</HorizontalStretch>
+													<ContextMenu name="КредиторскаяЗадолженностьИтогИстекСрокДавностиКонтекстноеМеню" id="477"/>
+													<ExtendedTooltip name="КредиторскаяЗадолженностьИтогИстекСрокДавностиРасширеннаяПодсказка" id="478"/>
+												</InputField>
+											</ChildItems>
+										</UsualGroup>
+										<UsualGroup name="ИтогоКредиторыДолгосрочная" id="544">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Долгосрочная</v8:content>
+												</v8:item>
+											</Title>
+											<Behavior>Usual</Behavior>
+											<Representation>None</Representation>
+											<ExtendedTooltip name="ИтогоКредиторыДолгосрочнаяРасширеннаяПодсказка" id="545"/>
+											<ChildItems>
+												<InputField name="КредиторскаяЗадолженностьИтогДолгосрочная" id="546">
+													<ReadOnly>true</ReadOnly>
+													<TitleLocation>None</TitleLocation>
+													<Width>13</Width>
+													<HorizontalStretch>false</HorizontalStretch>
+													<ContextMenu name="КредиторскаяЗадолженностьИтогДолгосрочнаяКонтекстноеМеню" id="547"/>
+													<ExtendedTooltip name="КредиторскаяЗадолженностьИтогДолгосрочнаяРасширеннаяПодсказка" id="548"/>
+												</InputField>
+											</ChildItems>
+										</UsualGroup>
+										<UsualGroup name="ИтогоКредиторыПросроченная" id="549">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Просроченная</v8:content>
+												</v8:item>
+											</Title>
+											<ToolTip>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Итого кредиторы долгосрочная</v8:content>
+												</v8:item>
+											</ToolTip>
+											<Behavior>Usual</Behavior>
+											<Representation>None</Representation>
+											<ExtendedTooltip name="ИтогоКредиторыПросроченнаяРасширеннаяПодсказка" id="550"/>
+											<ChildItems>
+												<InputField name="КредиторскаяЗадолженностьИтогПросроченная" id="551">
+													<ReadOnly>true</ReadOnly>
+													<TitleLocation>None</TitleLocation>
+													<Width>13</Width>
+													<HorizontalStretch>false</HorizontalStretch>
+													<ContextMenu name="КредиторскаяЗадолженностьИтогПросроченнаяКонтекстноеМеню" id="552"/>
+													<ExtendedTooltip name="КредиторскаяЗадолженностьИтогПросроченнаяРасширеннаяПодсказка" id="553"/>
+												</InputField>
+											</ChildItems>
+										</UsualGroup>
+									</ChildItems>
+								</UsualGroup>
+							</ChildItems>
+						</UsualGroup>
+					</ChildItems>
+				</Page>
+				<Page name="СтраницаНастройкиЗаполнения" id="52">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Настройки заполнения</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Настройки заполнения по данным учета</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Picture>
+						<xr:Ref>StdPicture.ReportSettings</xr:Ref>
+						<xr:LoadTransparent>true</xr:LoadTransparent>
+					</Picture>
+					<ExtendedTooltip name="СтраницаНастройкиЗаполненияРасширеннаяПодсказка" id="319"/>
+					<ChildItems>
+						<UsualGroup name="ГруппаИФО" id="113">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа ИФО</v8:content>
+								</v8:item>
+							</Title>
+							<Group>Horizontal</Group>
+							<Behavior>Usual</Behavior>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГруппаИФОРасширеннаяПодсказка" id="321"/>
+							<ChildItems>
+								<InputField name="ИФО" id="17">
+									<EditMode>EnterOnInput</EditMode>
+									<AutoMaxWidth>false</AutoMaxWidth>
+									<HorizontalStretch>true</HorizontalStretch>
+									<ClearButton>true</ClearButton>
+									<ChoiceListButton>false</ChoiceListButton>
+									<ContextMenu name="ИФОКонтекстноеМеню" id="18"/>
+									<ExtendedTooltip name="ИФОРасширеннаяПодсказка" id="322"/>
+								</InputField>
+								<CheckBoxField name="БезУчетаИФО" id="19">
+									<TitleLocation>Right</TitleLocation>
+									<EditMode>EnterOnInput</EditMode>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="БезУчетаИФОКонтекстноеМеню" id="20"/>
+									<ExtendedTooltip name="БезУчетаИФОРасширеннаяПодсказка" id="323"/>
+								</CheckBoxField>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="ГруппаОтборы" id="557">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа отборы</v8:content>
+								</v8:item>
+							</Title>
+							<Group>AlwaysHorizontal</Group>
+							<Behavior>Usual</Behavior>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГруппаОтборыРасширеннаяПодсказка" id="558"/>
+							<ChildItems>
+								<InputField name="КФО" id="15">
+									<EditMode>EnterOnInput</EditMode>
+									<Width>14</Width>
+									<AutoMaxWidth>false</AutoMaxWidth>
+									<HorizontalStretch>false</HorizontalStretch>
+									<ClearButton>true</ClearButton>
+									<InputHint>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>&lt;без ограничения&gt;</v8:content>
+										</v8:item>
+									</InputHint>
+									<ContextMenu name="КФОКонтекстноеМеню" id="16"/>
+									<ExtendedTooltip name="КФОРасширеннаяПодсказка" id="324"/>
+								</InputField>
+								<InputField name="Подразделение" id="495">
+									<ClearButton>true</ClearButton>
+									<InputHint>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>&lt;без ограничения&gt;</v8:content>
+										</v8:item>
+									</InputHint>
+									<ContextMenu name="ПодразделениеКонтекстноеМеню" id="496"/>
+									<ExtendedTooltip name="ПодразделениеРасширеннаяПодсказка" id="497"/>
+								</InputField>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="ГруппаОтборСписки" id="156">
+							<Group>Horizontal</Group>
+							<Behavior>Usual</Behavior>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГруппаОтборСпискиРасширеннаяПодсказка" id="325"/>
+							<ChildItems>
+								<UsualGroup name="ГруппаСписокСчетов" id="434">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Счета учета расчетов</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>включая субсчета</v8:content>
+										</v8:item>
+									</ToolTip>
+									<Group>Vertical</Group>
+									<Behavior>Usual</Behavior>
+									<ExtendedTooltip name="ГруппаСписокСчетовРасширеннаяПодсказка" id="435"/>
+									<ChildItems>
+										<Table name="СписокСчетов" id="398">
+											<TitleLocation>Auto</TitleLocation>
+											<AutoInsertNewRow>true</AutoInsertNewRow>
+											<EnableStartDrag>true</EnableStartDrag>
+											<EnableDrag>true</EnableDrag>
+											<FileDragMode>AsFile</FileDragMode>
+											<RowFilter xsi:nil="true"/>
+											<ContextMenu name="СписокСчетовКонтекстноеМеню" id="399"/>
+											<AutoCommandBar name="СписокСчетовКоманднаяПанель" id="400">
+												<ChildItems>
+													<Popup name="СписокСчетовГруппаЗаполнить" id="436">
+														<Title>
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>Заполнить</v8:content>
+															</v8:item>
+														</Title>
+														<ExtendedTooltip name="СписокСчетовГруппаЗаполнитьРасширеннаяПодсказка" id="437"/>
+														<ChildItems>
+															<Button name="СписокСчетовЗаполнитьСчетамиПоУмолчанию1" id="432">
+																<Type>CommandBarButton</Type>
+																<CommandName>0</CommandName>
+																<ExtendedTooltip name="СписокСчетовЗаполнитьСчетамиПоУмолчанию1РасширеннаяПодсказка" id="433"/>
+															</Button>
+														</ChildItems>
+													</Popup>
+												</ChildItems>
+											</AutoCommandBar>
+											<ExtendedTooltip name="СписокСчетовРасширеннаяПодсказка" id="401"/>
+											<SearchStringAddition name="СписокСчетовСтрокаПоиска" id="402">
+												<AdditionSource>
+													<Item>СписокСчетов</Item>
+													<Type>SearchStringRepresentation</Type>
+												</AdditionSource>
+												<ContextMenu name="СписокСчетовСтрокаПоискаКонтекстноеМеню" id="405"/>
+												<ExtendedTooltip name="СписокСчетовСтрокаПоискаРасширеннаяПодсказка" id="406"/>
+											</SearchStringAddition>
+											<ViewStatusAddition name="СписокСчетовСостояниеПросмотра" id="407">
+												<AdditionSource>
+													<Item>СписокСчетов</Item>
+													<Type>ViewStatusRepresentation</Type>
+												</AdditionSource>
+												<ContextMenu name="СписокСчетовСостояниеПросмотраКонтекстноеМеню" id="410"/>
+												<ExtendedTooltip name="СписокСчетовСостояниеПросмотраРасширеннаяПодсказка" id="411"/>
+											</ViewStatusAddition>
+											<SearchControlAddition name="СписокСчетовУправлениеПоиском" id="412">
+												<AdditionSource>
+													<Item>СписокСчетов</Item>
+													<Type>SearchControl</Type>
+												</AdditionSource>
+												<ContextMenu name="СписокСчетовУправлениеПоискомКонтекстноеМеню" id="415"/>
+												<ExtendedTooltip name="СписокСчетовУправлениеПоискомРасширеннаяПодсказка" id="416"/>
+											</SearchControlAddition>
+											<ChildItems>
+												<LabelField name="СписокСчетовНомерСтроки" id="417">
+													<EditMode>EnterOnInput</EditMode>
+													<Width>4</Width>
+													<ContextMenu name="СписокСчетовНомерСтрокиКонтекстноеМеню" id="418"/>
+													<ExtendedTooltip name="СписокСчетовНомерСтрокиРасширеннаяПодсказка" id="419"/>
+												</LabelField>
+												<InputField name="СписокСчетовСчет" id="420">
+													<EditMode>EnterOnInput</EditMode>
+													<HorizontalStretch>false</HorizontalStretch>
+													<ContextMenu name="СписокСчетовСчетКонтекстноеМеню" id="421"/>
+													<ExtendedTooltip name="СписокСчетовСчетРасширеннаяПодсказка" id="422"/>
+												</InputField>
+												<InputField name="СписокСчетовВидСчета" id="438">
+													<ReadOnly>true</ReadOnly>
+													<ToolTip>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Вид счета</v8:content>
+														</v8:item>
+													</ToolTip>
+													<HorizontalAlign>Center</HorizontalAlign>
+													<EditMode>EnterOnInput</EditMode>
+													<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+													<Width>6</Width>
+													<ContextMenu name="СписокСчетовВидСчетаКонтекстноеМеню" id="439"/>
+													<ExtendedTooltip name="СписокСчетовВидСчетаРасширеннаяПодсказка" id="440"/>
+												</InputField>
+												<LabelField name="СписокСчетовСчетНаименование" id="429">
+													<EditMode>EnterOnInput</EditMode>
+													<ContextMenu name="СписокСчетовСчетНаименованиеКонтекстноеМеню" id="430"/>
+													<ExtendedTooltip name="СписокСчетовСчетНаименованиеРасширеннаяПодсказка" id="431"/>
+												</LabelField>
+											</ChildItems>
+										</Table>
+									</ChildItems>
+								</UsualGroup>
+								<UsualGroup name="ГруппаСписокКонтрагентов" id="114">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Контрагенты</v8:content>
+										</v8:item>
+									</Title>
+									<Group>Vertical</Group>
+									<Behavior>Usual</Behavior>
+									<ExtendedTooltip name="ГруппаСписокКонтрагентовРасширеннаяПодсказка" id="340"/>
+									<ChildItems>
+										<Table name="СписокКонтрагентов" id="157">
+											<AutoInsertNewRow>true</AutoInsertNewRow>
+											<EnableStartDrag>true</EnableStartDrag>
+											<EnableDrag>true</EnableDrag>
+											<FileDragMode>AsFile</FileDragMode>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Контрагенты</v8:content>
+												</v8:item>
+											</Title>
+											<SearchStringLocation>None</SearchStringLocation>
+											<ViewStatusLocation>None</ViewStatusLocation>
+											<SearchControlLocation>None</SearchControlLocation>
+											<RowFilter xsi:nil="true"/>
+											<ContextMenu name="СписокКонтрагентовКонтекстноеМеню" id="158">
+												<ChildItems>
+													<Button name="СписокКонтрагентовПодобратьКонтрагентов1" id="165">
+														<Type>CommandBarButton</Type>
+														<CommandName>0</CommandName>
+														<ExtendedTooltip name="СписокКонтрагентовПодобратьКонтрагентов1РасширеннаяПодсказка" id="344"/>
+													</Button>
+												</ChildItems>
+											</ContextMenu>
+											<AutoCommandBar name="СписокКонтрагентовКоманднаяПанель" id="159">
+												<ChildItems>
+													<Button name="СписокКонтрагентовПодобратьКонтрагентов" id="164">
+														<Type>CommandBarButton</Type>
+														<CommandName>0</CommandName>
+														<ExtendedTooltip name="СписокКонтрагентовПодобратьКонтрагентовРасширеннаяПодсказка" id="345"/>
+													</Button>
+												</ChildItems>
+											</AutoCommandBar>
+											<ExtendedTooltip name="СписокКонтрагентовРасширеннаяПодсказка" id="346"/>
+											<SearchStringAddition name="СписокКонтрагентовСтрокаПоиска" id="347">
+												<AdditionSource>
+													<Item>СписокКонтрагентов</Item>
+													<Type>SearchStringRepresentation</Type>
+												</AdditionSource>
+												<ContextMenu name="СписокКонтрагентовСтрокаПоискаКонтекстноеМеню" id="348"/>
+												<ExtendedTooltip name="СписокКонтрагентовСтрокаПоискаРасширеннаяПодсказка" id="349"/>
+											</SearchStringAddition>
+											<ViewStatusAddition name="СписокКонтрагентовСостояниеПросмотра" id="350">
+												<AdditionSource>
+													<Item>СписокКонтрагентов</Item>
+													<Type>ViewStatusRepresentation</Type>
+												</AdditionSource>
+												<ContextMenu name="СписокКонтрагентовСостояниеПросмотраКонтекстноеМеню" id="351"/>
+												<ExtendedTooltip name="СписокКонтрагентовСостояниеПросмотраРасширеннаяПодсказка" id="352"/>
+											</ViewStatusAddition>
+											<SearchControlAddition name="СписокКонтрагентовУправлениеПоиском" id="353">
+												<AdditionSource>
+													<Item>СписокКонтрагентов</Item>
+													<Type>SearchControl</Type>
+												</AdditionSource>
+												<ContextMenu name="СписокКонтрагентовУправлениеПоискомКонтекстноеМеню" id="354"/>
+												<ExtendedTooltip name="СписокКонтрагентовУправлениеПоискомРасширеннаяПодсказка" id="355"/>
+											</SearchControlAddition>
+											<ChildItems>
+												<LabelField name="СписокКонтрагентовНомерСтроки" id="160">
+													<EditMode>EnterOnInput</EditMode>
+													<HorizontalStretch>false</HorizontalStretch>
+													<ContextMenu name="СписокКонтрагентовНомерСтрокиКонтекстноеМеню" id="161"/>
+													<ExtendedTooltip name="СписокКонтрагентовНомерСтрокиРасширеннаяПодсказка" id="356"/>
+												</LabelField>
+												<ColumnGroup name="СписокКонтрагентовКонтрагентГруппа" id="646">
+													<EnableContentChange>true</EnableContentChange>
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Контрагент</v8:content>
+														</v8:item>
+													</Title>
+													<Group>Horizontal</Group>
+													<ShowInHeader>true</ShowInHeader>
+													<ExtendedTooltip name="СписокКонтрагентовКонтрагентГруппаРасширеннаяПодсказка" id="647"/>
+													<ChildItems>
+														<InputField name="СписокКонтрагентовКонтрагент" id="162">
+															<EditMode>EnterOnInput</EditMode>
+															<ShowInHeader>false</ShowInHeader>
+															<HorizontalStretch>true</HorizontalStretch>
+															<ContextMenu name="СписокКонтрагентовКонтрагентКонтекстноеМеню" id="163"/>
+															<ExtendedTooltip name="СписокКонтрагентовКонтрагентРасширеннаяПодсказка" id="357"/>
+														</InputField>
+														<PictureField name="СписокКонтрагентовЭтоНекорректныйКонтрагент" id="648">
+															<Title>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Есть ошибка по данным ФНС</v8:content>
+																</v8:item>
+															</Title>
+															<EditMode>EnterOnInput</EditMode>
+															<CellHyperlink>true</CellHyperlink>
+															<ShowInHeader>false</ShowInHeader>
+															<Width>2</Width>
+															<AutoMaxWidth>false</AutoMaxWidth>
+															<MaxWidth>2</MaxWidth>
+															<HorizontalStretch>false</HorizontalStretch>
+															<ValuesPicture>
+																<xr:Ref>CommonPicture.НекорректныйКонтрагент</xr:Ref>
+																<xr:LoadTransparent>true</xr:LoadTransparent>
+															</ValuesPicture>
+															<ContextMenu name="СписокКонтрагентовЭтоНекорректныйКонтрагентКонтекстноеМеню" id="649"/>
+															<ExtendedTooltip name="СписокКонтрагентовЭтоНекорректныйКонтрагентРасширеннаяПодсказка" id="650"/>
+														</PictureField>
+													</ChildItems>
+												</ColumnGroup>
+											</ChildItems>
+										</Table>
+									</ChildItems>
+								</UsualGroup>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="ГруппаНастройкиПечати" id="209">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Настройки печати</v8:content>
+								</v8:item>
+							</Title>
+							<HorizontalStretch>true</HorizontalStretch>
+							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
+							<ExtendedTooltip name="ГруппаНастройкиПечатиРасширеннаяПодсказка" id="358"/>
+							<ChildItems>
+								<CheckBoxField name="ПечататьОтбор" id="205">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Печатать отбор</v8:content>
+										</v8:item>
+									</Title>
+									<TitleLocation>Right</TitleLocation>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Выводить на печать установленный здесь отбор</v8:content>
+										</v8:item>
+									</ToolTip>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="ПечататьОтборКонтекстноеМеню" id="206"/>
+									<ExtendedTooltip name="ПечататьОтборРасширеннаяПодсказка" id="359"/>
+								</CheckBoxField>
+								<CheckBoxField name="ГруппироватьПоКонтрагентам" id="210">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группировать по контрагентам</v8:content>
+										</v8:item>
+									</Title>
+									<TitleLocation>Right</TitleLocation>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="ГруппироватьПоКонтрагентамКонтекстноеМеню" id="211"/>
+									<ExtendedTooltip name="ГруппироватьПоКонтрагентамРасширеннаяПодсказка" id="360"/>
+								</CheckBoxField>
+							</ChildItems>
+						</UsualGroup>
+					</ChildItems>
+				</Page>
+				<Page name="СтраницаИнвентаризация" id="77">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Комиссия</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="СтраницаИнвентаризацияРасширеннаяПодсказка" id="361"/>
+					<ChildItems>
+						<UsualGroup name="ГруппаПриказКомиссии" id="445">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Приказ о назначении комиссии</v8:content>
+								</v8:item>
+							</Title>
+							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
+							<ExtendedTooltip name="ГруппаПриказКомиссииРасширеннаяПодсказка" id="446"/>
+							<ChildItems>
+								<Button name="ВыбратьКомиссию" id="78">
+									<Type>Hyperlink</Type>
+									<CommandName>0</CommandName>
+									<ExtendedTooltip name="ВыбратьКомиссиюРасширеннаяПодсказка" id="373"/>
+								</Button>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="ГруппаПредседатель" id="79">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Председатель комиссии</v8:content>
+								</v8:item>
+							</Title>
+							<Group>Horizontal</Group>
+							<Behavior>Usual</Behavior>
+							<ExtendedTooltip name="ГруппаПредседательРасширеннаяПодсказка" id="374"/>
+							<ChildItems>
+								<InputField name="ДолжностьПредседателяКомиссии" id="80">
+									<EditMode>EnterOnInput</EditMode>
+									<Width>15</Width>
+									<ContextMenu name="ДолжностьПредседателяКомиссииКонтекстноеМеню" id="81"/>
+									<ExtendedTooltip name="ДолжностьПредседателяКомиссииРасширеннаяПодсказка" id="375"/>
+								</InputField>
+								<InputField name="ФамилияПредседателяКомиссии" id="82">
+									<EditMode>EnterOnInput</EditMode>
+									<Width>15</Width>
+									<ContextMenu name="ФамилияПредседателяКомиссииКонтекстноеМеню" id="83"/>
+									<ExtendedTooltip name="ФамилияПредседателяКомиссииРасширеннаяПодсказка" id="376"/>
+								</InputField>
+								<InputField name="ИмяПредседателяКомиссии" id="84">
+									<EditMode>EnterOnInput</EditMode>
+									<Width>15</Width>
+									<ContextMenu name="ИмяПредседателяКомиссииКонтекстноеМеню" id="85"/>
+									<ExtendedTooltip name="ИмяПредседателяКомиссииРасширеннаяПодсказка" id="377"/>
+								</InputField>
+								<InputField name="ОтчествоПредседателяКомиссии" id="86">
+									<EditMode>EnterOnInput</EditMode>
+									<Width>15</Width>
+									<ContextMenu name="ОтчествоПредседателяКомиссииКонтекстноеМеню" id="87"/>
+									<ExtendedTooltip name="ОтчествоПредседателяКомиссииРасширеннаяПодсказка" id="378"/>
+								</InputField>
+								<Button name="ВыбратьПредседателяКомиссии" id="88">
+									<Type>UsualButton</Type>
+									<CommandName>0</CommandName>
+									<ExtendedTooltip name="ВыбратьПредседателяКомиссииРасширеннаяПодсказка" id="379"/>
+								</Button>
+							</ChildItems>
+						</UsualGroup>
+						<Table name="СоставКомиссии" id="89">
+							<Representation>List</Representation>
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<FileDragMode>AsFile</FileDragMode>
+							<SearchStringLocation>None</SearchStringLocation>
+							<ViewStatusLocation>None</ViewStatusLocation>
+							<SearchControlLocation>None</SearchControlLocation>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="СоставКомиссииКонтекстноеМеню" id="90"/>
+							<AutoCommandBar name="СоставКомиссииКоманднаяПанель" id="91">
+								<ChildItems>
+									<Button name="СоставКомиссииПодобратьСотрудников" id="102">
+										<Type>CommandBarButton</Type>
+										<CommandName>0</CommandName>
+										<ExtendedTooltip name="СоставКомиссииПодобратьСотрудниковРасширеннаяПодсказка" id="380"/>
+									</Button>
+								</ChildItems>
+							</AutoCommandBar>
+							<ExtendedTooltip name="СоставКомиссииРасширеннаяПодсказка" id="381"/>
+							<SearchStringAddition name="СоставКомиссииСтрокаПоиска" id="382">
+								<AdditionSource>
+									<Item>СоставКомиссии</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="СоставКомиссииСтрокаПоискаКонтекстноеМеню" id="383"/>
+								<ExtendedTooltip name="СоставКомиссииСтрокаПоискаРасширеннаяПодсказка" id="384"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="СоставКомиссииСостояниеПросмотра" id="385">
+								<AdditionSource>
+									<Item>СоставКомиссии</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="СоставКомиссииСостояниеПросмотраКонтекстноеМеню" id="386"/>
+								<ExtendedTooltip name="СоставКомиссииСостояниеПросмотраРасширеннаяПодсказка" id="387"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="СоставКомиссииУправлениеПоиском" id="388">
+								<AdditionSource>
+									<Item>СоставКомиссии</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="СоставКомиссииУправлениеПоискомКонтекстноеМеню" id="389"/>
+								<ExtendedTooltip name="СоставКомиссииУправлениеПоискомРасширеннаяПодсказка" id="390"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<LabelField name="СоставКомиссииНомерСтроки" id="103">
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="СоставКомиссииНомерСтрокиКонтекстноеМеню" id="104"/>
+									<ExtendedTooltip name="СоставКомиссииНомерСтрокиРасширеннаяПодсказка" id="391"/>
+								</LabelField>
+								<InputField name="СоставКомиссииДолжностьЧленаКомиссии" id="105">
+									<EditMode>EnterOnInput</EditMode>
+									<Width>10</Width>
+									<ContextMenu name="СоставКомиссииДолжностьЧленаКомиссииКонтекстноеМеню" id="106"/>
+									<ExtendedTooltip name="СоставКомиссииДолжностьЧленаКомиссииРасширеннаяПодсказка" id="392"/>
+								</InputField>
+								<InputField name="СоставКомиссииФамилияЧленаКомиссии" id="107">
+									<EditMode>EnterOnInput</EditMode>
+									<Width>10</Width>
+									<ContextMenu name="СоставКомиссииФамилияЧленаКомиссииКонтекстноеМеню" id="108"/>
+									<ExtendedTooltip name="СоставКомиссииФамилияЧленаКомиссииРасширеннаяПодсказка" id="393"/>
+								</InputField>
+								<InputField name="СоставКомиссииИмяЧленаКомиссии" id="109">
+									<EditMode>EnterOnInput</EditMode>
+									<Width>10</Width>
+									<ContextMenu name="СоставКомиссииИмяЧленаКомиссииКонтекстноеМеню" id="110"/>
+									<ExtendedTooltip name="СоставКомиссииИмяЧленаКомиссииРасширеннаяПодсказка" id="394"/>
+								</InputField>
+								<InputField name="СоставКомиссииОтчествоЧленаКомиссии" id="111">
+									<EditMode>EnterOnInput</EditMode>
+									<Width>10</Width>
+									<ContextMenu name="СоставКомиссииОтчествоЧленаКомиссииКонтекстноеМеню" id="112"/>
+									<ExtendedTooltip name="СоставКомиссииОтчествоЧленаКомиссииРасширеннаяПодсказка" id="395"/>
+								</InputField>
+							</ChildItems>
+						</Table>
+						<UsualGroup name="ГруппаИнвентаризация" id="128">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Сведения о проводимой инвентаризации</v8:content>
+								</v8:item>
+							</Title>
+							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
+							<ExtendedTooltip name="ГруппаИнвентаризацияРасширеннаяПодсказка" id="362"/>
+							<ChildItems>
+								<UsualGroup name="ГруппаПриказИнвентаризации" id="129">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Приказ о назначении комиссии</v8:content>
+										</v8:item>
+									</Title>
+									<Group>Horizontal</Group>
+									<Behavior>Usual</Behavior>
+									<Representation>None</Representation>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="ГруппаПриказИнвентаризацииРасширеннаяПодсказка" id="363"/>
+									<ChildItems>
+										<InputField name="НомерПриказа" id="130">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Приказ №</v8:content>
+												</v8:item>
+											</Title>
+											<Width>14</Width>
+											<HorizontalStretch>false</HorizontalStretch>
+											<ContextMenu name="НомерПриказаКонтекстноеМеню" id="131"/>
+											<ExtendedTooltip name="НомерПриказаРасширеннаяПодсказка" id="364"/>
+										</InputField>
+										<InputField name="ДатаПриказа" id="132">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>от</v8:content>
+												</v8:item>
+											</Title>
+											<Width>10</Width>
+											<HorizontalStretch>false</HorizontalStretch>
+											<ContextMenu name="ДатаПриказаКонтекстноеМеню" id="133"/>
+											<ExtendedTooltip name="ДатаПриказаРасширеннаяПодсказка" id="365"/>
+										</InputField>
+										<UsualGroup name="ГруппаПериодПроведенияИнв" id="134">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Период проведения</v8:content>
+												</v8:item>
+											</Title>
+											<Group>Horizontal</Group>
+											<Behavior>Usual</Behavior>
+											<Representation>None</Representation>
+											<ShowTitle>false</ShowTitle>
+											<ExtendedTooltip name="ГруппаПериодПроведенияИнвРасширеннаяПодсказка" id="366"/>
+											<ChildItems>
+												<InputField name="ДатаНачала" id="135">
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Период проведения с</v8:content>
+														</v8:item>
+													</Title>
+													<ToolTip>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Период инвентаризации с ... по ...</v8:content>
+														</v8:item>
+													</ToolTip>
+													<Width>10</Width>
+													<ContextMenu name="ДатаНачалаКонтекстноеМеню" id="136"/>
+													<ExtendedTooltip name="ДатаНачалаРасширеннаяПодсказка" id="367"/>
+												</InputField>
+												<InputField name="ДатаОкончания" id="137">
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>по</v8:content>
+														</v8:item>
+													</Title>
+													<Width>10</Width>
+													<ContextMenu name="ДатаОкончанияКонтекстноеМеню" id="138"/>
+													<ExtendedTooltip name="ДатаОкончанияРасширеннаяПодсказка" id="368"/>
+												</InputField>
+												<Button name="УстановитьПериод" id="139">
+													<Type>UsualButton</Type>
+													<Width>4</Width>
+													<CommandName>0</CommandName>
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>...</v8:content>
+														</v8:item>
+													</Title>
+													<ExtendedTooltip name="УстановитьПериодРасширеннаяПодсказка" id="369"/>
+												</Button>
+											</ChildItems>
+										</UsualGroup>
+									</ChildItems>
+								</UsualGroup>
+								<InputField name="МестоИнвентаризации" id="207">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Место проведения</v8:content>
+										</v8:item>
+									</Title>
+									<AutoMaxWidth>false</AutoMaxWidth>
+									<ContextMenu name="МестоИнвентаризацииКонтекстноеМеню" id="208"/>
+									<ExtendedTooltip name="МестоИнвентаризацииРасширеннаяПодсказка" id="370"/>
+								</InputField>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="ГруппаДатаПодписания" id="609">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Дата подписания описи</v8:content>
+								</v8:item>
+							</Title>
+							<Behavior>Usual</Behavior>
+							<Representation>NormalSeparation</Representation>
+							<ExtendedTooltip name="ГруппаДатаПодписанияРасширеннаяПодсказка" id="610"/>
+							<ChildItems>
+								<InputField name="ДатаПодписиКомиссии" id="606">
+									<TitleLocation>None</TitleLocation>
+									<ContextMenu name="ДатаПодписиКомиссииКонтекстноеМеню" id="607"/>
+									<ExtendedTooltip name="ДатаПодписиКомиссииРасширеннаяПодсказка" id="608"/>
+								</InputField>
+							</ChildItems>
+						</UsualGroup>
+					</ChildItems>
+				</Page>
+				<Page name="СтраницаЗаключениеКомиссии" id="594">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Заключение комиссии</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="СтраницаЗаключениеКомиссииРасширеннаяПодсказка" id="595"/>
+					<ChildItems>
+						<InputField name="ЗаключениеКомиссии" id="596">
+							<Width>50</Width>
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<MultiLine>true</MultiLine>
+							<ContextMenu name="ЗаключениеКомиссииКонтекстноеМеню" id="597"/>
+							<ExtendedTooltip name="ЗаключениеКомиссииРасширеннаяПодсказка" id="598"/>
+						</InputField>
+					</ChildItems>
+				</Page>
+			</ChildItems>
+		</Pages>
+		<UsualGroup name="ГруппаСостояниеЭДО" id="599">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа состояние ЭДО</v8:content>
+				</v8:item>
+			</Title>
+			<Group>Vertical</Group>
+			<Behavior>Usual</Behavior>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаСостояниеЭДОРасширеннаяПодсказка" id="600"/>
+			<ChildItems>
+				<LabelDecoration name="ДекорацияСостояниеЭДО" id="601">
+					<Title formatted="false">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Состояние ЭДО</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Состояние ЭДО</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Hyperlink>true</Hyperlink>
+					<ContextMenu name="ДекорацияСостояниеЭДОКонтекстноеМеню" id="602"/>
+					<ExtendedTooltip name="ДекорацияСостояниеЭДОРасширеннаяПодсказка" id="603"/>
+				</LabelDecoration>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="Подвал" id="441">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Подвал</v8:content>
+				</v8:item>
+			</Title>
+			<Group>Horizontal</Group>
+			<Behavior>Usual</Behavior>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ПодвалРасширеннаяПодсказка" id="442"/>
+			<ChildItems>
+				<InputField name="Комментарий" id="13">
+					<TitleLocation>Left</TitleLocation>
+					<EditMode>EnterOnInput</EditMode>
+					<AutoMaxWidth>false</AutoMaxWidth>
+					<Height>1</Height>
+					<VerticalStretch>false</VerticalStretch>
+					<ContextMenu name="КомментарийКонтекстноеМеню" id="14"/>
+					<ExtendedTooltip name="КомментарийРасширеннаяПодсказка" id="396"/>
+				</InputField>
+				<InputField name="Ответственный" id="11">
+					<WarningOnEditRepresentation>Show</WarningOnEditRepresentation>
+					<EditMode>EnterOnInput</EditMode>
+					<HorizontalStretch>false</HorizontalStretch>
+					<ContextMenu name="ОтветственныйКонтекстноеМеню" id="12"/>
+					<ExtendedTooltip name="ОтветственныйРасширеннаяПодсказка" id="371"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ИнформационныеСсылки" id="262">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Информационные ссылки</v8:content>
+				</v8:item>
+			</Title>
+			<Group>Vertical</Group>
+			<Behavior>Usual</Behavior>
+			<ExtendedTooltip name="ИнформационныеСсылкиРасширеннаяПодсказка" id="397"/>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes>
+		<ConditionalAppearance>
+			<dcsset:item>
+				<dcsset:selection>
+					<dcsset:item>
+						<dcsset:field>ДебиторскаяЗадолженностьВсего</dcsset:field>
+					</dcsset:item>
+					<dcsset:item>
+						<dcsset:field>ДебиторскаяЗадолженностьПодтверждено</dcsset:field>
+					</dcsset:item>
+					<dcsset:item>
+						<dcsset:field>ДебиторскаяЗадолженностьНеПодтверждено</dcsset:field>
+					</dcsset:item>
+					<dcsset:item>
+						<dcsset:field>ДебиторскаяЗадолженностьИстекСрокДавности</dcsset:field>
+					</dcsset:item>
+				</dcsset:selection>
+				<dcsset:filter>
+					<dcsset:item xsi:type="dcsset:FilterItemComparison">
+						<dcsset:left xsi:type="dcscor:Field">Объект.ДебиторскаяЗадолженность.ОтметитьСтроку</dcsset:left>
+						<dcsset:comparisonType>Equal</dcsset:comparisonType>
+						<dcsset:right xsi:type="xs:boolean">true</dcsset:right>
+					</dcsset:item>
+				</dcsset:filter>
+				<dcsset:appearance>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>ЦветТекста</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">style:SpecialTextColor</dcscor:value>
+					</dcscor:item>
+				</dcsset:appearance>
+				<dcsset:presentation xsi:type="xs:string">Таблица "Дебиторская задолженность" - отметка строк, в кот. нарушается равенство сумм.</dcsset:presentation>
+			</dcsset:item>
+			<dcsset:item>
+				<dcsset:selection>
+					<dcsset:item>
+						<dcsset:field>КредиторскаяЗадолженностьВсего</dcsset:field>
+					</dcsset:item>
+					<dcsset:item>
+						<dcsset:field>КредиторскаяЗадолженностьПодтверждено</dcsset:field>
+					</dcsset:item>
+					<dcsset:item>
+						<dcsset:field>КредиторскаяЗадолженностьНеПодтверждено</dcsset:field>
+					</dcsset:item>
+					<dcsset:item>
+						<dcsset:field>КредиторскаяЗадолженностьИстекСрокДавности</dcsset:field>
+					</dcsset:item>
+				</dcsset:selection>
+				<dcsset:filter>
+					<dcsset:item xsi:type="dcsset:FilterItemComparison">
+						<dcsset:left xsi:type="dcscor:Field">Объект.КредиторскаяЗадолженность.ОтметитьСтроку</dcsset:left>
+						<dcsset:comparisonType>Equal</dcsset:comparisonType>
+						<dcsset:right xsi:type="xs:boolean">true</dcsset:right>
+					</dcsset:item>
+				</dcsset:filter>
+				<dcsset:appearance>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>ЦветТекста</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">style:SpecialTextColor</dcscor:value>
+					</dcscor:item>
+				</dcsset:appearance>
+				<dcsset:presentation xsi:type="xs:string">Таблица "Кредиторская задолженность" - отметка строк, в кот. нарушается равенство сумм.</dcsset:presentation>
+			</dcsset:item>
+		</ConditionalAppearance>
+	</Attributes>
+	<BaseForm version="2.17">
+		<VerticalScroll>useIfNecessary</VerticalScroll>
+		<AutoTime>CurrentOrLast</AutoTime>
+		<UsePostingMode>Auto</UsePostingMode>
+		<RepostOnWrite>true</RepostOnWrite>
+		<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+			<ChildItems>
+				<Button name="ФормаЗаполнитьПоДаннымУчетаВсе" id="203" DisplayImportance="VeryHigh">
+					<Type>CommandBarButton</Type>
+					<GroupVerticalAlign>Center</GroupVerticalAlign>
+					<CommandName>0</CommandName>
+					<ToolTipRepresentation>Button</ToolTipRepresentation>
+					<ExtendedTooltip name="ФормаЗаполнитьПоДаннымУчетаВсеРасширеннаяПодсказка" id="263">
+						<Title formatted="false">
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Заполнить задолженность по остаткам на счетах расчетов с учетом параметров на закладке "Настройки заполнения"</v8:content>
+							</v8:item>
+						</Title>
+						<GroupVerticalAlign>Center</GroupVerticalAlign>
+					</ExtendedTooltip>
+				</Button>
+				<Popup name="КомандыЭДО" id="604">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ЭДО</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="КомандыЭДОРасширеннаяПодсказка" id="605"/>
+				</Popup>
+			</ChildItems>
+		</AutoCommandBar>
+		<ChildItems>
+			<UsualGroup name="ГруппаОтборПоля" id="115">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Отбор при заполнении по данным учета</v8:content>
+					</v8:item>
+				</Title>
+				<HorizontalStretch>true</HorizontalStretch>
+				<Group>Vertical</Group>
+				<Behavior>Usual</Behavior>
+				<ExtendedTooltip name="ГруппаОтборПоляРасширеннаяПодсказка" id="320"/>
+			</UsualGroup>
+			<UsualGroup name="Шапка" id="74">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Шапка</v8:content>
+					</v8:item>
+				</Title>
+				<Group>Horizontal</Group>
+				<Behavior>Usual</Behavior>
+				<Representation>None</Representation>
+				<ShowTitle>false</ShowTitle>
+				<ExtendedTooltip name="ШапкаРасширеннаяПодсказка" id="264"/>
+				<ChildItems>
+					<UsualGroup name="ШапкаЛевая" id="75">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Шапка левая</v8:content>
+							</v8:item>
+						</Title>
+						<Group>Vertical</Group>
+						<Behavior>Usual</Behavior>
+						<Representation>None</Representation>
+						<ShowTitle>false</ShowTitle>
+						<ExtendedTooltip name="ШапкаЛеваяРасширеннаяПодсказка" id="265"/>
+						<ChildItems>
+							<InputField name="РешениеОПроведенииИнвентаризации" id="617">
+								<AutoMaxWidth>false</AutoMaxWidth>
+								<ContextMenu name="РешениеОПроведенииИнвентаризацииКонтекстноеМеню" id="618"/>
+								<ExtendedTooltip name="РешениеОПроведенииИнвентаризацииРасширеннаяПодсказка" id="619"/>
+							</InputField>
+							<InputField name="ДатаИнвентаризации" id="589">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Инвентаризация по состоянию на</v8:content>
+									</v8:item>
+								</Title>
+								<HorizontalStretch>false</HorizontalStretch>
+								<ContextMenu name="ДатаИнвентаризацииКонтекстноеМеню" id="590"/>
+								<ExtendedTooltip name="ДатаИнвентаризацииРасширеннаяПодсказка" id="591"/>
+							</InputField>
+							<RadioButtonField name="РежимЗаполнения" id="554">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Детализация расчетов с контрагентами</v8:content>
+									</v8:item>
+								</Title>
+								<ToolTipRepresentation>Button</ToolTipRepresentation>
+								<RadioButtonType>RadioButtons</RadioButtonType>
+								<ChoiceList>
+									<xr:Item>
+										<xr:Presentation/>
+										<xr:CheckState>0</xr:CheckState>
+										<xr:Value xsi:type="FormChoiceListDesTimeValue">
+											<Presentation>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>По контрагентам</v8:content>
+												</v8:item>
+											</Presentation>
+											<Value xsi:type="xs:decimal">0</Value>
+										</xr:Value>
+									</xr:Item>
+									<xr:Item>
+										<xr:Presentation/>
+										<xr:CheckState>0</xr:CheckState>
+										<xr:Value xsi:type="FormChoiceListDesTimeValue">
+											<Presentation>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>По договорам</v8:content>
+												</v8:item>
+											</Presentation>
+											<Value xsi:type="xs:decimal">1</Value>
+										</xr:Value>
+									</xr:Item>
+								</ChoiceList>
+								<ContextMenu name="РежимЗаполненияКонтекстноеМеню" id="555"/>
+								<ExtendedTooltip name="РежимЗаполненияРасширеннаяПодсказка" id="556">
+									<Title formatted="true">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Режим заполнения документа по счетам расчетов с контрагентами 205.00, 206.00, 207.00 и др. с аналитикой по контрагентам и договорам:
+- &lt;b&gt;По контрагентам -&lt;/&gt; сводно по контрагентам;
+- &lt;b&gt;По договорам&lt;/&gt; - детально по каждому договору.</v8:content>
+										</v8:item>
+									</Title>
+								</ExtendedTooltip>
+							</RadioButtonField>
+							<UsualGroup name="ШапкаЛеваяГоризонтальная" id="592">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Шапка левая горизонтальная</v8:content>
+									</v8:item>
+								</Title>
+								<Group>AlwaysHorizontal</Group>
+								<Behavior>Usual</Behavior>
+								<Representation>None</Representation>
+								<ShowTitle>false</ShowTitle>
+								<ExtendedTooltip name="ШапкаЛеваяГоризонтальнаяРасширеннаяПодсказка" id="593"/>
+								<ChildItems>
+									<LabelDecoration name="ИнвентаризацияРасчетовОтбор" id="586">
+										<Visible>false</Visible>
+										<HorizontalStretch>true</HorizontalStretch>
+										<TextColor>style:ТекстИнформационнойНадписи</TextColor>
+										<Title formatted="false">
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Параметры отбора на закладке "Настройки заполнения"</v8:content>
+											</v8:item>
+										</Title>
+										<ContextMenu name="ИнвентаризацияРасчетовОтборКонтекстноеМеню" id="587"/>
+										<ExtendedTooltip name="ИнвентаризацияРасчетовОтборРасширеннаяПодсказка" id="588"/>
+									</LabelDecoration>
+								</ChildItems>
+							</UsualGroup>
+						</ChildItems>
+					</UsualGroup>
+					<UsualGroup name="ШапкаПравая" id="76">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Шапка правая</v8:content>
+							</v8:item>
+						</Title>
+						<Group>Vertical</Group>
+						<Behavior>Usual</Behavior>
+						<Representation>None</Representation>
+						<ShowTitle>false</ShowTitle>
+						<ExtendedTooltip name="ШапкаПраваяРасширеннаяПодсказка" id="269"/>
+						<ChildItems>
+							<UsualGroup name="ГруппаНомерДата" id="443">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Группа номер дата</v8:content>
+									</v8:item>
+								</Title>
+								<Group>Horizontal</Group>
+								<Behavior>Usual</Behavior>
+								<Representation>None</Representation>
+								<ShowTitle>false</ShowTitle>
+								<ExtendedTooltip name="ГруппаНомерДатаРасширеннаяПодсказка" id="444"/>
+								<ChildItems>
+									<InputField name="Номер" id="1">
+										<EditMode>EnterOnInput</EditMode>
+										<ContextMenu name="НомерКонтекстноеМеню" id="2"/>
+										<ExtendedTooltip name="НомерРасширеннаяПодсказка" id="267"/>
+									</InputField>
+									<InputField name="Дата" id="3">
+										<EditMode>EnterOnInput</EditMode>
+										<ContextMenu name="ДатаКонтекстноеМеню" id="4"/>
+										<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="268"/>
+									</InputField>
+								</ChildItems>
+							</UsualGroup>
+							<InputField name="Организация" id="5">
+								<EditMode>EnterOnInput</EditMode>
+								<AutoMaxWidth>false</AutoMaxWidth>
+								<HorizontalStretch>true</HorizontalStretch>
+								<ContextMenu name="ОрганизацияКонтекстноеМеню" id="6"/>
+								<ExtendedTooltip name="ОрганизацияРасширеннаяПодсказка" id="266"/>
+							</InputField>
+							<InputField name="ВидРасчетов" id="651">
+								<AutoMaxWidth>false</AutoMaxWidth>
+								<ContextMenu name="ВидРасчетовКонтекстноеМеню" id="652"/>
+								<ExtendedTooltip name="ВидРасчетовРасширеннаяПодсказка" id="653"/>
+							</InputField>
+						</ChildItems>
+					</UsualGroup>
+				</ChildItems>
+			</UsualGroup>
+			<Pages name="Страницы" id="33">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Страницы</v8:content>
+					</v8:item>
+				</Title>
+				<PagesRepresentation>TabsOnTop</PagesRepresentation>
+				<ExtendedTooltip name="СтраницыРасширеннаяПодсказка" id="270"/>
+				<ChildItems>
+					<Page name="СтраницаДебиторы" id="34">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Дебиторская задолженность</v8:content>
+							</v8:item>
+						</Title>
+						<ExtendedTooltip name="СтраницаДебиторыРасширеннаяПодсказка" id="271"/>
+						<ChildItems>
+							<Table name="ДебиторскаяЗадолженность" id="212">
+								<AutoInsertNewRow>true</AutoInsertNewRow>
+								<EnableStartDrag>true</EnableStartDrag>
+								<EnableDrag>true</EnableDrag>
+								<FileDragMode>AsFile</FileDragMode>
+								<SearchStringLocation>None</SearchStringLocation>
+								<ViewStatusLocation>None</ViewStatusLocation>
+								<SearchControlLocation>None</SearchControlLocation>
+								<RowFilter xsi:nil="true"/>
+								<ContextMenu name="ДебиторскаяЗадолженностьКонтекстноеМеню" id="213"/>
+								<AutoCommandBar name="ДебиторскаяЗадолженностьКоманднаяПанель" id="214">
+									<ChildItems>
+										<Popup name="ДебиторскаяЗадолженностьГруппаЗаполнить" id="260">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Заполнить</v8:content>
+												</v8:item>
+											</Title>
+											<ExtendedTooltip name="ДебиторскаяЗадолженностьГруппаЗаполнитьРасширеннаяПодсказка" id="272"/>
+											<ChildItems>
+												<Button name="ДебиторыЗаполнитьПоДаннымУчета" id="172">
+													<Type>CommandBarButton</Type>
+													<CommandName>0</CommandName>
+													<ExtendedTooltip name="ДебиторыЗаполнитьПоДаннымУчетаРасширеннаяПодсказка" id="273"/>
+												</Button>
+											</ChildItems>
+										</Popup>
+										<Button name="ДебиторыРасшифроватьПоДаннымУчета" id="582">
+											<Type>CommandBarButton</Type>
+											<CommandName>0</CommandName>
+											<ExtendedTooltip name="ДебиторыРасшифроватьПоДаннымУчетаРасширеннаяПодсказка" id="583"/>
+										</Button>
+										<Popup name="ДебиторскаяЗадолженностьГруппаСписать" id="628">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Списать</v8:content>
+												</v8:item>
+											</Title>
+											<ExtendedTooltip name="ДебиторскаяЗадолженностьГруппаСписатьРасширеннаяПодсказка" id="629"/>
+											<ChildItems>
+												<Button name="ДебиторскаяЗадолженностьДЗСписатьСомнительнуюЗадолженность" id="630">
+													<Type>CommandBarButton</Type>
+													<CommandName>0</CommandName>
+													<ExtendedTooltip name="ДебиторскаяЗадолженностьДЗСписатьСомнительнуюЗадолженностьРасширеннаяПодсказка" id="631"/>
+												</Button>
+												<Button name="ДебиторскаяЗадолженностьДЗВосстановитьСомнительнуюЗадолженность" id="634">
+													<Type>CommandBarButton</Type>
+													<CommandName>0</CommandName>
+													<ExtendedTooltip name="ДебиторскаяЗадолженностьДЗВосстановитьСомнительнуюЗадолженностьРасширеннаяПодсказка" id="635"/>
+												</Button>
+												<Button name="ДебиторскаяЗадолженностьДЗСписатьБезнадежнуюЗадолженность" id="632">
+													<Type>CommandBarButton</Type>
+													<CommandName>0</CommandName>
+													<ExtendedTooltip name="ДебиторскаяЗадолженностьДЗСписатьБезнадежнуюЗадолженностьРасширеннаяПодсказка" id="633"/>
+												</Button>
+											</ChildItems>
+										</Popup>
+									</ChildItems>
+								</AutoCommandBar>
+								<ExtendedTooltip name="ДебиторскаяЗадолженностьРасширеннаяПодсказка" id="274"/>
+								<SearchStringAddition name="ДебиторскаяЗадолженностьСтрокаПоиска" id="275">
+									<AdditionSource>
+										<Item>ДебиторскаяЗадолженность</Item>
+										<Type>SearchStringRepresentation</Type>
+									</AdditionSource>
+									<ContextMenu name="ДебиторскаяЗадолженностьСтрокаПоискаКонтекстноеМеню" id="276"/>
+									<ExtendedTooltip name="ДебиторскаяЗадолженностьСтрокаПоискаРасширеннаяПодсказка" id="277"/>
+								</SearchStringAddition>
+								<ViewStatusAddition name="ДебиторскаяЗадолженностьСостояниеПросмотра" id="278">
+									<AdditionSource>
+										<Item>ДебиторскаяЗадолженность</Item>
+										<Type>ViewStatusRepresentation</Type>
+									</AdditionSource>
+									<ContextMenu name="ДебиторскаяЗадолженностьСостояниеПросмотраКонтекстноеМеню" id="279"/>
+									<ExtendedTooltip name="ДебиторскаяЗадолженностьСостояниеПросмотраРасширеннаяПодсказка" id="280"/>
+								</ViewStatusAddition>
+								<SearchControlAddition name="ДебиторскаяЗадолженностьУправлениеПоиском" id="281">
+									<AdditionSource>
+										<Item>ДебиторскаяЗадолженность</Item>
+										<Type>SearchControl</Type>
+									</AdditionSource>
+									<ContextMenu name="ДебиторскаяЗадолженностьУправлениеПоискомКонтекстноеМеню" id="282"/>
+									<ExtendedTooltip name="ДебиторскаяЗадолженностьУправлениеПоискомРасширеннаяПодсказка" id="283"/>
+								</SearchControlAddition>
+								<ChildItems>
+									<LabelField name="ДебиторскаяЗадолженностьНомерСтроки" id="215">
+										<EditMode>EnterOnInput</EditMode>
+										<FixingInTable>Left</FixingInTable>
+										<Width>2</Width>
+										<HorizontalStretch>false</HorizontalStretch>
+										<ContextMenu name="ДебиторскаяЗадолженностьНомерСтрокиКонтекстноеМеню" id="216"/>
+										<ExtendedTooltip name="ДебиторскаяЗадолженностьНомерСтрокиРасширеннаяПодсказка" id="284"/>
+									</LabelField>
+									<ColumnGroup name="ДебиторскаяЗадолженностьГруппаКонтрагентДоговор" id="559">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Контрагент, договор</v8:content>
+											</v8:item>
+										</Title>
+										<Group>Horizontal</Group>
+										<FixingInTable>Left</FixingInTable>
+										<ExtendedTooltip name="ДебиторскаяЗадолженностьГруппаКонтрагентДоговорРасширеннаяПодсказка" id="560"/>
+										<ChildItems>
+											<ColumnGroup name="ДебиторскаяЗадолженностьКонтрагентГруппа" id="636">
+												<EnableContentChange>true</EnableContentChange>
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Контрагент</v8:content>
+													</v8:item>
+												</Title>
+												<Group>Horizontal</Group>
+												<ShowInHeader>true</ShowInHeader>
+												<ExtendedTooltip name="ДебиторскаяЗадолженностьКонтрагентГруппаРасширеннаяПодсказка" id="637"/>
+												<ChildItems>
+													<InputField name="ДебиторскаяЗадолженностьКонтрагент" id="217">
+														<EditMode>EnterOnInput</EditMode>
+														<FixingInTable>Left</FixingInTable>
+														<ShowInHeader>false</ShowInHeader>
+														<FooterText>
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>Итого:</v8:content>
+															</v8:item>
+														</FooterText>
+														<ChooseType>false</ChooseType>
+														<InputHint>
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>Контрагент</v8:content>
+															</v8:item>
+														</InputHint>
+														<ContextMenu name="ДебиторскаяЗадолженностьКонтрагентКонтекстноеМеню" id="218"/>
+														<ExtendedTooltip name="ДебиторскаяЗадолженностьКонтрагентРасширеннаяПодсказка" id="285"/>
+													</InputField>
+													<PictureField name="ДебиторскаяЗадолженностьЭтоНекорректныйКонтрагент" id="638">
+														<Title>
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>Есть ошибка по данным ФНС</v8:content>
+															</v8:item>
+														</Title>
+														<TitleLocation>None</TitleLocation>
+														<EditMode>EnterOnInput</EditMode>
+														<CellHyperlink>true</CellHyperlink>
+														<ShowInHeader>false</ShowInHeader>
+														<Width>2</Width>
+														<AutoMaxWidth>false</AutoMaxWidth>
+														<MaxWidth>2</MaxWidth>
+														<HorizontalStretch>false</HorizontalStretch>
+														<ValuesPicture>
+															<xr:Ref>CommonPicture.НекорректныйКонтрагент</xr:Ref>
+															<xr:LoadTransparent>true</xr:LoadTransparent>
+														</ValuesPicture>
+														<ContextMenu name="ДебиторскаяЗадолженностьЭтоНекорректныйКонтрагентКонтекстноеМеню" id="639"/>
+														<ExtendedTooltip name="ДебиторскаяЗадолженностьЭтоНекорректныйКонтрагентРасширеннаяПодсказка" id="640"/>
+													</PictureField>
+												</ChildItems>
+											</ColumnGroup>
+											<InputField name="ДебиторскаяЗадолженностьДоговор" id="561">
+												<EditMode>EnterOnInput</EditMode>
+												<FixingInTable>Left</FixingInTable>
+												<InputHint>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Договор</v8:content>
+													</v8:item>
+												</InputHint>
+												<ContextMenu name="ДебиторскаяЗадолженностьДоговорКонтекстноеМеню" id="562"/>
+												<ExtendedTooltip name="ДебиторскаяЗадолженностьДоговорРасширеннаяПодсказка" id="563"/>
+											</InputField>
+										</ChildItems>
+									</ColumnGroup>
+									<InputField name="ДебиторскаяЗадолженностьКФО" id="223">
+										<EditMode>EnterOnInput</EditMode>
+										<Width>5</Width>
+										<HorizontalStretch>false</HorizontalStretch>
+										<ContextMenu name="ДебиторскаяЗадолженностьКФОКонтекстноеМеню" id="224"/>
+										<ExtendedTooltip name="ДебиторскаяЗадолженностьКФОРасширеннаяПодсказка" id="286"/>
+									</InputField>
+									<InputField name="ДебиторскаяЗадолженностьКПС" id="221">
+										<EditMode>EnterOnInput</EditMode>
+										<Width>15</Width>
+										<HorizontalStretch>false</HorizontalStretch>
+										<ContextMenu name="ДебиторскаяЗадолженностьКПСКонтекстноеМеню" id="222"/>
+										<ExtendedTooltip name="ДебиторскаяЗадолженностьКПСРасширеннаяПодсказка" id="287"/>
+									</InputField>
+									<InputField name="ДебиторскаяЗадолженностьСчет" id="219">
+										<EditMode>EnterOnInput</EditMode>
+										<Width>8</Width>
+										<HorizontalStretch>false</HorizontalStretch>
+										<ContextMenu name="ДебиторскаяЗадолженностьСчетКонтекстноеМеню" id="220"/>
+										<ExtendedTooltip name="ДебиторскаяЗадолженностьСчетРасширеннаяПодсказка" id="288"/>
+									</InputField>
+									<InputField name="ДебиторскаяЗадолженностьКЭК" id="611">
+										<EditMode>EnterOnInput</EditMode>
+										<ContextMenu name="ДебиторскаяЗадолженностьКЭККонтекстноеМеню" id="612"/>
+										<ExtendedTooltip name="ДебиторскаяЗадолженностьКЭКРасширеннаяПодсказка" id="613"/>
+									</InputField>
+									<InputField name="ДебиторскаяЗадолженностьИФО" id="225">
+										<EditMode>EnterOnInput</EditMode>
+										<ContextMenu name="ДебиторскаяЗадолженностьИФОКонтекстноеМеню" id="226"/>
+										<ExtendedTooltip name="ДебиторскаяЗадолженностьИФОРасширеннаяПодсказка" id="289"/>
+									</InputField>
+									<InputField name="ДебиторскаяЗадолженностьВсего" id="234">
+										<EditMode>EnterOnInput</EditMode>
+										<Width>12</Width>
+										<HorizontalStretch>false</HorizontalStretch>
+										<ContextMenu name="ДебиторскаяЗадолженностьВсегоКонтекстноеМеню" id="235"/>
+										<ExtendedTooltip name="ДебиторскаяЗадолженностьВсегоРасширеннаяПодсказка" id="291"/>
+									</InputField>
+									<ColumnGroup name="ДебиторскаяЗадолженностьГруппаСуммы" id="233">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>в том числе</v8:content>
+											</v8:item>
+										</Title>
+										<ToolTip>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Цветом выделены строки, в которых нарушается условие Всего=Подтверждено + НеПодтверждено + ИстекСрокДавности</v8:content>
+											</v8:item>
+										</ToolTip>
+										<Group>Horizontal</Group>
+										<ShowInHeader>true</ShowInHeader>
+										<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+										<ExtendedTooltip name="ДебиторскаяЗадолженностьГруппаСуммыРасширеннаяПодсказка" id="290"/>
+										<ChildItems>
+											<InputField name="ДебиторскаяЗадолженностьПодтверждено" id="227">
+												<EditMode>EnterOnInput</EditMode>
+												<Width>12</Width>
+												<HorizontalStretch>false</HorizontalStretch>
+												<ContextMenu name="ДебиторскаяЗадолженностьПодтвержденоКонтекстноеМеню" id="228"/>
+												<ExtendedTooltip name="ДебиторскаяЗадолженностьПодтвержденоРасширеннаяПодсказка" id="292"/>
+											</InputField>
+											<InputField name="ДебиторскаяЗадолженностьНеПодтверждено" id="229">
+												<EditMode>EnterOnInput</EditMode>
+												<Width>12</Width>
+												<HorizontalStretch>false</HorizontalStretch>
+												<ContextMenu name="ДебиторскаяЗадолженностьНеПодтвержденоКонтекстноеМеню" id="230"/>
+												<ExtendedTooltip name="ДебиторскаяЗадолженностьНеПодтвержденоРасширеннаяПодсказка" id="293"/>
+											</InputField>
+											<InputField name="ДебиторскаяЗадолженностьИстекСрокДавности" id="231">
+												<EditMode>EnterOnInput</EditMode>
+												<Width>12</Width>
+												<HorizontalStretch>false</HorizontalStretch>
+												<ContextMenu name="ДебиторскаяЗадолженностьИстекСрокДавностиКонтекстноеМеню" id="232"/>
+												<ExtendedTooltip name="ДебиторскаяЗадолженностьИстекСрокДавностиРасширеннаяПодсказка" id="294"/>
+											</InputField>
+										</ChildItems>
+									</ColumnGroup>
+									<InputField name="ДебиторскаяЗадолженностьДолгосрочная" id="500">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Долгосрочная</v8:content>
+											</v8:item>
+										</Title>
+										<EditMode>EnterOnInput</EditMode>
+										<Width>10</Width>
+										<ContextMenu name="ДебиторскаяЗадолженностьДолгосрочнаяКонтекстноеМеню" id="501"/>
+										<ExtendedTooltip name="ДебиторскаяЗадолженностьДолгосрочнаяРасширеннаяПодсказка" id="502"/>
+									</InputField>
+									<ColumnGroup name="ДебиторскаяЗадолженностьГруппаПросроченная" id="508">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Просроченная</v8:content>
+											</v8:item>
+										</Title>
+										<ToolTip>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Просроченная дебиторская задолженность</v8:content>
+											</v8:item>
+										</ToolTip>
+										<Group>Horizontal</Group>
+										<ShowInHeader>true</ShowInHeader>
+										<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+										<ExtendedTooltip name="ДебиторскаяЗадолженностьГруппаПросроченнаяРасширеннаяПодсказка" id="509"/>
+										<ChildItems>
+											<InputField name="ДебиторскаяЗадолженностьПросроченная" id="503">
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Сумма</v8:content>
+													</v8:item>
+												</Title>
+												<EditMode>EnterOnInput</EditMode>
+												<Width>10</Width>
+												<ContextMenu name="ДебиторскаяЗадолженностьПросроченнаяКонтекстноеМеню" id="504"/>
+												<ExtendedTooltip name="ДебиторскаяЗадолженностьПросроченнаяРасширеннаяПодсказка" id="505"/>
+											</InputField>
+											<InputField name="ДебиторскаяЗадолженностьДатаВозникновения" id="510">
+												<EditMode>EnterOnInput</EditMode>
+												<Width>10</Width>
+												<ContextMenu name="ДебиторскаяЗадолженностьДатаВозникновенияКонтекстноеМеню" id="511"/>
+												<ExtendedTooltip name="ДебиторскаяЗадолженностьДатаВозникновенияРасширеннаяПодсказка" id="512"/>
+											</InputField>
+											<InputField name="ДебиторскаяЗадолженностьДатаИсполнения" id="513">
+												<EditMode>EnterOnInput</EditMode>
+												<Width>10</Width>
+												<ContextMenu name="ДебиторскаяЗадолженностьДатаИсполненияКонтекстноеМеню" id="514"/>
+												<ExtendedTooltip name="ДебиторскаяЗадолженностьДатаИсполненияРасширеннаяПодсказка" id="515"/>
+											</InputField>
+										</ChildItems>
+									</ColumnGroup>
+								</ChildItems>
+							</Table>
+							<UsualGroup name="ИтогоДебиторы" id="447">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Итого дебиторы</v8:content>
+									</v8:item>
+								</Title>
+								<HorizontalStretch>true</HorizontalStretch>
+								<Group>Horizontal</Group>
+								<Behavior>Usual</Behavior>
+								<Representation>None</Representation>
+								<ShowTitle>false</ShowTitle>
+								<ExtendedTooltip name="ИтогоДебиторыРасширеннаяПодсказка" id="448"/>
+								<ChildItems>
+									<UsualGroup name="ИтогоДебиторыФон" id="451">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Итого дебиторы фон</v8:content>
+											</v8:item>
+										</Title>
+										<GroupHorizontalAlign>Right</GroupHorizontalAlign>
+										<Group>Horizontal</Group>
+										<Behavior>Usual</Behavior>
+										<Representation>None</Representation>
+										<ShowTitle>false</ShowTitle>
+										<BackColor>style:ИтогиФонГруппы</BackColor>
+										<ExtendedTooltip name="ИтогоДебиторыФонРасширеннаяПодсказка" id="452"/>
+										<ChildItems>
+											<UsualGroup name="ИтогоДебиторыВсего" id="479">
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Всего</v8:content>
+													</v8:item>
+												</Title>
+												<Behavior>Usual</Behavior>
+												<Representation>None</Representation>
+												<ExtendedTooltip name="ИтогоДебиторыВсегоРасширеннаяПодсказка" id="480"/>
+												<ChildItems>
+													<InputField name="ДебиторскаяЗадолженностьИтогВсего" id="455">
+														<ReadOnly>true</ReadOnly>
+														<TitleLocation>None</TitleLocation>
+														<Width>13</Width>
+														<HorizontalStretch>false</HorizontalStretch>
+														<ContextMenu name="ДебиторскаяЗадолженностьИтогВсегоКонтекстноеМеню" id="456"/>
+														<ExtendedTooltip name="ДебиторскаяЗадолженностьИтогВсегоРасширеннаяПодсказка" id="457"/>
+													</InputField>
+												</ChildItems>
+											</UsualGroup>
+											<UsualGroup name="ИтогоДебиторыПодтверждено" id="481">
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Подтверждено</v8:content>
+													</v8:item>
+												</Title>
+												<Behavior>Usual</Behavior>
+												<Representation>None</Representation>
+												<ExtendedTooltip name="ИтогоДебиторыПодтвержденоРасширеннаяПодсказка" id="482"/>
+												<ChildItems>
+													<InputField name="ДебиторскаяЗадолженностьИтогПодтверждено" id="458">
+														<ReadOnly>true</ReadOnly>
+														<TitleLocation>None</TitleLocation>
+														<Width>13</Width>
+														<HorizontalStretch>false</HorizontalStretch>
+														<ContextMenu name="ДебиторскаяЗадолженностьИтогПодтвержденоКонтекстноеМеню" id="459"/>
+														<ExtendedTooltip name="ДебиторскаяЗадолженностьИтогПодтвержденоРасширеннаяПодсказка" id="460"/>
+													</InputField>
+												</ChildItems>
+											</UsualGroup>
+											<UsualGroup name="ИтогоДебиторыНеПодтверждено" id="483">
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Не подтверждено</v8:content>
+													</v8:item>
+												</Title>
+												<Behavior>Usual</Behavior>
+												<Representation>None</Representation>
+												<ExtendedTooltip name="ИтогоДебиторыНеПодтвержденоРасширеннаяПодсказка" id="484"/>
+												<ChildItems>
+													<InputField name="ДебиторскаяЗадолженностьИтогНеПодтверждено" id="461">
+														<ReadOnly>true</ReadOnly>
+														<TitleLocation>None</TitleLocation>
+														<Width>13</Width>
+														<HorizontalStretch>false</HorizontalStretch>
+														<ContextMenu name="ДебиторскаяЗадолженностьИтогНеПодтвержденоКонтекстноеМеню" id="462"/>
+														<ExtendedTooltip name="ДебиторскаяЗадолженностьИтогНеПодтвержденоРасширеннаяПодсказка" id="463"/>
+													</InputField>
+												</ChildItems>
+											</UsualGroup>
+											<UsualGroup name="ИтогоДебиторыИстекСрокДавности" id="485">
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Истек срок давности</v8:content>
+													</v8:item>
+												</Title>
+												<Behavior>Usual</Behavior>
+												<Representation>None</Representation>
+												<ExtendedTooltip name="ИтогоДебиторыИстекСрокДавностиРасширеннаяПодсказка" id="486"/>
+												<ChildItems>
+													<InputField name="ДебиторскаяЗадолженностьИтогИстекСрокДавности" id="464">
+														<ReadOnly>true</ReadOnly>
+														<TitleLocation>None</TitleLocation>
+														<Width>13</Width>
+														<HorizontalStretch>false</HorizontalStretch>
+														<ContextMenu name="ДебиторскаяЗадолженностьИтогИстекСрокДавностиКонтекстноеМеню" id="465"/>
+														<ExtendedTooltip name="ДебиторскаяЗадолженностьИтогИстекСрокДавностиРасширеннаяПодсказка" id="466"/>
+													</InputField>
+												</ChildItems>
+											</UsualGroup>
+											<UsualGroup name="ИтогоДебиторыДолгосрочная" id="534">
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Долгосрочная</v8:content>
+													</v8:item>
+												</Title>
+												<Behavior>Usual</Behavior>
+												<Representation>None</Representation>
+												<ExtendedTooltip name="ИтогоДебиторыДолгосрочнаяРасширеннаяПодсказка" id="535"/>
+												<ChildItems>
+													<InputField name="ДебиторскаяЗадолженностьИтогДолгосрочная" id="536">
+														<ReadOnly>true</ReadOnly>
+														<TitleLocation>None</TitleLocation>
+														<Width>13</Width>
+														<HorizontalStretch>false</HorizontalStretch>
+														<ContextMenu name="ДебиторскаяЗадолженностьИтогДолгосрочнаяКонтекстноеМеню" id="537"/>
+														<ExtendedTooltip name="ДебиторскаяЗадолженностьИтогДолгосрочнаяРасширеннаяПодсказка" id="538"/>
+													</InputField>
+												</ChildItems>
+											</UsualGroup>
+											<UsualGroup name="ИтогоДебиторыПросроченная" id="539">
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Просроченная</v8:content>
+													</v8:item>
+												</Title>
+												<ToolTip>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Итого дебиторы долгосрочная</v8:content>
+													</v8:item>
+												</ToolTip>
+												<Width>12</Width>
+												<HorizontalStretch>false</HorizontalStretch>
+												<Behavior>Usual</Behavior>
+												<Representation>None</Representation>
+												<ExtendedTooltip name="ИтогоДебиторыПросроченнаяРасширеннаяПодсказка" id="540"/>
+												<ChildItems>
+													<InputField name="ДебиторскаяЗадолженностьИтогПросроченная" id="541">
+														<ReadOnly>true</ReadOnly>
+														<TitleLocation>None</TitleLocation>
+														<Width>13</Width>
+														<HorizontalStretch>false</HorizontalStretch>
+														<ContextMenu name="ДебиторскаяЗадолженностьИтогПросроченнаяКонтекстноеМеню" id="542"/>
+														<ExtendedTooltip name="ДебиторскаяЗадолженностьИтогПросроченнаяРасширеннаяПодсказка" id="543"/>
+													</InputField>
+												</ChildItems>
+											</UsualGroup>
+										</ChildItems>
+									</UsualGroup>
+								</ChildItems>
+							</UsualGroup>
+						</ChildItems>
+					</Page>
+					<Page name="СтраницаКредиторы" id="140">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Кредиторская задолженность</v8:content>
+							</v8:item>
+						</Title>
+						<ExtendedTooltip name="СтраницаКредиторыРасширеннаяПодсказка" id="295"/>
+						<ChildItems>
+							<Table name="КредиторскаяЗадолженность" id="236">
+								<AutoInsertNewRow>true</AutoInsertNewRow>
+								<EnableStartDrag>true</EnableStartDrag>
+								<EnableDrag>true</EnableDrag>
+								<FileDragMode>AsFile</FileDragMode>
+								<SearchStringLocation>None</SearchStringLocation>
+								<ViewStatusLocation>None</ViewStatusLocation>
+								<SearchControlLocation>None</SearchControlLocation>
+								<RowFilter xsi:nil="true"/>
+								<ContextMenu name="КредиторскаяЗадолженностьКонтекстноеМеню" id="237"/>
+								<AutoCommandBar name="КредиторскаяЗадолженностьКоманднаяПанель" id="238">
+									<ChildItems>
+										<Popup name="КредиторскаяЗадолженностьГруппаЗаполнить" id="261">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Заполнить</v8:content>
+												</v8:item>
+											</Title>
+											<ExtendedTooltip name="КредиторскаяЗадолженностьГруппаЗаполнитьРасширеннаяПодсказка" id="296"/>
+											<ChildItems>
+												<Button name="КредиторыЗаполнитьПоДаннымУчета" id="202">
+													<Type>CommandBarButton</Type>
+													<CommandName>0</CommandName>
+													<ExtendedTooltip name="КредиторыЗаполнитьПоДаннымУчетаРасширеннаяПодсказка" id="297"/>
+												</Button>
+											</ChildItems>
+										</Popup>
+										<Button name="КредиторыРасшифроватьПоДаннымУчета" id="584">
+											<Type>CommandBarButton</Type>
+											<CommandName>0</CommandName>
+											<ExtendedTooltip name="КредиторыРасшифроватьПоДаннымУчетаРасширеннаяПодсказка" id="585"/>
+										</Button>
+										<Popup name="КредиторскаяЗадолженностьГруппаСписать" id="620">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Списать</v8:content>
+												</v8:item>
+											</Title>
+											<ExtendedTooltip name="КредиторскаяЗадолженностьГруппаСписатьРасширеннаяПодсказка" id="621"/>
+											<ChildItems>
+												<Button name="КредиторскаяЗадолженностьСписатьБезПоследующегоНаблюдения" id="622">
+													<Type>CommandBarButton</Type>
+													<CommandName>0</CommandName>
+													<ExtendedTooltip name="КредиторскаяЗадолженностьСписатьБезПоследующегоНаблюденияРасширеннаяПодсказка" id="623"/>
+												</Button>
+												<Button name="КредиторскаяЗадолженностьСписатьСПоследующимНаблюдением" id="624">
+													<Type>CommandBarButton</Type>
+													<CommandName>0</CommandName>
+													<ExtendedTooltip name="КредиторскаяЗадолженностьСписатьСПоследующимНаблюдениемРасширеннаяПодсказка" id="625"/>
+												</Button>
+												<Button name="КредиторскаяЗадолженностьПрекратитьНаблюдениеЗадолженности" id="626">
+													<Type>CommandBarButton</Type>
+													<CommandName>0</CommandName>
+													<ExtendedTooltip name="КредиторскаяЗадолженностьПрекратитьНаблюдениеЗадолженностиРасширеннаяПодсказка" id="627"/>
+												</Button>
+											</ChildItems>
+										</Popup>
+									</ChildItems>
+								</AutoCommandBar>
+								<ExtendedTooltip name="КредиторскаяЗадолженностьРасширеннаяПодсказка" id="298"/>
+								<SearchStringAddition name="КредиторскаяЗадолженностьСтрокаПоиска" id="299">
+									<AdditionSource>
+										<Item>КредиторскаяЗадолженность</Item>
+										<Type>SearchStringRepresentation</Type>
+									</AdditionSource>
+									<ContextMenu name="КредиторскаяЗадолженностьСтрокаПоискаКонтекстноеМеню" id="300"/>
+									<ExtendedTooltip name="КредиторскаяЗадолженностьСтрокаПоискаРасширеннаяПодсказка" id="301"/>
+								</SearchStringAddition>
+								<ViewStatusAddition name="КредиторскаяЗадолженностьСостояниеПросмотра" id="302">
+									<AdditionSource>
+										<Item>КредиторскаяЗадолженность</Item>
+										<Type>ViewStatusRepresentation</Type>
+									</AdditionSource>
+									<ContextMenu name="КредиторскаяЗадолженностьСостояниеПросмотраКонтекстноеМеню" id="303"/>
+									<ExtendedTooltip name="КредиторскаяЗадолженностьСостояниеПросмотраРасширеннаяПодсказка" id="304"/>
+								</ViewStatusAddition>
+								<SearchControlAddition name="КредиторскаяЗадолженностьУправлениеПоиском" id="305">
+									<AdditionSource>
+										<Item>КредиторскаяЗадолженность</Item>
+										<Type>SearchControl</Type>
+									</AdditionSource>
+									<ContextMenu name="КредиторскаяЗадолженностьУправлениеПоискомКонтекстноеМеню" id="306"/>
+									<ExtendedTooltip name="КредиторскаяЗадолженностьУправлениеПоискомРасширеннаяПодсказка" id="307"/>
+								</SearchControlAddition>
+								<ChildItems>
+									<LabelField name="КредиторскаяЗадолженностьНомерСтроки" id="239">
+										<EditMode>EnterOnInput</EditMode>
+										<FixingInTable>Left</FixingInTable>
+										<Width>2</Width>
+										<HorizontalStretch>false</HorizontalStretch>
+										<ContextMenu name="КредиторскаяЗадолженностьНомерСтрокиКонтекстноеМеню" id="240"/>
+										<ExtendedTooltip name="КредиторскаяЗадолженностьНомерСтрокиРасширеннаяПодсказка" id="308"/>
+									</LabelField>
+									<ColumnGroup name="КредиторскаяЗадолженностьГруппаКонтрагентДоговор" id="564">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Контрагент, договор</v8:content>
+											</v8:item>
+										</Title>
+										<Group>Horizontal</Group>
+										<ExtendedTooltip name="КредиторскаяЗадолженностьГруппаКонтрагентДоговорРасширеннаяПодсказка" id="565"/>
+										<ChildItems>
+											<ColumnGroup name="КредиторскаяЗадолженностьКонтрагентГруппа" id="641">
+												<EnableContentChange>true</EnableContentChange>
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Контрагент</v8:content>
+													</v8:item>
+												</Title>
+												<Group>Horizontal</Group>
+												<ShowInHeader>true</ShowInHeader>
+												<ExtendedTooltip name="КредиторскаяЗадолженностьКонтрагентГруппаРасширеннаяПодсказка" id="642"/>
+												<ChildItems>
+													<InputField name="КредиторскаяЗадолженностьКонтрагент" id="241">
+														<EditMode>EnterOnInput</EditMode>
+														<ShowInHeader>false</ShowInHeader>
+														<FooterText>
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>Итого:</v8:content>
+															</v8:item>
+														</FooterText>
+														<ChooseType>false</ChooseType>
+														<InputHint>
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>Контрагент</v8:content>
+															</v8:item>
+														</InputHint>
+														<ContextMenu name="КредиторскаяЗадолженностьКонтрагентКонтекстноеМеню" id="242"/>
+														<ExtendedTooltip name="КредиторскаяЗадолженностьКонтрагентРасширеннаяПодсказка" id="309"/>
+													</InputField>
+													<PictureField name="КредиторскаяЗадолженностьЭтоНекорректныйКонтрагент" id="643">
+														<Title>
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>Есть ошибка по данным ФНС</v8:content>
+															</v8:item>
+														</Title>
+														<TitleLocation>None</TitleLocation>
+														<EditMode>EnterOnInput</EditMode>
+														<CellHyperlink>true</CellHyperlink>
+														<ShowInHeader>false</ShowInHeader>
+														<Width>2</Width>
+														<AutoMaxWidth>false</AutoMaxWidth>
+														<MaxWidth>2</MaxWidth>
+														<HorizontalStretch>false</HorizontalStretch>
+														<ValuesPicture>
+															<xr:Ref>CommonPicture.НекорректныйКонтрагент</xr:Ref>
+															<xr:LoadTransparent>true</xr:LoadTransparent>
+														</ValuesPicture>
+														<ContextMenu name="КредиторскаяЗадолженностьЭтоНекорректныйКонтрагентКонтекстноеМеню" id="644"/>
+														<ExtendedTooltip name="КредиторскаяЗадолженностьЭтоНекорректныйКонтрагентРасширеннаяПодсказка" id="645"/>
+													</PictureField>
+												</ChildItems>
+											</ColumnGroup>
+											<InputField name="КредиторскаяЗадолженностьДоговор" id="566">
+												<EditMode>EnterOnInput</EditMode>
+												<InputHint>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Договор</v8:content>
+													</v8:item>
+												</InputHint>
+												<ContextMenu name="КредиторскаяЗадолженностьДоговорКонтекстноеМеню" id="567"/>
+												<ExtendedTooltip name="КредиторскаяЗадолженностьДоговорРасширеннаяПодсказка" id="568"/>
+											</InputField>
+										</ChildItems>
+									</ColumnGroup>
+									<InputField name="КредиторскаяЗадолженностьКФО" id="247">
+										<EditMode>EnterOnInput</EditMode>
+										<Width>5</Width>
+										<HorizontalStretch>false</HorizontalStretch>
+										<ContextMenu name="КредиторскаяЗадолженностьКФОКонтекстноеМеню" id="248"/>
+										<ExtendedTooltip name="КредиторскаяЗадолженностьКФОРасширеннаяПодсказка" id="310"/>
+									</InputField>
+									<InputField name="КредиторскаяЗадолженностьКПС" id="245">
+										<EditMode>EnterOnInput</EditMode>
+										<Width>15</Width>
+										<HorizontalStretch>false</HorizontalStretch>
+										<ContextMenu name="КредиторскаяЗадолженностьКПСКонтекстноеМеню" id="246"/>
+										<ExtendedTooltip name="КредиторскаяЗадолженностьКПСРасширеннаяПодсказка" id="311"/>
+									</InputField>
+									<InputField name="КредиторскаяЗадолженностьСчет" id="243">
+										<EditMode>EnterOnInput</EditMode>
+										<Width>8</Width>
+										<HorizontalStretch>false</HorizontalStretch>
+										<ContextMenu name="КредиторскаяЗадолженностьСчетКонтекстноеМеню" id="244"/>
+										<ExtendedTooltip name="КредиторскаяЗадолженностьСчетРасширеннаяПодсказка" id="312"/>
+									</InputField>
+									<InputField name="КредиторскаяЗадолженностьКЭК" id="614">
+										<EditMode>EnterOnInput</EditMode>
+										<ContextMenu name="КредиторскаяЗадолженностьКЭККонтекстноеМеню" id="615"/>
+										<ExtendedTooltip name="КредиторскаяЗадолженностьКЭКРасширеннаяПодсказка" id="616"/>
+									</InputField>
+									<InputField name="КредиторскаяЗадолженностьИФО" id="249">
+										<EditMode>EnterOnInput</EditMode>
+										<ContextMenu name="КредиторскаяЗадолженностьИФОКонтекстноеМеню" id="250"/>
+										<ExtendedTooltip name="КредиторскаяЗадолженностьИФОРасширеннаяПодсказка" id="313"/>
+									</InputField>
+									<InputField name="КредиторскаяЗадолженностьВсего" id="251">
+										<EditMode>EnterOnInput</EditMode>
+										<Width>12</Width>
+										<HorizontalStretch>false</HorizontalStretch>
+										<ContextMenu name="КредиторскаяЗадолженностьВсегоКонтекстноеМеню" id="252"/>
+										<ExtendedTooltip name="КредиторскаяЗадолженностьВсегоРасширеннаяПодсказка" id="315"/>
+									</InputField>
+									<ColumnGroup name="КредиторскаяЗадолженностьГруппаСуммы" id="259">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>в том числе</v8:content>
+											</v8:item>
+										</Title>
+										<ToolTip>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Цветом выделены строки, в которых нарушается условие Всего=Подтверждено + НеПодтверждено + ИстекСрокДавности</v8:content>
+											</v8:item>
+										</ToolTip>
+										<Group>Horizontal</Group>
+										<ShowInHeader>true</ShowInHeader>
+										<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+										<ExtendedTooltip name="КредиторскаяЗадолженностьГруппаСуммыРасширеннаяПодсказка" id="314"/>
+										<ChildItems>
+											<InputField name="КредиторскаяЗадолженностьПодтверждено" id="253">
+												<EditMode>EnterOnInput</EditMode>
+												<Width>12</Width>
+												<HorizontalStretch>false</HorizontalStretch>
+												<ContextMenu name="КредиторскаяЗадолженностьПодтвержденоКонтекстноеМеню" id="254"/>
+												<ExtendedTooltip name="КредиторскаяЗадолженностьПодтвержденоРасширеннаяПодсказка" id="316"/>
+											</InputField>
+											<InputField name="КредиторскаяЗадолженностьНеПодтверждено" id="255">
+												<EditMode>EnterOnInput</EditMode>
+												<Width>12</Width>
+												<HorizontalStretch>false</HorizontalStretch>
+												<ContextMenu name="КредиторскаяЗадолженностьНеПодтвержденоКонтекстноеМеню" id="256"/>
+												<ExtendedTooltip name="КредиторскаяЗадолженностьНеПодтвержденоРасширеннаяПодсказка" id="317"/>
+											</InputField>
+											<InputField name="КредиторскаяЗадолженностьИстекСрокДавности" id="257">
+												<EditMode>EnterOnInput</EditMode>
+												<Width>12</Width>
+												<HorizontalStretch>false</HorizontalStretch>
+												<ContextMenu name="КредиторскаяЗадолженностьИстекСрокДавностиКонтекстноеМеню" id="258"/>
+												<ExtendedTooltip name="КредиторскаяЗадолженностьИстекСрокДавностиРасширеннаяПодсказка" id="318"/>
+											</InputField>
+										</ChildItems>
+									</ColumnGroup>
+									<InputField name="КредиторскаяЗадолженностьДолгосрочная" id="518">
+										<EditMode>EnterOnInput</EditMode>
+										<Width>10</Width>
+										<HorizontalStretch>false</HorizontalStretch>
+										<ContextMenu name="КредиторскаяЗадолженностьДолгосрочнаяКонтекстноеМеню" id="519"/>
+										<ExtendedTooltip name="КредиторскаяЗадолженностьДолгосрочнаяРасширеннаяПодсказка" id="520"/>
+									</InputField>
+									<ColumnGroup name="КредиторскаяЗадолженностьГруппаПросроченная" id="521">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Просроченная</v8:content>
+											</v8:item>
+										</Title>
+										<ToolTip>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Просроченная кредиторская задолженность</v8:content>
+											</v8:item>
+										</ToolTip>
+										<Group>Horizontal</Group>
+										<ShowInHeader>true</ShowInHeader>
+										<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+										<ExtendedTooltip name="КредиторскаяЗадолженностьГруппаПросроченнаяРасширеннаяПодсказка" id="522"/>
+										<ChildItems>
+											<InputField name="КредиторскаяЗадолженностьПросроченная" id="523">
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Сумма</v8:content>
+													</v8:item>
+												</Title>
+												<EditMode>EnterOnInput</EditMode>
+												<Width>10</Width>
+												<HorizontalStretch>false</HorizontalStretch>
+												<ContextMenu name="КредиторскаяЗадолженностьПросроченнаяКонтекстноеМеню" id="524"/>
+												<ExtendedTooltip name="КредиторскаяЗадолженностьПросроченнаяРасширеннаяПодсказка" id="525"/>
+											</InputField>
+											<InputField name="КредиторскаяЗадолженностьДатаВозникновения" id="528">
+												<EditMode>EnterOnInput</EditMode>
+												<Width>10</Width>
+												<HorizontalStretch>false</HorizontalStretch>
+												<ContextMenu name="КредиторскаяЗадолженностьДатаВозникновенияКонтекстноеМеню" id="529"/>
+												<ExtendedTooltip name="КредиторскаяЗадолженностьДатаВозникновенияРасширеннаяПодсказка" id="530"/>
+											</InputField>
+											<InputField name="КредиторскаяЗадолженностьДатаПоОснованию" id="531">
+												<EditMode>EnterOnInput</EditMode>
+												<Width>10</Width>
+												<HorizontalStretch>false</HorizontalStretch>
+												<ContextMenu name="КредиторскаяЗадолженностьДатаПоОснованиюКонтекстноеМеню" id="532"/>
+												<ExtendedTooltip name="КредиторскаяЗадолженностьДатаПоОснованиюРасширеннаяПодсказка" id="533"/>
+											</InputField>
+										</ChildItems>
+									</ColumnGroup>
+								</ChildItems>
+							</Table>
+							<UsualGroup name="ИтогоКредиторы" id="449">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Итого кредиторы</v8:content>
+									</v8:item>
+								</Title>
+								<HorizontalStretch>true</HorizontalStretch>
+								<Group>Horizontal</Group>
+								<Behavior>Usual</Behavior>
+								<Representation>None</Representation>
+								<ShowTitle>false</ShowTitle>
+								<ExtendedTooltip name="ИтогоКредиторыРасширеннаяПодсказка" id="450"/>
+								<ChildItems>
+									<UsualGroup name="ИтогоКредиторыФон" id="453">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Итого кредиторы фон</v8:content>
+											</v8:item>
+										</Title>
+										<GroupHorizontalAlign>Right</GroupHorizontalAlign>
+										<Group>Horizontal</Group>
+										<Behavior>Usual</Behavior>
+										<Representation>None</Representation>
+										<ShowTitle>false</ShowTitle>
+										<BackColor>style:ИтогиФонГруппы</BackColor>
+										<ExtendedTooltip name="ИтогоКредиторыФонРасширеннаяПодсказка" id="454"/>
+										<ChildItems>
+											<UsualGroup name="ИтогоКредиторыВсего" id="487">
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Всего</v8:content>
+													</v8:item>
+												</Title>
+												<Behavior>Usual</Behavior>
+												<Representation>None</Representation>
+												<ExtendedTooltip name="ИтогоКредиторыВсегоРасширеннаяПодсказка" id="488"/>
+												<ChildItems>
+													<InputField name="КредиторскаяЗадолженностьИтогВсего" id="467">
+														<ReadOnly>true</ReadOnly>
+														<TitleLocation>None</TitleLocation>
+														<Width>13</Width>
+														<HorizontalStretch>false</HorizontalStretch>
+														<ContextMenu name="КредиторскаяЗадолженностьИтогВсегоКонтекстноеМеню" id="468"/>
+														<ExtendedTooltip name="КредиторскаяЗадолженностьИтогВсегоРасширеннаяПодсказка" id="469"/>
+													</InputField>
+												</ChildItems>
+											</UsualGroup>
+											<UsualGroup name="ИтогоКредиторыПодтверждено" id="489">
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Подтверждено</v8:content>
+													</v8:item>
+												</Title>
+												<Behavior>Usual</Behavior>
+												<Representation>None</Representation>
+												<ExtendedTooltip name="ИтогоКредиторыПодтвержденоРасширеннаяПодсказка" id="490"/>
+												<ChildItems>
+													<InputField name="КредиторскаяЗадолженностьИтогПодтверждено" id="470">
+														<ReadOnly>true</ReadOnly>
+														<TitleLocation>None</TitleLocation>
+														<Width>13</Width>
+														<HorizontalStretch>false</HorizontalStretch>
+														<ContextMenu name="КредиторскаяЗадолженностьИтогПодтвержденоКонтекстноеМеню" id="471"/>
+														<ExtendedTooltip name="КредиторскаяЗадолженностьИтогПодтвержденоРасширеннаяПодсказка" id="472"/>
+													</InputField>
+												</ChildItems>
+											</UsualGroup>
+											<UsualGroup name="ИтогоКредиторыНеПодтверждено" id="491">
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Не подтверждено</v8:content>
+													</v8:item>
+												</Title>
+												<Behavior>Usual</Behavior>
+												<Representation>None</Representation>
+												<ExtendedTooltip name="ИтогоКредиторыНеПодтвержденоРасширеннаяПодсказка" id="492"/>
+												<ChildItems>
+													<InputField name="КредиторскаяЗадолженностьИтогНеПодтверждено" id="473">
+														<ReadOnly>true</ReadOnly>
+														<TitleLocation>None</TitleLocation>
+														<Width>13</Width>
+														<HorizontalStretch>false</HorizontalStretch>
+														<ContextMenu name="КредиторскаяЗадолженностьИтогНеПодтвержденоКонтекстноеМеню" id="474"/>
+														<ExtendedTooltip name="КредиторскаяЗадолженностьИтогНеПодтвержденоРасширеннаяПодсказка" id="475"/>
+													</InputField>
+												</ChildItems>
+											</UsualGroup>
+											<UsualGroup name="ИтогоКредиторыИстекСрокДавности" id="493">
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Истек срок давности</v8:content>
+													</v8:item>
+												</Title>
+												<Behavior>Usual</Behavior>
+												<Representation>None</Representation>
+												<ExtendedTooltip name="ИтогоКредиторыИстекСрокДавностиРасширеннаяПодсказка" id="494"/>
+												<ChildItems>
+													<InputField name="КредиторскаяЗадолженностьИтогИстекСрокДавности" id="476">
+														<ReadOnly>true</ReadOnly>
+														<TitleLocation>None</TitleLocation>
+														<Width>13</Width>
+														<HorizontalStretch>false</HorizontalStretch>
+														<ContextMenu name="КредиторскаяЗадолженностьИтогИстекСрокДавностиКонтекстноеМеню" id="477"/>
+														<ExtendedTooltip name="КредиторскаяЗадолженностьИтогИстекСрокДавностиРасширеннаяПодсказка" id="478"/>
+													</InputField>
+												</ChildItems>
+											</UsualGroup>
+											<UsualGroup name="ИтогоКредиторыДолгосрочная" id="544">
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Долгосрочная</v8:content>
+													</v8:item>
+												</Title>
+												<Behavior>Usual</Behavior>
+												<Representation>None</Representation>
+												<ExtendedTooltip name="ИтогоКредиторыДолгосрочнаяРасширеннаяПодсказка" id="545"/>
+												<ChildItems>
+													<InputField name="КредиторскаяЗадолженностьИтогДолгосрочная" id="546">
+														<ReadOnly>true</ReadOnly>
+														<TitleLocation>None</TitleLocation>
+														<Width>13</Width>
+														<HorizontalStretch>false</HorizontalStretch>
+														<ContextMenu name="КредиторскаяЗадолженностьИтогДолгосрочнаяКонтекстноеМеню" id="547"/>
+														<ExtendedTooltip name="КредиторскаяЗадолженностьИтогДолгосрочнаяРасширеннаяПодсказка" id="548"/>
+													</InputField>
+												</ChildItems>
+											</UsualGroup>
+											<UsualGroup name="ИтогоКредиторыПросроченная" id="549">
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Просроченная</v8:content>
+													</v8:item>
+												</Title>
+												<ToolTip>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Итого кредиторы долгосрочная</v8:content>
+													</v8:item>
+												</ToolTip>
+												<Behavior>Usual</Behavior>
+												<Representation>None</Representation>
+												<ExtendedTooltip name="ИтогоКредиторыПросроченнаяРасширеннаяПодсказка" id="550"/>
+												<ChildItems>
+													<InputField name="КредиторскаяЗадолженностьИтогПросроченная" id="551">
+														<ReadOnly>true</ReadOnly>
+														<TitleLocation>None</TitleLocation>
+														<Width>13</Width>
+														<HorizontalStretch>false</HorizontalStretch>
+														<ContextMenu name="КредиторскаяЗадолженностьИтогПросроченнаяКонтекстноеМеню" id="552"/>
+														<ExtendedTooltip name="КредиторскаяЗадолженностьИтогПросроченнаяРасширеннаяПодсказка" id="553"/>
+													</InputField>
+												</ChildItems>
+											</UsualGroup>
+										</ChildItems>
+									</UsualGroup>
+								</ChildItems>
+							</UsualGroup>
+						</ChildItems>
+					</Page>
+					<Page name="СтраницаНастройкиЗаполнения" id="52">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Настройки заполнения</v8:content>
+							</v8:item>
+						</Title>
+						<ToolTip>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Настройки заполнения по данным учета</v8:content>
+							</v8:item>
+						</ToolTip>
+						<Picture>
+							<xr:Ref>StdPicture.ReportSettings</xr:Ref>
+							<xr:LoadTransparent>true</xr:LoadTransparent>
+						</Picture>
+						<ExtendedTooltip name="СтраницаНастройкиЗаполненияРасширеннаяПодсказка" id="319"/>
+						<ChildItems>
+							<UsualGroup name="ГруппаИФО" id="113">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Группа ИФО</v8:content>
+									</v8:item>
+								</Title>
+								<Group>Horizontal</Group>
+								<Behavior>Usual</Behavior>
+								<Representation>None</Representation>
+								<ShowTitle>false</ShowTitle>
+								<ExtendedTooltip name="ГруппаИФОРасширеннаяПодсказка" id="321"/>
+								<ChildItems>
+									<InputField name="ИФО" id="17">
+										<EditMode>EnterOnInput</EditMode>
+										<AutoMaxWidth>false</AutoMaxWidth>
+										<HorizontalStretch>true</HorizontalStretch>
+										<ClearButton>true</ClearButton>
+										<ChoiceListButton>false</ChoiceListButton>
+										<ContextMenu name="ИФОКонтекстноеМеню" id="18"/>
+										<ExtendedTooltip name="ИФОРасширеннаяПодсказка" id="322"/>
+									</InputField>
+									<CheckBoxField name="БезУчетаИФО" id="19">
+										<TitleLocation>Right</TitleLocation>
+										<EditMode>EnterOnInput</EditMode>
+										<CheckBoxType>Auto</CheckBoxType>
+										<ContextMenu name="БезУчетаИФОКонтекстноеМеню" id="20"/>
+										<ExtendedTooltip name="БезУчетаИФОРасширеннаяПодсказка" id="323"/>
+									</CheckBoxField>
+								</ChildItems>
+							</UsualGroup>
+							<UsualGroup name="ГруппаОтборы" id="557">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Группа отборы</v8:content>
+									</v8:item>
+								</Title>
+								<Group>AlwaysHorizontal</Group>
+								<Behavior>Usual</Behavior>
+								<Representation>None</Representation>
+								<ShowTitle>false</ShowTitle>
+								<ExtendedTooltip name="ГруппаОтборыРасширеннаяПодсказка" id="558"/>
+								<ChildItems>
+									<InputField name="КФО" id="15">
+										<EditMode>EnterOnInput</EditMode>
+										<Width>14</Width>
+										<AutoMaxWidth>false</AutoMaxWidth>
+										<HorizontalStretch>false</HorizontalStretch>
+										<ClearButton>true</ClearButton>
+										<InputHint>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>&lt;без ограничения&gt;</v8:content>
+											</v8:item>
+										</InputHint>
+										<ContextMenu name="КФОКонтекстноеМеню" id="16"/>
+										<ExtendedTooltip name="КФОРасширеннаяПодсказка" id="324"/>
+									</InputField>
+									<InputField name="Подразделение" id="495">
+										<ClearButton>true</ClearButton>
+										<InputHint>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>&lt;без ограничения&gt;</v8:content>
+											</v8:item>
+										</InputHint>
+										<ContextMenu name="ПодразделениеКонтекстноеМеню" id="496"/>
+										<ExtendedTooltip name="ПодразделениеРасширеннаяПодсказка" id="497"/>
+									</InputField>
+								</ChildItems>
+							</UsualGroup>
+							<UsualGroup name="ГруппаОтборСписки" id="156">
+								<Group>Horizontal</Group>
+								<Behavior>Usual</Behavior>
+								<Representation>None</Representation>
+								<ShowTitle>false</ShowTitle>
+								<ExtendedTooltip name="ГруппаОтборСпискиРасширеннаяПодсказка" id="325"/>
+								<ChildItems>
+									<UsualGroup name="ГруппаСписокСчетов" id="434">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Счета учета расчетов</v8:content>
+											</v8:item>
+										</Title>
+										<ToolTip>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>включая субсчета</v8:content>
+											</v8:item>
+										</ToolTip>
+										<Group>Vertical</Group>
+										<Behavior>Usual</Behavior>
+										<ExtendedTooltip name="ГруппаСписокСчетовРасширеннаяПодсказка" id="435"/>
+										<ChildItems>
+											<Table name="СписокСчетов" id="398">
+												<TitleLocation>Auto</TitleLocation>
+												<AutoInsertNewRow>true</AutoInsertNewRow>
+												<EnableStartDrag>true</EnableStartDrag>
+												<EnableDrag>true</EnableDrag>
+												<FileDragMode>AsFile</FileDragMode>
+												<RowFilter xsi:nil="true"/>
+												<ContextMenu name="СписокСчетовКонтекстноеМеню" id="399"/>
+												<AutoCommandBar name="СписокСчетовКоманднаяПанель" id="400">
+													<ChildItems>
+														<Popup name="СписокСчетовГруппаЗаполнить" id="436">
+															<Title>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Заполнить</v8:content>
+																</v8:item>
+															</Title>
+															<ExtendedTooltip name="СписокСчетовГруппаЗаполнитьРасширеннаяПодсказка" id="437"/>
+															<ChildItems>
+																<Button name="СписокСчетовЗаполнитьСчетамиПоУмолчанию1" id="432">
+																	<Type>CommandBarButton</Type>
+																	<CommandName>0</CommandName>
+																	<ExtendedTooltip name="СписокСчетовЗаполнитьСчетамиПоУмолчанию1РасширеннаяПодсказка" id="433"/>
+																</Button>
+															</ChildItems>
+														</Popup>
+													</ChildItems>
+												</AutoCommandBar>
+												<ExtendedTooltip name="СписокСчетовРасширеннаяПодсказка" id="401"/>
+												<SearchStringAddition name="СписокСчетовСтрокаПоиска" id="402">
+													<AdditionSource>
+														<Item>СписокСчетов</Item>
+														<Type>SearchStringRepresentation</Type>
+													</AdditionSource>
+													<ContextMenu name="СписокСчетовСтрокаПоискаКонтекстноеМеню" id="405"/>
+													<ExtendedTooltip name="СписокСчетовСтрокаПоискаРасширеннаяПодсказка" id="406"/>
+												</SearchStringAddition>
+												<ViewStatusAddition name="СписокСчетовСостояниеПросмотра" id="407">
+													<AdditionSource>
+														<Item>СписокСчетов</Item>
+														<Type>ViewStatusRepresentation</Type>
+													</AdditionSource>
+													<ContextMenu name="СписокСчетовСостояниеПросмотраКонтекстноеМеню" id="410"/>
+													<ExtendedTooltip name="СписокСчетовСостояниеПросмотраРасширеннаяПодсказка" id="411"/>
+												</ViewStatusAddition>
+												<SearchControlAddition name="СписокСчетовУправлениеПоиском" id="412">
+													<AdditionSource>
+														<Item>СписокСчетов</Item>
+														<Type>SearchControl</Type>
+													</AdditionSource>
+													<ContextMenu name="СписокСчетовУправлениеПоискомКонтекстноеМеню" id="415"/>
+													<ExtendedTooltip name="СписокСчетовУправлениеПоискомРасширеннаяПодсказка" id="416"/>
+												</SearchControlAddition>
+												<ChildItems>
+													<LabelField name="СписокСчетовНомерСтроки" id="417">
+														<EditMode>EnterOnInput</EditMode>
+														<Width>4</Width>
+														<ContextMenu name="СписокСчетовНомерСтрокиКонтекстноеМеню" id="418"/>
+														<ExtendedTooltip name="СписокСчетовНомерСтрокиРасширеннаяПодсказка" id="419"/>
+													</LabelField>
+													<InputField name="СписокСчетовСчет" id="420">
+														<EditMode>EnterOnInput</EditMode>
+														<HorizontalStretch>false</HorizontalStretch>
+														<ContextMenu name="СписокСчетовСчетКонтекстноеМеню" id="421"/>
+														<ExtendedTooltip name="СписокСчетовСчетРасширеннаяПодсказка" id="422"/>
+													</InputField>
+													<InputField name="СписокСчетовВидСчета" id="438">
+														<ReadOnly>true</ReadOnly>
+														<ToolTip>
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>Вид счета</v8:content>
+															</v8:item>
+														</ToolTip>
+														<HorizontalAlign>Center</HorizontalAlign>
+														<EditMode>EnterOnInput</EditMode>
+														<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+														<Width>6</Width>
+														<ContextMenu name="СписокСчетовВидСчетаКонтекстноеМеню" id="439"/>
+														<ExtendedTooltip name="СписокСчетовВидСчетаРасширеннаяПодсказка" id="440"/>
+													</InputField>
+													<LabelField name="СписокСчетовСчетНаименование" id="429">
+														<EditMode>EnterOnInput</EditMode>
+														<ContextMenu name="СписокСчетовСчетНаименованиеКонтекстноеМеню" id="430"/>
+														<ExtendedTooltip name="СписокСчетовСчетНаименованиеРасширеннаяПодсказка" id="431"/>
+													</LabelField>
+												</ChildItems>
+											</Table>
+										</ChildItems>
+									</UsualGroup>
+									<UsualGroup name="ГруппаСписокКонтрагентов" id="114">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Контрагенты</v8:content>
+											</v8:item>
+										</Title>
+										<Group>Vertical</Group>
+										<Behavior>Usual</Behavior>
+										<ExtendedTooltip name="ГруппаСписокКонтрагентовРасширеннаяПодсказка" id="340"/>
+										<ChildItems>
+											<Table name="СписокКонтрагентов" id="157">
+												<AutoInsertNewRow>true</AutoInsertNewRow>
+												<EnableStartDrag>true</EnableStartDrag>
+												<EnableDrag>true</EnableDrag>
+												<FileDragMode>AsFile</FileDragMode>
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Контрагенты</v8:content>
+													</v8:item>
+												</Title>
+												<SearchStringLocation>None</SearchStringLocation>
+												<ViewStatusLocation>None</ViewStatusLocation>
+												<SearchControlLocation>None</SearchControlLocation>
+												<RowFilter xsi:nil="true"/>
+												<ContextMenu name="СписокКонтрагентовКонтекстноеМеню" id="158">
+													<ChildItems>
+														<Button name="СписокКонтрагентовПодобратьКонтрагентов1" id="165">
+															<Type>CommandBarButton</Type>
+															<CommandName>0</CommandName>
+															<ExtendedTooltip name="СписокКонтрагентовПодобратьКонтрагентов1РасширеннаяПодсказка" id="344"/>
+														</Button>
+													</ChildItems>
+												</ContextMenu>
+												<AutoCommandBar name="СписокКонтрагентовКоманднаяПанель" id="159">
+													<ChildItems>
+														<Button name="СписокКонтрагентовПодобратьКонтрагентов" id="164">
+															<Type>CommandBarButton</Type>
+															<CommandName>0</CommandName>
+															<ExtendedTooltip name="СписокКонтрагентовПодобратьКонтрагентовРасширеннаяПодсказка" id="345"/>
+														</Button>
+													</ChildItems>
+												</AutoCommandBar>
+												<ExtendedTooltip name="СписокКонтрагентовРасширеннаяПодсказка" id="346"/>
+												<SearchStringAddition name="СписокКонтрагентовСтрокаПоиска" id="347">
+													<AdditionSource>
+														<Item>СписокКонтрагентов</Item>
+														<Type>SearchStringRepresentation</Type>
+													</AdditionSource>
+													<ContextMenu name="СписокКонтрагентовСтрокаПоискаКонтекстноеМеню" id="348"/>
+													<ExtendedTooltip name="СписокКонтрагентовСтрокаПоискаРасширеннаяПодсказка" id="349"/>
+												</SearchStringAddition>
+												<ViewStatusAddition name="СписокКонтрагентовСостояниеПросмотра" id="350">
+													<AdditionSource>
+														<Item>СписокКонтрагентов</Item>
+														<Type>ViewStatusRepresentation</Type>
+													</AdditionSource>
+													<ContextMenu name="СписокКонтрагентовСостояниеПросмотраКонтекстноеМеню" id="351"/>
+													<ExtendedTooltip name="СписокКонтрагентовСостояниеПросмотраРасширеннаяПодсказка" id="352"/>
+												</ViewStatusAddition>
+												<SearchControlAddition name="СписокКонтрагентовУправлениеПоиском" id="353">
+													<AdditionSource>
+														<Item>СписокКонтрагентов</Item>
+														<Type>SearchControl</Type>
+													</AdditionSource>
+													<ContextMenu name="СписокКонтрагентовУправлениеПоискомКонтекстноеМеню" id="354"/>
+													<ExtendedTooltip name="СписокКонтрагентовУправлениеПоискомРасширеннаяПодсказка" id="355"/>
+												</SearchControlAddition>
+												<ChildItems>
+													<LabelField name="СписокКонтрагентовНомерСтроки" id="160">
+														<EditMode>EnterOnInput</EditMode>
+														<HorizontalStretch>false</HorizontalStretch>
+														<ContextMenu name="СписокКонтрагентовНомерСтрокиКонтекстноеМеню" id="161"/>
+														<ExtendedTooltip name="СписокКонтрагентовНомерСтрокиРасширеннаяПодсказка" id="356"/>
+													</LabelField>
+													<ColumnGroup name="СписокКонтрагентовКонтрагентГруппа" id="646">
+														<EnableContentChange>true</EnableContentChange>
+														<Title>
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>Контрагент</v8:content>
+															</v8:item>
+														</Title>
+														<Group>Horizontal</Group>
+														<ShowInHeader>true</ShowInHeader>
+														<ExtendedTooltip name="СписокКонтрагентовКонтрагентГруппаРасширеннаяПодсказка" id="647"/>
+														<ChildItems>
+															<InputField name="СписокКонтрагентовКонтрагент" id="162">
+																<EditMode>EnterOnInput</EditMode>
+																<ShowInHeader>false</ShowInHeader>
+																<HorizontalStretch>true</HorizontalStretch>
+																<ContextMenu name="СписокКонтрагентовКонтрагентКонтекстноеМеню" id="163"/>
+																<ExtendedTooltip name="СписокКонтрагентовКонтрагентРасширеннаяПодсказка" id="357"/>
+															</InputField>
+															<PictureField name="СписокКонтрагентовЭтоНекорректныйКонтрагент" id="648">
+																<Title>
+																	<v8:item>
+																		<v8:lang>ru</v8:lang>
+																		<v8:content>Есть ошибка по данным ФНС</v8:content>
+																	</v8:item>
+																</Title>
+																<EditMode>EnterOnInput</EditMode>
+																<CellHyperlink>true</CellHyperlink>
+																<ShowInHeader>false</ShowInHeader>
+																<Width>2</Width>
+																<AutoMaxWidth>false</AutoMaxWidth>
+																<MaxWidth>2</MaxWidth>
+																<HorizontalStretch>false</HorizontalStretch>
+																<ValuesPicture>
+																	<xr:Ref>CommonPicture.НекорректныйКонтрагент</xr:Ref>
+																	<xr:LoadTransparent>true</xr:LoadTransparent>
+																</ValuesPicture>
+																<ContextMenu name="СписокКонтрагентовЭтоНекорректныйКонтрагентКонтекстноеМеню" id="649"/>
+																<ExtendedTooltip name="СписокКонтрагентовЭтоНекорректныйКонтрагентРасширеннаяПодсказка" id="650"/>
+															</PictureField>
+														</ChildItems>
+													</ColumnGroup>
+												</ChildItems>
+											</Table>
+										</ChildItems>
+									</UsualGroup>
+								</ChildItems>
+							</UsualGroup>
+							<UsualGroup name="ГруппаНастройкиПечати" id="209">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Настройки печати</v8:content>
+									</v8:item>
+								</Title>
+								<HorizontalStretch>true</HorizontalStretch>
+								<Group>Vertical</Group>
+								<Behavior>Usual</Behavior>
+								<ExtendedTooltip name="ГруппаНастройкиПечатиРасширеннаяПодсказка" id="358"/>
+								<ChildItems>
+									<CheckBoxField name="ПечататьОтбор" id="205">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Печатать отбор</v8:content>
+											</v8:item>
+										</Title>
+										<TitleLocation>Right</TitleLocation>
+										<ToolTip>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Выводить на печать установленный здесь отбор</v8:content>
+											</v8:item>
+										</ToolTip>
+										<CheckBoxType>Auto</CheckBoxType>
+										<ContextMenu name="ПечататьОтборКонтекстноеМеню" id="206"/>
+										<ExtendedTooltip name="ПечататьОтборРасширеннаяПодсказка" id="359"/>
+									</CheckBoxField>
+									<CheckBoxField name="ГруппироватьПоКонтрагентам" id="210">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Группировать по контрагентам</v8:content>
+											</v8:item>
+										</Title>
+										<TitleLocation>Right</TitleLocation>
+										<CheckBoxType>Auto</CheckBoxType>
+										<ContextMenu name="ГруппироватьПоКонтрагентамКонтекстноеМеню" id="211"/>
+										<ExtendedTooltip name="ГруппироватьПоКонтрагентамРасширеннаяПодсказка" id="360"/>
+									</CheckBoxField>
+								</ChildItems>
+							</UsualGroup>
+						</ChildItems>
+					</Page>
+					<Page name="СтраницаИнвентаризация" id="77">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Комиссия</v8:content>
+							</v8:item>
+						</Title>
+						<ExtendedTooltip name="СтраницаИнвентаризацияРасширеннаяПодсказка" id="361"/>
+						<ChildItems>
+							<UsualGroup name="ГруппаПриказКомиссии" id="445">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Приказ о назначении комиссии</v8:content>
+									</v8:item>
+								</Title>
+								<Group>Vertical</Group>
+								<Behavior>Usual</Behavior>
+								<ExtendedTooltip name="ГруппаПриказКомиссииРасширеннаяПодсказка" id="446"/>
+								<ChildItems>
+									<Button name="ВыбратьКомиссию" id="78">
+										<Type>Hyperlink</Type>
+										<CommandName>0</CommandName>
+										<ExtendedTooltip name="ВыбратьКомиссиюРасширеннаяПодсказка" id="373"/>
+									</Button>
+								</ChildItems>
+							</UsualGroup>
+							<UsualGroup name="ГруппаПредседатель" id="79">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Председатель комиссии</v8:content>
+									</v8:item>
+								</Title>
+								<Group>Horizontal</Group>
+								<Behavior>Usual</Behavior>
+								<ExtendedTooltip name="ГруппаПредседательРасширеннаяПодсказка" id="374"/>
+								<ChildItems>
+									<InputField name="ДолжностьПредседателяКомиссии" id="80">
+										<EditMode>EnterOnInput</EditMode>
+										<Width>15</Width>
+										<ContextMenu name="ДолжностьПредседателяКомиссииКонтекстноеМеню" id="81"/>
+										<ExtendedTooltip name="ДолжностьПредседателяКомиссииРасширеннаяПодсказка" id="375"/>
+									</InputField>
+									<InputField name="ФамилияПредседателяКомиссии" id="82">
+										<EditMode>EnterOnInput</EditMode>
+										<Width>15</Width>
+										<ContextMenu name="ФамилияПредседателяКомиссииКонтекстноеМеню" id="83"/>
+										<ExtendedTooltip name="ФамилияПредседателяКомиссииРасширеннаяПодсказка" id="376"/>
+									</InputField>
+									<InputField name="ИмяПредседателяКомиссии" id="84">
+										<EditMode>EnterOnInput</EditMode>
+										<Width>15</Width>
+										<ContextMenu name="ИмяПредседателяКомиссииКонтекстноеМеню" id="85"/>
+										<ExtendedTooltip name="ИмяПредседателяКомиссииРасширеннаяПодсказка" id="377"/>
+									</InputField>
+									<InputField name="ОтчествоПредседателяКомиссии" id="86">
+										<EditMode>EnterOnInput</EditMode>
+										<Width>15</Width>
+										<ContextMenu name="ОтчествоПредседателяКомиссииКонтекстноеМеню" id="87"/>
+										<ExtendedTooltip name="ОтчествоПредседателяКомиссииРасширеннаяПодсказка" id="378"/>
+									</InputField>
+									<Button name="ВыбратьПредседателяКомиссии" id="88">
+										<Type>UsualButton</Type>
+										<CommandName>0</CommandName>
+										<ExtendedTooltip name="ВыбратьПредседателяКомиссииРасширеннаяПодсказка" id="379"/>
+									</Button>
+								</ChildItems>
+							</UsualGroup>
+							<Table name="СоставКомиссии" id="89">
+								<Representation>List</Representation>
+								<AutoInsertNewRow>true</AutoInsertNewRow>
+								<EnableStartDrag>true</EnableStartDrag>
+								<EnableDrag>true</EnableDrag>
+								<FileDragMode>AsFile</FileDragMode>
+								<SearchStringLocation>None</SearchStringLocation>
+								<ViewStatusLocation>None</ViewStatusLocation>
+								<SearchControlLocation>None</SearchControlLocation>
+								<RowFilter xsi:nil="true"/>
+								<ContextMenu name="СоставКомиссииКонтекстноеМеню" id="90"/>
+								<AutoCommandBar name="СоставКомиссииКоманднаяПанель" id="91">
+									<ChildItems>
+										<Button name="СоставКомиссииПодобратьСотрудников" id="102">
+											<Type>CommandBarButton</Type>
+											<CommandName>0</CommandName>
+											<ExtendedTooltip name="СоставКомиссииПодобратьСотрудниковРасширеннаяПодсказка" id="380"/>
+										</Button>
+									</ChildItems>
+								</AutoCommandBar>
+								<ExtendedTooltip name="СоставКомиссииРасширеннаяПодсказка" id="381"/>
+								<SearchStringAddition name="СоставКомиссииСтрокаПоиска" id="382">
+									<AdditionSource>
+										<Item>СоставКомиссии</Item>
+										<Type>SearchStringRepresentation</Type>
+									</AdditionSource>
+									<ContextMenu name="СоставКомиссииСтрокаПоискаКонтекстноеМеню" id="383"/>
+									<ExtendedTooltip name="СоставКомиссииСтрокаПоискаРасширеннаяПодсказка" id="384"/>
+								</SearchStringAddition>
+								<ViewStatusAddition name="СоставКомиссииСостояниеПросмотра" id="385">
+									<AdditionSource>
+										<Item>СоставКомиссии</Item>
+										<Type>ViewStatusRepresentation</Type>
+									</AdditionSource>
+									<ContextMenu name="СоставКомиссииСостояниеПросмотраКонтекстноеМеню" id="386"/>
+									<ExtendedTooltip name="СоставКомиссииСостояниеПросмотраРасширеннаяПодсказка" id="387"/>
+								</ViewStatusAddition>
+								<SearchControlAddition name="СоставКомиссииУправлениеПоиском" id="388">
+									<AdditionSource>
+										<Item>СоставКомиссии</Item>
+										<Type>SearchControl</Type>
+									</AdditionSource>
+									<ContextMenu name="СоставКомиссииУправлениеПоискомКонтекстноеМеню" id="389"/>
+									<ExtendedTooltip name="СоставКомиссииУправлениеПоискомРасширеннаяПодсказка" id="390"/>
+								</SearchControlAddition>
+								<ChildItems>
+									<LabelField name="СоставКомиссииНомерСтроки" id="103">
+										<EditMode>EnterOnInput</EditMode>
+										<ContextMenu name="СоставКомиссииНомерСтрокиКонтекстноеМеню" id="104"/>
+										<ExtendedTooltip name="СоставКомиссииНомерСтрокиРасширеннаяПодсказка" id="391"/>
+									</LabelField>
+									<InputField name="СоставКомиссииДолжностьЧленаКомиссии" id="105">
+										<EditMode>EnterOnInput</EditMode>
+										<Width>10</Width>
+										<ContextMenu name="СоставКомиссииДолжностьЧленаКомиссииКонтекстноеМеню" id="106"/>
+										<ExtendedTooltip name="СоставКомиссииДолжностьЧленаКомиссииРасширеннаяПодсказка" id="392"/>
+									</InputField>
+									<InputField name="СоставКомиссииФамилияЧленаКомиссии" id="107">
+										<EditMode>EnterOnInput</EditMode>
+										<Width>10</Width>
+										<ContextMenu name="СоставКомиссииФамилияЧленаКомиссииКонтекстноеМеню" id="108"/>
+										<ExtendedTooltip name="СоставКомиссииФамилияЧленаКомиссииРасширеннаяПодсказка" id="393"/>
+									</InputField>
+									<InputField name="СоставКомиссииИмяЧленаКомиссии" id="109">
+										<EditMode>EnterOnInput</EditMode>
+										<Width>10</Width>
+										<ContextMenu name="СоставКомиссииИмяЧленаКомиссииКонтекстноеМеню" id="110"/>
+										<ExtendedTooltip name="СоставКомиссииИмяЧленаКомиссииРасширеннаяПодсказка" id="394"/>
+									</InputField>
+									<InputField name="СоставКомиссииОтчествоЧленаКомиссии" id="111">
+										<EditMode>EnterOnInput</EditMode>
+										<Width>10</Width>
+										<ContextMenu name="СоставКомиссииОтчествоЧленаКомиссииКонтекстноеМеню" id="112"/>
+										<ExtendedTooltip name="СоставКомиссииОтчествоЧленаКомиссииРасширеннаяПодсказка" id="395"/>
+									</InputField>
+								</ChildItems>
+							</Table>
+							<UsualGroup name="ГруппаИнвентаризация" id="128">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Сведения о проводимой инвентаризации</v8:content>
+									</v8:item>
+								</Title>
+								<Group>Vertical</Group>
+								<Behavior>Usual</Behavior>
+								<ExtendedTooltip name="ГруппаИнвентаризацияРасширеннаяПодсказка" id="362"/>
+								<ChildItems>
+									<UsualGroup name="ГруппаПриказИнвентаризации" id="129">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Приказ о назначении комиссии</v8:content>
+											</v8:item>
+										</Title>
+										<Group>Horizontal</Group>
+										<Behavior>Usual</Behavior>
+										<Representation>None</Representation>
+										<ShowTitle>false</ShowTitle>
+										<ExtendedTooltip name="ГруппаПриказИнвентаризацииРасширеннаяПодсказка" id="363"/>
+										<ChildItems>
+											<InputField name="НомерПриказа" id="130">
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Приказ №</v8:content>
+													</v8:item>
+												</Title>
+												<Width>14</Width>
+												<HorizontalStretch>false</HorizontalStretch>
+												<ContextMenu name="НомерПриказаКонтекстноеМеню" id="131"/>
+												<ExtendedTooltip name="НомерПриказаРасширеннаяПодсказка" id="364"/>
+											</InputField>
+											<InputField name="ДатаПриказа" id="132">
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>от</v8:content>
+													</v8:item>
+												</Title>
+												<Width>10</Width>
+												<HorizontalStretch>false</HorizontalStretch>
+												<ContextMenu name="ДатаПриказаКонтекстноеМеню" id="133"/>
+												<ExtendedTooltip name="ДатаПриказаРасширеннаяПодсказка" id="365"/>
+											</InputField>
+											<UsualGroup name="ГруппаПериодПроведенияИнв" id="134">
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Период проведения</v8:content>
+													</v8:item>
+												</Title>
+												<Group>Horizontal</Group>
+												<Behavior>Usual</Behavior>
+												<Representation>None</Representation>
+												<ShowTitle>false</ShowTitle>
+												<ExtendedTooltip name="ГруппаПериодПроведенияИнвРасширеннаяПодсказка" id="366"/>
+												<ChildItems>
+													<InputField name="ДатаНачала" id="135">
+														<Title>
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>Период проведения с</v8:content>
+															</v8:item>
+														</Title>
+														<ToolTip>
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>Период инвентаризации с ... по ...</v8:content>
+															</v8:item>
+														</ToolTip>
+														<Width>10</Width>
+														<ContextMenu name="ДатаНачалаКонтекстноеМеню" id="136"/>
+														<ExtendedTooltip name="ДатаНачалаРасширеннаяПодсказка" id="367"/>
+													</InputField>
+													<InputField name="ДатаОкончания" id="137">
+														<Title>
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>по</v8:content>
+															</v8:item>
+														</Title>
+														<Width>10</Width>
+														<ContextMenu name="ДатаОкончанияКонтекстноеМеню" id="138"/>
+														<ExtendedTooltip name="ДатаОкончанияРасширеннаяПодсказка" id="368"/>
+													</InputField>
+													<Button name="УстановитьПериод" id="139">
+														<Type>UsualButton</Type>
+														<Width>4</Width>
+														<CommandName>0</CommandName>
+														<Title>
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>...</v8:content>
+															</v8:item>
+														</Title>
+														<ExtendedTooltip name="УстановитьПериодРасширеннаяПодсказка" id="369"/>
+													</Button>
+												</ChildItems>
+											</UsualGroup>
+										</ChildItems>
+									</UsualGroup>
+									<InputField name="МестоИнвентаризации" id="207">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Место проведения</v8:content>
+											</v8:item>
+										</Title>
+										<AutoMaxWidth>false</AutoMaxWidth>
+										<ContextMenu name="МестоИнвентаризацииКонтекстноеМеню" id="208"/>
+										<ExtendedTooltip name="МестоИнвентаризацииРасширеннаяПодсказка" id="370"/>
+									</InputField>
+								</ChildItems>
+							</UsualGroup>
+							<UsualGroup name="ГруппаДатаПодписания" id="609">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Дата подписания описи</v8:content>
+									</v8:item>
+								</Title>
+								<Behavior>Usual</Behavior>
+								<Representation>NormalSeparation</Representation>
+								<ExtendedTooltip name="ГруппаДатаПодписанияРасширеннаяПодсказка" id="610"/>
+								<ChildItems>
+									<InputField name="ДатаПодписиКомиссии" id="606">
+										<TitleLocation>None</TitleLocation>
+										<ContextMenu name="ДатаПодписиКомиссииКонтекстноеМеню" id="607"/>
+										<ExtendedTooltip name="ДатаПодписиКомиссииРасширеннаяПодсказка" id="608"/>
+									</InputField>
+								</ChildItems>
+							</UsualGroup>
+						</ChildItems>
+					</Page>
+					<Page name="СтраницаЗаключениеКомиссии" id="594">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Заключение комиссии</v8:content>
+							</v8:item>
+						</Title>
+						<ExtendedTooltip name="СтраницаЗаключениеКомиссииРасширеннаяПодсказка" id="595"/>
+						<ChildItems>
+							<InputField name="ЗаключениеКомиссии" id="596">
+								<Width>50</Width>
+								<AutoMaxWidth>false</AutoMaxWidth>
+								<MultiLine>true</MultiLine>
+								<ContextMenu name="ЗаключениеКомиссииКонтекстноеМеню" id="597"/>
+								<ExtendedTooltip name="ЗаключениеКомиссииРасширеннаяПодсказка" id="598"/>
+							</InputField>
+						</ChildItems>
+					</Page>
+				</ChildItems>
+			</Pages>
+			<UsualGroup name="ГруппаСостояниеЭДО" id="599">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Группа состояние ЭДО</v8:content>
+					</v8:item>
+				</Title>
+				<Group>Vertical</Group>
+				<Behavior>Usual</Behavior>
+				<Representation>None</Representation>
+				<ShowTitle>false</ShowTitle>
+				<ExtendedTooltip name="ГруппаСостояниеЭДОРасширеннаяПодсказка" id="600"/>
+				<ChildItems>
+					<LabelDecoration name="ДекорацияСостояниеЭДО" id="601">
+						<Title formatted="false">
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Состояние ЭДО</v8:content>
+							</v8:item>
+						</Title>
+						<ToolTip>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Состояние ЭДО</v8:content>
+							</v8:item>
+						</ToolTip>
+						<Hyperlink>true</Hyperlink>
+						<ContextMenu name="ДекорацияСостояниеЭДОКонтекстноеМеню" id="602"/>
+						<ExtendedTooltip name="ДекорацияСостояниеЭДОРасширеннаяПодсказка" id="603"/>
+					</LabelDecoration>
+				</ChildItems>
+			</UsualGroup>
+			<UsualGroup name="Подвал" id="441">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Подвал</v8:content>
+					</v8:item>
+				</Title>
+				<Group>Horizontal</Group>
+				<Behavior>Usual</Behavior>
+				<Representation>None</Representation>
+				<ShowTitle>false</ShowTitle>
+				<ExtendedTooltip name="ПодвалРасширеннаяПодсказка" id="442"/>
+				<ChildItems>
+					<InputField name="Комментарий" id="13">
+						<TitleLocation>Left</TitleLocation>
+						<EditMode>EnterOnInput</EditMode>
+						<AutoMaxWidth>false</AutoMaxWidth>
+						<Height>1</Height>
+						<VerticalStretch>false</VerticalStretch>
+						<ContextMenu name="КомментарийКонтекстноеМеню" id="14"/>
+						<ExtendedTooltip name="КомментарийРасширеннаяПодсказка" id="396"/>
+					</InputField>
+					<InputField name="Ответственный" id="11">
+						<WarningOnEditRepresentation>Show</WarningOnEditRepresentation>
+						<EditMode>EnterOnInput</EditMode>
+						<HorizontalStretch>false</HorizontalStretch>
+						<ContextMenu name="ОтветственныйКонтекстноеМеню" id="12"/>
+						<ExtendedTooltip name="ОтветственныйРасширеннаяПодсказка" id="371"/>
+					</InputField>
+				</ChildItems>
+			</UsualGroup>
+			<UsualGroup name="ИнформационныеСсылки" id="262">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Информационные ссылки</v8:content>
+					</v8:item>
+				</Title>
+				<Group>Vertical</Group>
+				<Behavior>Usual</Behavior>
+				<ExtendedTooltip name="ИнформационныеСсылкиРасширеннаяПодсказка" id="397"/>
+			</UsualGroup>
+		</ChildItems>
+		<Attributes>
+			<ConditionalAppearance>
+				<dcsset:item>
+					<dcsset:selection>
+						<dcsset:item>
+							<dcsset:field>ДебиторскаяЗадолженностьВсего</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>ДебиторскаяЗадолженностьПодтверждено</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>ДебиторскаяЗадолженностьНеПодтверждено</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>ДебиторскаяЗадолженностьИстекСрокДавности</dcsset:field>
+						</dcsset:item>
+					</dcsset:selection>
+					<dcsset:filter>
+						<dcsset:item xsi:type="dcsset:FilterItemComparison">
+							<dcsset:left xsi:type="dcscor:Field">Объект.ДебиторскаяЗадолженность.ОтметитьСтроку</dcsset:left>
+							<dcsset:comparisonType>Equal</dcsset:comparisonType>
+							<dcsset:right xsi:type="xs:boolean">true</dcsset:right>
+						</dcsset:item>
+					</dcsset:filter>
+					<dcsset:appearance>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:parameter>ЦветТекста</dcscor:parameter>
+							<dcscor:value xsi:type="v8ui:Color">style:SpecialTextColor</dcscor:value>
+						</dcscor:item>
+					</dcsset:appearance>
+					<dcsset:presentation xsi:type="xs:string">Таблица "Дебиторская задолженность" - отметка строк, в кот. нарушается равенство сумм.</dcsset:presentation>
+				</dcsset:item>
+				<dcsset:item>
+					<dcsset:selection>
+						<dcsset:item>
+							<dcsset:field>КредиторскаяЗадолженностьВсего</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>КредиторскаяЗадолженностьПодтверждено</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>КредиторскаяЗадолженностьНеПодтверждено</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>КредиторскаяЗадолженностьИстекСрокДавности</dcsset:field>
+						</dcsset:item>
+					</dcsset:selection>
+					<dcsset:filter>
+						<dcsset:item xsi:type="dcsset:FilterItemComparison">
+							<dcsset:left xsi:type="dcscor:Field">Объект.КредиторскаяЗадолженность.ОтметитьСтроку</dcsset:left>
+							<dcsset:comparisonType>Equal</dcsset:comparisonType>
+							<dcsset:right xsi:type="xs:boolean">true</dcsset:right>
+						</dcsset:item>
+					</dcsset:filter>
+					<dcsset:appearance>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:parameter>ЦветТекста</dcscor:parameter>
+							<dcscor:value xsi:type="v8ui:Color">style:SpecialTextColor</dcscor:value>
+						</dcscor:item>
+					</dcsset:appearance>
+					<dcsset:presentation xsi:type="xs:string">Таблица "Кредиторская задолженность" - отметка строк, в кот. нарушается равенство сумм.</dcsset:presentation>
+				</dcsset:item>
+			</ConditionalAppearance>
+		</Attributes>
+	</BaseForm>
+</Form>

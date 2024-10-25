@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
+	<Document uuid="b48007c9-13c0-40f0-8274-783939ed93b5">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.СписаниеБСО" category="Object">
+				<xr:TypeId>d69a204c-de4e-42b0-84cb-9710da700d05</xr:TypeId>
+				<xr:ValueId>1698ceda-fc4e-44b7-8322-d5776d84f64f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.СписаниеБСО" category="Ref">
+				<xr:TypeId>cf4be6c1-9b98-4c94-a0a9-eba145cefeee</xr:TypeId>
+				<xr:ValueId>07fdde2a-af85-4f7f-a42c-bdcd6770efa7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.СписаниеБСО" category="Selection">
+				<xr:TypeId>eb4a2dbe-889c-4c08-b605-c637788374ac</xr:TypeId>
+				<xr:ValueId>3484be09-a422-4a1a-98d3-fc660e0b14e6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.СписаниеБСО" category="List">
+				<xr:TypeId>f4b5d7dd-1663-478c-9129-762c2d77bd32</xr:TypeId>
+				<xr:ValueId>bff5a85b-7b26-4bd8-b881-0e001e990754</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.СписаниеБСО" category="Manager">
+				<xr:TypeId>665d38e1-d9a2-415b-8570-754483f2a903</xr:TypeId>
+				<xr:ValueId>6216c8ef-2c04-44b5-b47a-92984b88905b</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>СписаниеБСО</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>fdf57d47-68c9-4693-9d5b-642ec0bd2cc2</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

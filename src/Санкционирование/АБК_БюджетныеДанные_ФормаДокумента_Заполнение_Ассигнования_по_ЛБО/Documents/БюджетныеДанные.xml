@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
+	<Document uuid="ba0b7fb0-fcc0-468c-b0bf-ec39d4543fbb">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.БюджетныеДанные" category="Object">
+				<xr:TypeId>49def6bd-6c75-4409-8795-cbd1c991b93d</xr:TypeId>
+				<xr:ValueId>5f3d60ea-d7ee-437a-9550-85fdfbae76bc</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.БюджетныеДанные" category="Ref">
+				<xr:TypeId>e44a1c2f-dea8-4c1c-84db-eb0cabb8c780</xr:TypeId>
+				<xr:ValueId>eba8e315-5eb3-476a-b1f6-71adf7d3ee30</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.БюджетныеДанные" category="Selection">
+				<xr:TypeId>4f8635c7-9498-44b8-afdd-589d166ddd95</xr:TypeId>
+				<xr:ValueId>9ea426e1-85b1-487f-ae01-a2d1627e5126</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.БюджетныеДанные" category="List">
+				<xr:TypeId>d5ff37ae-45fa-4fbc-9c2a-d16b7985d0f7</xr:TypeId>
+				<xr:ValueId>976e33cf-1657-4c0a-bdf6-c169cd0a10ff</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.БюджетныеДанные" category="Manager">
+				<xr:TypeId>7c6454a5-c9a6-41b3-a78c-0d2ff682f6a4</xr:TypeId>
+				<xr:ValueId>19f96232-3e72-46ef-ae43-dd452dbf998e</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>БюджетныеДанные</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>57611948-db0e-43ce-8d85-9311b0c37dac</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Form>ФормаДокумента</Form>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

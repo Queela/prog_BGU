@@ -1,0 +1,476 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
+	<Width>80</Width>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<ChildItems>
+			<Button name="ФормаПеренестиОстаткиВКорзину" id="12">
+				<Type>CommandBarButton</Type>
+				<DefaultButton>true</DefaultButton>
+				<CommandName>Form.Command.ПеренестиОстаткиВКорзину</CommandName>
+				<ExtendedTooltip name="ФормаПеренестиОстаткиВКорзинуРасширеннаяПодсказка" id="13"/>
+			</Button>
+		</ChildItems>
+	</AutoCommandBar>
+	<Events>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<UsualGroup name="РеквизитыПодбора" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Реквизиты подбора</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Реквизиты подбора</v8:content>
+				</v8:item>
+			</ToolTip>
+			<ExtendedTooltip name="РеквизитыПодбораРасширеннаяПодсказка" id="5"/>
+			<ChildItems>
+				<InputField name="БСО" id="6">
+					<DataPath>БСО</DataPath>
+					<ReadOnly>true</ReadOnly>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="БСОКонтекстноеМеню" id="7"/>
+					<ExtendedTooltip name="БСОРасширеннаяПодсказка" id="8"/>
+				</InputField>
+				<InputField name="Серия" id="9">
+					<DataPath>СерияБСО</DataPath>
+					<ReadOnly>true</ReadOnly>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="СерияКонтекстноеМеню" id="10"/>
+					<ExtendedTooltip name="СерияРасширеннаяПодсказка" id="11"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="Остатки" id="14">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Остатки</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Остатки</v8:content>
+				</v8:item>
+			</ToolTip>
+			<TitleDataPath>ИзначальныйОстаток</TitleDataPath>
+			<ExtendedTooltip name="ОстаткиРасширеннаяПодсказка" id="15"/>
+			<ChildItems>
+				<Table name="ТаблицаОстатковПоНомерам" id="16">
+					<Representation>List</Representation>
+					<AutoInsertNewRow>true</AutoInsertNewRow>
+					<EnableStartDrag>true</EnableStartDrag>
+					<EnableDrag>true</EnableDrag>
+					<DataPath>ТаблицаОстатковПоНомерам</DataPath>
+					<RowFilter xsi:nil="true"/>
+					<ContextMenu name="ТаблицаОстатковПоНомерамКонтекстноеМеню" id="17"/>
+					<AutoCommandBar name="ТаблицаОстатковПоНомерамКоманднаяПанель" id="18">
+						<Autofill>false</Autofill>
+						<ChildItems>
+							<Button name="ТаблицаОстатковПоНомерамВыбратьВсе" id="64">
+								<Type>CommandBarButton</Type>
+								<CommandName>Form.Command.ВыбратьВсе</CommandName>
+								<ExtendedTooltip name="ТаблицаОстатковПоНомерамВыбратьВсеРасширеннаяПодсказка" id="65"/>
+							</Button>
+							<Button name="ФормаВыбратьКонкретныеНомера" id="62">
+								<Type>CommandBarButton</Type>
+								<CommandName>Form.Command.ВыбратьКонкретныеНомера</CommandName>
+								<ExtendedTooltip name="ФормаВыбратьКонкретныеНомераРасширеннаяПодсказка" id="63"/>
+							</Button>
+						</ChildItems>
+					</AutoCommandBar>
+					<ExtendedTooltip name="ТаблицаОстатковПоНомерамРасширеннаяПодсказка" id="19"/>
+					<SearchStringAddition name="ТаблицаОстатковПоНомерамСтрокаПоиска" id="20">
+						<AdditionSource>
+							<Item>ТаблицаОстатковПоНомерам</Item>
+							<Type>SearchStringRepresentation</Type>
+						</AdditionSource>
+						<ContextMenu name="ТаблицаОстатковПоНомерамСтрокаПоискаКонтекстноеМеню" id="21"/>
+						<ExtendedTooltip name="ТаблицаОстатковПоНомерамСтрокаПоискаРасширеннаяПодсказка" id="22"/>
+					</SearchStringAddition>
+					<ViewStatusAddition name="ТаблицаОстатковПоНомерамСостояниеПросмотра" id="23">
+						<AdditionSource>
+							<Item>ТаблицаОстатковПоНомерам</Item>
+							<Type>ViewStatusRepresentation</Type>
+						</AdditionSource>
+						<ContextMenu name="ТаблицаОстатковПоНомерамСостояниеПросмотраКонтекстноеМеню" id="24"/>
+						<ExtendedTooltip name="ТаблицаОстатковПоНомерамСостояниеПросмотраРасширеннаяПодсказка" id="25"/>
+					</ViewStatusAddition>
+					<SearchControlAddition name="ТаблицаОстатковПоНомерамУправлениеПоиском" id="26">
+						<AdditionSource>
+							<Item>ТаблицаОстатковПоНомерам</Item>
+							<Type>SearchControl</Type>
+						</AdditionSource>
+						<ContextMenu name="ТаблицаОстатковПоНомерамУправлениеПоискомКонтекстноеМеню" id="27"/>
+						<ExtendedTooltip name="ТаблицаОстатковПоНомерамУправлениеПоискомРасширеннаяПодсказка" id="28"/>
+					</SearchControlAddition>
+					<ChildItems>
+						<InputField name="ТаблицаОстатковПоНомерамНомерНачальный" id="29">
+							<DataPath>ТаблицаОстатковПоНомерам.НомерНачальный</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ТаблицаОстатковПоНомерамНомерНачальныйКонтекстноеМеню" id="30"/>
+							<ExtendedTooltip name="ТаблицаОстатковПоНомерамНомерНачальныйРасширеннаяПодсказка" id="31"/>
+						</InputField>
+						<InputField name="ТаблицаОстатковПоНомерамНомерКонечный" id="32">
+							<DataPath>ТаблицаОстатковПоНомерам.НомерКонечный</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ТаблицаОстатковПоНомерамНомерКонечныйКонтекстноеМеню" id="33"/>
+							<ExtendedTooltip name="ТаблицаОстатковПоНомерамНомерКонечныйРасширеннаяПодсказка" id="34"/>
+						</InputField>
+						<InputField name="ТаблицаОстатковПоНомерамОстаток" id="35">
+							<DataPath>ТаблицаОстатковПоНомерам.Количество</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ТаблицаОстатковПоНомерамОстатокКонтекстноеМеню" id="36"/>
+							<ExtendedTooltip name="ТаблицаОстатковПоНомерамОстатокРасширеннаяПодсказка" id="37"/>
+						</InputField>
+					</ChildItems>
+				</Table>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ВыбранныеОстаткиГруппа" id="38">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выбранные остатки</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выбранные остатки группа</v8:content>
+				</v8:item>
+			</ToolTip>
+			<ExtendedTooltip name="ВыбранныеОстаткиГруппаРасширеннаяПодсказка" id="39"/>
+			<ChildItems>
+				<Table name="ВыбранныеОстатки" id="40">
+					<Representation>List</Representation>
+					<AutoInsertNewRow>true</AutoInsertNewRow>
+					<EnableStartDrag>true</EnableStartDrag>
+					<EnableDrag>true</EnableDrag>
+					<DataPath>ВыбранныеОстатки</DataPath>
+					<RowFilter xsi:nil="true"/>
+					<ContextMenu name="ВыбранныеОстаткиКонтекстноеМеню" id="41"/>
+					<AutoCommandBar name="ВыбранныеОстаткиКоманднаяПанель" id="42">
+						<Autofill>false</Autofill>
+					</AutoCommandBar>
+					<ExtendedTooltip name="ВыбранныеОстаткиРасширеннаяПодсказка" id="43"/>
+					<SearchStringAddition name="ВыбранныеОстаткиСтрокаПоиска" id="44">
+						<AdditionSource>
+							<Item>ВыбранныеОстатки</Item>
+							<Type>SearchStringRepresentation</Type>
+						</AdditionSource>
+						<ContextMenu name="ВыбранныеОстаткиСтрокаПоискаКонтекстноеМеню" id="45"/>
+						<ExtendedTooltip name="ВыбранныеОстаткиСтрокаПоискаРасширеннаяПодсказка" id="46"/>
+					</SearchStringAddition>
+					<ViewStatusAddition name="ВыбранныеОстаткиСостояниеПросмотра" id="47">
+						<AdditionSource>
+							<Item>ВыбранныеОстатки</Item>
+							<Type>ViewStatusRepresentation</Type>
+						</AdditionSource>
+						<ContextMenu name="ВыбранныеОстаткиСостояниеПросмотраКонтекстноеМеню" id="48"/>
+						<ExtendedTooltip name="ВыбранныеОстаткиСостояниеПросмотраРасширеннаяПодсказка" id="49"/>
+					</ViewStatusAddition>
+					<SearchControlAddition name="ВыбранныеОстаткиУправлениеПоиском" id="50">
+						<AdditionSource>
+							<Item>ВыбранныеОстатки</Item>
+							<Type>SearchControl</Type>
+						</AdditionSource>
+						<ContextMenu name="ВыбранныеОстаткиУправлениеПоискомКонтекстноеМеню" id="51"/>
+						<ExtendedTooltip name="ВыбранныеОстаткиУправлениеПоискомРасширеннаяПодсказка" id="52"/>
+					</SearchControlAddition>
+					<ChildItems>
+						<InputField name="ВыбранныеОстаткиНомерНачальный" id="53">
+							<DataPath>ВыбранныеОстатки.НомерНачальный</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ВыбранныеОстаткиНомерНачальныйКонтекстноеМеню" id="54"/>
+							<ExtendedTooltip name="ВыбранныеОстаткиНомерНачальныйРасширеннаяПодсказка" id="55"/>
+						</InputField>
+						<InputField name="ВыбранныеОстаткиНомерКонечный" id="56">
+							<DataPath>ВыбранныеОстатки.НомерКонечный</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ВыбранныеОстаткиНомерКонечныйКонтекстноеМеню" id="57"/>
+							<ExtendedTooltip name="ВыбранныеОстаткиНомерКонечныйРасширеннаяПодсказка" id="58"/>
+						</InputField>
+						<InputField name="ВыбранныеОстаткиКоличество" id="59">
+							<DataPath>ВыбранныеОстатки.Количество</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ВыбранныеОстаткиКоличествоКонтекстноеМеню" id="60"/>
+							<ExtendedTooltip name="ВыбранныеОстаткиКоличествоРасширеннаяПодсказка" id="61"/>
+						</InputField>
+					</ChildItems>
+				</Table>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="ТаблицаОстатковПоНомерам" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Таблица остатков по номерам</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTable</v8:Type>
+			</Type>
+			<Columns>
+				<Column name="НомерНачальный" id="1">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Номер начальный</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>20</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Column>
+				<Column name="НомерКонечный" id="2">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Номер конечный</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>10</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Column>
+				<Column name="Количество" id="3">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Количество</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>20</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Column>
+				<Column name="Забивка" id="4">
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+			</Columns>
+		</Attribute>
+		<Attribute name="БСО" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>БСО</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:CatalogRef.БСО</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="СерияБСО" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Серия БСО</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:CatalogRef.СерииБСО</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ВыбранныеОстатки" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выбранные остатки</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTable</v8:Type>
+			</Type>
+			<Columns>
+				<Column name="НомерНачальный" id="1">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Номер начальный</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>20</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Column>
+				<Column name="НомерКонечный" id="2">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Номер конечный</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>10</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Column>
+				<Column name="Количество" id="3">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Количество</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>20</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Column>
+				<Column name="БСО" id="4">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>БСО</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>cfg:CatalogRef.БСО</v8:Type>
+					</Type>
+				</Column>
+				<Column name="СерияБСО" id="5">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Серия БСО</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>cfg:CatalogRef.СерииБСО</v8:Type>
+					</Type>
+				</Column>
+				<Column name="Забивка" id="6">
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+			</Columns>
+		</Attribute>
+		<Attribute name="ИзначальныйОстаток" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Изначальный остаток</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>20</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="ПеренестиОстаткиВКорзину" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Перенести остатки в корзину</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Перенести остатки в корзину</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ПеренестиОстаткиВКорзину</Action>
+		</Command>
+		<Command name="ВыбратьКонкретныеНомера" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выбрать конкретные номера</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выбрать конкретные номера</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.FunctionMenuCommand</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>ВыбратьКонкретныеНомера</Action>
+			<Representation>TextPicture</Representation>
+		</Command>
+		<Command name="ВыбратьВсе" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выбрать все</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выбрать все</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.ShowInList</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>ВыбратьВсе</Action>
+			<Representation>TextPicture</Representation>
+		</Command>
+	</Commands>
+</Form>

@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
+	<Document uuid="9939ecce-3c88-4ca5-8a50-98050552c60c">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.РегистрацияОбязательствИСведенийПоДоговорам" category="Object">
+				<xr:TypeId>2faf7467-179a-4524-b9f0-84c0efb7ea73</xr:TypeId>
+				<xr:ValueId>04f0c9e1-8eaa-4cdb-b7a5-46fb7a0f0676</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.РегистрацияОбязательствИСведенийПоДоговорам" category="Ref">
+				<xr:TypeId>6925bda4-dcba-4e5a-b283-7c463b0dd3a2</xr:TypeId>
+				<xr:ValueId>c8d1a9c2-be60-4a72-b541-9dc373382c79</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.РегистрацияОбязательствИСведенийПоДоговорам" category="Selection">
+				<xr:TypeId>7088d166-3f4c-4238-a7b1-5e98007abe7e</xr:TypeId>
+				<xr:ValueId>5c14d7db-2663-43a4-af7e-6311f466e7b1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.РегистрацияОбязательствИСведенийПоДоговорам" category="List">
+				<xr:TypeId>e35d7970-4351-4ddf-97e2-45b84e97ea71</xr:TypeId>
+				<xr:ValueId>567ba776-a8ab-45e7-847b-bb638004261b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.РегистрацияОбязательствИСведенийПоДоговорам" category="Manager">
+				<xr:TypeId>2d41a917-1461-4bfd-826e-f4282f5b774d</xr:TypeId>
+				<xr:ValueId>7b4e4859-56fc-41bf-a418-730d6a5e14f4</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>РегистрацияОбязательствИСведенийПоДоговорам</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>327a52b8-a307-49d3-ae35-07788fd557a1</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Form>ФормаДокумента</Form>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

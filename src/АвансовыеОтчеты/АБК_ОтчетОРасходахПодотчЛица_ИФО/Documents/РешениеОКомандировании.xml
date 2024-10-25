@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
+	<Document uuid="0e8711f7-60d3-4176-a1f4-4e91f3837469">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.РешениеОКомандировании" category="Object">
+				<xr:TypeId>30c0527c-08e1-4f48-a816-17581fe46c94</xr:TypeId>
+				<xr:ValueId>fd59dfa0-3a53-425a-96c2-464cbcea277c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.РешениеОКомандировании" category="Ref">
+				<xr:TypeId>6d6082f3-1ddb-4800-9ff0-59068fcc86bc</xr:TypeId>
+				<xr:ValueId>ae0fb1a1-7ebd-47fe-951e-605820fcc118</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.РешениеОКомандировании" category="Selection">
+				<xr:TypeId>2bef90d7-8467-4ebd-bad7-f7bc6d97245f</xr:TypeId>
+				<xr:ValueId>a38c2fb7-5ea5-4cc6-afe8-4f117336e20f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.РешениеОКомандировании" category="List">
+				<xr:TypeId>6e6a9a61-9c82-49c7-8fa8-8b8d5d944eb0</xr:TypeId>
+				<xr:ValueId>ddfddb36-6113-4f71-8e6d-c948362dd697</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.РешениеОКомандировании" category="Manager">
+				<xr:TypeId>92a88766-1080-4769-9d8c-b4d35da96d33</xr:TypeId>
+				<xr:ValueId>b2c9ee67-4dcb-477f-82f8-859bef92e89a</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>РешениеОКомандировании</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>7e76ac89-a4be-458f-a0cd-08fb89aba5c6</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Form>ФормаДокумента</Form>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
+	<Document uuid="f1b74400-9360-4b31-b506-1ade8c873212">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.РешениеОКомпенсацииРасходовДляКрайнегоСевера" category="Object">
+				<xr:TypeId>8a62c151-4ae4-40d6-a4ef-ed93c1c42824</xr:TypeId>
+				<xr:ValueId>8941c407-bdfa-42cf-8d2f-f1bb2af3f233</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.РешениеОКомпенсацииРасходовДляКрайнегоСевера" category="Ref">
+				<xr:TypeId>1a975bf6-e375-49c7-b1ba-3be289eb0759</xr:TypeId>
+				<xr:ValueId>bfc0a86b-1a14-4ec7-b927-4d6fc0cd2464</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.РешениеОКомпенсацииРасходовДляКрайнегоСевера" category="Selection">
+				<xr:TypeId>0670fd9a-53cc-449a-833f-af676cb0f3f7</xr:TypeId>
+				<xr:ValueId>72fc017f-ac4a-493e-9699-8e1e0509e068</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.РешениеОКомпенсацииРасходовДляКрайнегоСевера" category="List">
+				<xr:TypeId>f9d6d6d5-3bb0-416c-bcfb-202322d8b230</xr:TypeId>
+				<xr:ValueId>cd2a0791-e8b9-4d15-ba6c-bc201400179d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.РешениеОКомпенсацииРасходовДляКрайнегоСевера" category="Manager">
+				<xr:TypeId>45c01637-7186-426e-a36f-531873da1d39</xr:TypeId>
+				<xr:ValueId>1fbbcb63-2515-489b-9732-1ad4f164263b</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>РешениеОКомпенсацииРасходовДляКрайнегоСевера</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>93bb4834-f9cf-43e4-9ddb-89d1b2ae6269</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Form>ФормаДокумента</Form>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

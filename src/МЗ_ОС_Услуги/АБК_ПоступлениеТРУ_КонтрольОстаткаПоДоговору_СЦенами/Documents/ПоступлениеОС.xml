@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
+	<Document uuid="aa3868a8-94d8-46f1-8318-c94bb9ff256b">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ПоступлениеОС" category="Object">
+				<xr:TypeId>562de0f9-507e-4517-ba48-5dd17d71b9c8</xr:TypeId>
+				<xr:ValueId>918f75c4-6f8c-413c-8b82-9313560d8bb5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ПоступлениеОС" category="Ref">
+				<xr:TypeId>b8a46b97-f36a-4014-b576-9b5c064d40d5</xr:TypeId>
+				<xr:ValueId>13c83487-740c-4917-a6c0-0248956ab69f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ПоступлениеОС" category="Selection">
+				<xr:TypeId>98260257-7808-42fe-b2d9-9be78d69088d</xr:TypeId>
+				<xr:ValueId>43740648-737a-44a0-95b8-1c1da39e5952</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ПоступлениеОС" category="List">
+				<xr:TypeId>13269d5b-2927-41b7-8cce-02db51741362</xr:TypeId>
+				<xr:ValueId>1a8fe5e4-d542-4d0e-be2e-55fa619dd2f5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ПоступлениеОС" category="Manager">
+				<xr:TypeId>8e86db20-8b6b-4564-8814-29b469a53649</xr:TypeId>
+				<xr:ValueId>d1bd350b-ab48-4315-8d71-e578f466c9c4</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ПоступлениеОС</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>3b4fcc55-fe83-4f7a-910b-cb8856be4c33</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Form>ФормаДокумента</Form>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

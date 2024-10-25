@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
+	<Catalog uuid="76a568e2-24dc-46ca-94aa-6ab67a916a6b">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ГрафикиОплатыОбразование" category="Object">
+				<xr:TypeId>9e0b7d33-278f-4474-a7e8-b97e2de96780</xr:TypeId>
+				<xr:ValueId>e8139377-af65-4be1-a157-6d843c4249a9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ГрафикиОплатыОбразование" category="Ref">
+				<xr:TypeId>dbf32299-55ab-4be9-bd4f-854de0b40a1e</xr:TypeId>
+				<xr:ValueId>8190b346-4b04-4e3b-ba5b-569ab46b6066</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ГрафикиОплатыОбразование" category="Selection">
+				<xr:TypeId>969e6637-4dbf-49e3-9272-6afa9ade7e65</xr:TypeId>
+				<xr:ValueId>eb73f96e-98cb-43f1-85ab-af1a672a3d2c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ГрафикиОплатыОбразование" category="List">
+				<xr:TypeId>df8a4e07-aa04-477d-94dc-7ca5aae80984</xr:TypeId>
+				<xr:ValueId>adf2d972-9bab-4524-9fce-20f8ac9a75ee</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ГрафикиОплатыОбразование" category="Manager">
+				<xr:TypeId>a1339857-ebbf-4ef9-a46d-3eee768cb023</xr:TypeId>
+				<xr:ValueId>98db31de-afdb-4ffe-9ac4-4d8228b59534</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ГрафикиОплатыОбразование</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>d1adf9ca-1f16-4b1b-ab0a-a41d66f9cae5</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<Form>ФормаЭлемента</Form>
+		</ChildObjects>
+	</Catalog>
+</MetaDataObject>

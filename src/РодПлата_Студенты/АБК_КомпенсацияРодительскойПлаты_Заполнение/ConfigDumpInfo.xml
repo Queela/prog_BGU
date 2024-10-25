@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.17">
+	<ConfigVersions>
+		<Metadata name="Catalog.Дети" id="523140a9-78f6-499e-88d0-3906e0976916" configVersion="bbb3a673b5df8abe8f7e4148d6fb76a037ccd4e6"/>
+		<Metadata name="Catalog.НастройкиРасчетовПоРодительскойПлате" id="27f84c54-de5e-43aa-aab4-f3cbd4649b63" configVersion="11912a169ddd89197029914a40687a7f551862e4"/>
+		<Metadata name="Catalog.НастройкиРасчетовПоРодительскойПлате.Template.ПредопределенныеОперанды" id="52ee8c46-7560-44e6-a62a-5a712f001038" configVersion="b7c0c7cdaa324c9861ec73538e03116fecff153f"/>
+		<Metadata name="Catalog.НастройкиРасчетовПоРодительскойПлате.Template.ПредопределенныеОперанды.Template" id="52ee8c46-7560-44e6-a62a-5a712f001038.0" configVersion="6cf1acb856879eed0cf2c7560b4e954ad89bd154"/>
+		<Metadata name="CommonModule.РасчетыПоРодительскойПлате" id="44d93855-bf32-47fa-80d5-bf7d848ccb99" configVersion="aa76480f85809b2a4279cb5be69e3c6407a60ce4"/>
+		<Metadata name="CommonModule.РасчетыПоРодительскойПлате.Module" id="44d93855-bf32-47fa-80d5-bf7d848ccb99.0" configVersion="4455ebf3c865e36b6152477b2c3816093357ff34"/>
+		<Metadata name="Configuration.АБК_КомпенсацияРодительскойПлаты_Заполнение" id="270d5eb7-bbc4-425e-b52b-410bfc8e713e" configVersion="ef812035fa8bc0742fda4783b05a30d541e9ebc3"/>
+		<Metadata name="Document.КомпенсацияРодительскойПлаты" id="fa6ff48c-58e0-491c-950c-5c0b67a232fd" configVersion="789ad108f457ecd6d28763e61eee6d417284661e"/>
+		<Metadata name="Document.КомпенсацияРодительскойПлаты.Form.АБК_ФормаВыводаРасчета" id="3dcd095a-84e4-4d9e-977f-e9f38a450229" configVersion="5553fdf099f9aa862af04bac003ab22ed1476982"/>
+		<Metadata name="Document.КомпенсацияРодительскойПлаты.Form.АБК_ФормаВыводаРасчета.Form" id="3dcd095a-84e4-4d9e-977f-e9f38a450229.0" configVersion="9751f069a6ce769d62c979a138cc93c1c7debb1a"/>
+		<Metadata name="Document.КомпенсацияРодительскойПлаты.Form.ФормаДокумента" id="25dadd0a-1035-4a0a-9cfe-4aac20494d3f" configVersion="61889fa8a696aa05e4876ab4cfa0f4bf4e8deaf4"/>
+		<Metadata name="Document.КомпенсацияРодительскойПлаты.Form.ФормаДокумента.Form" id="25dadd0a-1035-4a0a-9cfe-4aac20494d3f.0" configVersion="848bf4493f335217053fa82a174096067d9df3f2"/>
+		<Metadata name="Language.Русский" id="efa0de65-0f2b-494f-a33b-6f2c5f80a1c0" configVersion="b4d950b1259b4d0e019584431b302520e207a659"/>
+		<Metadata name="Role.АБК_КомпенсацияРодительскойПлаты_ОсновнаяРоль" id="6496c270-2a69-4f54-8654-2f406c0597df" configVersion="07d624b27da78e2ccd441ff3df8ed841efce223d"/>
+		<Metadata name="StyleItem.ИтогиФонГруппы" id="6f72da24-f1c1-4fcd-92c7-132e87d3fafd" configVersion="172245a5292f67da39a31aa0e9594abcc4ba791d"/>
+		<Metadata name="StyleItem.ЦветНедоступноеПоле" id="568436ff-a6b8-472b-b86b-f8c18b219c56" configVersion="f5047fe83986454d61cb342dffee279d1ccc2cb8"/>
+		<Metadata name="StyleItem.ЦветФонаВыделения" id="4cf15036-6722-46d2-9e6b-161500259a95" configVersion="b2275944a9106dbeca9cded6eed642ad9acb3509"/>
+	</ConfigVersions>
+</ConfigDumpInfo>

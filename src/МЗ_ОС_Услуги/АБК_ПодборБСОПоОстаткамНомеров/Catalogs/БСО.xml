@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
+	<Catalog uuid="75ba359c-5b7b-4d1b-9b67-90dd73963b6e">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.БСО" category="Object">
+				<xr:TypeId>3ebdc8b1-1222-43b6-9164-0ca6c59cdd93</xr:TypeId>
+				<xr:ValueId>10d6e0c8-c6d2-495a-93dc-2ba1648be04c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.БСО" category="Ref">
+				<xr:TypeId>a5960e76-e0d6-4b31-bc6a-f93c4d12c3a7</xr:TypeId>
+				<xr:ValueId>f4c9aef9-1084-49ce-b3de-f3dd3c1b4710</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.БСО" category="Selection">
+				<xr:TypeId>639cd586-721b-42e9-af34-487c5c8a8e04</xr:TypeId>
+				<xr:ValueId>a3f57571-9400-4c41-a154-6ad564e696b3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.БСО" category="List">
+				<xr:TypeId>c218a18b-5a75-4ee7-b5bf-944455cf8ff6</xr:TypeId>
+				<xr:ValueId>c23c4cfc-772c-448a-a7d5-006200279ccd</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.БСО" category="Manager">
+				<xr:TypeId>ef9ea168-f5c0-4156-a5f1-044774e92f01</xr:TypeId>
+				<xr:ValueId>ba95d50a-d1e8-4471-a126-60e25163c766</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>БСО</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>066665f9-6c8a-4954-a276-1e00b7bf341d</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<Form>ФормаПодбора</Form>
+			<Form>НастройкаПодбора</Form>
+			<Form>ФормаПодбораНомеров</Form>
+		</ChildObjects>
+	</Catalog>
+</MetaDataObject>

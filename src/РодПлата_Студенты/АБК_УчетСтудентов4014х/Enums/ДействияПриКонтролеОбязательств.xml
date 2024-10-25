@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
+	<Enum uuid="bc26ef65-d802-4957-9192-b77d485a92a4">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ДействияПриКонтролеОбязательств" category="Ref">
+				<xr:TypeId>236a307f-2b6a-4fde-8411-e7ebfd68e2ef</xr:TypeId>
+				<xr:ValueId>9259984d-bff0-4396-bda8-6dc74d36bbf8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ДействияПриКонтролеОбязательств" category="Manager">
+				<xr:TypeId>395c4bfb-9bd2-49b3-ae9f-c56351e77324</xr:TypeId>
+				<xr:ValueId>9e4bb8c8-ac94-4b58-b47e-89d91a8c6a3d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ДействияПриКонтролеОбязательств" category="List">
+				<xr:TypeId>e0d7c780-6026-4016-9422-bd6f05b4a54f</xr:TypeId>
+				<xr:ValueId>510a5e63-e9db-43d2-9925-53292382c166</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ДействияПриКонтролеОбязательств</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>4fee89fe-6711-49f5-a228-01766a2e45a3</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="1ed1830b-3ef7-4bdd-8193-367803781028">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ПредупреждатьЗаписывать</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>d49bcd61-9b7a-4d57-8632-a428ca625fc1</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="82c4710f-3b7d-4ee4-8eda-61366061bd71">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ПредупреждатьНеЗаписывать</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>58b1de84-1753-4026-b54f-9dc3259f3d12</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

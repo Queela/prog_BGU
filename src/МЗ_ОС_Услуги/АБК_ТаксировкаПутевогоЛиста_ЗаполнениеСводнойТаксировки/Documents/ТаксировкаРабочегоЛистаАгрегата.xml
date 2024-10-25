@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
+	<Document uuid="50c1b5d9-dcef-4924-976d-11119090ee80">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ТаксировкаРабочегоЛистаАгрегата" category="Object">
+				<xr:TypeId>c500e36f-f3cf-4240-a5c5-643759c7250c</xr:TypeId>
+				<xr:ValueId>4d317579-56e4-4260-845c-b22f67b42ab3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ТаксировкаРабочегоЛистаАгрегата" category="Ref">
+				<xr:TypeId>d20753d2-70aa-4836-844b-71330d3188ca</xr:TypeId>
+				<xr:ValueId>758017f0-863a-4bb0-917f-e6054521ca95</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ТаксировкаРабочегоЛистаАгрегата" category="Selection">
+				<xr:TypeId>f8bb2ed8-6d82-4009-b475-adb5b2615d8f</xr:TypeId>
+				<xr:ValueId>7f0fe5d7-0ba3-4023-a2ea-26f817fc59e6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ТаксировкаРабочегоЛистаАгрегата" category="List">
+				<xr:TypeId>80699699-2d26-4c59-9ed3-f89066a73b49</xr:TypeId>
+				<xr:ValueId>bd9a42cb-2bc4-4749-b74f-3301e58b26d0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ТаксировкаРабочегоЛистаАгрегата" category="Manager">
+				<xr:TypeId>947681a8-4b8a-4ce9-88ed-2b909584b0f6</xr:TypeId>
+				<xr:ValueId>ac1bc60a-239c-4f2e-b46f-0b5748436e18</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ТаксировкаРабочегоЛистаАгрегата</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>2d44c0a0-f485-45ca-b967-a52b770e6f35</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Form>ФормаДокумента</Form>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
+	<Document uuid="fa6ff48c-58e0-491c-950c-5c0b67a232fd">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.КомпенсацияРодительскойПлаты" category="Object">
+				<xr:TypeId>d11d0458-a943-4040-983a-63f879514d5d</xr:TypeId>
+				<xr:ValueId>4fbab68d-6220-440a-bf90-e807ab5f53da</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.КомпенсацияРодительскойПлаты" category="Ref">
+				<xr:TypeId>2e0b0fba-80d8-4ca0-892b-65e8e0f5afeb</xr:TypeId>
+				<xr:ValueId>cb99e2ea-6f52-48f5-82cd-8e43ba6af579</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.КомпенсацияРодительскойПлаты" category="Selection">
+				<xr:TypeId>d2b6c89f-7b69-4b4b-a5e0-a3797c61dbf9</xr:TypeId>
+				<xr:ValueId>7c3387ee-0593-40b0-a981-93fdafffc580</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.КомпенсацияРодительскойПлаты" category="List">
+				<xr:TypeId>74c72e7b-5cb6-4513-a2db-bf884d362058</xr:TypeId>
+				<xr:ValueId>9b073b44-9be7-408c-8449-bf057957d70e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.КомпенсацияРодительскойПлаты" category="Manager">
+				<xr:TypeId>e0100055-514c-4f96-8530-75f169af6b27</xr:TypeId>
+				<xr:ValueId>0f8a13da-ddd9-45d4-9abc-0260875720ea</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>КомпенсацияРодительскойПлаты</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>42096352-0283-41f5-a163-4aeb29363183</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Form>ФормаДокумента</Form>
+			<Form>АБК_ФормаВыводаРасчета</Form>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

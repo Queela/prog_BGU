@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
+	<Enum uuid="8e9378a3-d7c5-4c29-a99a-2da2034c70c1">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ВидыОперацийКорректировкиДБП" category="Ref">
+				<xr:TypeId>c251faa3-5811-42ea-9cfc-dd3b1c4b5abe</xr:TypeId>
+				<xr:ValueId>350e5c51-6ebb-45ae-a3d3-a98f9da92657</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ВидыОперацийКорректировкиДБП" category="Manager">
+				<xr:TypeId>ff6c0566-a6e0-4af8-9028-597886470093</xr:TypeId>
+				<xr:ValueId>0899ae05-9935-4547-8f9c-bfaf5caa1d00</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ВидыОперацийКорректировкиДБП" category="List">
+				<xr:TypeId>052730cd-9d4a-4301-b8ec-1054fd3004f4</xr:TypeId>
+				<xr:ValueId>72a81e9c-78a1-46e4-a402-ca9ddbdea27d</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ВидыОперацийКорректировкиДБП</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>bb0f51d0-c8cd-4592-82f1-62f43278f23b</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="c839f40d-7be3-4eea-b74a-0e168d5a39b9">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДосрочноеПрекрашение</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>3f371be7-799a-4a2f-871d-4f36ddc9b4f5</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="075ec293-5843-425e-a9dc-40956dd44e31">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>КорректировкаДоходовБудущихПериодов</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>0ad33b97-df62-4c3a-a760-64fb00cbc557</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>
