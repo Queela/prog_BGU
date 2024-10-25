@@ -3,7 +3,7 @@
 	<ConfigVersions>
 		<Metadata name="CommonModule.РаботаСОбязательствамиПовтИспНаВремяВызова" id="00a85523-9af8-4cee-9ca4-0c0742037542" configVersion="3bc225eb3dcf838e0cdb83e450b83d536915af26"/>
 		<Metadata name="CommonModule.РаботаСОбязательствамиПовтИспНаВремяВызова.Module" id="00a85523-9af8-4cee-9ca4-0c0742037542.0" configVersion="feb93b40b2a10d41f6bf8cdfa339b7206faa4bab"/>
-		<Metadata name="Configuration.АБК_РегистрацияОбязательствИноеОбязательство" id="e0ce7aa6-980b-40cd-9a14-5899a20c5b92" configVersion="854bfe31e86b19ade0fea43c7212e8b72c9cd311"/>
+		<Metadata name="Configuration.АБК_РегистрацияОбязательствИноеОбязательство" id="e0ce7aa6-980b-40cd-9a14-5899a20c5b92" configVersion="320d71bab9e0f9a11e6bff267526905b5bab1f3b"/>
 		<Metadata name="Document.РегистрацияОбязательствИСведенийПоДоговорам" id="b21527cc-ebcd-47da-ab6f-470cae541ee0" configVersion="88fceeb6b541b69721bd65f4ed69e32b746e027c"/>
 		<Metadata name="Document.РегистрацияОбязательствИСведенийПоДоговорам.ObjectModule" id="b21527cc-ebcd-47da-ab6f-470cae541ee0.0" configVersion="fdc9eb8fed16e50a72d65c7f04393c668ce68539"/>
 		<Metadata name="Language.Русский" id="e5e28e0d-06ba-4337-a009-dd77ab9e4974" configVersion="b0acdf341e92e296d2fb2d95531a4beb5d4fbeb6"/>

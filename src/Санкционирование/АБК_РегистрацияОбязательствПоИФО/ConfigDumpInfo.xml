@@ -59,7 +59,7 @@
 		<Metadata name="CommonModule.РаботаСОбязательствамиПовтИспНаВремяВызова.Module" id="589bebbf-13ba-4deb-933f-694676d3dc9b.0" configVersion="bd549f860dbc06401144b72515c93489316b4624"/>
 		<Metadata name="CommonPicture.Защита" id="ce1bd22b-9789-4cb2-a21c-2bc285ed7a60" configVersion="91f9dcb097f4b6760b666bff27a97f7ed225f5f2"/>
 		<Metadata name="CommonPicture.НекорректныйКонтрагент" id="78ee9746-1c49-4af3-a018-2189e83acaa4" configVersion="ec52eb9583936f7dbfe10375f1c8c70f654530ef"/>
-		<Metadata name="Configuration.АБК_РегистрацияОбязательствПоИФО" id="4b2789d9-0957-47d6-aada-c2c6f984e250" configVersion="391ec8c7d7cddb2e979102b8332418b2c9222e85"/>
+		<Metadata name="Configuration.АБК_РегистрацияОбязательствПоИФО" id="4b2789d9-0957-47d6-aada-c2c6f984e250" configVersion="bb332cb9bf0d2e7de1ad40528df35eac812cb95d"/>
 		<Metadata name="DataProcessor.ФормированиеЗаявокНаПеререгистрациюБюджетныхОбязательств" id="e90e3002-5182-4c5f-979c-505a3e27fafc" configVersion="3fbe8e72561a084d1adcdf0b451691c38fc6cd98"/>
 		<Metadata name="DataProcessor.ФормированиеЗаявокНаПеререгистрациюБюджетныхОбязательств.Form.Форма" id="b977d716-be11-4053-a15b-55d721247b8a" configVersion="fcbb24e75c1ac565a195bff7c5f297b5e0049837"/>
 		<Metadata name="DataProcessor.ФормированиеЗаявокНаПеререгистрациюБюджетныхОбязательств.Form.Форма.Form" id="b977d716-be11-4053-a15b-55d721247b8a.0" configVersion="265e01e0666479c4d5aaad13f0b055df03cc3b3d"/>
