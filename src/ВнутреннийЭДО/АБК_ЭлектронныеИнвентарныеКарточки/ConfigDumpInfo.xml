@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.17">
+	<ConfigVersions>
+		<Metadata name="Catalog.ОсновныеСредства" id="a92469b0-9513-4ac6-b1c4-d09fee54d2da" configVersion="1468fa139220ef627ba4b76c29126339076fcad8"/>
+		<Metadata name="Catalog.ОсновныеСредства.Form.ГрупповаяПечатьИнвентарныхКарточек" id="efd8be38-c081-4f8b-a356-bcae9ab0cdfe" configVersion="92f398f77ff1a1660733616ce6101d93f265c2db"/>
+		<Metadata name="Catalog.ОсновныеСредства.Form.ГрупповаяПечатьИнвентарныхКарточек.Form" id="efd8be38-c081-4f8b-a356-bcae9ab0cdfe.0" configVersion="04c94e95f62e97036ad5398525516403a0d7110d"/>
+		<Metadata name="Catalog.РегистрУчетаПрисоединенныеФайлы" id="7468fc63-e650-4591-9429-f41fa1d20442" configVersion="31d2c44779364a895cc253addf909f0b0a20ee2e"/>
+		<Metadata name="CommonModule.ВнутреннийЭДО" id="3a20468f-3a03-42b1-9e12-bbb14702777a" configVersion="8a2d4346d1fd55e222e1824989e5c0af09aed1cc"/>
+		<Metadata name="CommonModule.ВнутреннийЭДО.Module" id="3a20468f-3a03-42b1-9e12-bbb14702777a.0" configVersion="882a86df47bb0cd40b679b86831c369b573a49f6"/>
+		<Metadata name="CommonPicture.ВидыЭлектронныхПодписей" id="95bb0249-6800-4310-9e90-124839ae3bbf" configVersion="448f63c6e451f9d3b85ec0df377b93594314c555"/>
+		<Metadata name="CommonPicture.СтадииПодписанияВнутреннегоЭДО" id="f8102e7d-4103-4189-9052-50e65594fd8d" configVersion="d5e86f27ee3e903772b7d63c54aa52748a1a6a36"/>
+		<Metadata name="Configuration.АБК_ЭлектронныеИнвентарныеКарточки" id="f90a4b95-058c-4ccb-8d7e-560178e79b44" configVersion="136dd8197116e547e9c1360a0c100b50b8981676"/>
+		<Metadata name="Document.ВнутреннийЭлектронныйДокумент" id="115eff25-147e-4bf9-ac89-0ea86680e5d3" configVersion="0fa2d24caa257d4b8eee4bbe7ce64fbddfeb4d05"/>
+		<Metadata name="Document.ВнутреннийЭлектронныйДокумент.Form.ФормаДокумента" id="d4f1c03b-d70c-4062-b45c-9e57f67a309d" configVersion="013289502eaaae71f84c8b199cad10276f9d18df"/>
+		<Metadata name="Document.ВнутреннийЭлектронныйДокумент.Form.ФормаДокумента.Form" id="d4f1c03b-d70c-4062-b45c-9e57f67a309d.0" configVersion="3ae2bfeea5a1a28506092e3b45e2594ea8d227d0"/>
+		<Metadata name="Document.РегистрУчета" id="a4030b5d-3413-40b4-9f8d-b54bc3dffb96" configVersion="bb843077b5ad863d3a457bbc3e161b0b3ad42280"/>
+		<Metadata name="Language.Русский" id="bdf1a0be-2185-4975-8593-eaf0af09fcfe" configVersion="02e98ce96282668a1c3783d46875f305a5dff56f"/>
+		<Metadata name="Role.АБК_ЭлектронныеИнвентарныеКарточки_ОсновнаяРоль" id="c2df9330-d2b2-441c-82d6-9821a8f24b02" configVersion="ee332853a749263adcff94d023459ddf7d6d8590"/>
+	</ConfigVersions>
+</ConfigDumpInfo>

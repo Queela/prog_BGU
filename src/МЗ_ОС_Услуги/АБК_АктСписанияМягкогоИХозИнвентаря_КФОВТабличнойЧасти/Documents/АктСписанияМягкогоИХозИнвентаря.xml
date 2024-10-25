@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
+	<Document uuid="263ca5e8-8647-4859-aa0b-b86b20f328b3">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.АктСписанияМягкогоИХозИнвентаря" category="Object">
+				<xr:TypeId>cb1417fb-f0dd-4838-b9c5-f7a056eecaa8</xr:TypeId>
+				<xr:ValueId>4564aebd-724e-40de-94cb-7e970518e15b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.АктСписанияМягкогоИХозИнвентаря" category="Ref">
+				<xr:TypeId>a0c6f4af-f1a1-4c1c-b8d9-952f3ccc2587</xr:TypeId>
+				<xr:ValueId>258eb601-3ae8-4f7c-b784-ef82cb8a0961</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.АктСписанияМягкогоИХозИнвентаря" category="Selection">
+				<xr:TypeId>c24f4a39-9120-4479-9130-92a8a511ab73</xr:TypeId>
+				<xr:ValueId>8c2c72d0-1b90-4390-b134-064beab96940</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.АктСписанияМягкогоИХозИнвентаря" category="List">
+				<xr:TypeId>e5144732-e5fd-45c9-8028-30ac999e7d0a</xr:TypeId>
+				<xr:ValueId>35a93488-8493-4906-af93-aa73f9e68ba4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.АктСписанияМягкогоИХозИнвентаря" category="Manager">
+				<xr:TypeId>6186c049-2fe1-4bd8-9ae8-b488a808a359</xr:TypeId>
+				<xr:ValueId>e7ccfd8e-88b3-4749-966f-ad019c7ec2e5</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>АктСписанияМягкогоИХозИнвентаря</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>1fcacbb9-e791-4dcf-a7d0-2c2255e9aef9</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Form>ФормаДокумента</Form>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

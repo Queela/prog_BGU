@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
+	<Catalog uuid="7468fc63-e650-4591-9429-f41fa1d20442">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.РегистрУчетаПрисоединенныеФайлы" category="Object">
+				<xr:TypeId>883646d0-65e3-4fd4-9613-711932e17b8a</xr:TypeId>
+				<xr:ValueId>59330340-acc9-4fa7-afb6-9ee6ca603379</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.РегистрУчетаПрисоединенныеФайлы" category="Ref">
+				<xr:TypeId>97ec3401-d0bd-449f-8ec4-9e2124072238</xr:TypeId>
+				<xr:ValueId>00415b54-d5a4-43a6-a8cc-689091356bf2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.РегистрУчетаПрисоединенныеФайлы" category="Selection">
+				<xr:TypeId>e8b0c622-e12d-4dfc-8678-8709a5701f6d</xr:TypeId>
+				<xr:ValueId>59a7713c-908e-4ca2-b20c-6d861a0b0743</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.РегистрУчетаПрисоединенныеФайлы" category="List">
+				<xr:TypeId>f884915e-b98b-42d0-a19f-57f334d53986</xr:TypeId>
+				<xr:ValueId>e240d031-a135-48f4-852d-272cc5f42f26</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.РегистрУчетаПрисоединенныеФайлы" category="Manager">
+				<xr:TypeId>f8667ed8-0bd4-4307-81f7-273ac5016fae</xr:TypeId>
+				<xr:ValueId>4cdb9658-1f1c-41a6-8e31-d3961061c87d</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>РегистрУчетаПрисоединенныеФайлы</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>4a428319-14ca-47b2-9fde-69a825c6e17f</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

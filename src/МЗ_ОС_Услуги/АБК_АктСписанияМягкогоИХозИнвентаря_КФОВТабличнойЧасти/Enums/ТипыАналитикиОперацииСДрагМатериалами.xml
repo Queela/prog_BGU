@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
+	<Enum uuid="3be8fa32-85ee-4b16-8ed2-b5ffc76f2714">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ТипыАналитикиОперацииСДрагМатериалами" category="Ref">
+				<xr:TypeId>fbdcb0a2-53b2-4e0d-b7de-63eafa9ec6ab</xr:TypeId>
+				<xr:ValueId>21263d97-19f4-4ad8-867f-d5e179d6a75c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ТипыАналитикиОперацииСДрагМатериалами" category="Manager">
+				<xr:TypeId>671f32da-9fc8-43f5-b431-5c9a6078beb2</xr:TypeId>
+				<xr:ValueId>1aae165f-40c9-45cc-9a4d-08238c79ed61</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ТипыАналитикиОперацииСДрагМатериалами" category="List">
+				<xr:TypeId>d04d3602-11a9-416f-b3b8-032e5d989863</xr:TypeId>
+				<xr:ValueId>a25d2f14-b19e-4ed1-9be8-b67950b11406</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ТипыАналитикиОперацииСДрагМатериалами</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>f36a53a1-acba-4b1d-8797-7ba5d23e0a15</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="100e96e1-8355-486e-985c-2df0b9113010">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>РеализованоДругимОрганизациям</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>1810a79c-9ce5-4272-91f1-9cb6757df1ff</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="a52fe7ef-542a-4b85-9c3f-5a6ac177eac0">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ИзрасходованоНаПроизводство</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>0bb01458-22aa-4d13-b369-3d19f06c52c5</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="c22cea79-6b43-46b0-9840-c73b1640da21">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>СданоДляПереработкиИАффинажаОрганизацииЗаготовителю</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>a6cc80f8-c155-4918-b07d-edc856cbb8aa</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="96a69a83-7a02-4acf-b1f9-6e65ecc41988">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ИзрасходованоНаНаучноИсследовательскиеЦели</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>d4e4159d-12a0-4ac8-812b-58b70d436369</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="e9685eba-58f2-4b1e-b454-fdfbdec31e29">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>СданоДляПереработкиИАффинажа</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>3bfbc5e3-0823-424b-8465-a338651986cd</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

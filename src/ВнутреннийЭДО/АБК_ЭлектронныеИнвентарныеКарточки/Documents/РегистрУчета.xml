@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
+	<Document uuid="a4030b5d-3413-40b4-9f8d-b54bc3dffb96">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.РегистрУчета" category="Object">
+				<xr:TypeId>8d639fd2-2ac2-484a-b75c-6099d60a7238</xr:TypeId>
+				<xr:ValueId>858b9ef1-9412-4684-af65-361b9bd48a52</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.РегистрУчета" category="Ref">
+				<xr:TypeId>759da099-eb33-4758-b1b7-141d34bde7a0</xr:TypeId>
+				<xr:ValueId>609b1756-21af-4376-8a05-19acd463f10c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.РегистрУчета" category="Selection">
+				<xr:TypeId>19446f1a-0bec-43fa-8f80-a113a21af74c</xr:TypeId>
+				<xr:ValueId>9af219d0-6e1f-40dc-9af4-bdd48de6b74c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.РегистрУчета" category="List">
+				<xr:TypeId>af384f08-6a8f-4a7b-83cc-5c8cf9f56c75</xr:TypeId>
+				<xr:ValueId>d1fa939a-e5ab-435c-b799-424410f03928</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.РегистрУчета" category="Manager">
+				<xr:TypeId>05aab67a-f925-4710-aa68-5969567ada34</xr:TypeId>
+				<xr:ValueId>7351a2b5-7b70-4c24-b501-8b0621b50a93</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>РегистрУчета</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>7e086888-d981-49d6-ba94-52b64e7909c8</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>
