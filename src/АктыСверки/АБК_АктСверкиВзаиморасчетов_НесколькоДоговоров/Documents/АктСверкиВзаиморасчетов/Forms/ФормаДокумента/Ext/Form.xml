@@ -405,50 +405,6 @@
 								</CheckBoxField>
 							</ChildItems>
 						</UsualGroup>
-						<Table name="ТаблицаДоговоров" id="879">
-							<Representation>List</Representation>
-							<AutoInsertNewRow>true</AutoInsertNewRow>
-							<EnableStartDrag>true</EnableStartDrag>
-							<EnableDrag>true</EnableDrag>
-							<DataPath>ТаблицаДоговоров</DataPath>
-							<RowFilter xsi:nil="true"/>
-							<ContextMenu name="ТаблицаДоговоровКонтекстноеМеню" id="880"/>
-							<AutoCommandBar name="ТаблицаДоговоровКоманднаяПанель" id="881"/>
-							<ExtendedTooltip name="ТаблицаДоговоровРасширеннаяПодсказка" id="882"/>
-							<SearchStringAddition name="ТаблицаДоговоровСтрокаПоиска" id="883">
-								<AdditionSource>
-									<Item>ТаблицаДоговоров</Item>
-									<Type>SearchStringRepresentation</Type>
-								</AdditionSource>
-								<ContextMenu name="ТаблицаДоговоровСтрокаПоискаКонтекстноеМеню" id="884"/>
-								<ExtendedTooltip name="ТаблицаДоговоровСтрокаПоискаРасширеннаяПодсказка" id="885"/>
-							</SearchStringAddition>
-							<ViewStatusAddition name="ТаблицаДоговоровСостояниеПросмотра" id="886">
-								<AdditionSource>
-									<Item>ТаблицаДоговоров</Item>
-									<Type>ViewStatusRepresentation</Type>
-								</AdditionSource>
-								<ContextMenu name="ТаблицаДоговоровСостояниеПросмотраКонтекстноеМеню" id="887"/>
-								<ExtendedTooltip name="ТаблицаДоговоровСостояниеПросмотраРасширеннаяПодсказка" id="888"/>
-							</ViewStatusAddition>
-							<SearchControlAddition name="ТаблицаДоговоровУправлениеПоиском" id="889">
-								<AdditionSource>
-									<Item>ТаблицаДоговоров</Item>
-									<Type>SearchControl</Type>
-								</AdditionSource>
-								<ContextMenu name="ТаблицаДоговоровУправлениеПоискомКонтекстноеМеню" id="890"/>
-								<ExtendedTooltip name="ТаблицаДоговоровУправлениеПоискомРасширеннаяПодсказка" id="891"/>
-							</SearchControlAddition>
-							<ChildItems>
-								<InputField name="ТаблицаДоговоровДоговор" id="892">
-									<DataPath>ТаблицаДоговоров.Договор</DataPath>
-									<EditMode>EnterOnInput</EditMode>
-									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-									<ContextMenu name="ТаблицаДоговоровДоговорКонтекстноеМеню" id="893"/>
-									<ExtendedTooltip name="ТаблицаДоговоровДоговорРасширеннаяПодсказка" id="894"/>
-								</InputField>
-							</ChildItems>
-						</Table>
 					</ChildItems>
 				</UsualGroup>
 			</ChildItems>
@@ -635,7 +591,7 @@
 											<EditMode>EnterOnInput</EditMode>
 											<ShowInHeader>false</ShowInHeader>
 											<ShowInFooter>false</ShowInFooter>
-											<TextColor>style:ЗаголовкиСтрокЦветТекста</TextColor>
+											<TextColor>0:8332f866-68a2-4460-beb8-769324d09c9e</TextColor>
 											<ContextMenu name="СверкаНадписьПоДаннымОрганизацииКонтекстноеМеню" id="630"/>
 											<ExtendedTooltip name="СверкаНадписьПоДаннымОрганизацииРасширеннаяПодсказка" id="631"/>
 										</InputField>
@@ -645,7 +601,7 @@
 											<ShowInHeader>false</ShowInHeader>
 											<ShowInFooter>false</ShowInFooter>
 											<Width>22</Width>
-											<TextColor>style:ЗаголовкиСтрокЦветТекста</TextColor>
+											<TextColor>0:8332f866-68a2-4460-beb8-769324d09c9e</TextColor>
 											<ContextMenu name="СверкаНадписьПоДаннымКонтрагентаКонтекстноеМеню" id="633"/>
 											<ExtendedTooltip name="СверкаНадписьПоДаннымКонтрагентаРасширеннаяПодсказка" id="634"/>
 										</InputField>
@@ -1057,7 +1013,7 @@
 											<OpenButton>true</OpenButton>
 											<CreateButton>false</CreateButton>
 											<TextEdit>false</TextEdit>
-											<TextColor>style:ЦветНедоступноеПоле</TextColor>
+											<TextColor>0:66a5d53c-fb11-4a18-84a4-fbdeb450c711</TextColor>
 											<ContextMenu name="ПоДаннымОрганизацииДляЭДООтветственныйКонтекстноеМеню" id="877"/>
 											<ExtendedTooltip name="ПоДаннымОрганизацииДляЭДООтветственныйРасширеннаяПодсказка" id="878"/>
 										</InputField>
@@ -1088,7 +1044,7 @@
 									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
-									<BackColor>style:ИтогиФонГруппы</BackColor>
+									<BackColor>0:9836387b-e151-42d5-acad-5d6487804f5b</BackColor>
 									<ExtendedTooltip name="ГруппаПодвалПоДаннымОрганизацииДляЭДОРасширеннаяПодсказка" id="766"/>
 									<ChildItems>
 										<InputField name="ОстатокНаНачалоДляЭДО" id="767">
@@ -1298,7 +1254,7 @@
 															<Width>12</Width>
 															<MaxWidth>8</MaxWidth>
 															<HorizontalStretch>false</HorizontalStretch>
-															<TextColor>style:НедоступныеДанныеЦвет</TextColor>
+															<TextColor>0:30cbb26d-6651-4d64-b529-5d9bb3c5c89e</TextColor>
 															<ContextMenu name="ПоДаннымОрганизацииДатаУчетногоДокументаКонтекстноеМеню" id="563"/>
 															<ExtendedTooltip name="ПоДаннымОрганизацииДатаУчетногоДокументаРасширеннаяПодсказка" id="564"/>
 														</InputField>
@@ -1375,7 +1331,7 @@
 													<OpenButton>true</OpenButton>
 													<CreateButton>false</CreateButton>
 													<TextEdit>false</TextEdit>
-													<TextColor>style:ЦветНедоступноеПоле</TextColor>
+													<TextColor>0:66a5d53c-fb11-4a18-84a4-fbdeb450c711</TextColor>
 													<ContextMenu name="ПоДаннымОрганизацииОтветственныйКонтекстноеМеню" id="874"/>
 													<ExtendedTooltip name="ПоДаннымОрганизацииОтветственныйРасширеннаяПодсказка" id="875"/>
 												</InputField>
@@ -1406,7 +1362,7 @@
 											<AutoInsertNewRow>true</AutoInsertNewRow>
 											<FileDragMode>AsFile</FileDragMode>
 											<RowsPicture>
-												<xr:Ref>CommonPicture.Папка</xr:Ref>
+												<xr:Ref>0:a24be87c-9d1c-4e7a-adcd-6d9047960698</xr:Ref>
 												<xr:LoadTransparent>true</xr:LoadTransparent>
 											</RowsPicture>
 											<ContextMenu name="ОстаткиПоДоговорамКонтекстноеМеню" id="442"/>
@@ -1500,7 +1456,7 @@
 												<InputField name="ОстаткиПоДоговорамНомерСтроки" id="511">
 													<Visible>false</Visible>
 													<ReadOnly>true</ReadOnly>
-													<TitleTextColor>style:ТекстИнформационнойНадписи</TitleTextColor>
+													<TitleTextColor>0:5c5137fb-c433-4474-953e-3087cc8e9c2c</TitleTextColor>
 													<ToolTip>
 														<v8:item>
 															<v8:lang>ru</v8:lang>
@@ -1509,7 +1465,7 @@
 													</ToolTip>
 													<EditMode>EnterOnInput</EditMode>
 													<HorizontalStretch>false</HorizontalStretch>
-													<TextColor>style:ТекстИнформационнойНадписи</TextColor>
+													<TextColor>0:5c5137fb-c433-4474-953e-3087cc8e9c2c</TextColor>
 													<ContextMenu name="ОстаткиПоДоговорамНомерСтрокиКонтекстноеМеню" id="512"/>
 													<ExtendedTooltip name="ОстаткиПоДоговорамНомерСтрокиРасширеннаяПодсказка" id="513"/>
 												</InputField>
@@ -1545,7 +1501,7 @@
 																	<v8:content>на конец</v8:content>
 																</v8:item>
 															</Title>
-															<TitleBackColor>style:ИтогиФонГруппы</TitleBackColor>
+															<TitleBackColor>0:9836387b-e151-42d5-acad-5d6487804f5b</TitleBackColor>
 															<ToolTip>
 																<v8:item>
 																	<v8:lang>ru</v8:lang>
@@ -1561,7 +1517,7 @@
 												</ColumnGroup>
 												<InputField name="ОстаткиПоДоговорамРасхождение" id="492">
 													<ReadOnly>true</ReadOnly>
-													<TitleBackColor>style:ИтогиФонГруппы</TitleBackColor>
+													<TitleBackColor>0:9836387b-e151-42d5-acad-5d6487804f5b</TitleBackColor>
 													<ToolTip>
 														<v8:item>
 															<v8:lang>ru</v8:lang>
@@ -1671,7 +1627,7 @@
 																	<v8:content>на конец</v8:content>
 																</v8:item>
 															</Title>
-															<TitleBackColor>style:ИтогиФонГруппы</TitleBackColor>
+															<TitleBackColor>0:9836387b-e151-42d5-acad-5d6487804f5b</TitleBackColor>
 															<ToolTip>
 																<v8:item>
 																	<v8:lang>ru</v8:lang>
@@ -1687,7 +1643,7 @@
 												</ColumnGroup>
 												<InputField name="СписокОрганизацийРасхождение" id="484">
 													<ReadOnly>true</ReadOnly>
-													<TitleBackColor>style:ИтогиФонГруппы</TitleBackColor>
+													<TitleBackColor>0:9836387b-e151-42d5-acad-5d6487804f5b</TitleBackColor>
 													<ToolTip>
 														<v8:item>
 															<v8:lang>ru</v8:lang>
@@ -1731,7 +1687,7 @@
 									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
-									<BackColor>style:ИтогиФонГруппы</BackColor>
+									<BackColor>0:9836387b-e151-42d5-acad-5d6487804f5b</BackColor>
 									<ExtendedTooltip name="ИтогоПоДаннымОрганизацииФонРасширеннаяПодсказка" id="526"/>
 									<ChildItems>
 										<InputField name="ПоДаннымОрганизацииИтогДебет" id="519">
@@ -2070,7 +2026,7 @@
 									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
-									<BackColor>style:ИтогиФонГруппы</BackColor>
+									<BackColor>0:9836387b-e151-42d5-acad-5d6487804f5b</BackColor>
 									<ExtendedTooltip name="ГруппаПодвалПоДаннымКонтрагентаДляЭДОРасширеннаяПодсказка" id="847"/>
 									<ChildItems>
 										<InputField name="ОстатокНаНачалоКонтрагентДляЭДО" id="848">
@@ -2254,7 +2210,7 @@
 											<ShowInFooter>false</ShowInFooter>
 											<Width>12</Width>
 											<HorizontalStretch>false</HorizontalStretch>
-											<TextColor>style:НедоступныеДанныеЦвет</TextColor>
+											<TextColor>0:30cbb26d-6651-4d64-b529-5d9bb3c5c89e</TextColor>
 											<ContextMenu name="ПоДаннымКонтрагентаДатаУчетногоДокументаКонтекстноеМеню" id="570"/>
 											<ExtendedTooltip name="ПоДаннымКонтрагентаДатаУчетногоДокументаРасширеннаяПодсказка" id="571"/>
 										</InputField>
@@ -2352,7 +2308,7 @@
 									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
-									<BackColor>style:ИтогиФонГруппы</BackColor>
+									<BackColor>0:9836387b-e151-42d5-acad-5d6487804f5b</BackColor>
 									<ExtendedTooltip name="ИтогоПоДаннымКонтрагентаФонРасширеннаяПодсказка" id="533"/>
 									<ChildItems>
 										<InputField name="ПоДаннымКонтрагентаИтогДебет" id="534">
@@ -2815,38 +2771,10 @@
 			</ChildItems>
 		</UsualGroup>
 	</ChildItems>
-	<Attributes>
-		<Attribute name="ТаблицаДоговоров" id="1000001">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Таблица договоров</v8:content>
-				</v8:item>
-			</Title>
-			<Type>
-				<v8:Type>v8:ValueTable</v8:Type>
-			</Type>
-			<Columns>
-				<Column name="Договор" id="1000000">
-					<Title>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Договор</v8:content>
-						</v8:item>
-					</Title>
-					<Type>
-						<v8:Type>cfg:CatalogRef.Договоры</v8:Type>
-					</Type>
-				</Column>
-			</Columns>
-		</Attribute>
-	</Attributes>
+	<Attributes/>
 	<BaseForm version="2.17">
 		<AutoTitle>false</AutoTitle>
 		<VerticalScroll>useIfNecessary</VerticalScroll>
-		<AutoTime>CurrentOrLast</AutoTime>
-		<UsePostingMode>Auto</UsePostingMode>
-		<RepostOnWrite>true</RepostOnWrite>
 		<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 			<ChildItems>
 				<Popup name="КомандыЭДО" id="556">
@@ -3429,7 +3357,7 @@
 												<EditMode>EnterOnInput</EditMode>
 												<ShowInHeader>false</ShowInHeader>
 												<ShowInFooter>false</ShowInFooter>
-												<TextColor>style:ЗаголовкиСтрокЦветТекста</TextColor>
+												<TextColor>0:8332f866-68a2-4460-beb8-769324d09c9e</TextColor>
 												<ContextMenu name="СверкаНадписьПоДаннымОрганизацииКонтекстноеМеню" id="630"/>
 												<ExtendedTooltip name="СверкаНадписьПоДаннымОрганизацииРасширеннаяПодсказка" id="631"/>
 											</InputField>
@@ -3439,7 +3367,7 @@
 												<ShowInHeader>false</ShowInHeader>
 												<ShowInFooter>false</ShowInFooter>
 												<Width>22</Width>
-												<TextColor>style:ЗаголовкиСтрокЦветТекста</TextColor>
+												<TextColor>0:8332f866-68a2-4460-beb8-769324d09c9e</TextColor>
 												<ContextMenu name="СверкаНадписьПоДаннымКонтрагентаКонтекстноеМеню" id="633"/>
 												<ExtendedTooltip name="СверкаНадписьПоДаннымКонтрагентаРасширеннаяПодсказка" id="634"/>
 											</InputField>
@@ -3851,7 +3779,7 @@
 												<OpenButton>true</OpenButton>
 												<CreateButton>false</CreateButton>
 												<TextEdit>false</TextEdit>
-												<TextColor>style:ЦветНедоступноеПоле</TextColor>
+												<TextColor>0:66a5d53c-fb11-4a18-84a4-fbdeb450c711</TextColor>
 												<ContextMenu name="ПоДаннымОрганизацииДляЭДООтветственныйКонтекстноеМеню" id="877"/>
 												<ExtendedTooltip name="ПоДаннымОрганизацииДляЭДООтветственныйРасширеннаяПодсказка" id="878"/>
 											</InputField>
@@ -3882,7 +3810,7 @@
 										<Behavior>Usual</Behavior>
 										<Representation>None</Representation>
 										<ShowTitle>false</ShowTitle>
-										<BackColor>style:ИтогиФонГруппы</BackColor>
+										<BackColor>0:9836387b-e151-42d5-acad-5d6487804f5b</BackColor>
 										<ExtendedTooltip name="ГруппаПодвалПоДаннымОрганизацииДляЭДОРасширеннаяПодсказка" id="766"/>
 										<ChildItems>
 											<InputField name="ОстатокНаНачалоДляЭДО" id="767">
@@ -4092,7 +4020,7 @@
 																<Width>12</Width>
 																<MaxWidth>8</MaxWidth>
 																<HorizontalStretch>false</HorizontalStretch>
-																<TextColor>style:НедоступныеДанныеЦвет</TextColor>
+																<TextColor>0:30cbb26d-6651-4d64-b529-5d9bb3c5c89e</TextColor>
 																<ContextMenu name="ПоДаннымОрганизацииДатаУчетногоДокументаКонтекстноеМеню" id="563"/>
 																<ExtendedTooltip name="ПоДаннымОрганизацииДатаУчетногоДокументаРасширеннаяПодсказка" id="564"/>
 															</InputField>
@@ -4169,7 +4097,7 @@
 														<OpenButton>true</OpenButton>
 														<CreateButton>false</CreateButton>
 														<TextEdit>false</TextEdit>
-														<TextColor>style:ЦветНедоступноеПоле</TextColor>
+														<TextColor>0:66a5d53c-fb11-4a18-84a4-fbdeb450c711</TextColor>
 														<ContextMenu name="ПоДаннымОрганизацииОтветственныйКонтекстноеМеню" id="874"/>
 														<ExtendedTooltip name="ПоДаннымОрганизацииОтветственныйРасширеннаяПодсказка" id="875"/>
 													</InputField>
@@ -4200,7 +4128,7 @@
 												<AutoInsertNewRow>true</AutoInsertNewRow>
 												<FileDragMode>AsFile</FileDragMode>
 												<RowsPicture>
-													<xr:Ref>CommonPicture.Папка</xr:Ref>
+													<xr:Ref>0:a24be87c-9d1c-4e7a-adcd-6d9047960698</xr:Ref>
 													<xr:LoadTransparent>true</xr:LoadTransparent>
 												</RowsPicture>
 												<ContextMenu name="ОстаткиПоДоговорамКонтекстноеМеню" id="442"/>
@@ -4294,7 +4222,7 @@
 													<InputField name="ОстаткиПоДоговорамНомерСтроки" id="511">
 														<Visible>false</Visible>
 														<ReadOnly>true</ReadOnly>
-														<TitleTextColor>style:ТекстИнформационнойНадписи</TitleTextColor>
+														<TitleTextColor>0:5c5137fb-c433-4474-953e-3087cc8e9c2c</TitleTextColor>
 														<ToolTip>
 															<v8:item>
 																<v8:lang>ru</v8:lang>
@@ -4303,7 +4231,7 @@
 														</ToolTip>
 														<EditMode>EnterOnInput</EditMode>
 														<HorizontalStretch>false</HorizontalStretch>
-														<TextColor>style:ТекстИнформационнойНадписи</TextColor>
+														<TextColor>0:5c5137fb-c433-4474-953e-3087cc8e9c2c</TextColor>
 														<ContextMenu name="ОстаткиПоДоговорамНомерСтрокиКонтекстноеМеню" id="512"/>
 														<ExtendedTooltip name="ОстаткиПоДоговорамНомерСтрокиРасширеннаяПодсказка" id="513"/>
 													</InputField>
@@ -4339,7 +4267,7 @@
 																		<v8:content>на конец</v8:content>
 																	</v8:item>
 																</Title>
-																<TitleBackColor>style:ИтогиФонГруппы</TitleBackColor>
+																<TitleBackColor>0:9836387b-e151-42d5-acad-5d6487804f5b</TitleBackColor>
 																<ToolTip>
 																	<v8:item>
 																		<v8:lang>ru</v8:lang>
@@ -4355,7 +4283,7 @@
 													</ColumnGroup>
 													<InputField name="ОстаткиПоДоговорамРасхождение" id="492">
 														<ReadOnly>true</ReadOnly>
-														<TitleBackColor>style:ИтогиФонГруппы</TitleBackColor>
+														<TitleBackColor>0:9836387b-e151-42d5-acad-5d6487804f5b</TitleBackColor>
 														<ToolTip>
 															<v8:item>
 																<v8:lang>ru</v8:lang>
@@ -4465,7 +4393,7 @@
 																		<v8:content>на конец</v8:content>
 																	</v8:item>
 																</Title>
-																<TitleBackColor>style:ИтогиФонГруппы</TitleBackColor>
+																<TitleBackColor>0:9836387b-e151-42d5-acad-5d6487804f5b</TitleBackColor>
 																<ToolTip>
 																	<v8:item>
 																		<v8:lang>ru</v8:lang>
@@ -4481,7 +4409,7 @@
 													</ColumnGroup>
 													<InputField name="СписокОрганизацийРасхождение" id="484">
 														<ReadOnly>true</ReadOnly>
-														<TitleBackColor>style:ИтогиФонГруппы</TitleBackColor>
+														<TitleBackColor>0:9836387b-e151-42d5-acad-5d6487804f5b</TitleBackColor>
 														<ToolTip>
 															<v8:item>
 																<v8:lang>ru</v8:lang>
@@ -4525,7 +4453,7 @@
 										<Behavior>Usual</Behavior>
 										<Representation>None</Representation>
 										<ShowTitle>false</ShowTitle>
-										<BackColor>style:ИтогиФонГруппы</BackColor>
+										<BackColor>0:9836387b-e151-42d5-acad-5d6487804f5b</BackColor>
 										<ExtendedTooltip name="ИтогоПоДаннымОрганизацииФонРасширеннаяПодсказка" id="526"/>
 										<ChildItems>
 											<InputField name="ПоДаннымОрганизацииИтогДебет" id="519">
@@ -4864,7 +4792,7 @@
 										<Behavior>Usual</Behavior>
 										<Representation>None</Representation>
 										<ShowTitle>false</ShowTitle>
-										<BackColor>style:ИтогиФонГруппы</BackColor>
+										<BackColor>0:9836387b-e151-42d5-acad-5d6487804f5b</BackColor>
 										<ExtendedTooltip name="ГруппаПодвалПоДаннымКонтрагентаДляЭДОРасширеннаяПодсказка" id="847"/>
 										<ChildItems>
 											<InputField name="ОстатокНаНачалоКонтрагентДляЭДО" id="848">
@@ -5048,7 +4976,7 @@
 												<ShowInFooter>false</ShowInFooter>
 												<Width>12</Width>
 												<HorizontalStretch>false</HorizontalStretch>
-												<TextColor>style:НедоступныеДанныеЦвет</TextColor>
+												<TextColor>0:30cbb26d-6651-4d64-b529-5d9bb3c5c89e</TextColor>
 												<ContextMenu name="ПоДаннымКонтрагентаДатаУчетногоДокументаКонтекстноеМеню" id="570"/>
 												<ExtendedTooltip name="ПоДаннымКонтрагентаДатаУчетногоДокументаРасширеннаяПодсказка" id="571"/>
 											</InputField>
@@ -5146,7 +5074,7 @@
 										<Behavior>Usual</Behavior>
 										<Representation>None</Representation>
 										<ShowTitle>false</ShowTitle>
-										<BackColor>style:ИтогиФонГруппы</BackColor>
+										<BackColor>0:9836387b-e151-42d5-acad-5d6487804f5b</BackColor>
 										<ExtendedTooltip name="ИтогоПоДаннымКонтрагентаФонРасширеннаяПодсказка" id="533"/>
 										<ChildItems>
 											<InputField name="ПоДаннымКонтрагентаИтогДебет" id="534">

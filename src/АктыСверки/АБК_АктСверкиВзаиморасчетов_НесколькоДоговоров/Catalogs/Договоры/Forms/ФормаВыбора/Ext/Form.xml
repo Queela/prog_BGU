@@ -167,7 +167,7 @@
 							<EnableDrag>true</EnableDrag>
 							<FileDragMode>AsFile</FileDragMode>
 							<RowsPicture>
-								<xr:Ref>CommonPicture.ИерархияЭлементов</xr:Ref>
+								<xr:Ref>0:56ffd1e0-2015-4958-bc33-0cfa3a703ed0</xr:Ref>
 								<xr:LoadTransparent>true</xr:LoadTransparent>
 								<xr:TransparentPixel x="80" y="2"/>
 							</RowsPicture>
@@ -311,7 +311,7 @@
 							<EnableDrag>true</EnableDrag>
 							<FileDragMode>AsFile</FileDragMode>
 							<RowsPicture>
-								<xr:Ref>CommonPicture.ИерархияЭлементов</xr:Ref>
+								<xr:Ref>0:56ffd1e0-2015-4958-bc33-0cfa3a703ed0</xr:Ref>
 								<xr:LoadTransparent>true</xr:LoadTransparent>
 								<xr:TransparentPixel x="80" y="2"/>
 							</RowsPicture>
@@ -617,7 +617,7 @@
 								<EnableDrag>true</EnableDrag>
 								<FileDragMode>AsFile</FileDragMode>
 								<RowsPicture>
-									<xr:Ref>CommonPicture.ИерархияЭлементов</xr:Ref>
+									<xr:Ref>0:56ffd1e0-2015-4958-bc33-0cfa3a703ed0</xr:Ref>
 									<xr:LoadTransparent>true</xr:LoadTransparent>
 									<xr:TransparentPixel x="80" y="2"/>
 								</RowsPicture>
@@ -761,7 +761,7 @@
 								<EnableDrag>true</EnableDrag>
 								<FileDragMode>AsFile</FileDragMode>
 								<RowsPicture>
-									<xr:Ref>CommonPicture.ИерархияЭлементов</xr:Ref>
+									<xr:Ref>0:56ffd1e0-2015-4958-bc33-0cfa3a703ed0</xr:Ref>
 									<xr:LoadTransparent>true</xr:LoadTransparent>
 									<xr:TransparentPixel x="80" y="2"/>
 								</RowsPicture>

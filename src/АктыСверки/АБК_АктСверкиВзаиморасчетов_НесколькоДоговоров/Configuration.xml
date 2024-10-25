@@ -62,19 +62,6 @@
 		</Properties>
 		<ChildObjects>
 			<Language>Русский</Language>
-			<StyleItem>ЦветЗаполняемогоПоказателя</StyleItem>
-			<StyleItem>ИтогиФонГруппы</StyleItem>
-			<StyleItem>СкрытыйВариантОтчетаЦвет</StyleItem>
-			<StyleItem>НедоступныеДанныеЦвет</StyleItem>
-			<StyleItem>ТекстИнформационнойНадписи</StyleItem>
-			<StyleItem>ПросроченныеДанныеЦвет</StyleItem>
-			<StyleItem>ЦветНедоступноеПоле</StyleItem>
-			<StyleItem>ЦветФонаВыделения</StyleItem>
-			<StyleItem>ФонУправляющегоПоля</StyleItem>
-			<StyleItem>ЗаголовкиСтрокЦветТекста</StyleItem>
-			<CommonPicture>Папка</CommonPicture>
-			<CommonPicture>ИерархияЭлементов</CommonPicture>
-			<CommonPicture>ЗначокКонтрагенты16</CommonPicture>
 			<Catalog>Договоры</Catalog>
 			<Document>АктСверкиВзаиморасчетов</Document>
 		</ChildObjects>
