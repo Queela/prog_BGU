@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
+	<Document uuid="be43f422-2129-4a31-a9dd-515b64cc339c">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ОтчетОРасходахПодотчетногоЛица" category="Object">
+				<xr:TypeId>206005e8-0044-47c0-9aa2-57eec5cc0c35</xr:TypeId>
+				<xr:ValueId>3fd9693f-445e-427a-8ac0-699f5dd7f2fa</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ОтчетОРасходахПодотчетногоЛица" category="Ref">
+				<xr:TypeId>7bd793d3-7b59-4f85-94bc-adfdf3a7edbd</xr:TypeId>
+				<xr:ValueId>536a5703-5472-44ee-998e-3df4d3ef9408</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ОтчетОРасходахПодотчетногоЛица" category="Selection">
+				<xr:TypeId>2e666090-7971-42b7-8d09-42250b0f582a</xr:TypeId>
+				<xr:ValueId>3b873a8f-dfe8-44d4-bc04-33b8534977ba</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ОтчетОРасходахПодотчетногоЛица" category="List">
+				<xr:TypeId>42539033-95ae-48c5-936a-a0a610d4bc93</xr:TypeId>
+				<xr:ValueId>ef265d01-f358-4585-9044-6a857a94f49f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ОтчетОРасходахПодотчетногоЛица" category="Manager">
+				<xr:TypeId>f3a808ff-1042-4c67-b719-81228980436c</xr:TypeId>
+				<xr:ValueId>373f7c6f-95d7-4062-b2f3-7c99c69b2206</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ОтчетОРасходахПодотчетногоЛица</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>b67b4793-b925-44a4-8f2c-ae3d63d6e8b7</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.17">
+	<ConfigVersions>
+		<Metadata name="Configuration.АБК_ОтчетОРасходахПодотчетногоЛица_ОтключениеПроверкиОКПД_96_38" id="5bbb8e8d-8bc1-4073-9684-5e5ad1238dc8" configVersion="e9368e9a1f388cfbbfbc8ececd98e70172f5da50"/>
+		<Metadata name="Document.ОтчетОРасходахПодотчетногоЛица" id="be43f422-2129-4a31-a9dd-515b64cc339c" configVersion="199a8b43c9882d4c0b7334b4adf70aa31dae33f4"/>
+		<Metadata name="Document.ОтчетОРасходахПодотчетногоЛица.ObjectModule" id="be43f422-2129-4a31-a9dd-515b64cc339c.0" configVersion="476c2ce33b609afc2dcd29184b3d8c7528ca7ad2"/>
+		<Metadata name="Language.Русский" id="503a777e-2d7d-4718-9daa-92b12b6d1d57" configVersion="f6b65900d85e837c6c4af181e4548d6c56866a2d"/>
+	</ConfigVersions>
+</ConfigDumpInfo>

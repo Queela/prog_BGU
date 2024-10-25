@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
+	<Enum uuid="51dfeebe-bde0-4e80-99b4-c828983b3634">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ТипыСведенийДоговоров" category="Ref">
+				<xr:TypeId>0e7314c6-02ca-4721-ae05-4265bcca64a8</xr:TypeId>
+				<xr:ValueId>a28ea80a-6188-490a-849b-99f0beb30b46</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ТипыСведенийДоговоров" category="Manager">
+				<xr:TypeId>577724b3-3354-4195-b28a-13a55c717ee6</xr:TypeId>
+				<xr:ValueId>62b38126-6d7d-4cf0-a41a-01c3936624ff</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ТипыСведенийДоговоров" category="List">
+				<xr:TypeId>548b22a4-3057-4e11-86db-faccc08c3197</xr:TypeId>
+				<xr:ValueId>c8f30b91-aa53-4a5c-89e3-b258ef15e512</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ТипыСведенийДоговоров</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>d3d594ea-f0ab-4b2a-9f20-18c4aea6cbfc</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="b12da803-7283-429d-b4f4-c35b055e3d69">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ИсправлениеСведений</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>9cf5b996-50f2-40aa-bd10-1ded4a47fbab</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="b1092585-8079-4928-bbec-9a911cdf495c">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ПервичныеСведения</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>7c90087b-0a3b-4995-9e37-132c4cba753b</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="5e15ce04-0f5e-4c67-8205-0f9a0bddb07b">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ИзменениеСведений</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>242f61b4-27a8-4120-ba22-23a7f30fb601</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>
