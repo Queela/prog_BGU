@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
+	<DataProcessor uuid="2d5be5ee-8f1d-46c2-90f4-dd418e7d87b8">
+		<InternalInfo>
+			<xr:GeneratedType name="DataProcessorObject.ПодборНоменклатуры" category="Object">
+				<xr:TypeId>5e4b1893-3f0a-426b-8c38-1aeedba56bba</xr:TypeId>
+				<xr:ValueId>3c66a47b-6909-4a2f-a4ee-069360751c46</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DataProcessorManager.ПодборНоменклатуры" category="Manager">
+				<xr:TypeId>01c527fc-b5af-4926-9abb-c0a9c340c28a</xr:TypeId>
+				<xr:ValueId>c529fa4b-9ae2-4688-b118-748bf64e6ae2</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ПодборНоменклатуры</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>faf22c10-ddf0-4a5f-b7bf-1f4601df137d</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<TabularSection uuid="77edb2b9-f6f4-4940-b2f9-435d2a2de2d5">
+				<InternalInfo>
+					<xr:GeneratedType name="DataProcessorTabularSection.ПодборНоменклатуры.ПодобраннаяНоменклатура" category="TabularSection">
+						<xr:TypeId>aa4917bc-e973-4629-89b0-8562e1bda651</xr:TypeId>
+						<xr:ValueId>328e67c3-915a-4202-b422-4e9aebd33a9e</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DataProcessorTabularSectionRow.ПодборНоменклатуры.ПодобраннаяНоменклатура" category="TabularSectionRow">
+						<xr:TypeId>22d500eb-de4f-45d8-96f8-39321c2dc46e</xr:TypeId>
+						<xr:ValueId>4c54d949-05f0-4d5c-9f1e-c57073bbb19e</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ПодобраннаяНоменклатура</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>23d38cdb-89bc-418f-92da-8450bae0a1cc</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects/>
+			</TabularSection>
+			<Form>ФормаПодбора</Form>
+			<Form>ФормаВводаЦенаКоличество</Form>
+		</ChildObjects>
+	</DataProcessor>
+</MetaDataObject>

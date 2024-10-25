@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
+	<Document uuid="7c7c64a3-6840-4aa6-b3f3-ae60a4cf2646">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ТребованиеНакладная0315006" category="Object">
+				<xr:TypeId>7c5dedc6-c775-4462-a16f-72e22042acec</xr:TypeId>
+				<xr:ValueId>77f9ea09-5457-4a78-9d2b-670260a994fa</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ТребованиеНакладная0315006" category="Ref">
+				<xr:TypeId>4ce40c02-de7f-4f53-9a71-2a9ce887cd82</xr:TypeId>
+				<xr:ValueId>4041e17b-20e6-46ba-8650-b2420ea83e73</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ТребованиеНакладная0315006" category="Selection">
+				<xr:TypeId>6293609e-fb56-46c9-b18f-59c05485fa9d</xr:TypeId>
+				<xr:ValueId>70e1b3e2-2996-4899-81c2-735f60b14b76</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ТребованиеНакладная0315006" category="List">
+				<xr:TypeId>3818aa0a-b9bc-4433-b18a-66db57671190</xr:TypeId>
+				<xr:ValueId>9dac785e-daee-4558-9a82-f981b0ffa63a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ТребованиеНакладная0315006" category="Manager">
+				<xr:TypeId>d817ad3d-6951-463e-bad3-de80d38f9a92</xr:TypeId>
+				<xr:ValueId>694fac32-7672-4dd7-831b-55f891d4e09c</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ТребованиеНакладная0315006</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>7464bdfe-37e3-48ee-bada-32c6734ca6ef</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Form>ФормаДокумента</Form>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

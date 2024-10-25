@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
+	<Catalog uuid="ad14be71-5661-45ea-bc12-1be43fa869f3">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ИсточникиФинансовогоОбеспечения" category="Object">
+				<xr:TypeId>ab3de4f6-f3ac-40a9-885e-63c9056f248f</xr:TypeId>
+				<xr:ValueId>b0f1b2d9-009d-452a-86e7-92c3d109a786</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ИсточникиФинансовогоОбеспечения" category="Ref">
+				<xr:TypeId>8ebf70c0-03cb-4922-bad9-7f63c9c5438d</xr:TypeId>
+				<xr:ValueId>d96470df-3190-461b-9302-aac97794d159</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ИсточникиФинансовогоОбеспечения" category="Selection">
+				<xr:TypeId>c4d07c33-22ad-4a0a-8936-e78876bdb905</xr:TypeId>
+				<xr:ValueId>25cd01de-78d0-4624-a765-8245914bf4d8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ИсточникиФинансовогоОбеспечения" category="List">
+				<xr:TypeId>0175603f-db65-4d38-a983-a5bc8038dfb2</xr:TypeId>
+				<xr:ValueId>75bc99c9-0f0f-4793-bb13-6db4b03a759c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ИсточникиФинансовогоОбеспечения" category="Manager">
+				<xr:TypeId>0ca13bc7-e3a4-4ef7-a530-04d7b10eddf9</xr:TypeId>
+				<xr:ValueId>ebcfb623-6edc-46d2-a1ec-ac8ce32fad62</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ИсточникиФинансовогоОбеспечения</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>d3dfd605-06ab-4c83-958a-badfb4239f89</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

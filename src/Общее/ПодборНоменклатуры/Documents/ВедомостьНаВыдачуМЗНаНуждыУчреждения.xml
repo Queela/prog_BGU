@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
+	<Document uuid="69097694-0dfb-4917-8b19-422b7ca3b9d1">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ВедомостьНаВыдачуМЗНаНуждыУчреждения" category="Object">
+				<xr:TypeId>9dba8d48-4275-4b54-a327-1412e1fb4015</xr:TypeId>
+				<xr:ValueId>de2b5082-bf85-4833-98ff-3a6e4d3a35b2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ВедомостьНаВыдачуМЗНаНуждыУчреждения" category="Ref">
+				<xr:TypeId>6af4a0f8-b34d-4ab9-900c-6a455fdf6054</xr:TypeId>
+				<xr:ValueId>5c890337-8683-46e1-b108-e3c5c15d2b00</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ВедомостьНаВыдачуМЗНаНуждыУчреждения" category="Selection">
+				<xr:TypeId>c7e5cd44-c80e-4f05-bde0-9a7dfea458a7</xr:TypeId>
+				<xr:ValueId>4e3e8d7b-7270-4a5e-9276-352d7cb56633</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ВедомостьНаВыдачуМЗНаНуждыУчреждения" category="List">
+				<xr:TypeId>b1071250-4264-4671-8df9-73e793ac667d</xr:TypeId>
+				<xr:ValueId>55d77e1d-2f9f-4e6a-a141-99b44c340d26</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ВедомостьНаВыдачуМЗНаНуждыУчреждения" category="Manager">
+				<xr:TypeId>32273115-6ab8-4e5d-aad3-e8dfd7a8c9b5</xr:TypeId>
+				<xr:ValueId>06fdf20f-dffe-4e26-83f5-260be33103bf</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ВедомостьНаВыдачуМЗНаНуждыУчреждения</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>2dce22ad-d7f2-4039-92fa-ac7ad9e888b9</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Form>ФормаДокумента</Form>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

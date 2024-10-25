@@ -7,12 +7,13 @@
 		<Metadata name="CommonPicture.ЗначокКонтрагенты16" id="a702e151-a980-4158-b03b-86e921b0ec14" configVersion="7d4b321c5898e92094807e13cef208a8fd76500c"/>
 		<Metadata name="CommonPicture.ИерархияЭлементов" id="56ffd1e0-2015-4958-bc33-0cfa3a703ed0" configVersion="51a5128ac0b243542fbabca3b729b237527f11cb"/>
 		<Metadata name="CommonPicture.Папка" id="a24be87c-9d1c-4e7a-adcd-6d9047960698" configVersion="2ee18566535806479bbb0fe75722d62ac5dd06a6"/>
-		<Metadata name="Configuration.АБК_АктСверкиВзаиморасчетов_НесколькоДоговоров" id="7e156210-7ca8-4acc-91ba-4c4f48ff442b" configVersion="f2d89371864149b20d95643ad10429016e9a089c"/>
-		<Metadata name="Document.АктСверкиВзаиморасчетов" id="d971576e-417f-45af-9509-d6db2ee04e80" configVersion="a63bb3df5b23eb9142894271ae89b5afda6169f1"/>
-		<Metadata name="Document.АктСверкиВзаиморасчетов.Form.ФормаДокумента" id="a2fe5197-54b5-4814-933c-f41d9f7e2f0e" configVersion="f9668149a562375a304b46e128df136847480bcb"/>
-		<Metadata name="Document.АктСверкиВзаиморасчетов.Form.ФормаДокумента.Form" id="a2fe5197-54b5-4814-933c-f41d9f7e2f0e.0" configVersion="d1a88307ec6bc8bb3750abe69223af0bb2c8d5c7"/>
-		<Metadata name="Document.АктСверкиВзаиморасчетов.ManagerModule" id="d971576e-417f-45af-9509-d6db2ee04e80.2" configVersion="472ca4fc4f2123435c1432802e3d59d63c71d242"/>
+		<Metadata name="Configuration.АБК_АктСверкиВзаиморасчетов_НесколькоДоговоров" id="7e156210-7ca8-4acc-91ba-4c4f48ff442b" configVersion="85bd9e321649d624ed5f5f938a147fdcff31c43a"/>
+		<Metadata name="Document.АктСверкиВзаиморасчетов" id="d971576e-417f-45af-9509-d6db2ee04e80" configVersion="0341ea19ff412795d844b10511f7ff813d2eba6d"/>
+		<Metadata name="Document.АктСверкиВзаиморасчетов.Form.ФормаДокумента" id="07453db3-08eb-4973-b8e2-8b809a34a5f0" configVersion="38a7c2b13ec966b7c24c8d8811ef608542ad216b"/>
+		<Metadata name="Document.АктСверкиВзаиморасчетов.Form.ФормаДокумента.Form" id="07453db3-08eb-4973-b8e2-8b809a34a5f0.0" configVersion="8f58e6bcf9c043d96a0d7b70a295c48a3cf6499a"/>
+		<Metadata name="Document.АктСверкиВзаиморасчетов.ManagerModule" id="d971576e-417f-45af-9509-d6db2ee04e80.2" configVersion="97c7ed848d8263402c60c1b43441cc9b1f7287cd"/>
 		<Metadata name="Language.Русский" id="b1a2c146-f7bf-4223-9509-cb33d5bef561" configVersion="e5f80a918e3603660de6f9db5e684c5878d218b2"/>
+		<Metadata name="StyleItem.ЗаголовкиСтрокЦветТекста" id="8332f866-68a2-4460-beb8-769324d09c9e" configVersion="326109ad075ed18885afaf807518c89e2a52536e"/>
 		<Metadata name="StyleItem.ИтогиФонГруппы" id="9836387b-e151-42d5-acad-5d6487804f5b" configVersion="cc0648da3ba9582d51b0ab2abc94a36c65a43faa"/>
 		<Metadata name="StyleItem.НедоступныеДанныеЦвет" id="30cbb26d-6651-4d64-b529-5d9bb3c5c89e" configVersion="fe4558b09bedcabd972ea1d7351be1a95fbb2461"/>
 		<Metadata name="StyleItem.ПросроченныеДанныеЦвет" id="2b0a6eea-89b9-460d-978b-fa58bab807bf" configVersion="38b11bfa5d2ba734acea92e80290ed35e5119f8f"/>

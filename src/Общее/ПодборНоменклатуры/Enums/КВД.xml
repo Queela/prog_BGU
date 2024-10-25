@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
+	<Enum uuid="9f7f12c0-9957-4129-9026-6d5244cc50e7">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.КВД" category="Ref">
+				<xr:TypeId>e84e1145-963b-41c5-8c63-fe267f58b19c</xr:TypeId>
+				<xr:ValueId>773b9bdf-f243-41be-aaee-e799094b91d7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.КВД" category="Manager">
+				<xr:TypeId>25ec2d4c-c772-4c72-bd48-630ca8366307</xr:TypeId>
+				<xr:ValueId>a9417def-76fc-4e2d-8a9a-c684afb219f6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.КВД" category="List">
+				<xr:TypeId>d61495a1-3b7a-4d40-9d4a-fc424d689303</xr:TypeId>
+				<xr:ValueId>e82eb681-3568-4582-819d-24ca557b9a2d</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>КВД</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>ce110c64-a8b2-4e7c-b7ac-2a9493c233bf</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>
