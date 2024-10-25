@@ -3,10 +3,10 @@
 	<ConfigVersions>
 		<Metadata name="Catalog.Контрагенты" id="cc9c3d91-961e-4046-a7c7-9691be4248eb" configVersion="c1751001f216a59b4abcd3a26447972d9c7af96a"/>
 		<Metadata name="Catalog.Контрагенты.Form.ФормаСписка" id="6d0cd729-c302-4fc7-8119-6f0a29cad07d" configVersion="b623bcfc34b998bebe862c0ec4bf6c8b88a90d92"/>
-		<Metadata name="Catalog.Контрагенты.Form.ФормаСписка.Form" id="6d0cd729-c302-4fc7-8119-6f0a29cad07d.0" configVersion="ec64e851081db129a0c48003115ef7eab5de0328"/>
+		<Metadata name="Catalog.Контрагенты.Form.ФормаСписка.Form" id="6d0cd729-c302-4fc7-8119-6f0a29cad07d.0" configVersion="8a2c12ac7ad3a935b2e0f4ef465dc363ed076d2c"/>
 		<Metadata name="CommonPicture.КоллекцияНастройкиОтправкиЭДО" id="ec5d90fe-5f13-4a3a-87ce-22996ecd62d7" configVersion="316ae8ded6a87f78d7cc434288ff3b905c2c6271"/>
 		<Metadata name="CommonPicture.ЭмблемаСервиса1СЭДО" id="4a8d6197-0412-4ea5-9cfc-2552122bda53" configVersion="2e1edd542e4c0eaa1b3352ab0012a01ddf557d30"/>
-		<Metadata name="Configuration.АБК_Контрагенты_ФормаСписка_Адреса" id="089dc196-88cd-4d48-8323-16fe627346b2" configVersion="2caff4519d3e5ebb0321cd7cd50399d52106c8bc"/>
+		<Metadata name="Configuration.АБК_Контрагенты_ФормаСписка_Адреса" id="089dc196-88cd-4d48-8323-16fe627346b2" configVersion="7fc7767664fef3832c65f6641a3bc54f4e96d325"/>
 		<Metadata name="Language.Русский" id="8d1249b3-f56b-460b-b51b-69e9014df6c1" configVersion="db12a824127a2a16526ed73d85e41d445e840def"/>
 	</ConfigVersions>
 </ConfigDumpInfo>

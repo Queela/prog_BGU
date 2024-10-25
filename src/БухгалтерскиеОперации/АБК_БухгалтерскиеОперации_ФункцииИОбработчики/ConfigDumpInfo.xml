@@ -2,12 +2,12 @@
 <ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.17">
 	<ConfigVersions>
 		<Metadata name="CommonModule.АБК_УстановкаДвиженийПоБСО" id="299ef398-81c0-4a73-a776-a6a51b3ba9b9" configVersion="012f9deb688fa9c927047130d4d58551ff41afc6"/>
-		<Metadata name="CommonModule.АБК_УстановкаДвиженийПоБСО.Module" id="299ef398-81c0-4a73-a776-a6a51b3ba9b9.0" configVersion="c54c453a1db8afec0a4fef2084ce31ec0b969ea0"/>
-		<Metadata name="CommonModule.БухгалтерскиеОперации" id="07f1a45b-a92e-4297-80de-22d029cc6ecb" configVersion="9f2ea4d127abbcd0f86614a799d9d3fac6eb14ce"/>
-		<Metadata name="CommonModule.БухгалтерскиеОперации.Module" id="07f1a45b-a92e-4297-80de-22d029cc6ecb.0" configVersion="a83e771e961acfb298425c9788df2614614ae17e"/>
-		<Metadata name="CommonModule.БухгалтерскиеОперацииОбработчики" id="bddd2107-bbfa-4ec6-9e98-e07b1ce19cda" configVersion="ba977c30a7ad750e5eff1b841dc242ebd6aa753c"/>
-		<Metadata name="CommonModule.БухгалтерскиеОперацииОбработчики.Module" id="bddd2107-bbfa-4ec6-9e98-e07b1ce19cda.0" configVersion="91851c2d8fdc219dc04bc7601cdc05231a93d800"/>
-		<Metadata name="Configuration.АБК_БухгалтерскиеОперации_ФункцииИОбработчики" id="e454f0ca-16fa-422b-a4e4-4d4dfb5a1c00" configVersion="40f31c8ff4b42636af7a43b14fbc01cc0a1828a3"/>
+		<Metadata name="CommonModule.АБК_УстановкаДвиженийПоБСО.Module" id="299ef398-81c0-4a73-a776-a6a51b3ba9b9.0" configVersion="19468458e5d744ba20c805504d9444f4c78add66"/>
+		<Metadata name="CommonModule.БухгалтерскиеОперации" id="07f1a45b-a92e-4297-80de-22d029cc6ecb" configVersion="d7dafd0ca3a36d65583287791d7b3e61b3f048b8"/>
+		<Metadata name="CommonModule.БухгалтерскиеОперации.Module" id="07f1a45b-a92e-4297-80de-22d029cc6ecb.0" configVersion="566b0c089d74fd0b9e0f08db1fc4d97928927258"/>
+		<Metadata name="CommonModule.БухгалтерскиеОперацииОбработчики" id="bddd2107-bbfa-4ec6-9e98-e07b1ce19cda" configVersion="c563e412cc6a9374d85922927c8cd2cd7565a108"/>
+		<Metadata name="CommonModule.БухгалтерскиеОперацииОбработчики.Module" id="bddd2107-bbfa-4ec6-9e98-e07b1ce19cda.0" configVersion="155950662d278c033f08868a87626269eaccd7ce"/>
+		<Metadata name="Configuration.АБК_БухгалтерскиеОперации_ФункцииИОбработчики" id="e454f0ca-16fa-422b-a4e4-4d4dfb5a1c00" configVersion="e3ac5229c273dd9bf37dd803c54100f60931dce2"/>
 		<Metadata name="Document.ВнутреннееПеремещениеБСО" id="58b8dcec-8059-422b-8130-4cc07fffc075" configVersion="4000f427ce9fc8f5a922e46b255a5512b75746dd"/>
 		<Metadata name="Document.ПередачаБСО" id="5e24a78e-d742-40a7-83d4-1f9567d36a06" configVersion="05931fff7215bde5c19c39f151c2cd6e7e1145c8"/>
 		<Metadata name="Document.ПоступлениеБСО" id="b402a2f8-52a1-47d2-9064-ff7b9cc844d8" configVersion="109531e1daee233da04817f033944cae01666a81"/>

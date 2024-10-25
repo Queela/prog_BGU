@@ -3,11 +3,11 @@
 	<ConfigVersions>
 		<Metadata name="Catalog.КлассификационныеПризнакиСчетов" id="7eff0637-edb7-4b63-9bef-d296ee505ce0" configVersion="036612fcdb3fd5c0ca184fbe4a667e511a86a178"/>
 		<Metadata name="CommonPicture.Папка" id="22db8c10-8c7e-4b3d-a6e7-dd9c032b681b" configVersion="ee8e731473439dcb9c4d008c4cbd6ab80aaa005d"/>
-		<Metadata name="Configuration.АБК_АктСверки_ОтборПоКПС" id="ff59853d-a1a8-4545-bd5f-736324ff13f2" configVersion="289f0bec8770448674922976746ed9de27589cbd"/>
+		<Metadata name="Configuration.АБК_АктСверки_ОтборПоКПС" id="ff59853d-a1a8-4545-bd5f-736324ff13f2" configVersion="a12e7cfd18f96d4126877a4e84eac8936f5cf2b7"/>
 		<Metadata name="Document.АктСверкиВзаиморасчетов" id="3399a99e-6fc2-4080-87e1-0400e5430e60" configVersion="45d5b4e0f618633cad101dbe1fe5cfe6dacf5df7"/>
 		<Metadata name="Document.АктСверкиВзаиморасчетов.Form.ФормаДокумента" id="2823dcca-eae3-4afa-bd69-402cfda77ac7" configVersion="175189cea65ca63367770b23072a61c3f30b7ab4"/>
-		<Metadata name="Document.АктСверкиВзаиморасчетов.Form.ФормаДокумента.Form" id="2823dcca-eae3-4afa-bd69-402cfda77ac7.0" configVersion="5954aca5465293aab9a237a188b533202d60c964"/>
-		<Metadata name="Document.АктСверкиВзаиморасчетов.ManagerModule" id="3399a99e-6fc2-4080-87e1-0400e5430e60.2" configVersion="211411e9efde312f2f0365dfc557967f732e3b87"/>
+		<Metadata name="Document.АктСверкиВзаиморасчетов.Form.ФормаДокумента.Form" id="2823dcca-eae3-4afa-bd69-402cfda77ac7.0" configVersion="4d52842c1a2d8209e443f7f29204826e3b26a3b9"/>
+		<Metadata name="Document.АктСверкиВзаиморасчетов.ManagerModule" id="3399a99e-6fc2-4080-87e1-0400e5430e60.2" configVersion="39afe8e268d99cea4751b92c1310224cf5d343e0"/>
 		<Metadata name="Language.Русский" id="0732647f-3f3e-41da-a780-a1621a41b867" configVersion="c5c7ef887173644e2769e6bbcc29190d098faa6e"/>
 		<Metadata name="StyleItem.ЗаголовкиСтрокЦветТекста" id="623246f8-674a-4877-a377-eca7e1744602" configVersion="247e6ad8288047a352f9b23a2350f282d4007138"/>
 		<Metadata name="StyleItem.ИтогиФонГруппы" id="ab4f392f-bf49-4663-ba92-da7dee35af68" configVersion="bbb191adb8a4d5c32cae0fd79bfaf441bb12068b"/>

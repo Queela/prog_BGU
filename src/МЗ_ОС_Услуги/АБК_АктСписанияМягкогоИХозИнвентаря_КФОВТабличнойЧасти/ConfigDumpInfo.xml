@@ -2,17 +2,17 @@
 <ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.17">
 	<ConfigVersions>
 		<Metadata name="CommonModule.АБК_ДопКолонкиДокументов" id="266f8d10-d90d-4261-b7a1-c2f152204c68" configVersion="c90165613e433f3f9d62f92700cc6d7887f1e7ea"/>
-		<Metadata name="CommonModule.АБК_ДопКолонкиДокументов.Module" id="266f8d10-d90d-4261-b7a1-c2f152204c68.0" configVersion="26a1800c6b7a6ce45d244a4a71d00ec0a73bbb50"/>
-		<Metadata name="CommonModule.УправлениеМатериальнымиЗапасами" id="ddba8409-af0c-494c-af00-9a0f34cb4608" configVersion="5b1d8d73ae5695f392ac644c48b38900ee1f7315"/>
-		<Metadata name="CommonModule.УправлениеМатериальнымиЗапасами.Module" id="ddba8409-af0c-494c-af00-9a0f34cb4608.0" configVersion="30427193a8d3b797c156c0f4a69425b3e7fd9d71"/>
+		<Metadata name="CommonModule.АБК_ДопКолонкиДокументов.Module" id="266f8d10-d90d-4261-b7a1-c2f152204c68.0" configVersion="cfe26675bd4504161a32598006b6c7ee400ca8c6"/>
+		<Metadata name="CommonModule.УправлениеМатериальнымиЗапасами" id="ddba8409-af0c-494c-af00-9a0f34cb4608" configVersion="9c379d3b47c1a6ba2bd6e5b8990e7236c2c01611"/>
+		<Metadata name="CommonModule.УправлениеМатериальнымиЗапасами.Module" id="ddba8409-af0c-494c-af00-9a0f34cb4608.0" configVersion="2b7ca25f9785f999a6e32f5edab929fa5af9f579"/>
 		<Metadata name="CommonPicture.ЗаписиВТабличномПоле" id="1bc8d5ac-2f78-47a2-82e2-df7af8479103" configVersion="58ac3337e12f6a02a23c12a75e75a2d438a6d0d6"/>
 		<Metadata name="CommonPicture.ПрослеживаемыйТовар" id="bab26159-097c-4e30-ad54-a9efac561ebe" configVersion="d604b40262e509269a80509afbdf0a53df16aabc"/>
-		<Metadata name="Configuration.АБК_АктСписанияМягкогоИХозИнвентаря_КФОВТабличнойЧасти" id="abdc61a8-40c9-4b7c-b318-f1a706729e14" configVersion="4f4b5e661171ba04a68a01ba955bf42b406c46bd"/>
+		<Metadata name="Configuration.АБК_АктСписанияМягкогоИХозИнвентаря_КФОВТабличнойЧасти" id="abdc61a8-40c9-4b7c-b318-f1a706729e14" configVersion="134affc56d1f02896ed57fb940985030739791c8"/>
 		<Metadata name="Document.АктСписанияМягкогоИХозИнвентаря" id="263ca5e8-8647-4859-aa0b-b86b20f328b3" configVersion="515c97078c566842fbe0be01f9d07b89c9c55f77"/>
 		<Metadata name="Document.АктСписанияМягкогоИХозИнвентаря.Form.ФормаДокумента" id="ff383b3a-4c0b-462f-88a7-55b99ef7ffba" configVersion="eb2b92f3d4ada290fdcd5f51b87733c285d16c7d"/>
-		<Metadata name="Document.АктСписанияМягкогоИХозИнвентаря.Form.ФормаДокумента.Form" id="ff383b3a-4c0b-462f-88a7-55b99ef7ffba.0" configVersion="b4e13dfec83a8c0676974756aecb019016381cc9"/>
-		<Metadata name="Document.АктСписанияМягкогоИХозИнвентаря.ManagerModule" id="263ca5e8-8647-4859-aa0b-b86b20f328b3.2" configVersion="216922861ab61c73e9d46495eace144ca6363418"/>
-		<Metadata name="Document.АктСписанияМягкогоИХозИнвентаря.ObjectModule" id="263ca5e8-8647-4859-aa0b-b86b20f328b3.0" configVersion="1deb2d6d4248953231eac416e24d5fe2b20efb64"/>
+		<Metadata name="Document.АктСписанияМягкогоИХозИнвентаря.Form.ФормаДокумента.Form" id="ff383b3a-4c0b-462f-88a7-55b99ef7ffba.0" configVersion="f78fe30788ed39e8b0900c8f30b13eefb46605b6"/>
+		<Metadata name="Document.АктСписанияМягкогоИХозИнвентаря.ManagerModule" id="263ca5e8-8647-4859-aa0b-b86b20f328b3.2" configVersion="830f0f5aa3d7b5944d80d76d42ca11a9531e3a29"/>
+		<Metadata name="Document.АктСписанияМягкогоИХозИнвентаря.ObjectModule" id="263ca5e8-8647-4859-aa0b-b86b20f328b3.0" configVersion="7bedbd9132291bc659017453bf89f4f0babbbe98"/>
 		<Metadata name="Enum.ТипыАналитикиОперацииСДрагМатериалами" id="3be8fa32-85ee-4b16-8ed2-b5ffc76f2714" configVersion="0d7c43c6b5aac74c841195a9fb4164afc27b90e8">
 			<Metadata name="Enum.ТипыАналитикиОперацииСДрагМатериалами.EnumValue.РеализованоДругимОрганизациям" id="100e96e1-8355-486e-985c-2df0b9113010"/>
 			<Metadata name="Enum.ТипыАналитикиОперацииСДрагМатериалами.EnumValue.ИзрасходованоНаНаучноИсследовательскиеЦели" id="96a69a83-7a02-4acf-b1f9-6e65ecc41988"/>

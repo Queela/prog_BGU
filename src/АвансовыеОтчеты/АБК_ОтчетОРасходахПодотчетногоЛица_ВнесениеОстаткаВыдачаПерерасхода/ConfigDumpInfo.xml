@@ -5,10 +5,10 @@
 		<Metadata name="Catalog.КлассификационныеПризнакиСчетов" id="212d079a-cc1c-4f76-b89a-bfead6b4803f" configVersion="ef873ad47da034a6bee55dfb1cace13a8488a7b7"/>
 		<Metadata name="Catalog.Организации" id="809d3a17-b6e1-462e-ba49-54688f013b8b" configVersion="864ae41a0be02705115f5b079a67bc6325125263"/>
 		<Metadata name="ChartOfAccounts.ЕПСБУ" id="1884370f-51ed-4788-be2a-2e5cec900172" configVersion="bf9984c26b51e081f36d16e296c769eeb2830aad"/>
-		<Metadata name="CommonModule.РасчетыСПодотчетнымиЛицами" id="83d30ae4-3137-4251-b3ad-6c8bcda9ea3e" configVersion="7ee31a87d594494f04b5ce67b41f61983a47bebd"/>
-		<Metadata name="CommonModule.РасчетыСПодотчетнымиЛицами.Module" id="83d30ae4-3137-4251-b3ad-6c8bcda9ea3e.0" configVersion="5ebc0fd014bcba5d698688ccadfa72cb7b08ed59"/>
+		<Metadata name="CommonModule.РасчетыСПодотчетнымиЛицами" id="83d30ae4-3137-4251-b3ad-6c8bcda9ea3e" configVersion="a39e8f02277a2d2c46d3f23d0ea4ef1dbe8ac6be"/>
+		<Metadata name="CommonModule.РасчетыСПодотчетнымиЛицами.Module" id="83d30ae4-3137-4251-b3ad-6c8bcda9ea3e.0" configVersion="83e42cb39e75d86c6f19d30d263a68130c78f3df"/>
 		<Metadata name="CommonPicture.Защита" id="5a25db90-59e4-489c-b6fc-a8498b2d9c22" configVersion="095dcbe7e2f3b7a43550a6aa2b43779aeb35281d"/>
-		<Metadata name="Configuration.АБК_ОтчетОРасходахПодотчетногоЛица_ВнесениеОстаткаВыдачаПерерасхода" id="65131ded-684b-477b-a32c-ef7e7af49da7" configVersion="d6ae5917e74510b41f20e623924ddb733e7ce1d2"/>
+		<Metadata name="Configuration.АБК_ОтчетОРасходахПодотчетногоЛица_ВнесениеОстаткаВыдачаПерерасхода" id="65131ded-684b-477b-a32c-ef7e7af49da7" configVersion="dc6068e37ceb28834fd12c9206462cf36831ee1b"/>
 		<Metadata name="Document.ВедомостьНаВыдачуДенегИзКассы" id="7f9ee05d-cb1d-4eac-9b61-c306dc1382f5" configVersion="1e7a2c9be0572998b3b013985d6922cea16099c7"/>
 		<Metadata name="Document.ВедомостьНаВыдачуПодотчетнымЛицам" id="5a16a2bd-a971-41f1-9547-f37a095b04a8" configVersion="7d544dbe6092443153cbbf52ba091e925527aa37"/>
 		<Metadata name="Document.ЗаявкаНаКассовыйРасход" id="bff14592-8460-4113-9364-3fc182b34430" configVersion="b774c62b661b4517b3ee868f32520d8392417017"/>
@@ -16,7 +16,7 @@
 		<Metadata name="Document.КассовоеВыбытие" id="62eba2b5-cc11-47c8-b135-73f86d3e2f71" configVersion="cc955f8808d8783ffd1f3f6750dbe022ddcefca7"/>
 		<Metadata name="Document.КассовоеПоступление" id="bcb93545-83bb-4c93-8e38-f879c65ecc0e" configVersion="0fe03b599e1e16f03ce7897eff847b557496bedc"/>
 		<Metadata name="Document.ОперацияБух" id="39eaf8c9-213c-42a8-9dea-798a00effec0" configVersion="4f2d22bb24eacda84b48685caaf1566aba6b52de"/>
-		<Metadata name="Document.ОтчетОРасходахПодотчетногоЛица" id="595d2cd8-6b34-44e8-a58c-769412ca86ef" configVersion="d9cea5be5657dc8c3bd4e1e0af4bb0c63b3438f1">
+		<Metadata name="Document.ОтчетОРасходахПодотчетногоЛица" id="595d2cd8-6b34-44e8-a58c-769412ca86ef" configVersion="7870fe1a96485babe0bd44841a8eb3de3d2fc51f">
 			<Metadata name="Document.ОтчетОРасходахПодотчетногоЛица.TabularSection.ОстатокПерерасход.Attribute.ДокументОстатка" id="331ccada-aa16-477e-ad6c-729b4c8bf5a6"/>
 			<Metadata name="Document.ОтчетОРасходахПодотчетногоЛица.Attribute.ОстатокПредыдущегоАванса" id="4df5c465-d82b-414e-afc3-57ee81937a2d"/>
 			<Metadata name="Document.ОтчетОРасходахПодотчетногоЛица.Attribute.Организация" id="59985cbf-5044-411b-960a-43ec9240e088"/>
@@ -27,10 +27,10 @@
 			<Metadata name="Document.ОтчетОРасходахПодотчетногоЛица.Attribute.ОстатокПредыдущегоАвансаВВалюте" id="d3894bd2-e741-493a-a804-e9378ab2b956"/>
 		</Metadata>
 		<Metadata name="Document.ОтчетОРасходахПодотчетногоЛица.Form.ФормаДокумента" id="adb23827-01d7-4ecc-a1e5-95549e7b57f8" configVersion="fad584dbbf08fe63caccdab853e1020adc3239cf"/>
-		<Metadata name="Document.ОтчетОРасходахПодотчетногоЛица.Form.ФормаДокумента.Form" id="adb23827-01d7-4ecc-a1e5-95549e7b57f8.0" configVersion="a93c705ebe9913285074e2985e22da111762b678"/>
-		<Metadata name="Document.ОтчетОРасходахПодотчетногоЛица.ManagerModule" id="595d2cd8-6b34-44e8-a58c-769412ca86ef.2" configVersion="b2555023e5a9d3063e55e05fdfa9155163e1c636"/>
+		<Metadata name="Document.ОтчетОРасходахПодотчетногоЛица.Form.ФормаДокумента.Form" id="adb23827-01d7-4ecc-a1e5-95549e7b57f8.0" configVersion="a07a27bfcaaa07f8c033c05b142751754ffa6b1e"/>
+		<Metadata name="Document.ОтчетОРасходахПодотчетногоЛица.ManagerModule" id="595d2cd8-6b34-44e8-a58c-769412ca86ef.2" configVersion="efe09383898fc454c3ca9d119c0d8a67f8731268"/>
 		<Metadata name="Document.ОтчетОРасходахПодотчетногоЛица.Template.ПФ_MXL_ОтчетОРасходахПодотчетногоЛица504520_ОстатокПерерасход" id="2d67b6d4-b7e0-40f4-81f1-a306fcda29a5" configVersion="9b39c461b98169eaca328e3aaa160bad4c93860e"/>
-		<Metadata name="Document.ОтчетОРасходахПодотчетногоЛица.Template.ПФ_MXL_ОтчетОРасходахПодотчетногоЛица504520_ОстатокПерерасход.Template" id="2d67b6d4-b7e0-40f4-81f1-a306fcda29a5.0" configVersion="63e3dbe6cb0fd535f37c40277a3bf78cc93507e4"/>
+		<Metadata name="Document.ОтчетОРасходахПодотчетногоЛица.Template.ПФ_MXL_ОтчетОРасходахПодотчетногоЛица504520_ОстатокПерерасход.Template" id="2d67b6d4-b7e0-40f4-81f1-a306fcda29a5.0" configVersion="1d7edba03090634c3eb2c41d5d62329216d3bb2e"/>
 		<Metadata name="Document.ПлатежноеПоручение" id="273f89fe-6974-4c71-8d90-fd23ca0f382d" configVersion="2727c9e8de83efd68afde54bc0c3989a7f60c286"/>
 		<Metadata name="Document.ПриходныйКассовыйОрдер" id="ceb50206-2098-46e4-96db-71c98d746045" configVersion="19a9ff7006251d1fcc345b905db2387420ea5b24"/>
 		<Metadata name="Document.ПриходныйОрдерФондовый" id="ba90815e-98f2-4835-9bb9-6e7fc5af75af" configVersion="553ed9550e07ad390df0d7c455263265a8392b57"/>

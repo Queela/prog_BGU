@@ -53,8 +53,8 @@
 			<DefaultRoles>
 				<xr:Item xsi:type="xr:MDObjectRef">Role.АБК_КомпенсацияРодительскойПлаты_ОсновнаяРоль</xr:Item>
 			</DefaultRoles>
-			<Vendor/>
-			<Version/>
+			<Vendor>ООО "Апогей-БК"</Vendor>
+			<Version>100.36.00</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<BriefInformation/>
 			<DetailedInformation/>

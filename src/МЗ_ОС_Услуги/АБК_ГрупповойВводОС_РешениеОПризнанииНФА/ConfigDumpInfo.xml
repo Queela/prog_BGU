@@ -3,13 +3,13 @@
 	<ConfigVersions>
 		<Metadata name="Catalog.ОсновныеСредства" id="9ba8aa80-9298-4211-8a05-d9b4dd3f8d1f" configVersion="bdd7a6dffa4641e8f82b95fee7e064c6aea29808"/>
 		<Metadata name="Catalog.ОсновныеСредства.Form.ГрупповойВвод" id="dc58f445-74d2-47d4-adfa-5f17c2fe00c0" configVersion="2f8082783913793780fba45dabb826a7e3d6abce"/>
-		<Metadata name="Catalog.ОсновныеСредства.Form.ГрупповойВвод.Form" id="dc58f445-74d2-47d4-adfa-5f17c2fe00c0.0" configVersion="c4e92196e8efd864700bff089e8d2897bbd6a3a6"/>
+		<Metadata name="Catalog.ОсновныеСредства.Form.ГрупповойВвод.Form" id="dc58f445-74d2-47d4-adfa-5f17c2fe00c0.0" configVersion="6d431a0b0b8db7494d0841b995497cf691b32149"/>
 		<Metadata name="Catalog.ПостоянноДействующиеКомиссии" id="76278f97-8b1b-4079-bfa3-00c0d5c90d45" configVersion="384bbdec8cc83d9b70a4b6dc7981a6660b8cdfb8"/>
 		<Metadata name="CommonPicture.ПрослеживаемыйТовар" id="82c96e19-2ecb-486b-a883-f00c1e3046bd" configVersion="6eacdeb9aabd8057aa9ce45bc38cbe141fee542a"/>
-		<Metadata name="Configuration.АБК_ГрупповойВводОС_РешениеОПризнанииНФА" id="62c84515-0671-4c94-921f-69df132717c0" configVersion="1dcf3a29001bb436d98e63207be8006076de5717"/>
+		<Metadata name="Configuration.АБК_ГрупповойВводОС_РешениеОПризнанииНФА" id="62c84515-0671-4c94-921f-69df132717c0" configVersion="349ba0dada3dc0fa599b9472ac10dcb60c927983"/>
 		<Metadata name="Document.РешениеОПризнанииОбъектовОС" id="e41d4ade-14f3-4106-a818-834481ac4fb5" configVersion="751bcffa8f85e6e279470ff08337abd1bd452929"/>
 		<Metadata name="Document.РешениеОПризнанииОбъектовОС.Form.ФормаДокумента" id="e70a7faa-e86e-4434-a2a7-5ed1d4ea2a28" configVersion="3f6cb93ff48a0dfc8449b2b2ff3de287bc4cd107"/>
-		<Metadata name="Document.РешениеОПризнанииОбъектовОС.Form.ФормаДокумента.Form" id="e70a7faa-e86e-4434-a2a7-5ed1d4ea2a28.0" configVersion="9e09d5ada2c65eb99c9f45fdb25a53a95cdc2c16"/>
+		<Metadata name="Document.РешениеОПризнанииОбъектовОС.Form.ФормаДокумента.Form" id="e70a7faa-e86e-4434-a2a7-5ed1d4ea2a28.0" configVersion="bca5f1398d1589387b8f511f1acf4c8b6309275a"/>
 		<Metadata name="Enum.ВидыКБК" id="92a7b7ee-379d-4e5d-a5a2-379c91eb1e12" configVersion="05b90d3113cdc440af9ae16dc3eae00a1597a4b1">
 			<Metadata name="Enum.ВидыКБК.EnumValue.Произвольный" id="01225af7-e175-4bdc-bd3a-19d7f0edc735"/>
 			<Metadata name="Enum.ВидыКБК.EnumValue.АУИБУ" id="4057e4db-3d48-4487-9e45-77617adba9f0"/>

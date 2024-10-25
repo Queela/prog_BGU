@@ -1,23 +1,23 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.17">
 	<ConfigVersions>
-		<Metadata name="Catalog.ВидыРегистровУчета" id="e4413aeb-6c7e-482e-82ce-15391f359f98" configVersion="1d62a4071578865d0ecd352af8bb614540997e7a">
+		<Metadata name="Catalog.ВидыРегистровУчета" id="e4413aeb-6c7e-482e-82ce-15391f359f98" configVersion="8ce4d467e171fec1df46677fe8a736c159e5e38e">
 			<Metadata name="Catalog.ВидыРегистровУчета.Attribute.Отчет" id="41bbaf99-9ecb-48c3-8e56-0a94fabdcff1"/>
 		</Metadata>
-		<Metadata name="Catalog.ВидыРегистровУчета.ManagerModule" id="e4413aeb-6c7e-482e-82ce-15391f359f98.3" configVersion="9d5387cf15678649ce7233edd4f65a6343729d00"/>
+		<Metadata name="Catalog.ВидыРегистровУчета.ManagerModule" id="e4413aeb-6c7e-482e-82ce-15391f359f98.3" configVersion="88c08be9f179f9ea7692103d998f29c09a3c918a"/>
 		<Metadata name="Catalog.ДополнительныеОтчетыИОбработки" id="7fa9789f-1349-4f34-83fc-221d6b26a6da" configVersion="ddb45438e739aa17caf9e2fa5313e0c02249a00c"/>
 		<Metadata name="Catalog.ИдентификаторыОбъектовМетаданных" id="e0b912fb-baba-4626-ba9b-823b475503e1" configVersion="d69329c9c10e2864d1d8a8ad3aa35c8b5abb4530"/>
 		<Metadata name="Catalog.МаршрутыПодписанияБГУ" id="1ce87d0a-62c3-414b-b912-f48b9c8d5473" configVersion="8e5872558ca3d28cfbb6b3606efc05c26568885a"/>
-		<Metadata name="CommonModule.ВнутреннийЭДОПереопределяемый" id="87ded870-475c-40bb-93f5-aeda08cc5937" configVersion="71b73d5f4511bfcd893429b8554e14c82401ceae"/>
-		<Metadata name="CommonModule.ВнутреннийЭДОПереопределяемый.Module" id="87ded870-475c-40bb-93f5-aeda08cc5937.0" configVersion="fb298158f3a1b05109b55a6362cf107bfca62534"/>
-		<Metadata name="CommonModule.РегистрыУчета" id="b2fbb66f-4608-4771-a920-ca8b94c37633" configVersion="44df3a1420dfc9c4e628727f14a543f8dbe7fb86"/>
-		<Metadata name="CommonModule.РегистрыУчета.Module" id="b2fbb66f-4608-4771-a920-ca8b94c37633.0" configVersion="30816a50868e4c3d73811781b3395c350a49c319"/>
-		<Metadata name="Configuration.ЭДО_ДляВнешнихОтчетов" id="91d58f73-7ce3-4630-ba25-9c4e451d2d65" configVersion="757e9c78c3445e57de47525f7d348259cf76a30b"/>
-		<Metadata name="InformationRegister.НастройкиВнутреннегоЭДОБГУ" id="77deda08-a844-4f50-b398-3b186a971d19" configVersion="2b04eee5678636430ec549ccf34e7bada03cfb03">
+		<Metadata name="CommonModule.ВнутреннийЭДОПереопределяемый" id="87ded870-475c-40bb-93f5-aeda08cc5937" configVersion="d86d2410569d1c9eeb8767cf962ca2d7518ee77b"/>
+		<Metadata name="CommonModule.ВнутреннийЭДОПереопределяемый.Module" id="87ded870-475c-40bb-93f5-aeda08cc5937.0" configVersion="da4d5c983786fec68532df40fe7b59a8bb896ee2"/>
+		<Metadata name="CommonModule.РегистрыУчета" id="b2fbb66f-4608-4771-a920-ca8b94c37633" configVersion="b9d99b962213e888a6e0a97738a66bd8917cabe2"/>
+		<Metadata name="CommonModule.РегистрыУчета.Module" id="b2fbb66f-4608-4771-a920-ca8b94c37633.0" configVersion="f68f85d46d6d625f620f260ff2d487df925c8f2a"/>
+		<Metadata name="Configuration.ЭДО_ДляВнешнихОтчетов" id="91d58f73-7ce3-4630-ba25-9c4e451d2d65" configVersion="dc9796c8f09fe79877a689e3b2aa044121da924a"/>
+		<Metadata name="InformationRegister.НастройкиВнутреннегоЭДОБГУ" id="77deda08-a844-4f50-b398-3b186a971d19" configVersion="64da4748cd76801d04239945ecb4397590f85e76">
 			<Metadata name="InformationRegister.НастройкиВнутреннегоЭДОБГУ.Dimension.ИдентификаторДокумента" id="f35edab5-6222-4232-a74d-89fb8e665423"/>
 		</Metadata>
 		<Metadata name="InformationRegister.НастройкиВнутреннегоЭДОБГУ.Form.НастройкаВнутреннегоЭДО" id="acb220c3-c383-489f-83ae-a401e927e5ba" configVersion="cc928685bccafd64e48cdbb8839e6f2a8554414b"/>
-		<Metadata name="InformationRegister.НастройкиВнутреннегоЭДОБГУ.Form.НастройкаВнутреннегоЭДО.Form" id="acb220c3-c383-489f-83ae-a401e927e5ba.0" configVersion="b69c30e305110a748125dd8f27d0dc9d6672ea86"/>
+		<Metadata name="InformationRegister.НастройкиВнутреннегоЭДОБГУ.Form.НастройкаВнутреннегоЭДО.Form" id="acb220c3-c383-489f-83ae-a401e927e5ba.0" configVersion="ebf51cb907f2758833a7f7e1fcef0ceedd9795d6"/>
 		<Metadata name="Language.Русский" id="7996471e-9136-4c5e-bf11-2b4b41a10c72" configVersion="a6f726a7592a4f5245173153e3c78ec5441771f0"/>
 	</ConfigVersions>
 </ConfigDumpInfo>

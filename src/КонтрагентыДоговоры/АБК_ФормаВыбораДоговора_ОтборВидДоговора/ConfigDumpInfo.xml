@@ -3,10 +3,10 @@
 	<ConfigVersions>
 		<Metadata name="Catalog.Договоры" id="cc8a934f-f160-44ce-9d03-7dc11a9fa733" configVersion="1917356b57a5071f04dad32ade9f182ee45cfe86"/>
 		<Metadata name="Catalog.Договоры.Form.ФормаВыбора" id="21c56f11-2d73-4a94-862d-5d27815600a9" configVersion="68bee1912d78b15ecb65b5131537a8d3379857f2"/>
-		<Metadata name="Catalog.Договоры.Form.ФормаВыбора.Form" id="21c56f11-2d73-4a94-862d-5d27815600a9.0" configVersion="127a8d0298a0c9b5a0cc98640d4518ee6032a83c"/>
+		<Metadata name="Catalog.Договоры.Form.ФормаВыбора.Form" id="21c56f11-2d73-4a94-862d-5d27815600a9.0" configVersion="c5ab7ee78e06888f1540f1deedff662fe7705afb"/>
 		<Metadata name="CommonPicture.ИерархияЭлементов" id="0be130c7-40f4-46bf-bfb1-90541319e019" configVersion="4037060c16ab1754b5c53a8400123ec9a2acc57b"/>
 		<Metadata name="CommonPicture.НалоговыйОрган" id="1b3b2874-c842-4a63-b6a8-45288a76d7ca" configVersion="ce2b79b6c09a0089ac066059be064166d1478791"/>
-		<Metadata name="Configuration.АБК_ФормаВыбораДоговора_ОтборВидДоговора" id="dc2a7f16-8103-4c7f-969a-5764b1d9bfa8" configVersion="06e0f626c9c6031c02f39c6b0feb8c394dd09d11"/>
+		<Metadata name="Configuration.АБК_ФормаВыбораДоговора_ОтборВидДоговора" id="dc2a7f16-8103-4c7f-969a-5764b1d9bfa8" configVersion="a16fdf5ffec4ed6cd9c305e3990ef445f77d5fdd"/>
 		<Metadata name="Enum.ВидыДоговоровКонтрагентов" id="7cfded15-3b0a-4458-9dd4-4d1960939109" configVersion="45fdc269aa4575b87911f4bd0c89e6424f36f037">
 			<Metadata name="Enum.ВидыДоговоровКонтрагентов.EnumValue.СПоставщиком" id="20ab2d73-6cc7-47c2-81e1-ce2119ca0ffd"/>
 			<Metadata name="Enum.ВидыДоговоровКонтрагентов.EnumValue.ИноеОбязательство" id="45b614e7-396a-4af5-a768-698e421fac97"/>

@@ -2,19 +2,19 @@
 <ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.17">
 	<ConfigVersions>
 		<Metadata name="Catalog.ИсточникиФинансовогоОбеспечения" id="92e3bfe9-6a27-4a30-a5d8-78d99113b888" configVersion="688fcec616552af7c01ba52639ee424d7cb87fe5"/>
-		<Metadata name="CommonModule.БухгалтерскиеОперацииИсточникиДанных" id="122ca8f4-6eb2-4e72-b9ed-f5f1e366ff34" configVersion="0043006a85d40167b9cf3bf0b8ffd359147ec2b2"/>
-		<Metadata name="CommonModule.БухгалтерскиеОперацииИсточникиДанных.Module" id="122ca8f4-6eb2-4e72-b9ed-f5f1e366ff34.0" configVersion="54aa63a48a8cd903f12b66d5c4ab2efae8f469f5"/>
-		<Metadata name="CommonModule.РасчетыСПодотчетнымиЛицами" id="c727b0a8-ffcc-48b3-bcb6-347e3345b103" configVersion="c7037d7c6c579a786f691d3b80a5df5c88da57f0"/>
-		<Metadata name="CommonModule.РасчетыСПодотчетнымиЛицами.Module" id="c727b0a8-ffcc-48b3-bcb6-347e3345b103.0" configVersion="db858bcdcdd4ec08a538812498eee8cdfe0cd9c6"/>
-		<Metadata name="Configuration.АБК_АвансовыйОтчет_ИФО" id="2dce93cd-9543-4ba6-affc-0fe9ad82e3a4" configVersion="fb11827c07f7cfe3a83f19fc352eeea791c0e133"/>
+		<Metadata name="CommonModule.БухгалтерскиеОперацииИсточникиДанных" id="122ca8f4-6eb2-4e72-b9ed-f5f1e366ff34" configVersion="71577e14a495e87835ad38cc711631b16ae155be"/>
+		<Metadata name="CommonModule.БухгалтерскиеОперацииИсточникиДанных.Module" id="122ca8f4-6eb2-4e72-b9ed-f5f1e366ff34.0" configVersion="6be00e8bd79d4aa29439d385059305b26b088fb8"/>
+		<Metadata name="CommonModule.РасчетыСПодотчетнымиЛицами" id="c727b0a8-ffcc-48b3-bcb6-347e3345b103" configVersion="7670b55ffa783067638590e03f95034f11adb35b"/>
+		<Metadata name="CommonModule.РасчетыСПодотчетнымиЛицами.Module" id="c727b0a8-ffcc-48b3-bcb6-347e3345b103.0" configVersion="630556ca3cfb96b072a7cf3d22de7eb67f9420d8"/>
+		<Metadata name="Configuration.АБК_АвансовыйОтчет_ИФО" id="2dce93cd-9543-4ba6-affc-0fe9ad82e3a4" configVersion="4823bf346176323b7bdef8b585837652e4a88a3e"/>
 		<Metadata name="Document.АвансовыйОтчет" id="62882115-a839-4f51-9e0d-94b333d42758" configVersion="66ffcf10d874c36eb1e1e3f2bcf6f750db87d7ce"/>
 		<Metadata name="Document.АвансовыйОтчет.Form.ФормаВыбораДокументаОплаты" id="4f0d8f49-d990-4673-9713-e668fed3cb9e" configVersion="0e144b79d9aa170c8850caedad07cf48c306f40e"/>
-		<Metadata name="Document.АвансовыйОтчет.Form.ФормаВыбораДокументаОплаты.Form" id="4f0d8f49-d990-4673-9713-e668fed3cb9e.0" configVersion="0fd8346ea258ba65eaada31dfa52dcdb90b8df7e"/>
+		<Metadata name="Document.АвансовыйОтчет.Form.ФормаВыбораДокументаОплаты.Form" id="4f0d8f49-d990-4673-9713-e668fed3cb9e.0" configVersion="bd554f888c6630ebe9aa9fd38bb43fd684e0a479"/>
 		<Metadata name="Document.АвансовыйОтчет.Form.ФормаВыбораПриходногоДокумента" id="472fa10a-440e-4f40-9273-219ecd605ca1" configVersion="c70479a8d57fbd0e7f3e73dc31ccfa06ca0bf093"/>
-		<Metadata name="Document.АвансовыйОтчет.Form.ФормаВыбораПриходногоДокумента.Form" id="472fa10a-440e-4f40-9273-219ecd605ca1.0" configVersion="22b4591a22b29424754f106d97a5ee5535c0742c"/>
+		<Metadata name="Document.АвансовыйОтчет.Form.ФормаВыбораПриходногоДокумента.Form" id="472fa10a-440e-4f40-9273-219ecd605ca1.0" configVersion="aeab653d47067afc4a09af7c22f8830a4b2e4cfa"/>
 		<Metadata name="Document.АвансовыйОтчет.Form.ФормаДокумента" id="74935881-120c-4fb3-8b1a-0e341336845c" configVersion="33cfdaa0de18fe694fae9a91cba964b0e2da1f7a"/>
-		<Metadata name="Document.АвансовыйОтчет.Form.ФормаДокумента.Form" id="74935881-120c-4fb3-8b1a-0e341336845c.0" configVersion="e95ec2176c3fecb631a2dc22a7122bd79b32c86f"/>
-		<Metadata name="Document.АвансовыйОтчет.ObjectModule" id="62882115-a839-4f51-9e0d-94b333d42758.0" configVersion="f1babc82d62c59d07417266fbfb7091c828683e9"/>
+		<Metadata name="Document.АвансовыйОтчет.Form.ФормаДокумента.Form" id="74935881-120c-4fb3-8b1a-0e341336845c.0" configVersion="f3caaf8bef6f201f9131852be8f894c1d9b00e3c"/>
+		<Metadata name="Document.АвансовыйОтчет.ObjectModule" id="62882115-a839-4f51-9e0d-94b333d42758.0" configVersion="4e274ead079f83a04d9a1c45c4dd20b13d6612cc"/>
 		<Metadata name="Enum.СпособыОбеспеченияКомандировки" id="ad3e1bb2-d7ab-4e86-b847-ee45f28a426b" configVersion="4888bec9fd3d1034ce138d3600fff6072d14bab3">
 			<Metadata name="Enum.СпособыОбеспеченияКомандировки.EnumValue.АвансПодотчетномуЛицу" id="1e0ca9b0-e193-4359-a3b5-801ec008d9d8"/>
 			<Metadata name="Enum.СпособыОбеспеченияКомандировки.EnumValue.ВыдачаДенежныхДокументов" id="73db3387-7f8b-4a59-aa42-abb0ef3ec094"/>

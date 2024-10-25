@@ -40,7 +40,7 @@
 					<v8:content>Учет студентов по счетам 401.4х (АБК)</v8:content>
 				</v8:item>
 			</Synonym>
-			<Comment/>
+			<Comment>TODO: Починить</Comment>
 			<ConfigurationExtensionPurpose>Customization</ConfigurationExtensionPurpose>
 			<KeepMappingToExtendedConfigurationObjectsByIDs>true</KeepMappingToExtendedConfigurationObjectsByIDs>
 			<NamePrefix>АБК_УчетСтудентов4014х</NamePrefix>
@@ -54,7 +54,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Role.АБК_УчетСтудентов4014х_ОсновнаяРоль</xr:Item>
 			</DefaultRoles>
 			<Vendor>ООО "Апогей-БК"</Vendor>
-			<Version>1.0.0.3</Version>
+			<Version>100.36.00</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<BriefInformation>
 				<v8:item>

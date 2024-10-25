@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.17">
 	<ConfigVersions>
-		<Metadata name="Configuration.АБК_БюджетныеДанные_ФормаДокумента_Заполнение" id="f44e82c0-1f67-42c7-822d-345dacfd55ff" configVersion="79fb62969b07a06abeef55a3aa0535e2a56d84ac"/>
+		<Metadata name="Configuration.АБК_БюджетныеДанные_ФормаДокумента_Заполнение" id="f44e82c0-1f67-42c7-822d-345dacfd55ff" configVersion="5b9c2647c200ee47a144116cfd50b224f629752b"/>
 		<Metadata name="Document.БюджетныеДанные" id="ba0b7fb0-fcc0-468c-b0bf-ec39d4543fbb" configVersion="b1b35655495ab1d94de9b0c66f91d3485a3f25a4"/>
 		<Metadata name="Document.БюджетныеДанные.Form.ФормаДокумента" id="d644f349-d6dc-4004-9842-f4a6ddb8c5b2" configVersion="572c9ef451c08c22911cc939f614e662556feba6"/>
-		<Metadata name="Document.БюджетныеДанные.Form.ФормаДокумента.Form" id="d644f349-d6dc-4004-9842-f4a6ddb8c5b2.0" configVersion="817d2e97f449475a6c2422ce38c8546593521e1b"/>
+		<Metadata name="Document.БюджетныеДанные.Form.ФормаДокумента.Form" id="d644f349-d6dc-4004-9842-f4a6ddb8c5b2.0" configVersion="8373c247a50d23085f9695a74997c7b44748a86c"/>
 		<Metadata name="Language.Русский" id="f2034790-304b-4bda-b8e6-b1c7486b9a45" configVersion="bd8c2d433bbae332800fa7413b51e6e6c1394ef9"/>
 	</ConfigVersions>
 </ConfigDumpInfo>

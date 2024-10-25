@@ -3,19 +3,19 @@
 	<ConfigVersions>
 		<Metadata name="Catalog.БСО" id="75ba359c-5b7b-4d1b-9b67-90dd73963b6e" configVersion="1db630d4e89abc68bbe6ffca92b9fcb9238fc372"/>
 		<Metadata name="Catalog.БСО.Form.НастройкаПодбора" id="cb2e144e-b7cc-4382-9119-7e283bb83b7f" configVersion="c0820aa1af02e2fc32621d29317ef286eb638cee"/>
-		<Metadata name="Catalog.БСО.Form.НастройкаПодбора.Form" id="cb2e144e-b7cc-4382-9119-7e283bb83b7f.0" configVersion="2941b04db16a8fae74b0b0958bc1f971f7c9c140"/>
+		<Metadata name="Catalog.БСО.Form.НастройкаПодбора.Form" id="cb2e144e-b7cc-4382-9119-7e283bb83b7f.0" configVersion="ff1df1746e913ea91820a74b3857a1e2467989a5"/>
 		<Metadata name="Catalog.БСО.Form.ФормаПодбора" id="a3a1d021-94ba-4d82-9525-cd400f92f4da" configVersion="48d26db6a6667db34abb61c133a049be80fb8bab"/>
-		<Metadata name="Catalog.БСО.Form.ФормаПодбора.Form" id="a3a1d021-94ba-4d82-9525-cd400f92f4da.0" configVersion="bfd74729d8e221749ce588e31754852dfe10b3ee"/>
+		<Metadata name="Catalog.БСО.Form.ФормаПодбора.Form" id="a3a1d021-94ba-4d82-9525-cd400f92f4da.0" configVersion="f5d733fb4285c48e2ab0da2bef1c66a9f6e4ab97"/>
 		<Metadata name="Catalog.БСО.Form.ФормаПодбораНомеров" id="4ae13abf-915b-47cc-bb1b-ef4d263e5724" configVersion="ff117a63312f9fe43096e33318f8692e5c230cb0"/>
-		<Metadata name="Catalog.БСО.Form.ФормаПодбораНомеров.Form" id="4ae13abf-915b-47cc-bb1b-ef4d263e5724.0" configVersion="a6ba5072a6d72eda6fadada1a8b5ddb066287b2d"/>
+		<Metadata name="Catalog.БСО.Form.ФормаПодбораНомеров.Form" id="4ae13abf-915b-47cc-bb1b-ef4d263e5724.0" configVersion="818a4f6f12045a12b448ab4a6ee078e035291c4a"/>
 		<Metadata name="Catalog.СерииБСО" id="75a5910b-d993-444c-b441-916b92b96d30" configVersion="8b64600051a78aa8fb5124a5bf59e10ebbee1db6"/>
-		<Metadata name="Configuration.АБК_ПодборБСОПоОстаткамНомеров" id="de7829ac-e11f-4fab-88a2-b14118682ed7" configVersion="353a69798469351bff75f5b426cd474467a64b4e"/>
+		<Metadata name="Configuration.АБК_ПодборБСОПоОстаткамНомеров" id="de7829ac-e11f-4fab-88a2-b14118682ed7" configVersion="c4c5131659d85092c05580c1190d3d1694d9aa78"/>
 		<Metadata name="Document.ВнутреннееПеремещениеБСО" id="6b955aae-ee79-428d-b8d1-ebc6e33a26ce" configVersion="89535d83b04468784024dde0c63b1591b24ab539"/>
 		<Metadata name="Document.ВнутреннееПеремещениеБСО.Form.ФормаДокумента" id="d6dd1575-e2a7-45d6-a529-c4fb3186d173" configVersion="36861a263ebd32e087a7b05b6153623e77876d09"/>
-		<Metadata name="Document.ВнутреннееПеремещениеБСО.Form.ФормаДокумента.Form" id="d6dd1575-e2a7-45d6-a529-c4fb3186d173.0" configVersion="49d40e92a4328656fb139dd666d3f556b37eeb5e"/>
+		<Metadata name="Document.ВнутреннееПеремещениеБСО.Form.ФормаДокумента.Form" id="d6dd1575-e2a7-45d6-a529-c4fb3186d173.0" configVersion="7cda1f7ff135ee6dcce60cb1d28f334bc042af27"/>
 		<Metadata name="Document.СписаниеБСО" id="3cb8ee58-8b91-41a5-96d4-acdd93d7de0f" configVersion="01a1201e7142528b22d6101983e8c6e4bfcd1e5c"/>
 		<Metadata name="Document.СписаниеБСО.Form.ФормаДокумента" id="863e284c-60d5-4767-bbed-9432d352729f" configVersion="5cda7cc526fabec85619b87af77924405ff71484"/>
-		<Metadata name="Document.СписаниеБСО.Form.ФормаДокумента.Form" id="863e284c-60d5-4767-bbed-9432d352729f.0" configVersion="da97871d4f579a1d770474080b3f4c7e050c945d"/>
+		<Metadata name="Document.СписаниеБСО.Form.ФормаДокумента.Form" id="863e284c-60d5-4767-bbed-9432d352729f.0" configVersion="eec0e77e4b6d8e8f4c05f4278b8ca2c556cb3a14"/>
 		<Metadata name="Language.Русский" id="5923a932-e218-4e0d-9145-70ad75a68ef1" configVersion="0ef312656f775bfd41bf6ac400b6176c15b99ae0"/>
 		<Metadata name="StyleItem.ТекстИнформационнойНадписи" id="d2deb469-7fb4-4338-bd4b-328d3760a921" configVersion="ea6d27623461ba97c4222c850e20dd2324c191ef"/>
 		<Metadata name="StyleItem.ФонУправляющегоПоля" id="33cb95ec-adc3-4f08-8a99-62ff4c549f4c" configVersion="405fb12a2fed167fb47f0c10ab25ff739596f585"/>

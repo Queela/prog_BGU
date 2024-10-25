@@ -3,9 +3,9 @@
 	<ConfigVersions>
 		<Metadata name="Catalog.Пользователи" id="f1581e22-b930-46c3-8235-d54ab4ef4aec" configVersion="ac700ba6a48e298a7919f7d91907783c4f8fc942"/>
 		<Metadata name="CommonModule.АБК_ОповещениеВЭДО" id="b40045b9-0c7f-43f6-affe-f33fb8f185f9" configVersion="300b52f5cdebaf7b00546cc536685b4f82aa1f52"/>
-		<Metadata name="CommonModule.АБК_ОповещениеВЭДО.Module" id="b40045b9-0c7f-43f6-affe-f33fb8f185f9.0" configVersion="ac952e1cfe4727b68ae169ff5f65b1f293f35e71"/>
-		<Metadata name="Configuration.АБК_ВнутреннийЭДО_ОповещениеПользователей" id="96f80920-011d-44dd-bccd-78c1a1f5afa0" configVersion="750bce9d78dfe2dd92379fa35b122f3f4c77761b"/>
-		<Metadata name="Configuration.АБК_ВнутреннийЭДО_ОповещениеПользователей.ManagedApplicationModule" id="fd09686b-4574-4474-9d1a-9d28c4200801.6" configVersion="6be8ef09cf9db38d7e1c3ae646fa19435fdd36d2"/>
+		<Metadata name="CommonModule.АБК_ОповещениеВЭДО.Module" id="b40045b9-0c7f-43f6-affe-f33fb8f185f9.0" configVersion="418ddd3026df29241848eaa8592450d7b0e68e63"/>
+		<Metadata name="Configuration.АБК_ВнутреннийЭДО_ОповещениеПользователей" id="96f80920-011d-44dd-bccd-78c1a1f5afa0" configVersion="e85d7952535d02f254b6db7fe338a1a54fe67681"/>
+		<Metadata name="Configuration.АБК_ВнутреннийЭДО_ОповещениеПользователей.ManagedApplicationModule" id="fd09686b-4574-4474-9d1a-9d28c4200801.6" configVersion="6e357f1457b186e2ac1d1d08a9afa69e9252e008"/>
 		<Metadata name="Document.ВнутреннийЭлектронныйДокумент" id="28a1fca2-5057-44b7-a6f8-6da8047cf99d" configVersion="5932f0d2f6e3e3c21c2e81f58b95367b1ea3a168"/>
 		<Metadata name="Language.Русский" id="38592d8b-6bc9-4773-a9f6-25005e19f8f3" configVersion="381b6cb2dda210a971d2841df79465449c53c4bf"/>
 	</ConfigVersions>

@@ -3,10 +3,10 @@
 	<ConfigVersions>
 		<Metadata name="CommonPicture.Защита" id="d6c2f0ea-32f6-4e2f-b8a4-d931615b52b0" configVersion="4aa4df61eda378ad8955e55b59359884d7a633d9"/>
 		<Metadata name="CommonPicture.НекорректныйКонтрагент" id="7d9f9522-3398-4bcc-bc67-50f5ec0c1dc5" configVersion="65995b6c2ace21a9ca14ad85c585e46ea1000fbc"/>
-		<Metadata name="Configuration.АБК_РегистрацияОбязательствИСведенийПоДоговорам_ЗаполнениеГрафиковПоИтоговойСумме" id="e248cadb-9b09-4c00-acbe-4945a00f23d2" configVersion="8eaa29b102255f89291a1540f127290d2eec3d72"/>
+		<Metadata name="Configuration.АБК_РегистрацияОбязательствИСведенийПоДоговорам_ЗаполнениеГрафиковПоИтоговойСумме" id="e248cadb-9b09-4c00-acbe-4945a00f23d2" configVersion="55e7753fe8a4afcadcf5d25035e9343c34ef6746"/>
 		<Metadata name="Document.РегистрацияОбязательствИСведенийПоДоговорам" id="8d14bee4-8143-4033-959d-e5a737a841e4" configVersion="6cd9fbe7e69627aa5474343b270642c13ee28e96"/>
 		<Metadata name="Document.РегистрацияОбязательствИСведенийПоДоговорам.Form.ФормаДокумента" id="32df7747-8391-41af-955f-27160d02cc57" configVersion="776ae93190f16dbd4862f27a5bee2f743ec318d5"/>
-		<Metadata name="Document.РегистрацияОбязательствИСведенийПоДоговорам.Form.ФормаДокумента.Form" id="32df7747-8391-41af-955f-27160d02cc57.0" configVersion="44ec62d01393546dd6d7f6308caa661edf2bf036"/>
+		<Metadata name="Document.РегистрацияОбязательствИСведенийПоДоговорам.Form.ФормаДокумента.Form" id="32df7747-8391-41af-955f-27160d02cc57.0" configVersion="f4b2f2b54d82dce0e508ce8cbb016e0bb3e67ba5"/>
 		<Metadata name="Enum.ТипыСведенийДоговоров" id="26d54700-a57b-46dc-b2ce-5521f32c750f" configVersion="e5c9b73af1f29734e216239539c8b1349e5b3754">
 			<Metadata name="Enum.ТипыСведенийДоговоров.EnumValue.ИсправлениеСведений" id="6f715fbb-ba8d-430e-b8e0-fec56904ecda"/>
 			<Metadata name="Enum.ТипыСведенийДоговоров.EnumValue.ИзменениеСведений" id="79543ba7-873b-46a3-a7a7-8a4e41e75eed"/>

@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.17">
 	<ConfigVersions>
-		<Metadata name="Configuration.АБК_ОтчетОРасходахПодотчетногоЛица_ОтключениеПроверкиОКПД" id="5bbb8e8d-8bc1-4073-9684-5e5ad1238dc8" configVersion="87ce1e6d48ad175323b59156385b59de482b9c2b"/>
+		<Metadata name="Configuration.АБК_ОтчетОРасходахПодотчетногоЛица_ОтключениеПроверкиОКПД" id="5bbb8e8d-8bc1-4073-9684-5e5ad1238dc8" configVersion="bc976dd4bd01d5b4be572235179d4cc95b7a3266"/>
 		<Metadata name="Document.ОтчетОРасходахПодотчетногоЛица" id="be43f422-2129-4a31-a9dd-515b64cc339c" configVersion="199a8b43c9882d4c0b7334b4adf70aa31dae33f4"/>
-		<Metadata name="Document.ОтчетОРасходахПодотчетногоЛица.ObjectModule" id="be43f422-2129-4a31-a9dd-515b64cc339c.0" configVersion="476c2ce33b609afc2dcd29184b3d8c7528ca7ad2"/>
+		<Metadata name="Document.ОтчетОРасходахПодотчетногоЛица.ObjectModule" id="be43f422-2129-4a31-a9dd-515b64cc339c.0" configVersion="bb9eacfd5ce91db830f02aed9b6c3cd04d53d4b5"/>
 		<Metadata name="Language.Русский" id="503a777e-2d7d-4718-9daa-92b12b6d1d57" configVersion="b3fdc747dcdeaf5d2d793e85670eb539dd8a786d"/>
 	</ConfigVersions>
 </ConfigDumpInfo>

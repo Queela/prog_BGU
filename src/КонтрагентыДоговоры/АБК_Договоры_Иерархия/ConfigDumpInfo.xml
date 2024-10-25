@@ -3,13 +3,13 @@
 	<ConfigVersions>
 		<Metadata name="Catalog.Договоры" id="f0a3c68e-5637-44b1-8b2a-c7fc6a8b6aa8" configVersion="2ca7540d2854472ff91c32adaf6ed2a4033195fe"/>
 		<Metadata name="Catalog.Договоры.Form.ФормаВыбора" id="259f65ec-050e-42c2-9134-90593241b046" configVersion="5a1c954dd454184727729af253412adeef60a611"/>
-		<Metadata name="Catalog.Договоры.Form.ФормаВыбора.Form" id="259f65ec-050e-42c2-9134-90593241b046.0" configVersion="260f2ee7e0eb4b1c6270c85cc4756979bfd5120a"/>
+		<Metadata name="Catalog.Договоры.Form.ФормаВыбора.Form" id="259f65ec-050e-42c2-9134-90593241b046.0" configVersion="b1b422fae494348692ec4e6d33fe2aa1b767d7ef"/>
 		<Metadata name="Catalog.Договоры.Form.ФормаСписка" id="7b371654-2ba9-408b-8044-3190d30fd525" configVersion="73925fd468d0450636f8077749b945dae7bacef7"/>
-		<Metadata name="Catalog.Договоры.Form.ФормаСписка.Form" id="7b371654-2ba9-408b-8044-3190d30fd525.0" configVersion="097dd663900c5fe99b0878d71b545202bea85c15"/>
+		<Metadata name="Catalog.Договоры.Form.ФормаСписка.Form" id="7b371654-2ba9-408b-8044-3190d30fd525.0" configVersion="ae5be2cc649558995bd21e065b53a6703715c3bf"/>
 		<Metadata name="CommonPicture.Договор" id="c1f04918-e473-4698-8182-fc18042fde61" configVersion="d3ea0f2acd2b80121cc8c9a627a67658afb4a681"/>
 		<Metadata name="CommonPicture.ИерархияЭлементов" id="33e935d0-5d40-428d-894c-128afbd17048" configVersion="352ccf83e54b54bfe682cdef66230cf3c8f39f83"/>
 		<Metadata name="CommonPicture.Скрепка" id="dcea267e-233c-4a82-9b29-4a569874125d" configVersion="f98f914d00ff691954e6bcd4b50431d38821f24a"/>
-		<Metadata name="Configuration.АБК_Договоры_Иерархия" id="35fcf34e-d93b-4c60-90f4-29aa1627eeb4" configVersion="9694120c23659d7786c2bf7daa0dfcfcf4db8e3d"/>
+		<Metadata name="Configuration.АБК_Договоры_Иерархия" id="35fcf34e-d93b-4c60-90f4-29aa1627eeb4" configVersion="322a0c890ac66787dd63114ff34cee35e1ff2f99"/>
 		<Metadata name="Language.Русский" id="4a771625-ae2d-41af-89ee-b71401d0d333" configVersion="b5a9e630f55a780aef07dbe9df5174bcb0305ca3"/>
 		<Metadata name="StyleItem.НедоступныеДанныеЦвет" id="7775f189-b90d-4c47-ac72-2040ecc65b06" configVersion="57769eb6acfad0a81778fd9270b8afaea641e6bd"/>
 	</ConfigVersions>

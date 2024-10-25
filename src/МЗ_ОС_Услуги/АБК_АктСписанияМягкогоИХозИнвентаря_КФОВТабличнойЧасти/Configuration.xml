@@ -40,7 +40,7 @@
 					<v8:content>АБК акт списания мягкого и хоз инвентаря КФОВТабличной части</v8:content>
 				</v8:item>
 			</Synonym>
-			<Comment/>
+			<Comment>TODO: Починить</Comment>
 			<ConfigurationExtensionPurpose>Customization</ConfigurationExtensionPurpose>
 			<KeepMappingToExtendedConfigurationObjectsByIDs>true</KeepMappingToExtendedConfigurationObjectsByIDs>
 			<NamePrefix>АБК_</NamePrefix>
@@ -51,8 +51,8 @@
 			</UsePurposes>
 			<ScriptVariant>Russian</ScriptVariant>
 			<DefaultRoles/>
-			<Vendor>Апогей БК</Vendor>
-			<Version>1.0.1 2.0.96.52</Version>
+			<Vendor>ООО "Апогей-БК"</Vendor>
+			<Version>100.36.00</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<BriefInformation/>
 			<DetailedInformation/>

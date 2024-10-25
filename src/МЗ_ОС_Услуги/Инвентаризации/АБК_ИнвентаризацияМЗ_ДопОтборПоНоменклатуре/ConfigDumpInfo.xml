@@ -2,11 +2,11 @@
 <ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.17">
 	<ConfigVersions>
 		<Metadata name="CommonPicture.ПрослеживаемыйТовар" id="20d8dcf3-0fc4-4cdb-8c46-f9f5e0f55dd6" configVersion="4200417f417e8ac4f90580158cbe0c7ae0fce958"/>
-		<Metadata name="Configuration.АБК_ИнвентаризацияМЗ_ДопОтборПоНоменклатуре" id="749ea9ea-bb5d-443a-9112-e8e25113a28f" configVersion="fc73601c81501c291575b62674fcdf046623225c"/>
+		<Metadata name="Configuration.АБК_ИнвентаризацияМЗ_ДопОтборПоНоменклатуре" id="749ea9ea-bb5d-443a-9112-e8e25113a28f" configVersion="6f9c36d486be458bbe27db0c70db2a9ec81d130f"/>
 		<Metadata name="Document.ИнвентаризацияМЗ" id="a908a7a8-dde9-4267-8eea-d9347cdb2ee9" configVersion="b9633ffca3efb248cac70f48b19e53fc1246aa48"/>
 		<Metadata name="Document.ИнвентаризацияМЗ.Form.ФормаДокумента" id="b62a289c-71c0-499f-a136-3d012ec5dc0d" configVersion="92d3485d546ee08d83f3d340c2e3e60bc188af63"/>
-		<Metadata name="Document.ИнвентаризацияМЗ.Form.ФормаДокумента.Form" id="b62a289c-71c0-499f-a136-3d012ec5dc0d.0" configVersion="6b03a1f7b0b498bcc29d11c69e7788d59052a271"/>
-		<Metadata name="Document.ИнвентаризацияМЗ.ManagerModule" id="a908a7a8-dde9-4267-8eea-d9347cdb2ee9.2" configVersion="5e71739ed963774e8610d6fa9857152374d102aa"/>
+		<Metadata name="Document.ИнвентаризацияМЗ.Form.ФормаДокумента.Form" id="b62a289c-71c0-499f-a136-3d012ec5dc0d.0" configVersion="88b642fceca8a715e25a3f71cca10fe329363607"/>
+		<Metadata name="Document.ИнвентаризацияМЗ.ManagerModule" id="a908a7a8-dde9-4267-8eea-d9347cdb2ee9.2" configVersion="d9f769ecbee45c5a24de532c7783e4d88e8618c1"/>
 		<Metadata name="Language.Русский" id="242d2a95-eb62-4868-9524-1f58ba3f72e9" configVersion="3018bc5f18964a499a8401d44e0a908f48182b57"/>
 		<Metadata name="StyleItem.ИтогиФонГруппы" id="a8fbc3fc-1cbd-446f-8b78-e6f2e809c3ee" configVersion="ac8080f310dad3133945b1e1ce1f43f82cefa11d"/>
 		<Metadata name="StyleItem.НедоступныеДанныеЦвет" id="763d375b-8241-4457-aed1-e03625848b55" configVersion="e6c14bb2965bd357cfce827d8e2e83cee6bc9639"/>

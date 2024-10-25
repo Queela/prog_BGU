@@ -3,8 +3,8 @@
 	<ConfigVersions>
 		<Metadata name="Catalog.ГрафикиОплатыОбразование" id="76a568e2-24dc-46ca-94aa-6ab67a916a6b" configVersion="35c8859f9e5b7712f0411e9753c4153a762b6e11"/>
 		<Metadata name="Catalog.ГрафикиОплатыОбразование.Form.ФормаЭлемента" id="d18c20e2-a619-4dfc-8f6e-3bc8b3dab383" configVersion="f21fea067db90271f233c39598eed8e092d49cb0"/>
-		<Metadata name="Catalog.ГрафикиОплатыОбразование.Form.ФормаЭлемента.Form" id="d18c20e2-a619-4dfc-8f6e-3bc8b3dab383.0" configVersion="cb7d94b780b2438cb529d16adea9e65a29822baa"/>
-		<Metadata name="Configuration.АБК_ГрафикиОплатыОбразование_Заполнение" id="748bdab4-36b5-43f4-8482-34784fd7052c" configVersion="9907af0bf412d53f7d158d49b30d1628aa4765c4"/>
+		<Metadata name="Catalog.ГрафикиОплатыОбразование.Form.ФормаЭлемента.Form" id="d18c20e2-a619-4dfc-8f6e-3bc8b3dab383.0" configVersion="948391729742d923b2eb645a62a51c99c42e7801"/>
+		<Metadata name="Configuration.АБК_ГрафикиОплатыОбразование_Заполнение" id="748bdab4-36b5-43f4-8482-34784fd7052c" configVersion="1eec6fb8cba35e09090b1e18e4ffc7162ee09528"/>
 		<Metadata name="Language.Русский" id="da7ecd55-0f3b-4790-9d4d-bae55486272b" configVersion="10f064a4ee0197d8524b1e4039fc309754bd9e77"/>
 	</ConfigVersions>
 </ConfigDumpInfo>

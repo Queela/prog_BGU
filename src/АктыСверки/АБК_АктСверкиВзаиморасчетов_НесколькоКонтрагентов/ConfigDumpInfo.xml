@@ -3,8 +3,8 @@
 	<ConfigVersions>
 		<Metadata name="Catalog.Контрагенты" id="25c4bf5e-a78a-414a-9a76-0edc6d061216" configVersion="e58a8cf029f2bf388536f9803c8c737e62932231"/>
 		<Metadata name="CommonPicture.Папка" id="43bfa761-9cd0-428c-9225-889475c00d41" configVersion="3e65285c49a393168dfb44afe49088b4f602ae13"/>
-		<Metadata name="Configuration.АБК_АктСверкиВзаиморасчетов_НесколькоКонтрагентов" id="89bb7b96-3516-4c25-b0ee-f8217ae34661" configVersion="f6cbe07267fbce1a23253e7e90e663ec848b42cc"/>
-		<Metadata name="Document.АктСверкиВзаиморасчетов" id="ab4eeb6a-ce9e-458b-8a20-45ad56027866" configVersion="b12556a7836191c759345c3312c09280c103b31d">
+		<Metadata name="Configuration.АБК_АктСверкиВзаиморасчетов_НесколькоКонтрагентов" id="89bb7b96-3516-4c25-b0ee-f8217ae34661" configVersion="1ab404dc9020c763aaf0d95f0dbb9cd3feb84b85"/>
+		<Metadata name="Document.АктСверкиВзаиморасчетов" id="ab4eeb6a-ce9e-458b-8a20-45ad56027866" configVersion="76d97d6debce3b0a51cf89008e2a4a2ff14a879c">
 			<Metadata name="Document.АктСверкиВзаиморасчетов.TabularSection.Сверка.Attribute.Контрагент" id="2c0e0455-8a38-4549-ba08-c9a22d23c5c0"/>
 			<Metadata name="Document.АктСверкиВзаиморасчетов.TabularSection.ПоДаннымКонтрагента.Attribute.Контрагент" id="4781dcfa-40c8-429c-aae0-0e35f8ebaaca"/>
 			<Metadata name="Document.АктСверкиВзаиморасчетов.TabularSection.ПоДаннымОрганизации" id="5180b018-0548-4e8d-81b5-7c897ee6e86b"/>
@@ -20,9 +20,9 @@
 			<Metadata name="Document.АктСверкиВзаиморасчетов.TabularSection.ПоДаннымКонтрагента" id="ebbf2c68-b154-40a5-9d1e-e43ddd52a2b3"/>
 		</Metadata>
 		<Metadata name="Document.АктСверкиВзаиморасчетов.Form.ФормаДокумента" id="4112100b-a1b4-4521-9f0e-0aaf41b6bc29" configVersion="a6ccd57b2417522b7bf7855afc29363e8e3d020a"/>
-		<Metadata name="Document.АктСверкиВзаиморасчетов.Form.ФормаДокумента.Form" id="4112100b-a1b4-4521-9f0e-0aaf41b6bc29.0" configVersion="82ad2346dc1ead78fcc8717d95fd48feebef1614"/>
-		<Metadata name="Document.АктСверкиВзаиморасчетов.ManagerModule" id="ab4eeb6a-ce9e-458b-8a20-45ad56027866.2" configVersion="45f344f2d9db36231df21216e0b1bdb31f5bdb1e"/>
-		<Metadata name="Document.АктСверкиВзаиморасчетов.ObjectModule" id="ab4eeb6a-ce9e-458b-8a20-45ad56027866.0" configVersion="c5b449713565a59890df9be8cfad4e45c6f8facb"/>
+		<Metadata name="Document.АктСверкиВзаиморасчетов.Form.ФормаДокумента.Form" id="4112100b-a1b4-4521-9f0e-0aaf41b6bc29.0" configVersion="7c0221beb2bf68f55af81daaa9197a611ed9b96f"/>
+		<Metadata name="Document.АктСверкиВзаиморасчетов.ManagerModule" id="ab4eeb6a-ce9e-458b-8a20-45ad56027866.2" configVersion="e5e21502cd53ab6aff80c12fba75ac825cc02e64"/>
+		<Metadata name="Document.АктСверкиВзаиморасчетов.ObjectModule" id="ab4eeb6a-ce9e-458b-8a20-45ad56027866.0" configVersion="9247f17f13aaeed779268c0fc53e9492f0667cce"/>
 		<Metadata name="Language.Русский" id="4805390b-137f-4e15-9c5a-421e9010f95d" configVersion="c68442b5af0ce68b20c9f65b8f20fb8529c1909f"/>
 		<Metadata name="StyleItem.ЗаголовкиСтрокЦветТекста" id="07b8d260-90d9-4fab-9f06-0631174cf8ce" configVersion="8ca7a59a6387a0ce95f7e21b072a49e9cb64ecfd"/>
 		<Metadata name="StyleItem.ИтогиФонГруппы" id="09928984-4020-4fdf-99df-951f41fef984" configVersion="8073063b1b61453764e505744a911b9d5f446a3a"/>

@@ -2,11 +2,11 @@
 <ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.17">
 	<ConfigVersions>
 		<Metadata name="CommonPicture.Защита" id="e32eff43-5f85-433b-b155-dd8017528101" configVersion="f62aa52e9c8584fd6530fbb3dc086bc8a8f02456"/>
-		<Metadata name="Configuration.АБК_ОтчетОРасходахПодотчетногоЛица_ПерезаполнениеСУчетомИзменений" id="0f819ec2-2c50-4caf-94eb-025804a8a7d1" configVersion="c3733308e03ce5db6e9d65b65cacd70f002b91ee"/>
+		<Metadata name="Configuration.АБК_ОтчетОРасходахПодотчетногоЛица_ПерезаполнениеСУчетомИзменений" id="0f819ec2-2c50-4caf-94eb-025804a8a7d1" configVersion="e4a38fb47114db8e37e36e641283bc352582ce08"/>
 		<Metadata name="Document.ОтчетОРасходахПодотчетногоЛица" id="bd17052c-d76b-4580-9bb7-8afc0a9adfd2" configVersion="33709d4c03efb7f87dae82c7684e7ce9f72910b7"/>
 		<Metadata name="Document.ОтчетОРасходахПодотчетногоЛица.Form.ФормаДокумента" id="0a92efe0-eb72-4331-b8c3-4634abba77f4" configVersion="2ea5f20ffb3aff5906ade873900c240a69d18679"/>
-		<Metadata name="Document.ОтчетОРасходахПодотчетногоЛица.Form.ФормаДокумента.Form" id="0a92efe0-eb72-4331-b8c3-4634abba77f4.0" configVersion="f3b7ff6608d78f863489c913a224907af98156d2"/>
-		<Metadata name="Document.ОтчетОРасходахПодотчетногоЛица.ObjectModule" id="bd17052c-d76b-4580-9bb7-8afc0a9adfd2.0" configVersion="0db597f0cabe0bb888cc720edda884f10ffdabe3"/>
+		<Metadata name="Document.ОтчетОРасходахПодотчетногоЛица.Form.ФормаДокумента.Form" id="0a92efe0-eb72-4331-b8c3-4634abba77f4.0" configVersion="b031fca9802f420f52e407e47f7aff0656b62cd5"/>
+		<Metadata name="Document.ОтчетОРасходахПодотчетногоЛица.ObjectModule" id="bd17052c-d76b-4580-9bb7-8afc0a9adfd2.0" configVersion="dd402162f4e0107adec6f51c201f6b4ef2a9a17a"/>
 		<Metadata name="Language.Русский" id="bd428328-de92-4c0b-8ce0-f501997dc98e" configVersion="510dabdce46fb97781e8e338a8d922e23c4d0e3d"/>
 		<Metadata name="StyleItem.ГиперссылкаЦвет" id="e40986b6-fdd1-43a5-88d6-0408f50a139b" configVersion="9d1e05c06a78562fa44c083f4a3a58f1fc7195b9"/>
 		<Metadata name="StyleItem.ЗаголовкиСтрокЦветТекста" id="4acaa536-7944-4d01-bceb-dccb7b111ee0" configVersion="8fcd3a94e927692bf54ff035f2e49af1bf088c5f"/>

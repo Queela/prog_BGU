@@ -3,17 +3,17 @@
 	<ConfigVersions>
 		<Metadata name="CommonPicture.Защита" id="5020bd3b-3218-4386-bc8f-2a4460c02416" configVersion="8ce8a63b2d3528e918008a85bed66e01dcf2ee7e"/>
 		<Metadata name="CommonPicture.НекорректныйКонтрагент" id="a76b1e45-2ea4-4d51-9c80-70d91160cedd" configVersion="d8a8a64f78d0916d5e46ef8e31119701a8e9299a"/>
-		<Metadata name="Configuration.АБК_РегистрацияОбязательствОтборЛСКФО_ОбеТЧ" id="6896d3e5-efde-4abb-98c1-7b10da556435" configVersion="cf05163f2acbd6933b5aa1745d8f5b2becf69372"/>
+		<Metadata name="Configuration.АБК_РегистрацияОбязательствОтборЛСКФО_ОбеТЧ" id="6896d3e5-efde-4abb-98c1-7b10da556435" configVersion="33492b36ab58aa721f06333f967a9058506f9c83"/>
 		<Metadata name="Document.РегистрацияОбязательствИСведенийПоДоговорам" id="9939ecce-3c88-4ca5-8a50-98050552c60c" configVersion="194aa52d0964cee0e79e5b32b1c6aea306192225"/>
 		<Metadata name="Document.РегистрацияОбязательствИСведенийПоДоговорам.Form.ФормаДокумента" id="a2dee0ff-fd8b-467d-b652-56b0f83e21f7" configVersion="452143d06b77ba3bb12abfa06d284e9c0380dc81"/>
-		<Metadata name="Document.РегистрацияОбязательствИСведенийПоДоговорам.Form.ФормаДокумента.Form" id="a2dee0ff-fd8b-467d-b652-56b0f83e21f7.0" configVersion="7b7eaa761a2438426f8a495123a24b2a5293b55f"/>
+		<Metadata name="Document.РегистрацияОбязательствИСведенийПоДоговорам.Form.ФормаДокумента.Form" id="a2dee0ff-fd8b-467d-b652-56b0f83e21f7.0" configVersion="530c1753070cc9d6a5f537a2eb1d142bdacc7e59"/>
 		<Metadata name="Enum.ТипыСведенийДоговоров" id="324b96d7-424f-49a3-a2f7-92c58b049102" configVersion="ede3ad95b2ba2aca32637d5cc2a88272c48f2bc7">
 			<Metadata name="Enum.ТипыСведенийДоговоров.EnumValue.ИзменениеСведений" id="016d6659-4521-464a-b7bb-cd6a1b0d7a48"/>
 			<Metadata name="Enum.ТипыСведенийДоговоров.EnumValue.ИсправлениеСведений" id="280e9139-7bf7-483d-a954-1c0c5ded4ded"/>
 			<Metadata name="Enum.ТипыСведенийДоговоров.EnumValue.ПервичныеСведения" id="d22c3789-0d7d-4ed3-a64e-10fe73cff4b7"/>
 		</Metadata>
 		<Metadata name="Language.Русский" id="7fdc808e-33ab-4dc3-a835-7f12111f0737" configVersion="02b27b033a40534487f7c26f5d28b3f84ee25e42"/>
-		<Metadata name="Role.АБК_РегистрацияОбязательствОтборЛСКФО_Роль" id="572e0620-c43d-4ab6-bde6-4d4f152eae00" configVersion="6b8b92dbe9628d203d041b159a19330beac59176"/>
+		<Metadata name="Role.АБК_РегистрацияОбязательствОтборЛСКФО_Роль" id="572e0620-c43d-4ab6-bde6-4d4f152eae00" configVersion="14034b0f812170dbe2f6c6b3531a381a5bb86c73"/>
 		<Metadata name="StyleItem.ИтогиФонГруппы" id="c76bd509-dd1c-4a1c-b30f-af8efbeae148" configVersion="42960b932b95a0b09b6a005cde0beb02f678dfc1"/>
 		<Metadata name="StyleItem.ПоясняющийТекст" id="47d7795c-3734-4d3d-9f26-950a84fc9226" configVersion="9176d79238137440151e07511f869ddb36b2a6ee"/>
 		<Metadata name="StyleItem.ТекстИнформационнойНадписи" id="4257a07c-9c54-4031-ba59-2b05e8923ea3" configVersion="7b1f12d17dfd07726a60f11651a156371781f2de"/>

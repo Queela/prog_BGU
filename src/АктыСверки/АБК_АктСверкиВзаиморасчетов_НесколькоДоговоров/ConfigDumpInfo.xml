@@ -3,12 +3,12 @@
 	<ConfigVersions>
 		<Metadata name="Catalog.Договоры" id="c66d842b-417c-48c7-a119-f3c5bb7c593c" configVersion="c35333289861e070308362ecba143e12e16e1fc4"/>
 		<Metadata name="Catalog.Договоры.Form.ФормаВыбора" id="bb136f95-de07-4b69-96fc-5259bac5fe87" configVersion="48db0540cb2fbd5cfa650ad55556da45ae45860a"/>
-		<Metadata name="Catalog.Договоры.Form.ФормаВыбора.Form" id="bb136f95-de07-4b69-96fc-5259bac5fe87.0" configVersion="f83149e298b1eb3197cd6a9f5ca2e503c47cd134"/>
-		<Metadata name="Configuration.АБК_АктСверкиВзаиморасчетов_НесколькоДоговоров" id="7e156210-7ca8-4acc-91ba-4c4f48ff442b" configVersion="4ded23f1d3bcf3aab5f9700c0dce66b974512799"/>
-		<Metadata name="Document.АктСверкиВзаиморасчетов" id="d971576e-417f-45af-9509-d6db2ee04e80" configVersion="0341ea19ff412795d844b10511f7ff813d2eba6d"/>
+		<Metadata name="Catalog.Договоры.Form.ФормаВыбора.Form" id="bb136f95-de07-4b69-96fc-5259bac5fe87.0" configVersion="4719618c9c231818dac07769998d491bd5296ccc"/>
+		<Metadata name="Configuration.АБК_АктСверкиВзаиморасчетов_НесколькоДоговоров" id="7e156210-7ca8-4acc-91ba-4c4f48ff442b" configVersion="e5947371054c372d8b617dbe2c236bcea9bd6da3"/>
+		<Metadata name="Document.АктСверкиВзаиморасчетов" id="d971576e-417f-45af-9509-d6db2ee04e80" configVersion="c0cae44ca93517abc07aef2955a6b915ace2048c"/>
 		<Metadata name="Document.АктСверкиВзаиморасчетов.Form.ФормаДокумента" id="07453db3-08eb-4973-b8e2-8b809a34a5f0" configVersion="38a7c2b13ec966b7c24c8d8811ef608542ad216b"/>
-		<Metadata name="Document.АктСверкиВзаиморасчетов.Form.ФормаДокумента.Form" id="07453db3-08eb-4973-b8e2-8b809a34a5f0.0" configVersion="6aef2a3c9ed681504dbd970f2d9dcb7d057d622f"/>
-		<Metadata name="Document.АктСверкиВзаиморасчетов.ManagerModule" id="d971576e-417f-45af-9509-d6db2ee04e80.2" configVersion="97c7ed848d8263402c60c1b43441cc9b1f7287cd"/>
+		<Metadata name="Document.АктСверкиВзаиморасчетов.Form.ФормаДокумента.Form" id="07453db3-08eb-4973-b8e2-8b809a34a5f0.0" configVersion="05af58ce3adedd34668e20425ff9969a69680dbf"/>
+		<Metadata name="Document.АктСверкиВзаиморасчетов.ManagerModule" id="d971576e-417f-45af-9509-d6db2ee04e80.2" configVersion="3e9f6562f32726b0b9c1e2915f6a91bad8f35a37"/>
 		<Metadata name="Language.Русский" id="b1a2c146-f7bf-4223-9509-cb33d5bef561" configVersion="e5f80a918e3603660de6f9db5e684c5878d218b2"/>
 	</ConfigVersions>
 </ConfigDumpInfo>

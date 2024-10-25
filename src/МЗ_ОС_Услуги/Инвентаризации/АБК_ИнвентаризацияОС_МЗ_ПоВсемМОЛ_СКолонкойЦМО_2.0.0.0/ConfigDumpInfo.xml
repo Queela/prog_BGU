@@ -6,31 +6,31 @@
 		<Metadata name="CommonPicture.ПрослеживаемыйТовар" id="b5e220c2-0e15-41fd-bda7-7aa481783981" configVersion="ea0fbd329e89ca2cc4511ecd9378798bc0765d53"/>
 		<Metadata name="CommonPicture.СостоянияДокумента" id="3ff799b6-dd7e-413c-b455-11dca8191073" configVersion="ba8b1be6757319831bc45fbdf6d72b46c52328dc"/>
 		<Metadata name="CommonTemplate.ПФ_MXL_ИНВ1" id="150c2173-7ee6-4868-9358-bc368590ed0c" configVersion="8fbd26a4a3711e76cb704ae1bfe52782b97b24ba"/>
-		<Metadata name="CommonTemplate.ПФ_MXL_ИНВ1.Template" id="150c2173-7ee6-4868-9358-bc368590ed0c.0" configVersion="d49d050c2f28e4b974d307ad85f04f14b44851ed"/>
+		<Metadata name="CommonTemplate.ПФ_MXL_ИНВ1.Template" id="150c2173-7ee6-4868-9358-bc368590ed0c.0" configVersion="faf349ba552d9f8123f16ab0e0b698db5ce5dbcf"/>
 		<Metadata name="CommonTemplate.ПФ_MXL_ИНВ1а" id="51a5e5f6-30db-4508-b259-3f38f0a0eac9" configVersion="ba1b135551a68b4e6262a79d9780bb1da7d35952"/>
-		<Metadata name="CommonTemplate.ПФ_MXL_ИНВ1а.Template" id="51a5e5f6-30db-4508-b259-3f38f0a0eac9.0" configVersion="d70c29d6b123eb35682263f99d56ee137d7328b6"/>
+		<Metadata name="CommonTemplate.ПФ_MXL_ИНВ1а.Template" id="51a5e5f6-30db-4508-b259-3f38f0a0eac9.0" configVersion="b5f890281e288a43d7ff1278cfdd9c978f4401b0"/>
 		<Metadata name="CommonTemplate.ПФ_MXL_ИнвентаризационнаяОписьНФА_0504087" id="1f482cd4-90b9-4ca0-913b-59e8d139de9b" configVersion="0180643d344ac9f8686730e602853548e6656e7c"/>
-		<Metadata name="CommonTemplate.ПФ_MXL_ИнвентаризационнаяОписьНФА_0504087.Template" id="1f482cd4-90b9-4ca0-913b-59e8d139de9b.0" configVersion="c99cd816999e5b96b5e2d34ce18a51ccd71f2427"/>
+		<Metadata name="CommonTemplate.ПФ_MXL_ИнвентаризационнаяОписьНФА_0504087.Template" id="1f482cd4-90b9-4ca0-913b-59e8d139de9b.0" configVersion="fc287ace99cbf5fa34e148ce0e4be7d855461a71"/>
 		<Metadata name="CommonTemplate.ПФ_MXL_ИнвентаризационнаяОписьНФА_0504087_194н" id="4feed9a4-f5a5-4173-89e0-619868c85400" configVersion="50e3169a7e63540d0ef398f7d57151f72d412420"/>
-		<Metadata name="CommonTemplate.ПФ_MXL_ИнвентаризационнаяОписьНФА_0504087_194н.Template" id="4feed9a4-f5a5-4173-89e0-619868c85400.0" configVersion="f82248702262075ef423fd4355ce40851f0b593d"/>
+		<Metadata name="CommonTemplate.ПФ_MXL_ИнвентаризационнаяОписьНФА_0504087_194н.Template" id="4feed9a4-f5a5-4173-89e0-619868c85400.0" configVersion="4733cac1564219748bc986f4a8a15afa166d8ca5"/>
 		<Metadata name="CommonTemplate.ПФ_MXL_ИнвентаризационнаяОписьТМЦ_ИНВ3" id="dbbf5674-cb07-4ac7-9c2f-ea09ebaea7fa" configVersion="a1c881688349a411b46312b454b8d5f113080a0d"/>
-		<Metadata name="CommonTemplate.ПФ_MXL_ИнвентаризационнаяОписьТМЦ_ИНВ3.Template" id="dbbf5674-cb07-4ac7-9c2f-ea09ebaea7fa.0" configVersion="025b7f32b4355b6e59788a008255a0a4e71ad487"/>
-		<Metadata name="Configuration.АБК_ИнвентаризацияОС_МЗ_ПоВсемМОЛ_СКолонкойЦМО" id="b32a2502-4785-4b00-87d5-87e9004f5d6d" configVersion="c208512845214ecb325a9e8e421a62a86f0d5d4c"/>
+		<Metadata name="CommonTemplate.ПФ_MXL_ИнвентаризационнаяОписьТМЦ_ИНВ3.Template" id="dbbf5674-cb07-4ac7-9c2f-ea09ebaea7fa.0" configVersion="4db266c8616cf6f0bf06950eda737f01d17e14e6"/>
+		<Metadata name="Configuration.АБК_ИнвентаризацияОС_МЗ_ПоВсемМОЛ_СКолонкойЦМО" id="b32a2502-4785-4b00-87d5-87e9004f5d6d" configVersion="e481978c8c09115f2aedc6d782b7127aa4c08837"/>
 		<Metadata name="Document.ИнвентаризацияМЗ" id="4474d432-d43d-455c-8060-a7587e51023d" configVersion="dbebb0dea00cc1fabe707e59c4e8abb2103609c7">
 			<Metadata name="Document.ИнвентаризацияМЗ.TabularSection.Материалы.Attribute.ЦМО" id="175fc93f-45da-4f52-92a5-858d78aa8d49"/>
 			<Metadata name="Document.ИнвентаризацияМЗ.TabularSection.Материалы" id="2226d55a-2e0b-460c-ae58-0304a8c723e8"/>
 		</Metadata>
 		<Metadata name="Document.ИнвентаризацияМЗ.Form.ФормаДокумента" id="d764cabc-eb6e-4f6b-a6a4-5d8afcbf995c" configVersion="9d7d7c39cb8bcf7fb30f5dafac7bca664aedb60a"/>
-		<Metadata name="Document.ИнвентаризацияМЗ.Form.ФормаДокумента.Form" id="d764cabc-eb6e-4f6b-a6a4-5d8afcbf995c.0" configVersion="4dce7429d387bff8167186c6a5187ad030a0d8de"/>
-		<Metadata name="Document.ИнвентаризацияМЗ.ManagerModule" id="4474d432-d43d-455c-8060-a7587e51023d.2" configVersion="0bb5ded692c87a11e37c64d5c865b24d66106440"/>
+		<Metadata name="Document.ИнвентаризацияМЗ.Form.ФормаДокумента.Form" id="d764cabc-eb6e-4f6b-a6a4-5d8afcbf995c.0" configVersion="2523e902a5527692bdcf67d0ed3fb54ff0aa1030"/>
+		<Metadata name="Document.ИнвентаризацияМЗ.ManagerModule" id="4474d432-d43d-455c-8060-a7587e51023d.2" configVersion="7f2bce46de370a3670124122246c9f06557382ae"/>
 		<Metadata name="Document.ИнвентаризацияОС" id="29cef444-f064-4303-9832-22d02d2ba774" configVersion="0639225d9ff516c8ec8f679d7aea2afc38093473">
 			<Metadata name="Document.ИнвентаризацияОС.TabularSection.Инвентаризация" id="0609748f-a680-4112-a798-128bf95e33cc"/>
 			<Metadata name="Document.ИнвентаризацияОС.Attribute.АБК_ЗаполнитьПоВсемМОЛ" id="0ec73079-4df6-4822-b7f8-d31217f3834c"/>
 			<Metadata name="Document.ИнвентаризацияОС.TabularSection.Инвентаризация.Attribute.ЦМО" id="bc0b1898-d842-423e-8b72-0f8dd3a2a139"/>
 		</Metadata>
 		<Metadata name="Document.ИнвентаризацияОС.Form.ФормаДокумента" id="1045bee9-df68-4395-a4ee-2f2d2c075625" configVersion="398d67a3e53fe2520235e226bcb8f25e2a43953e"/>
-		<Metadata name="Document.ИнвентаризацияОС.Form.ФормаДокумента.Form" id="1045bee9-df68-4395-a4ee-2f2d2c075625.0" configVersion="70e8f15cae32e376c31036164f62ff5ebaae31d1"/>
-		<Metadata name="Document.ИнвентаризацияОС.ManagerModule" id="29cef444-f064-4303-9832-22d02d2ba774.2" configVersion="009f3b6238042a2f9a8ea2154d7aaffe779606b9"/>
+		<Metadata name="Document.ИнвентаризацияОС.Form.ФормаДокумента.Form" id="1045bee9-df68-4395-a4ee-2f2d2c075625.0" configVersion="20515e9aa0f425109566a2ff5a10eb138bbe509d"/>
+		<Metadata name="Document.ИнвентаризацияОС.ManagerModule" id="29cef444-f064-4303-9832-22d02d2ba774.2" configVersion="2c65773bf8b72c3d6e3003277181a8a1be09b1b0"/>
 		<Metadata name="Language.Русский" id="c5bb5b6c-02dc-4340-a3d2-f6b42f230aca" configVersion="b371826eeb82bac0b75a59cc0e098ed8f361a3d5"/>
 		<Metadata name="StyleItem.ИтогиФонГруппы" id="550934d3-9258-42c0-9678-0bb9a6ea2a76" configVersion="2403e4e52b79ef9d59b5c2cc01ecbe45f83f6239"/>
 		<Metadata name="StyleItem.НедоступныеДанныеЦвет" id="877b5ca1-ca14-4a0e-be05-ef63b7f959e4" configVersion="200a06cfb142b5c1d773838ba01321ee474e7261"/>

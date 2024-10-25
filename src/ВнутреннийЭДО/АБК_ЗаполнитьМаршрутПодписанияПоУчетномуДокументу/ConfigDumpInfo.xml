@@ -3,10 +3,10 @@
 	<ConfigVersions>
 		<Metadata name="CommonPicture.ВидыЭлектронныхПодписей" id="cb73fffe-77f5-4b31-bc03-4088efa51cb1" configVersion="5aa8148b7c9f861a02346785c92a8195a258b0d6"/>
 		<Metadata name="CommonPicture.СтадииПодписанияВнутреннегоЭДО" id="6c0a98cc-6b7e-4353-85fa-efdd3e6cc26c" configVersion="8334ef461a0d3f05fe571fbc1df1d54d4ad9ac50"/>
-		<Metadata name="Configuration.АБК_ЗаполнитьМаршрутПодписанияПоУчетномуДокументу" id="75be81ea-72ec-4a9e-be4c-664e1be9c633" configVersion="d90590eb0a6ebc55f08dc5d51261e97601a94526"/>
+		<Metadata name="Configuration.АБК_ЗаполнитьМаршрутПодписанияПоУчетномуДокументу" id="75be81ea-72ec-4a9e-be4c-664e1be9c633" configVersion="bc94c99311e10276e6605de618921e38d12c66e1"/>
 		<Metadata name="Document.ВнутреннийЭлектронныйДокумент" id="a3d86304-bf1c-4183-b288-42d6b78b802b" configVersion="c70027da06c0979818bf96884595fef02a738a81"/>
 		<Metadata name="Document.ВнутреннийЭлектронныйДокумент.Form.ФормаДокумента" id="946368f2-12c7-4299-a2f1-00a57abfa9fb" configVersion="54557a66d4c2a3c28e473ace8df961946e1002fb"/>
-		<Metadata name="Document.ВнутреннийЭлектронныйДокумент.Form.ФормаДокумента.Form" id="946368f2-12c7-4299-a2f1-00a57abfa9fb.0" configVersion="8a5a46d0b8da89e3ad189c7635e9479565e09355"/>
+		<Metadata name="Document.ВнутреннийЭлектронныйДокумент.Form.ФормаДокумента.Form" id="946368f2-12c7-4299-a2f1-00a57abfa9fb.0" configVersion="7da7374be76a20365d267960c6fc426d04a7f3b5"/>
 		<Metadata name="Language.Русский" id="4268a325-486c-4052-9ca3-02024df84db8" configVersion="3ab66be237893d215547cc69c8806598cadcd23d"/>
 	</ConfigVersions>
 </ConfigDumpInfo>

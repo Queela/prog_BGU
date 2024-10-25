@@ -2,13 +2,13 @@
 <ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.17">
 	<ConfigVersions>
 		<Metadata name="CommonForm.НастройкаПараметровУчета" id="2c63126e-bc17-4003-955d-07852f469615" configVersion="d55b4f085a6d56146564070a701243ec731a4e9d"/>
-		<Metadata name="CommonForm.НастройкаПараметровУчета.Form" id="2c63126e-bc17-4003-955d-07852f469615.0" configVersion="d0132cdd1e2af8c8d3a87a7e1f28e8ee74ff2395"/>
+		<Metadata name="CommonForm.НастройкаПараметровУчета.Form" id="2c63126e-bc17-4003-955d-07852f469615.0" configVersion="6a8492eb55c3ab154a322f24dcaa1e7c89783144"/>
 		<Metadata name="CommonModule.АБК_УчетСтудентов" id="a5f19543-2a16-4bdb-8036-341ddf104615" configVersion="87785b87e1e97bbb0ccba07d601721d4390d324b"/>
-		<Metadata name="CommonModule.АБК_УчетСтудентов.Module" id="a5f19543-2a16-4bdb-8036-341ddf104615.0" configVersion="a6aa0dcf37505bf931ddacf824360920d0765c54"/>
+		<Metadata name="CommonModule.АБК_УчетСтудентов.Module" id="a5f19543-2a16-4bdb-8036-341ddf104615.0" configVersion="9b25e35849dbe63d77f3cefd36c52acb71f28c68"/>
 		<Metadata name="CommonModule.АБК_УчетСтудентовКлиент" id="a7846302-06c3-49dc-9747-6c353f1a9f5d" configVersion="36f23c836feb1357ee97d79ba29147305c191ce0"/>
-		<Metadata name="CommonModule.АБК_УчетСтудентовКлиент.Module" id="a7846302-06c3-49dc-9747-6c353f1a9f5d.0" configVersion="0474e2c99d43adc8550db923c29e01d3e8847ef2"/>
-		<Metadata name="CommonModule.РаботаСоСтудентами" id="e67f025d-cc72-4112-b050-967fed5feb86" configVersion="09e2e48e90a04431a9847d7b7394b7bec8357897"/>
-		<Metadata name="CommonModule.РаботаСоСтудентами.Module" id="e67f025d-cc72-4112-b050-967fed5feb86.0" configVersion="1634fcac1b5835f472fd31aabc63641d2fdffdc9"/>
+		<Metadata name="CommonModule.АБК_УчетСтудентовКлиент.Module" id="a7846302-06c3-49dc-9747-6c353f1a9f5d.0" configVersion="41d998b27fe9cecc16bfdda60a92ce8aeb5267e0"/>
+		<Metadata name="CommonModule.РаботаСоСтудентами" id="e67f025d-cc72-4112-b050-967fed5feb86" configVersion="5a1580d81f3f05ddf2bb06226c8a76ceeb67aabd"/>
+		<Metadata name="CommonModule.РаботаСоСтудентами.Module" id="e67f025d-cc72-4112-b050-967fed5feb86.0" configVersion="b626da66a9766fbfef21723691d86bf2f48fa767"/>
 		<Metadata name="CommonPicture.ФлажокУзкий" id="800bbc20-ddc5-4802-afc4-5ed6b640868f" configVersion="ebff1b6ae1a8964396b64841f3924bf57d194a49"/>
 		<Metadata name="CommonTemplate.АБК_Макет_ПроводкаНачислениеДБП_205_401_41" id="cd086d5b-69cc-48d9-b6fb-da6cb160725c" configVersion="13a73dd3ed853114f3da107cf17a6f421dc70094"/>
 		<Metadata name="CommonTemplate.АБК_Макет_ПроводкаНачислениеДБП_205_401_41.Template" id="cd086d5b-69cc-48d9-b6fb-da6cb160725c.0" configVersion="ce38049c236f67329fe97882a0bf99d904c3d74c"/>
@@ -16,7 +16,7 @@
 		<Metadata name="CommonTemplate.АБК_Макет_ПроводкаНачислениеДБП_205_401_49.Template" id="97a621ae-18a9-4770-acce-5a3f09100a03.0" configVersion="69e9433d3ea178c3619e8b1e3507c8612146f036"/>
 		<Metadata name="CommonTemplate.АБК_Макет_ПроводкаНачислениеДБП_401_49_41" id="b5d6cb4d-8391-4e2c-a4a4-1c3e60e4657c" configVersion="2c419f8414961e0cc0e9615d86d0bce79cd1c7f2"/>
 		<Metadata name="CommonTemplate.АБК_Макет_ПроводкаНачислениеДБП_401_49_41.Template" id="b5d6cb4d-8391-4e2c-a4a4-1c3e60e4657c.0" configVersion="a13e3e853a27ee7bce300b69d02fcc27de17480c"/>
-		<Metadata name="Configuration.АБК_УчетСтудентов4014х" id="e73f8059-abc8-4a6a-ae19-cfaf7ae06dec" configVersion="2b41b036100330fb08c865c84a53f0c029943f88"/>
+		<Metadata name="Configuration.АБК_УчетСтудентов4014х" id="e73f8059-abc8-4a6a-ae19-cfaf7ae06dec" configVersion="ce1aed8958778ae5285c1cc77c947f57f522b5b4"/>
 		<Metadata name="Constant.АБК_УчетСтудентов4014х" id="96bf9330-9d97-4328-a358-151747d59b5a" configVersion="5c09f1a2cde406cde1c48563adf540ce08f91ce0"/>
 		<Metadata name="Document.КорректировкаДолгосрочныхДоговоровОбразование" id="90f05e05-b5db-4ab1-a875-c3b0311e8019" configVersion="626924a2013f0c5e3420658035b67ff0e7b796bf">
 			<Metadata name="Document.КорректировкаДолгосрочныхДоговоровОбразование.TabularSection.ДоходыБудущихПериодов.Attribute.СуммаПереносаДБП" id="10d6439a-6c55-4b86-a971-e62cee768fed"/>
@@ -24,22 +24,22 @@
 			<Metadata name="Document.КорректировкаДолгосрочныхДоговоровОбразование.Attribute.ПереносДБП" id="b03728b8-002b-4657-9149-945a2b8167e6"/>
 		</Metadata>
 		<Metadata name="Document.КорректировкаДолгосрочныхДоговоровОбразование.Form.ФормаДокумента" id="22fb245f-f397-4f28-931d-f279092ee008" configVersion="261a4564f9d9bf73bccc019d00f5b3f736c325c8"/>
-		<Metadata name="Document.КорректировкаДолгосрочныхДоговоровОбразование.Form.ФормаДокумента.Form" id="22fb245f-f397-4f28-931d-f279092ee008.0" configVersion="fa6cc08985bfccf2e505044cce62734a14e317f2"/>
-		<Metadata name="Document.КорректировкаДолгосрочныхДоговоровОбразование.ManagerModule" id="90f05e05-b5db-4ab1-a875-c3b0311e8019.2" configVersion="7b4155a771148430a7eec612076580a8d0857a7d"/>
+		<Metadata name="Document.КорректировкаДолгосрочныхДоговоровОбразование.Form.ФормаДокумента.Form" id="22fb245f-f397-4f28-931d-f279092ee008.0" configVersion="5b4130dc6d0eebb2c64baced9168d4f57b1aa478"/>
+		<Metadata name="Document.КорректировкаДолгосрочныхДоговоровОбразование.ManagerModule" id="90f05e05-b5db-4ab1-a875-c3b0311e8019.2" configVersion="242a47a439927138284266666cd5c3023976732f"/>
 		<Metadata name="Document.КорректировкаДолгосрочныхДоговоровОбразование.Template.АБК_Макет_ПорядокОплаты" id="f3155683-de67-439b-8e73-2e24fce6ea9a" configVersion="b3bb5b156d8f702fbc2ddc40fe41a27f31d2477a"/>
 		<Metadata name="Document.КорректировкаДолгосрочныхДоговоровОбразование.Template.АБК_Макет_ПорядокОплаты.Template" id="f3155683-de67-439b-8e73-2e24fce6ea9a.0" configVersion="57d7198e83f32ef70757d172a7c09b57c538057e"/>
 		<Metadata name="Document.КорректировкаДоходовБудущихПериодовОбразование" id="bfc48766-1728-43d9-ae28-dabe5429dbac" configVersion="c76878e5bb8b4da9243953248e4471d80390ced6"/>
 		<Metadata name="Document.КорректировкаДоходовБудущихПериодовОбразование.Form.ФормаДокумента" id="d110fa96-93fa-42ed-8eb0-3644290b76b4" configVersion="16857c17ce3c91e8bfa44ebd1ea7eb6ddd8a7a5f"/>
-		<Metadata name="Document.КорректировкаДоходовБудущихПериодовОбразование.Form.ФормаДокумента.Form" id="d110fa96-93fa-42ed-8eb0-3644290b76b4.0" configVersion="5ce5df60a2fe7429ebfacc266b765c12b70e57e3"/>
-		<Metadata name="Document.КорректировкаДоходовБудущихПериодовОбразование.ManagerModule" id="bfc48766-1728-43d9-ae28-dabe5429dbac.2" configVersion="d2540d59ecb85bd1d8af419af3438e2e13160ff2"/>
-		<Metadata name="Document.КорректировкаДоходовБудущихПериодовОбразование.ObjectModule" id="bfc48766-1728-43d9-ae28-dabe5429dbac.0" configVersion="29064f316646ea985e536da609cbd7b98495cdf4"/>
+		<Metadata name="Document.КорректировкаДоходовБудущихПериодовОбразование.Form.ФормаДокумента.Form" id="d110fa96-93fa-42ed-8eb0-3644290b76b4.0" configVersion="a2de05618edc66852743839c39bcb71af6c8b4fc"/>
+		<Metadata name="Document.КорректировкаДоходовБудущихПериодовОбразование.ManagerModule" id="bfc48766-1728-43d9-ae28-dabe5429dbac.2" configVersion="a4a5a1e6c03c15321d733453a905695fddd2937a"/>
+		<Metadata name="Document.КорректировкаДоходовБудущихПериодовОбразование.ObjectModule" id="bfc48766-1728-43d9-ae28-dabe5429dbac.0" configVersion="d219d8176db831b90e0afaffaccecd70757467cf"/>
 		<Metadata name="Document.НачислениеДоходовБудущихПериодовОбразование" id="64f1c512-2014-449f-9ed1-99b2b5343c83" configVersion="239278c27648ccdb203bf330004720ac7c78de27">
 			<Metadata name="Document.НачислениеДоходовБудущихПериодовОбразование.TabularSection.Начисления.Attribute.Сумма40149" id="3c09fec0-d402-478a-a017-441bc180e109"/>
 			<Metadata name="Document.НачислениеДоходовБудущихПериодовОбразование.TabularSection.Начисления" id="bf7ad351-0e27-43aa-a13a-3ffbd4385f3d"/>
 		</Metadata>
 		<Metadata name="Document.НачислениеДоходовБудущихПериодовОбразование.Form.ФормаДокумента" id="699b8cd8-4466-4b7e-bd48-4c1c8254aaac" configVersion="e79c9b27b08f0dba0b64a2c7dd5ce46c53415c9b"/>
-		<Metadata name="Document.НачислениеДоходовБудущихПериодовОбразование.Form.ФормаДокумента.Form" id="699b8cd8-4466-4b7e-bd48-4c1c8254aaac.0" configVersion="854e973c1c7082f5ca6ad2dd056ac78fba5b8e54"/>
-		<Metadata name="Document.НачислениеДоходовБудущихПериодовОбразование.ManagerModule" id="64f1c512-2014-449f-9ed1-99b2b5343c83.2" configVersion="cd5beab49a9cd6b5d6ea8a89c7514f98cc9e7785"/>
+		<Metadata name="Document.НачислениеДоходовБудущихПериодовОбразование.Form.ФормаДокумента.Form" id="699b8cd8-4466-4b7e-bd48-4c1c8254aaac.0" configVersion="047dfff567cb34895ee4146c8bf91f16556ce287"/>
+		<Metadata name="Document.НачислениеДоходовБудущихПериодовОбразование.ManagerModule" id="64f1c512-2014-449f-9ed1-99b2b5343c83.2" configVersion="6f152393cdeafc53ffb9a665a7c8cf5ac0918aef"/>
 		<Metadata name="Enum.ВидыОперацийКорректировкиДБП" id="8e9378a3-d7c5-4c29-a99a-2da2034c70c1" configVersion="b03a50bd0cd45496bfe21ccc3c2d8abbcb79c20a">
 			<Metadata name="Enum.ВидыОперацийКорректировкиДБП.EnumValue.КорректировкаДоходовБудущихПериодов" id="075ec293-5843-425e-a9dc-40956dd44e31"/>
 			<Metadata name="Enum.ВидыОперацийКорректировкиДБП.EnumValue.ДосрочноеПрекрашение" id="c839f40d-7be3-4eea-b74a-0e168d5a39b9"/>
@@ -50,7 +50,7 @@
 		</Metadata>
 		<Metadata name="Language.Русский" id="52713656-c0ba-49a3-b52a-be6646bb663f" configVersion="a31e7bb7a60c6f4ba6c1d299164af997e6ce123d"/>
 		<Metadata name="Role.АБК_УчетСтудентов4014х_ОсновнаяРоль" id="8c70aba0-7539-4c0f-a1e2-d2ea455bc2ad" configVersion="04d8c97fcc59e9a2ddcb8e11377d57ec13733d4f"/>
-		<Metadata name="Role.АБК_УчетСтудентов4014х_ОсновнаяРоль.Rights" id="8c70aba0-7539-4c0f-a1e2-d2ea455bc2ad.0" configVersion="fa1ae186f99eb5f85996d84377d66ed00a3142d0"/>
+		<Metadata name="Role.АБК_УчетСтудентов4014х_ОсновнаяРоль.Rights" id="8c70aba0-7539-4c0f-a1e2-d2ea455bc2ad.0" configVersion="dfcb87341eab509e20e5a782c89261e054dd5251"/>
 		<Metadata name="StyleItem.ЗаголовкиСтрокЦветТекста" id="3591522c-5e6f-4d99-86ea-d4bcbb1e1084" configVersion="87590c6d07b5d42c74bfe352a97aa2b50ec26a90"/>
 		<Metadata name="StyleItem.ИтогиФонГруппы" id="d0813c9a-b53b-48d5-bbc4-39ba4f158037" configVersion="9b0406f49d47a9deb615dd3346e15ea5a891185a"/>
 		<Metadata name="StyleItem.ПоясняющийОшибкуТекст" id="41f903bd-0ad0-4d7e-b926-0e40b428fa69" configVersion="361d901b8de95940d59449ca25cfcbcaee83ba3f"/>
@@ -59,6 +59,6 @@
 		<Metadata name="StyleItem.ФонУправляющегоПоля" id="963391ff-46c0-442c-9bdc-d8ae5d64b1a9" configVersion="87b0a312f40064c5bbeca91b7aa1a66af74e7260"/>
 		<Metadata name="StyleItem.ЦветНедоступноеПоле" id="90012d23-0ed4-49b7-8351-c3b37996d5b7" configVersion="e26c2f8685025a6ad6249008fceaeaae17c2258e"/>
 		<Metadata name="StyleItem.ЦветФонаПредупреждения" id="33e3f14a-505b-4970-974f-9cdec1269502" configVersion="1f4b3b3be7c6cc4e52af1efd045aff47cbe14ee3"/>
-		<Metadata name="Subsystem.АБК_УчетСтудентов4014х" id="a53ccd45-2cb1-4c40-b5b5-239365834442" configVersion="bba1c6742963a7d239c7ce61d07a0d6f7e88a42e"/>
+		<Metadata name="Subsystem.АБК_УчетСтудентов4014х" id="a53ccd45-2cb1-4c40-b5b5-239365834442" configVersion="61830412db108ffd8859e5456ebdeb6510b4ae1f"/>
 	</ConfigVersions>
 </ConfigDumpInfo>

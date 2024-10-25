@@ -7,18 +7,18 @@
 		<Metadata name="Catalog.Организации" id="d0debbaf-a669-44cf-b9d2-05e62f58df28" configVersion="89a30737854752702a2c2728cd259a5f32d78fbd"/>
 		<Metadata name="ChartOfAccounts.ЕПСБУ" id="e58ab006-cffe-4967-88d0-e6048899051e" configVersion="31d7ddf2fd332e0c71ae284f869e01f6ffb4d3f3"/>
 		<Metadata name="ChartOfCharacteristicTypes.ВидыСубконто" id="953035a2-b9a8-4163-9434-dc8b8955c5c5" configVersion="0f776f96dbe5ec6ec340fa0cb1837509a57c13aa"/>
-		<Metadata name="CommonModule.УчетРасчетов" id="57e7e354-706a-4b2e-b16d-748024824c37" configVersion="6482f7485bda40734fe39f8ed203b50d02d1eb27"/>
-		<Metadata name="CommonModule.УчетРасчетов.Module" id="57e7e354-706a-4b2e-b16d-748024824c37.0" configVersion="a859433eb4f9f02dd5b8e68dc3f98953261f4d7f"/>
-		<Metadata name="CommonModule.УчетРасчетовКлиент" id="2eaf76a0-1724-4435-852a-c2d02bbcbbae" configVersion="f177b5e8bf6f938f084c80742d5f97a3b54a1e69"/>
-		<Metadata name="CommonModule.УчетРасчетовКлиент.Module" id="2eaf76a0-1724-4435-852a-c2d02bbcbbae.0" configVersion="d3817a5173e2e4e79bfce45bd3bc1f507dc821f6"/>
-		<Metadata name="CommonModule.УчетРасчетовКлиентСервер" id="cf083fce-bf5c-4e56-b059-52893ed02b6d" configVersion="72aa77e191bdf6e3e40205a82a4fcb966d1ff453"/>
-		<Metadata name="CommonModule.УчетРасчетовКлиентСервер.Module" id="cf083fce-bf5c-4e56-b059-52893ed02b6d.0" configVersion="c820b7bcef9514ca2a397cfc6cb69487edc816b1"/>
+		<Metadata name="CommonModule.УчетРасчетов" id="57e7e354-706a-4b2e-b16d-748024824c37" configVersion="28819b760fe4d5518a8f5680abd87011229da33e"/>
+		<Metadata name="CommonModule.УчетРасчетов.Module" id="57e7e354-706a-4b2e-b16d-748024824c37.0" configVersion="caf94792c1bff56755a39c87acffe2f93313fcb0"/>
+		<Metadata name="CommonModule.УчетРасчетовКлиент" id="2eaf76a0-1724-4435-852a-c2d02bbcbbae" configVersion="e0d1fc2f92ea05d72d9b9e5e269f3e9c508f81f7"/>
+		<Metadata name="CommonModule.УчетРасчетовКлиент.Module" id="2eaf76a0-1724-4435-852a-c2d02bbcbbae.0" configVersion="e8d4eb09ef646e05bfce41cb6a052e961b66d116"/>
+		<Metadata name="CommonModule.УчетРасчетовКлиентСервер" id="cf083fce-bf5c-4e56-b059-52893ed02b6d" configVersion="ad259384b979e390a8abedf75425421060545616"/>
+		<Metadata name="CommonModule.УчетРасчетовКлиентСервер.Module" id="cf083fce-bf5c-4e56-b059-52893ed02b6d.0" configVersion="b263482f274c99abb2f6eeac7e7aec51ab4c7265"/>
 		<Metadata name="CommonPicture.НеРавноТакси" id="5be8e2b4-4808-48f8-8f1b-ee1b798e45c0" configVersion="3662f955e9259973aca80889d0209e49e21167cd"/>
 		<Metadata name="CommonPicture.ПрослеживаемыйТовар" id="4b2486bb-61e9-4f43-9010-ad7b013a7608" configVersion="63c29163dc7759b5792193279b36ffe8d0a54d4e"/>
-		<Metadata name="Configuration.АБК_ПоступлениеТРУ_ЗачетАвансаПоДокументамИОстаткам" id="2a714c81-9863-49b3-9d55-a02d8d968db3" configVersion="546f35731fb6f88d3d45f3cd47a1154302da6d7d"/>
+		<Metadata name="Configuration.АБК_ПоступлениеТРУ_ЗачетАвансаПоДокументамИОстаткам" id="2a714c81-9863-49b3-9d55-a02d8d968db3" configVersion="7430d157071feb9240de83d9c368dd721d07a6ad"/>
 		<Metadata name="DataProcessor.ПодборДокументовАвансов" id="c2398089-26c1-4d8d-94e4-234e255ce9e7" configVersion="d447d0f5ff962d4e8074b295eae680d7dfed3d95"/>
 		<Metadata name="DataProcessor.ПодборДокументовАвансов.Form.Форма" id="236692d3-bc5b-4db9-848e-f3793f2387f2" configVersion="b1a9f772ae24967e18d2bc96372134b975e471e9"/>
-		<Metadata name="DataProcessor.ПодборДокументовАвансов.Form.Форма.Form" id="236692d3-bc5b-4db9-848e-f3793f2387f2.0" configVersion="de191a5ffb8ea3a413a04d98bd1d7293bc8917e6"/>
+		<Metadata name="DataProcessor.ПодборДокументовАвансов.Form.Форма.Form" id="236692d3-bc5b-4db9-848e-f3793f2387f2.0" configVersion="c8a56899942bee89cfd6ebfedbc7b9bf2a65255f"/>
 		<Metadata name="Document.АктПриемкиТоваровРаботУслуг" id="5bf3d4a0-dd9c-4f48-b176-3d9b42e62102" configVersion="91087ddec7412aac5ac74d488124010c4e23deb0">
 			<Metadata name="Document.АктПриемкиТоваровРаботУслуг.TabularSection.ЗачетАвансовПоДокументамИОстаткам.Attribute.КПС" id="143a9f87-3549-4325-95ef-d1e5b4b688ea"/>
 			<Metadata name="Document.АктПриемкиТоваровРаботУслуг.TabularSection.ЗачетАвансовПоДокументамИОстаткам.Attribute.КФО" id="7a5a59ac-8185-41ba-ae10-fbd6f75fdf65"/>
@@ -29,7 +29,7 @@
 			<Metadata name="Document.АктПриемкиТоваровРаботУслуг.TabularSection.ЗачетАвансовПоДокументамИОстаткам" id="dd096eb3-546e-4fcd-a1de-8dd9be7af9c1"/>
 		</Metadata>
 		<Metadata name="Document.АктПриемкиТоваровРаботУслуг.Form.ФормаДокумента" id="79e7e61b-5c2c-4876-95a0-b3d4ced469f7" configVersion="02c4a3a4f0a01987721175e58030ac688ac9867a"/>
-		<Metadata name="Document.АктПриемкиТоваровРаботУслуг.Form.ФормаДокумента.Form" id="79e7e61b-5c2c-4876-95a0-b3d4ced469f7.0" configVersion="41ce0e471cd8532a984aab689d1758fd6466ed1c"/>
+		<Metadata name="Document.АктПриемкиТоваровРаботУслуг.Form.ФормаДокумента.Form" id="79e7e61b-5c2c-4876-95a0-b3d4ced469f7.0" configVersion="5ed1373b40814a35686a087fac1c0c013388aca4"/>
 		<Metadata name="Document.ГТДИмпорт" id="c2d205e4-c9c8-43b1-bd03-0f28a6421beb" configVersion="74ccf82504798e40f4c050c026540f26d7471f2a">
 			<Metadata name="Document.ГТДИмпорт.TabularSection.ЗачетАвансовПоДокументамИОстаткам.Attribute.КФО" id="02d28661-4282-44ca-a22d-bb42f357af32"/>
 			<Metadata name="Document.ГТДИмпорт.TabularSection.ЗачетАвансовПоДокументамИОстаткам.Attribute.ДокументАванса" id="348516eb-957a-4a92-acf8-45d408ab751f"/>
@@ -40,7 +40,7 @@
 			<Metadata name="Document.ГТДИмпорт.TabularSection.ЗачетАвансовПоДокументамИОстаткам.Attribute.КПС" id="f2f98a47-cd9c-4395-b37b-14d60ac5110b"/>
 		</Metadata>
 		<Metadata name="Document.ГТДИмпорт.Form.ФормаДокумента" id="04a27036-95ac-454a-b6b6-737797985a1c" configVersion="86e5891dcf94b08e7951d11b6f1a15469457aa71"/>
-		<Metadata name="Document.ГТДИмпорт.Form.ФормаДокумента.Form" id="04a27036-95ac-454a-b6b6-737797985a1c.0" configVersion="6e5e40ca38e2c7bf78600fd38fd956c3faa7ffea"/>
+		<Metadata name="Document.ГТДИмпорт.Form.ФормаДокумента.Form" id="04a27036-95ac-454a-b6b6-737797985a1c.0" configVersion="591296453801a8c2b2c8dbd31e77579ccc3873ba"/>
 		<Metadata name="Document.ЗаявкаНаКассовыйРасход" id="751591dd-b18b-4504-8d1e-30b29c2d0f29" configVersion="98708b558a293fec847c2c2d1a5a5c99b75b2768"/>
 		<Metadata name="Document.ЗаявкаНаКассовыйРасходСокращенная" id="e8f827c0-71ff-4eab-ace8-af69ddf24adb" configVersion="30578f747e2655cfcac620ec81a69c5ea11514a5"/>
 		<Metadata name="Document.КассовоеВыбытие" id="44cd8566-040d-4b23-84c8-f02a5cdbc639" configVersion="e78d098315ac99be4c4244db5e637cbad13475ac"/>
@@ -56,7 +56,7 @@
 			<Metadata name="Document.ПоступлениеМЗ.TabularSection.ЗачетАвансовПоДокументамИОстаткам.Attribute.ДокументАванса" id="d8a730e5-a56e-40d2-aac7-0fb34f8f60ae"/>
 		</Metadata>
 		<Metadata name="Document.ПоступлениеМЗ.Form.ФормаДокумента" id="582a7145-6e2d-47c4-b1f8-0dd72d277cfa" configVersion="0979a54c9bbe233c86ddd459f727ce3cd7fa49ef"/>
-		<Metadata name="Document.ПоступлениеМЗ.Form.ФормаДокумента.Form" id="582a7145-6e2d-47c4-b1f8-0dd72d277cfa.0" configVersion="d434086e6ffb5fd36b0d9c28dfdb0ee88a848d4e"/>
+		<Metadata name="Document.ПоступлениеМЗ.Form.ФормаДокумента.Form" id="582a7145-6e2d-47c4-b1f8-0dd72d277cfa.0" configVersion="d308a1ae324b0213f78d9894d9061273231d494b"/>
 		<Metadata name="Document.ПоступлениеМЗВПути" id="21b5df1e-67a0-4913-a076-56f0b8c066a9" configVersion="ac9e1a52f22db8e7aa9a0a49f903c168a32f8f27">
 			<Metadata name="Document.ПоступлениеМЗВПути.TabularSection.ЗачетАвансовПоДокументамИОстаткам.Attribute.КПС" id="196cfee9-79dd-4a3e-ae9a-8c82659981d4"/>
 			<Metadata name="Document.ПоступлениеМЗВПути.TabularSection.ЗачетАвансовПоДокументамИОстаткам.Attribute.СуммаЗачета" id="5c88b136-6d51-4170-b2bd-eeb74e758ca1"/>
@@ -67,7 +67,7 @@
 			<Metadata name="Document.ПоступлениеМЗВПути.TabularSection.ЗачетАвансовПоДокументамИОстаткам.Attribute.ДокументАванса" id="d21e589e-41d0-4f0f-b522-0fb6cf789896"/>
 		</Metadata>
 		<Metadata name="Document.ПоступлениеМЗВПути.Form.ФормаДокумента" id="667da134-e9de-436b-b419-671c63a9b2d8" configVersion="13effd15e4d8c315a442237e2b665c464ad3de4c"/>
-		<Metadata name="Document.ПоступлениеМЗВПути.Form.ФормаДокумента.Form" id="667da134-e9de-436b-b419-671c63a9b2d8.0" configVersion="1d424a1cabf7f46d45727a70e6359ff59d997bf5"/>
+		<Metadata name="Document.ПоступлениеМЗВПути.Form.ФормаДокумента.Form" id="667da134-e9de-436b-b419-671c63a9b2d8.0" configVersion="44a845366f776de4d6d3fb854280bdc8216c8b70"/>
 		<Metadata name="Document.ПоступлениеОС" id="ebb5ad23-080c-407c-9fdc-ed92f77d3277" configVersion="9cee5095280789756e5f20274415a581f53e30d1">
 			<Metadata name="Document.ПоступлениеОС.TabularSection.ЗачетАвансовПоДокументамИОстаткам" id="48270f3d-4dbe-4ae0-97dd-9e6791be8b16"/>
 			<Metadata name="Document.ПоступлениеОС.TabularSection.ЗачетАвансовПоДокументамИОстаткам.Attribute.КПС" id="50b708c2-1d28-49d6-ad44-929242effe15"/>
@@ -78,7 +78,7 @@
 			<Metadata name="Document.ПоступлениеОС.TabularSection.ЗачетАвансовПоДокументамИОстаткам.Attribute.ДопСубконтоАвансов" id="f4c071b5-747e-400d-a451-7f6de1d48ebc"/>
 		</Metadata>
 		<Metadata name="Document.ПоступлениеОС.Form.ФормаДокумента" id="4d0e827e-1b2c-4895-a3d3-c1fc6ab64bd1" configVersion="1f51497db77a1525499ff07504db8760973f4b78"/>
-		<Metadata name="Document.ПоступлениеОС.Form.ФормаДокумента.Form" id="4d0e827e-1b2c-4895-a3d3-c1fc6ab64bd1.0" configVersion="80e25d363dcf49f0d75793713f4e82f1fda0e35a"/>
+		<Metadata name="Document.ПоступлениеОС.Form.ФормаДокумента.Form" id="4d0e827e-1b2c-4895-a3d3-c1fc6ab64bd1.0" configVersion="137b82fcfdb5664c3a7f50726e608b6700cbc760"/>
 		<Metadata name="Document.ПоступлениеОСВПути" id="680846dc-cd75-4893-b508-a551d644e696" configVersion="86c101c26ad2ac7ac94fe76b6a11dc777ecc96af">
 			<Metadata name="Document.ПоступлениеОСВПути.TabularSection.ЗачетАвансовПоДокументамИОстаткам.Attribute.КФО" id="0ead1259-c07a-4018-abde-185d936cf8a6"/>
 			<Metadata name="Document.ПоступлениеОСВПути.TabularSection.ЗачетАвансовПоДокументамИОстаткам.Attribute.КЭК" id="1258dbc9-f291-4e55-a784-dfae953a932f"/>
@@ -89,7 +89,7 @@
 			<Metadata name="Document.ПоступлениеОСВПути.TabularSection.ЗачетАвансовПоДокументамИОстаткам.Attribute.ДопСубконтоАвансов" id="b27c09f1-1afd-4f74-8305-ee7d6114ef45"/>
 		</Metadata>
 		<Metadata name="Document.ПоступлениеОСВПути.Form.ФормаДокумента" id="593e43f6-2b33-44cb-b8bc-cf5b078f7312" configVersion="6eefffa4b3a49020345bd45ddb1f35af1fa9b719"/>
-		<Metadata name="Document.ПоступлениеОСВПути.Form.ФормаДокумента.Form" id="593e43f6-2b33-44cb-b8bc-cf5b078f7312.0" configVersion="d6b76e142e423a48762bc75a7d4e6840ecae2fa9"/>
+		<Metadata name="Document.ПоступлениеОСВПути.Form.ФормаДокумента.Form" id="593e43f6-2b33-44cb-b8bc-cf5b078f7312.0" configVersion="5a03e287aa848497fcae3cc7970ba008546b6a30"/>
 		<Metadata name="Document.ПоступлениеОСИК" id="10efa70c-64c0-4661-b691-0be4b609cf19" configVersion="7debe758d7fa13373bffddcd189cb57f9d17709b">
 			<Metadata name="Document.ПоступлениеОСИК.TabularSection.ЗачетАвансовПоДокументамИОстаткам.Attribute.КФО" id="2e768619-8100-40de-a874-eaa1dcd239ce"/>
 			<Metadata name="Document.ПоступлениеОСИК.TabularSection.ЗачетАвансовПоДокументамИОстаткам.Attribute.ДокументАванса" id="5fb3256c-5691-4a0f-9ef4-bde106b54058"/>
@@ -100,8 +100,8 @@
 			<Metadata name="Document.ПоступлениеОСИК.TabularSection.ЗачетАвансовПоДокументамИОстаткам" id="d2affbab-1f51-48ca-b355-914a3116852a"/>
 		</Metadata>
 		<Metadata name="Document.ПоступлениеОСИК.Form.ФормаДокумента" id="34da3d6e-a251-41b8-b0cc-9a65c6d1624a" configVersion="3b91813f0d347a0438a360f2a228080817225430"/>
-		<Metadata name="Document.ПоступлениеОСИК.Form.ФормаДокумента.Form" id="34da3d6e-a251-41b8-b0cc-9a65c6d1624a.0" configVersion="027601b51cfba4cc02df81e5a86eb72b7985e48f"/>
-		<Metadata name="Document.ПоступлениеУслугРабот" id="2e77b617-08f8-407d-88fc-2d44772b85a9" configVersion="625659197e4d1e088f8ceac101313685b5c4afcf">
+		<Metadata name="Document.ПоступлениеОСИК.Form.ФормаДокумента.Form" id="34da3d6e-a251-41b8-b0cc-9a65c6d1624a.0" configVersion="a43c3294e5c5b5f875baa1e8a40e53d81be42b73"/>
+		<Metadata name="Document.ПоступлениеУслугРабот" id="2e77b617-08f8-407d-88fc-2d44772b85a9" configVersion="7ff374d60991e8fc16b68b1a8161ff2ff09b49dc">
 			<Metadata name="Document.ПоступлениеУслугРабот.TabularSection.ЗачетАвансовПоДокументамИОстаткам.Attribute.КПС" id="2f4d7f26-5b9c-4ce0-a683-990439317739"/>
 			<Metadata name="Document.ПоступлениеУслугРабот.TabularSection.ЗачетАвансовПоДокументамИОстаткам.Attribute.СуммаЗачета" id="3d6f8800-5a9b-4983-a43a-ac46af299078"/>
 			<Metadata name="Document.ПоступлениеУслугРабот.TabularSection.ЗачетАвансовПоДокументамИОстаткам.Attribute.ДокументАванса" id="4bd70651-1925-4df0-a67c-204dcfd52b38"/>
@@ -113,7 +113,7 @@
 			<Metadata name="Document.ПоступлениеУслугРабот.Attribute.ИФО" id="fb63dcf8-672e-49c3-8bfa-469dc94bc60a"/>
 		</Metadata>
 		<Metadata name="Document.ПоступлениеУслугРабот.Form.ФормаДокумента" id="c9e89b7b-5351-4430-99fd-0231fbaae737" configVersion="7433f041471405efce64eeb074f8a2ddd856afc0"/>
-		<Metadata name="Document.ПоступлениеУслугРабот.Form.ФормаДокумента.Form" id="c9e89b7b-5351-4430-99fd-0231fbaae737.0" configVersion="476c41f203e7d7423bb8d8aa8db6a2ea8922a05b"/>
+		<Metadata name="Document.ПоступлениеУслугРабот.Form.ФормаДокумента.Form" id="c9e89b7b-5351-4430-99fd-0231fbaae737.0" configVersion="ab85733e3619bbdc06af83c707b0661c3b3ff6ba"/>
 		<Metadata name="Document.ПриходныйОрдерФондовый" id="6b146462-f139-45c5-b2c4-c77889a0507d" configVersion="0c1ca5978056d3d764b4460b94267c682c3b8a69">
 			<Metadata name="Document.ПриходныйОрдерФондовый.TabularSection.ЗачетАвансовПоДокументамИОстаткам" id="0216a2f0-05e6-4a90-9849-b5f202871643"/>
 			<Metadata name="Document.ПриходныйОрдерФондовый.TabularSection.ЗачетАвансовПоДокументамИОстаткам.Attribute.ДокументАванса" id="06077f26-5b40-4658-be1f-b7f096f5de0f"/>
@@ -124,7 +124,7 @@
 			<Metadata name="Document.ПриходныйОрдерФондовый.TabularSection.ЗачетАвансовПоДокументамИОстаткам.Attribute.ДопСубконтоАвансов" id="d918aab9-2334-45ff-b503-652aadbd18c4"/>
 		</Metadata>
 		<Metadata name="Document.ПриходныйОрдерФондовый.Form.ФормаДокумента" id="2c726431-300e-4342-9e66-4f6c0bd14c16" configVersion="d14b89eb25f2db53954abd195bceeb192d98c6ab"/>
-		<Metadata name="Document.ПриходныйОрдерФондовый.Form.ФормаДокумента.Form" id="2c726431-300e-4342-9e66-4f6c0bd14c16.0" configVersion="a56e9a65bdaae575a60fd695db8bbba1656552da"/>
+		<Metadata name="Document.ПриходныйОрдерФондовый.Form.ФормаДокумента.Form" id="2c726431-300e-4342-9e66-4f6c0bd14c16.0" configVersion="73446e0d95470bd4aa0e2e8684b9db50aa51f3a9"/>
 		<Metadata name="Document.РасходныйКассовыйОрдер" id="c35e11e5-3f8b-4874-aa9f-dc34051ebc88" configVersion="ef7059baae53599491c864e88732ffa406747a10"/>
 		<Metadata name="Document.ФормированиеВложенийВФинансовыеАктивы" id="e091dc3e-f6d8-4e70-be38-9e43429f5e27" configVersion="b9784453dd3bb5f37a539a6636366b76492673f4">
 			<Metadata name="Document.ФормированиеВложенийВФинансовыеАктивы.TabularSection.ЗачетАвансовПоДокументамИОстаткам.Attribute.СуммаЗачета" id="079d4691-cd9a-4b99-8d1a-1314c887b08d"/>
@@ -136,7 +136,7 @@
 			<Metadata name="Document.ФормированиеВложенийВФинансовыеАктивы.TabularSection.ЗачетАвансовПоДокументамИОстаткам.Attribute.КПС" id="e926334f-2ec8-4f0c-8fb0-3c58aba6d961"/>
 		</Metadata>
 		<Metadata name="Document.ФормированиеВложенийВФинансовыеАктивы.Form.ФормаДокумента" id="c7fd5daf-b2e0-467a-8ff5-fbccbc951bc8" configVersion="8d438e05a60cddab8064f4267bdd372b8bb4501c"/>
-		<Metadata name="Document.ФормированиеВложенийВФинансовыеАктивы.Form.ФормаДокумента.Form" id="c7fd5daf-b2e0-467a-8ff5-fbccbc951bc8.0" configVersion="62f87b1baf91f0b37917f3aacfeafb34948fadfa"/>
+		<Metadata name="Document.ФормированиеВложенийВФинансовыеАктивы.Form.ФормаДокумента.Form" id="c7fd5daf-b2e0-467a-8ff5-fbccbc951bc8.0" configVersion="11c922f7c0849fc89533a8041b4ffc693e7b0d86"/>
 		<Metadata name="Enum.КВД" id="dc3964bc-9181-40ed-8e09-2fdaec7a8cb1" configVersion="0c90f693c3752dd7309875b11fa1cfbd1eec96ae"/>
 		<Metadata name="Enum.ОтражениеВУСН" id="810f5f31-d232-4f92-b692-a0b1a8c709a4" configVersion="bb4d9408594f00197551fef94defaee5d0f8d986">
 			<Metadata name="Enum.ОтражениеВУСН.EnumValue.Принимаются" id="5d785735-3eef-4813-9f1e-f438581f86af"/>
@@ -154,12 +154,12 @@
 		<Metadata name="StyleItem.ИтогиФонГруппы" id="4c32d4cb-6d9d-4983-af1a-3c360f9cd11b" configVersion="eb6581dc407af095b63356907fee892b004e242e"/>
 		<Metadata name="StyleItem.НедоступныеДанныеЦвет" id="6eaa34a1-feee-4b92-9855-c097fcc7f747" configVersion="3d6c9f0e4295947be8697e75feeefec7af9209bc"/>
 		<Metadata name="StyleItem.ПоясняющийТекст" id="87a86f74-2203-4819-965d-b34264171d1b" configVersion="78165e431b30d3f99aae85a90ffda052f2e7c066"/>
-		<Metadata name="StyleItem.СодержаниеУслугиШрифт" id="cb9b676a-dcb4-4cda-b39c-a53284fc9fd7" configVersion="448f7b43bc8d460aeaaed43b5bb6d1040c50787a"/>
+		<Metadata name="StyleItem.СодержаниеУслугиШрифт" id="cb9b676a-dcb4-4cda-b39c-a53284fc9fd7" configVersion="d97204623f6b03645c260771acc4e57c650e6b55"/>
 		<Metadata name="StyleItem.ТекстЗапрещеннойЯчейкиЦвет" id="85f0d2b4-929b-4192-bd2d-8ff1964ed9e7" configVersion="e8e5ae4036ef63685f87397795207a3a2897b451"/>
 		<Metadata name="StyleItem.ТекстИнформационнойНадписи" id="c2234009-86e7-44e2-85e1-2094e8a79dc4" configVersion="81d798ede0ba8380031ee84199b0afa903b5a9a3"/>
 		<Metadata name="StyleItem.ФонУправляющегоПоля" id="c5e4d9b5-0df4-4ad8-9501-28538e753bd9" configVersion="7f2d009c25f9e2cea90118fc3a7986de397bf1fc"/>
 		<Metadata name="StyleItem.ЦветНедоступноеПоле" id="8c4fe6fd-ece8-401f-8ee2-1ad3dff72e5e" configVersion="e7bd475a86fa321a9111f2611bf3b119b99380cd"/>
 		<Metadata name="StyleItem.ЦветФонаБлоковИнформационнойПанели" id="fc8b186e-2f5c-429b-97e9-4d3e35af5d8e" configVersion="9838b10141ad87d6f9b193b58af3210cb12cbd31"/>
-		<Metadata name="StyleItem.ШрифтТекстаБаннера" id="3e5d84a5-f789-4401-9591-59203fee7b49" configVersion="779654e0c0784ef80e8846727206cf923daf7a2c"/>
+		<Metadata name="StyleItem.ШрифтТекстаБаннера" id="3e5d84a5-f789-4401-9591-59203fee7b49" configVersion="c9e6c934aa3541383ad3a69c994dcdf9e96201b4"/>
 	</ConfigVersions>
 </ConfigDumpInfo>

@@ -40,7 +40,7 @@
 					<v8:content>Регистрация обязательств по ИФО</v8:content>
 				</v8:item>
 			</Synonym>
-			<Comment/>
+			<Comment>TODO: Починить</Comment>
 			<ConfigurationExtensionPurpose>Customization</ConfigurationExtensionPurpose>
 			<KeepMappingToExtendedConfigurationObjectsByIDs>true</KeepMappingToExtendedConfigurationObjectsByIDs>
 			<NamePrefix>АБК_</NamePrefix>
@@ -53,8 +53,8 @@
 			<DefaultRoles>
 				<xr:Item xsi:type="xr:MDObjectRef">Role.АБК_БО_ОсновнаяРоль_3</xr:Item>
 			</DefaultRoles>
-			<Vendor>Апогей-БК</Vendor>
-			<Version>1.0.0.4 95.26</Version>
+			<Vendor>ООО "Апогей-БК"</Vendor>
+			<Version>100.36.00</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<BriefInformation>
 				<v8:item>
